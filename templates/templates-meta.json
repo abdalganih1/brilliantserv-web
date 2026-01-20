@@ -1,0 +1,106 @@
+{
+  "company": {
+    "name": "مؤسسة روائع الكريستال",
+    "description": "خبراء في الأعمال الميكانيكية والكهربائية والاستشارات الهندسية",
+    "established": 2014,
+    "experience": "15+",
+    "projects": "500+",
+    "location": "الرياض، المملكة العربية السعودية",
+    "phones": ["0550698111", "0114160614", "0543650817"],
+    "social": {
+      "tiktok": "https://www.tiktok.com/@engabdoalasaad",
+      "youtube": "https://www.youtube.com/@abdulazizalasaad8943"
+    }
+  },
+  "templates": [
+    {
+      "id": "template-1",
+      "name": "القالب الأزرق الداكن",
+      "style": "dark-professional",
+      "status": "ready",
+      "recommended": false,
+      "colors": ["#0a0a0f", "#3b82f6", "#f59e0b"],
+      "description": "تصميم عصري بألوان زرقاء داكنة مع لمسات ذهبية. مثالي للمظهر الاحترافي والموثوق. يتضمن صفحات: الرئيسية، من نحن، الخدمات، المشاريع، المدونة، اتصل بنا.",
+      "features": ["أعمال كهربائية", "أعمال ميكانيكية", "لف مواتير", "مدونة", "معرض أعمال"],
+      "preview": "templates/template-1/media/اعمال-كهرباء.webp",
+      "pages": ["index", "about", "electrical", "mechanical", "motors", "projects", "blog", "contact"]
+    },
+    {
+      "id": "template-2",
+      "name": "الهوية الخضراء",
+      "style": "neon-green",
+      "status": "ready",
+      "recommended": true,
+      "colors": ["#0a0a0a", "#00ff88", "#ff8c00"],
+      "description": "تصميم مطابق للهوية البصرية للشركة. ألوان نيون خضراء مع لمسات برتقالية ذهبية. يركز على المضخات ولوحات التحكم مع عرض شهادات وشعارات العملاء.",
+      "features": ["المضخات والبوسترات", "لوحات التحكم", "شهادات معتمدة", "شعارات العملاء", "مراجع الشركة"],
+      "preview": "ملفات المستخدم/extracted/images/page1_img8.jpeg",
+      "pages": ["index", "about", "pumps", "control-panels", "projects", "contact"]
+    },
+    {
+      "id": "template-3",
+      "name": "الأبيض العصري",
+      "style": "light-modern",
+      "status": "ready",
+      "recommended": false,
+      "colors": ["#ffffff", "#10b981", "#1f2937"],
+      "description": "تصميم نظيف وبسيط بخلفية بيضاء. مثالي للمظهر الحديث والمريح للعين. يتميز بصور Hero احترافية وعرض شعارات العملاء.",
+      "features": ["تصميم عصري", "صور Hero احترافية", "شعارات العملاء", "سهولة القراءة"],
+      "preview": "ملفات المستخدم/extracted/images/page10_img5.jpeg",
+      "pages": ["index", "about", "projects", "contact"]
+    },
+    {
+      "id": "template-4",
+      "name": "التدرج البنفسجي",
+      "style": "gradient-purple",
+      "status": "coming",
+      "recommended": false,
+      "colors": ["#7c3aed", "#ec4899", "#0a0a0f"],
+      "description": "تصميم جريء بتدرجات بنفسجية ووردية. يعطي إحساساً بالابتكار والتميز.",
+      "features": ["تصميم عصري", "ألوان جريئة", "تدرجات لونية"],
+      "preview": "media/mechanic-works.webp",
+      "pages": ["index", "about", "projects", "contact"]
+    },
+    {
+      "id": "template-5",
+      "name": "الصناعي",
+      "style": "industrial",
+      "status": "coming",
+      "recommended": false,
+      "colors": ["#374151", "#22c55e", "#f59e0b"],
+      "description": "تصميم قوي يعكس طبيعة العمل الصناعي. ألوان رمادية مع لمسات خضراء.",
+      "features": ["تصميم صناعي", "ألوان قوية"],
+      "preview": "media/اعمال-ميكانيكية.webp",
+      "pages": []
+    },
+    {
+      "id": "template-6",
+      "name": "المؤسسي الكلاسيكي",
+      "style": "corporate",
+      "status": "coming",
+      "recommended": false,
+      "colors": ["#1e40af", "#64748b", "#f8fafc"],
+      "description": "تصميم مؤسسي رسمي. مثالي للعقود الحكومية والشركات الكبرى.",
+      "features": ["تصميم رسمي", "مظهر احترافي"],
+      "preview": "media/اعمال-ميكانيكا.webp",
+      "pages": []
+    }
+  ],
+  "latestPosts": [
+    {
+      "title": "صيانة وحدات التكييف المركزي",
+      "date": "2025-05-04",
+      "image": "media/صيانة-وحدات-التكييف-المركزي.webp"
+    },
+    {
+      "title": "صيانة الكروت الإلكترونية",
+      "date": "2025-05-03",
+      "image": "media/صيانة-الكروت-الإلكترونية-_1_.webp"
+    },
+    {
+      "title": "صيانة وبرمجة مكائن التعبئة",
+      "date": "2025-04-14",
+      "image": "media/صيانة-وبرمجة-مكائن-التعبئة-_1_.webp"
+    }
+  ]
+}

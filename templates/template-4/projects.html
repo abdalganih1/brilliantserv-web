@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض الأعمال | مؤسسة روائع الكريستال</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <img src="../../media/brilliantcrystal.jpg" alt="روائع الكريستال" class="logo-img">
+                    <span class="logo-text">روائع الكريستال</span>
+                </a>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="projects.html" class="active">أعمالنا</a></li>
+                    <li><a href="contact.html">تواصل معنا</a></li>
+                </ul>
+                <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="page-hero-content">
+                <span class="hero-badge">إنجازاتنا</span>
+                <h1>معرض الأعمال</h1>
+                <p>نماذج من مشاريعنا الناجحة</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-page">
+        <div class="container">
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="electrical">كهربائية</button>
+                <button class="filter-btn" data-filter="mechanical">ميكانيكية</button>
+            </div>
+            <div class="projects-grid-full">
+                <div class="project-item" data-category="electrical">
+                    <img src="../../media/اعمال-كهرباء.webp" alt="أعمال كهرباء">
+                    <div class="project-overlay">
+                        <h4>تمديدات صناعية</h4><span>الرياض</span>
+                    </div>
+                </div>
+                <div class="project-item" data-category="mechanical">
+                    <img src="../../media/اعمال-ميكانيكا.webp" alt="ميكانيكا">
+                    <div class="project-overlay">
+                        <h4>نظام مضخات</h4><span>مجمع سكني</span>
+                    </div>
+                </div>
+                <div class="project-item" data-category="electrical">
+                    <img src="../../media/استشارات-هندسية.webp" alt="استشارات">
+                    <div class="project-overlay">
+                        <h4>إشراف هندسي</h4><span>مبنى تجاري</span>
+                    </div>
+                </div>
+                <div class="project-item" data-category="mechanical">
+                    <img src="../../media/hero-mechanic-pumps.png" alt="مضخات">
+                    <div class="project-overlay">
+                        <h4>محطة ضخ</h4><span>مشروع حكومي</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>هل لديك مشروع؟</h2>
+                <p>تواصل معنا للحصول على عرض سعر</p>
+                <div class="cta-actions">
+                    <a href="contact.html" class="btn btn-light">تواصل معنا</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>جميع الحقوق محفوظة © 2026 مؤسسة روائع الكريستال</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script>
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function () {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                const filter = this.dataset.filter;
+                document.querySelectorAll('.project-item').forEach(item => {
+                    item.style.display = (filter === 'all' || item.dataset.category === filter) ? 'block' : 'none';
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
