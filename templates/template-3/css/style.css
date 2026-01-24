@@ -745,6 +745,7 @@ section {
     aspect-ratio: 4/3;
     cursor: pointer;
     box-shadow: var(--shadow-md);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-card img {

@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>Vision-Based Logo Detection</title>
+    <style>
+        body { font-family: sans-serif; background: #0a0a0a; color: #fff; padding: 30px; }
+        h1 { color: #22c55e; text-align: center; }
+        .info { text-align: center; color: #888; margin-bottom: 30px; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 15px; }
+        .logo-card { background: #1a1a1a; border-radius: 12px; padding: 10px; text-align: center; border: 2px solid #333; }
+        .logo-card:hover { border-color: #22c55e; }
+        .logo-card img { max-width: 100%; max-height: 120px; background: #fff; border-radius: 4px; }
+        .logo-id { font-size: 0.8rem; color: #888; margin-top: 8px; }
+    </style>
+</head>
+<body>
+    <h1>🎯 Vision-Based Logo Detection</h1>
+    <div class="info">Detected 39 logos using Computer Vision (Contour Detection)</div>
+    <div class="gallery">
+
+        <div class="logo-card">
+            <img src="detected_logos/p6_logo0.png" alt="p6_logo0">
+            <div class="logo-id">p6_logo0<br>731x719</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p6_logo1.png" alt="p6_logo1">
+            <div class="logo-id">p6_logo1<br>693x708</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p6_logo2.png" alt="p6_logo2">
+            <div class="logo-id">p6_logo2<br>694x708</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p6_logo3.png" alt="p6_logo3">
+            <div class="logo-id">p6_logo3<br>693x703</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p6_logo4.png" alt="p6_logo4">
+            <div class="logo-id">p6_logo4<br>708x727</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p6_logo5.png" alt="p6_logo5">
+            <div class="logo-id">p6_logo5<br>694x705</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p6_logo6.png" alt="p6_logo6">
+            <div class="logo-id">p6_logo6<br>693x705</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p6_logo7.png" alt="p6_logo7">
+            <div class="logo-id">p6_logo7<br>693x712</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p6_logo8.png" alt="p6_logo8">
+            <div class="logo-id">p6_logo8<br>771x705</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p6_logo9.png" alt="p6_logo9">
+            <div class="logo-id">p6_logo9<br>729x732</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p6_logo10.png" alt="p6_logo10">
+            <div class="logo-id">p6_logo10<br>827x789</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p7_logo0.png" alt="p7_logo0">
+            <div class="logo-id">p7_logo0<br>621x619</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p7_logo1.png" alt="p7_logo1">
+            <div class="logo-id">p7_logo1<br>594x607</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p7_logo2.png" alt="p7_logo2">
+            <div class="logo-id">p7_logo2<br>606x604</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p7_logo3.png" alt="p7_logo3">
+            <div class="logo-id">p7_logo3<br>594x610</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p7_logo4.png" alt="p7_logo4">
+            <div class="logo-id">p7_logo4<br>601x612</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p7_logo5.png" alt="p7_logo5">
+            <div class="logo-id">p7_logo5<br>605x636</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p7_logo6.png" alt="p7_logo6">
+            <div class="logo-id">p7_logo6<br>595x605</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p7_logo7.png" alt="p7_logo7">
+            <div class="logo-id">p7_logo7<br>596x616</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p7_logo8.png" alt="p7_logo8">
+            <div class="logo-id">p7_logo8<br>597x616</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p7_logo9.png" alt="p7_logo9">
+            <div class="logo-id">p7_logo9<br>606x614</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p7_logo10.png" alt="p7_logo10">
+            <div class="logo-id">p7_logo10<br>650x639</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p7_logo11.png" alt="p7_logo11">
+            <div class="logo-id">p7_logo11<br>846x671</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p7_logo12.png" alt="p7_logo12">
+            <div class="logo-id">p7_logo12<br>641x649</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p8_logo0.png" alt="p8_logo0">
+            <div class="logo-id">p8_logo0<br>676x153</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p8_logo1.png" alt="p8_logo1">
+            <div class="logo-id">p8_logo1<br>217x271</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p8_logo2.png" alt="p8_logo2">
+            <div class="logo-id">p8_logo2<br>302x271</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p8_logo3.png" alt="p8_logo3">
+            <div class="logo-id">p8_logo3<br>737x279</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p8_logo4.png" alt="p8_logo4">
+            <div class="logo-id">p8_logo4<br>1060x279</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p8_logo5.png" alt="p8_logo5">
+            <div class="logo-id">p8_logo5<br>606x247</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p16_logo0.png" alt="p16_logo0">
+            <div class="logo-id">p16_logo0<br>462x288</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p16_logo1.png" alt="p16_logo1">
+            <div class="logo-id">p16_logo1<br>237x288</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p16_logo2.png" alt="p16_logo2">
+            <div class="logo-id">p16_logo2<br>800x298</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p16_logo3.png" alt="p16_logo3">
+            <div class="logo-id">p16_logo3<br>894x298</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p16_logo4.png" alt="p16_logo4">
+            <div class="logo-id">p16_logo4<br>606x247</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p24_logo0.png" alt="p24_logo0">
+            <div class="logo-id">p24_logo0<br>654x213</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p24_logo1.png" alt="p24_logo1">
+            <div class="logo-id">p24_logo1<br>560x219</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p24_logo2.png" alt="p24_logo2">
+            <div class="logo-id">p24_logo2<br>531x219</div>
+        </div>
+
+        <div class="logo-card">
+            <img src="detected_logos/p24_logo3.png" alt="p24_logo3">
+            <div class="logo-id">p24_logo3<br>606x247</div>
+        </div>
+
+    </div>
+</body>
+</html>

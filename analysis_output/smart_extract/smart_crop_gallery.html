@@ -1,0 +1,1793 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Crop Gallery</title>
+    <style>
+        body { font-family: sans-serif; background: #111; color: #eee; padding: 30px; }
+        h1 { color: #38bdf8; text-align: center; }
+        .stats { text-align: center; margin-bottom: 30px; color: #888; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
+        .card { background: #222; border-radius: 12px; overflow: hidden; border: 1px solid #333; }
+        .card img { width: 100%; height: auto; display: block; background: #fff; }
+        .card-info { padding: 15px; }
+        .card-title { font-weight: bold; color: #38bdf8; margin-bottom: 5px; }
+        .card-meta { font-size: 0.85rem; color: #888; }
+        .type-logo_or_icon { border-color: #f59e0b; }
+        .type-large_photo { border-color: #22c55e; }
+        .type-banner { border-color: #8b5cf6; }
+        .type-vertical_document { border-color: #ef4444; }
+        .filter-bar { text-align: center; margin-bottom: 20px; }
+        .filter-btn { background: #333; color: #fff; border: 1px solid #555; padding: 10px 20px; margin: 5px; border-radius: 8px; cursor: pointer; }
+        .filter-btn:hover, .filter-btn.active { background: #38bdf8; color: #000; }
+    </style>
+</head>
+<body>
+    <h1>🎯 Smart Crop Gallery</h1>
+    <div class="stats">Total: 218 elements extracted by visual cropping</div>
+    <div class="filter-bar">
+        <button class="filter-btn active" onclick="filter('all')">All</button>
+        <button class="filter-btn" onclick="filter('logo_or_icon')">Logos & Icons</button>
+        <button class="filter-btn" onclick="filter('large_photo')">Photos</button>
+        <button class="filter-btn" onclick="filter('banner')">Banners</button>
+        <button class="filter-btn" onclick="filter('vertical_document')">Documents</button>
+    </div>
+    <div class="gallery">
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p1_crop0.png" alt="p1_crop0">
+            <div class="card-info">
+                <div class="card-title">p1_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1287x470</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p1_crop1.png" alt="p1_crop1">
+            <div class="card-info">
+                <div class="card-title">p1_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p1_crop2.png" alt="p1_crop2">
+            <div class="card-info">
+                <div class="card-title">p1_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1502x620</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p1_crop3.png" alt="p1_crop3">
+            <div class="card-info">
+                <div class="card-title">p1_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1270x1282</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p1_crop4.png" alt="p1_crop4">
+            <div class="card-info">
+                <div class="card-title">p1_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1336x1336</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p1_crop5.png" alt="p1_crop5">
+            <div class="card-info">
+                <div class="card-title">p1_crop5</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1354x1354</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p2_crop0.png" alt="p2_crop0">
+            <div class="card-info">
+                <div class="card-title">p2_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p2_crop1.png" alt="p2_crop1">
+            <div class="card-info">
+                <div class="card-title">p2_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 418x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p2_crop2.png" alt="p2_crop2">
+            <div class="card-info">
+                <div class="card-title">p2_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p2_crop3.png" alt="p2_crop3">
+            <div class="card-info">
+                <div class="card-title">p2_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1200x1209</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p2_crop4.png" alt="p2_crop4">
+            <div class="card-info">
+                <div class="card-title">p2_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1101x1101</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p3_crop0.png" alt="p3_crop0">
+            <div class="card-info">
+                <div class="card-title">p3_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p3_crop1.png" alt="p3_crop1">
+            <div class="card-info">
+                <div class="card-title">p3_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 418x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p3_crop2.png" alt="p3_crop2">
+            <div class="card-info">
+                <div class="card-title">p3_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p3_crop3.png" alt="p3_crop3">
+            <div class="card-info">
+                <div class="card-title">p3_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1200x1209</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p3_crop4.png" alt="p3_crop4">
+            <div class="card-info">
+                <div class="card-title">p3_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1083x1076</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p4_crop0.png" alt="p4_crop0">
+            <div class="card-info">
+                <div class="card-title">p4_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p4_crop1.png" alt="p4_crop1">
+            <div class="card-info">
+                <div class="card-title">p4_crop1</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1200x1209</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p4_crop2.png" alt="p4_crop2">
+            <div class="card-info">
+                <div class="card-title">p4_crop2</div>
+                <div class="card-meta">Type: content_block<br>Size: 418x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p4_crop3.png" alt="p4_crop3">
+            <div class="card-info">
+                <div class="card-title">p4_crop3</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p4_crop4.png" alt="p4_crop4">
+            <div class="card-info">
+                <div class="card-title">p4_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1101x1101</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p5_crop0.png" alt="p5_crop0">
+            <div class="card-info">
+                <div class="card-title">p5_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p5_crop1.png" alt="p5_crop1">
+            <div class="card-info">
+                <div class="card-title">p5_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 418x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p5_crop2.png" alt="p5_crop2">
+            <div class="card-info">
+                <div class="card-title">p5_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p5_crop3.png" alt="p5_crop3">
+            <div class="card-info">
+                <div class="card-title">p5_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1200x1209</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p5_crop4.png" alt="p5_crop4">
+            <div class="card-info">
+                <div class="card-title">p5_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1076x1076</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p6_crop0.png" alt="p6_crop0">
+            <div class="card-info">
+                <div class="card-title">p6_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p6_crop1.png" alt="p6_crop1">
+            <div class="card-info">
+                <div class="card-title">p6_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 418x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p6_crop2.png" alt="p6_crop2">
+            <div class="card-info">
+                <div class="card-title">p6_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-logo_or_icon" data-type="logo_or_icon">
+            <img src="smart_crops/p6_crop3.png" alt="p6_crop3">
+            <div class="card-info">
+                <div class="card-title">p6_crop3</div>
+                <div class="card-meta">Type: logo_or_icon<br>Size: 392x392</div>
+            </div>
+        </div>
+
+        <div class="card type-logo_or_icon" data-type="logo_or_icon">
+            <img src="smart_crops/p6_crop4.png" alt="p6_crop4">
+            <div class="card-info">
+                <div class="card-title">p6_crop4</div>
+                <div class="card-meta">Type: logo_or_icon<br>Size: 380x293</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p6_crop5.png" alt="p6_crop5">
+            <div class="card-info">
+                <div class="card-title">p6_crop5</div>
+                <div class="card-meta">Type: banner<br>Size: 301x96</div>
+            </div>
+        </div>
+
+        <div class="card type-logo_or_icon" data-type="logo_or_icon">
+            <img src="smart_crops/p6_crop6.png" alt="p6_crop6">
+            <div class="card-info">
+                <div class="card-title">p6_crop6</div>
+                <div class="card-meta">Type: logo_or_icon<br>Size: 232x232</div>
+            </div>
+        </div>
+
+        <div class="card type-logo_or_icon" data-type="logo_or_icon">
+            <img src="smart_crops/p6_crop7.png" alt="p6_crop7">
+            <div class="card-info">
+                <div class="card-title">p6_crop7</div>
+                <div class="card-meta">Type: logo_or_icon<br>Size: 230x230</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p6_crop8.png" alt="p6_crop8">
+            <div class="card-info">
+                <div class="card-title">p6_crop8</div>
+                <div class="card-meta">Type: banner<br>Size: 281x101</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p6_crop9.png" alt="p6_crop9">
+            <div class="card-info">
+                <div class="card-title">p6_crop9</div>
+                <div class="card-meta">Type: banner<br>Size: 308x139</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p6_crop10.png" alt="p6_crop10">
+            <div class="card-info">
+                <div class="card-title">p6_crop10</div>
+                <div class="card-meta">Type: banner<br>Size: 496x245</div>
+            </div>
+        </div>
+
+        <div class="card type-logo_or_icon" data-type="logo_or_icon">
+            <img src="smart_crops/p6_crop11.png" alt="p6_crop11">
+            <div class="card-info">
+                <div class="card-title">p6_crop11</div>
+                <div class="card-meta">Type: logo_or_icon<br>Size: 258x258</div>
+            </div>
+        </div>
+
+        <div class="card type-logo_or_icon" data-type="logo_or_icon">
+            <img src="smart_crops/p6_crop12.png" alt="p6_crop12">
+            <div class="card-info">
+                <div class="card-title">p6_crop12</div>
+                <div class="card-meta">Type: logo_or_icon<br>Size: 427x295</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p6_crop13.png" alt="p6_crop13">
+            <div class="card-info">
+                <div class="card-title">p6_crop13</div>
+                <div class="card-meta">Type: content_block<br>Size: 273x149</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p6_crop14.png" alt="p6_crop14">
+            <div class="card-info">
+                <div class="card-title">p6_crop14</div>
+                <div class="card-meta">Type: banner<br>Size: 284x117</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p6_crop15.png" alt="p6_crop15">
+            <div class="card-info">
+                <div class="card-title">p6_crop15</div>
+                <div class="card-meta">Type: content_block<br>Size: 293x164</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p7_crop0.png" alt="p7_crop0">
+            <div class="card-info">
+                <div class="card-title">p7_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p7_crop1.png" alt="p7_crop1">
+            <div class="card-info">
+                <div class="card-title">p7_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 418x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p7_crop2.png" alt="p7_crop2">
+            <div class="card-info">
+                <div class="card-title">p7_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-logo_or_icon" data-type="logo_or_icon">
+            <img src="smart_crops/p7_crop3.png" alt="p7_crop3">
+            <div class="card-info">
+                <div class="card-title">p7_crop3</div>
+                <div class="card-meta">Type: logo_or_icon<br>Size: 336x336</div>
+            </div>
+        </div>
+
+        <div class="card type-logo_or_icon" data-type="logo_or_icon">
+            <img src="smart_crops/p7_crop4.png" alt="p7_crop4">
+            <div class="card-info">
+                <div class="card-title">p7_crop4</div>
+                <div class="card-meta">Type: logo_or_icon<br>Size: 133x179</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p7_crop5.png" alt="p7_crop5">
+            <div class="card-info">
+                <div class="card-title">p7_crop5</div>
+                <div class="card-meta">Type: banner<br>Size: 277x81</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p7_crop6.png" alt="p7_crop6">
+            <div class="card-info">
+                <div class="card-title">p7_crop6</div>
+                <div class="card-meta">Type: content_block<br>Size: 238x119</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p7_crop7.png" alt="p7_crop7">
+            <div class="card-info">
+                <div class="card-title">p7_crop7</div>
+                <div class="card-meta">Type: banner<br>Size: 327x115</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p7_crop8.png" alt="p7_crop8">
+            <div class="card-info">
+                <div class="card-title">p7_crop8</div>
+                <div class="card-meta">Type: banner<br>Size: 269x76</div>
+            </div>
+        </div>
+
+        <div class="card type-logo_or_icon" data-type="logo_or_icon">
+            <img src="smart_crops/p7_crop9.png" alt="p7_crop9">
+            <div class="card-info">
+                <div class="card-title">p7_crop9</div>
+                <div class="card-meta">Type: logo_or_icon<br>Size: 176x200</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p7_crop10.png" alt="p7_crop10">
+            <div class="card-info">
+                <div class="card-title">p7_crop10</div>
+                <div class="card-meta">Type: banner<br>Size: 240x107</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p7_crop11.png" alt="p7_crop11">
+            <div class="card-info">
+                <div class="card-title">p7_crop11</div>
+                <div class="card-meta">Type: banner<br>Size: 269x102</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p7_crop12.png" alt="p7_crop12">
+            <div class="card-info">
+                <div class="card-title">p7_crop12</div>
+                <div class="card-meta">Type: banner<br>Size: 260x107</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p7_crop13.png" alt="p7_crop13">
+            <div class="card-info">
+                <div class="card-title">p7_crop13</div>
+                <div class="card-meta">Type: banner<br>Size: 260x91</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p7_crop14.png" alt="p7_crop14">
+            <div class="card-info">
+                <div class="card-title">p7_crop14</div>
+                <div class="card-meta">Type: content_block<br>Size: 261x156</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p7_crop15.png" alt="p7_crop15">
+            <div class="card-info">
+                <div class="card-title">p7_crop15</div>
+                <div class="card-meta">Type: banner<br>Size: 243x117</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p7_crop16.png" alt="p7_crop16">
+            <div class="card-info">
+                <div class="card-title">p7_crop16</div>
+                <div class="card-meta">Type: banner<br>Size: 263x123</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p7_crop17.png" alt="p7_crop17">
+            <div class="card-info">
+                <div class="card-title">p7_crop17</div>
+                <div class="card-meta">Type: banner<br>Size: 431x94</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p8_crop0.png" alt="p8_crop0">
+            <div class="card-info">
+                <div class="card-title">p8_crop0</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1404x1405</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p8_crop1.png" alt="p8_crop1">
+            <div class="card-info">
+                <div class="card-title">p8_crop1</div>
+                <div class="card-meta">Type: banner<br>Size: 1287x470</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p8_crop2.png" alt="p8_crop2">
+            <div class="card-info">
+                <div class="card-title">p8_crop2</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p8_crop3.png" alt="p8_crop3">
+            <div class="card-info">
+                <div class="card-title">p8_crop3</div>
+                <div class="card-meta">Type: content_block<br>Size: 760x571</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p8_crop4.png" alt="p8_crop4">
+            <div class="card-info">
+                <div class="card-title">p8_crop4</div>
+                <div class="card-meta">Type: banner<br>Size: 1502x620</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p8_crop5.png" alt="p8_crop5">
+            <div class="card-info">
+                <div class="card-title">p8_crop5</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1270x1282</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p8_crop6.png" alt="p8_crop6">
+            <div class="card-info">
+                <div class="card-title">p8_crop6</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1556x1083</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p9_crop0.png" alt="p9_crop0">
+            <div class="card-info">
+                <div class="card-title">p9_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p9_crop1.png" alt="p9_crop1">
+            <div class="card-info">
+                <div class="card-title">p9_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p9_crop2.png" alt="p9_crop2">
+            <div class="card-info">
+                <div class="card-title">p9_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p9_crop3.png" alt="p9_crop3">
+            <div class="card-info">
+                <div class="card-title">p9_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1401x1110</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p9_crop4.png" alt="p9_crop4">
+            <div class="card-info">
+                <div class="card-title">p9_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1402x1110</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p10_crop0.png" alt="p10_crop0">
+            <div class="card-info">
+                <div class="card-title">p10_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p10_crop1.png" alt="p10_crop1">
+            <div class="card-info">
+                <div class="card-title">p10_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p10_crop2.png" alt="p10_crop2">
+            <div class="card-info">
+                <div class="card-title">p10_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p10_crop3.png" alt="p10_crop3">
+            <div class="card-info">
+                <div class="card-title">p10_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1311x1620</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p10_crop4.png" alt="p10_crop4">
+            <div class="card-info">
+                <div class="card-title">p10_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1310x1577</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p11_crop0.png" alt="p11_crop0">
+            <div class="card-info">
+                <div class="card-title">p11_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p11_crop1.png" alt="p11_crop1">
+            <div class="card-info">
+                <div class="card-title">p11_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p11_crop2.png" alt="p11_crop2">
+            <div class="card-info">
+                <div class="card-title">p11_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p11_crop3.png" alt="p11_crop3">
+            <div class="card-info">
+                <div class="card-title">p11_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1716x1110</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p11_crop4.png" alt="p11_crop4">
+            <div class="card-info">
+                <div class="card-title">p11_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1870x1191</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p12_crop0.png" alt="p12_crop0">
+            <div class="card-info">
+                <div class="card-title">p12_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p12_crop1.png" alt="p12_crop1">
+            <div class="card-info">
+                <div class="card-title">p12_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p12_crop2.png" alt="p12_crop2">
+            <div class="card-info">
+                <div class="card-title">p12_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p12_crop3.png" alt="p12_crop3">
+            <div class="card-info">
+                <div class="card-title">p12_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1474x1110</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p12_crop4.png" alt="p12_crop4">
+            <div class="card-info">
+                <div class="card-title">p12_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1414x1110</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p13_crop0.png" alt="p13_crop0">
+            <div class="card-info">
+                <div class="card-title">p13_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p13_crop1.png" alt="p13_crop1">
+            <div class="card-info">
+                <div class="card-title">p13_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p13_crop2.png" alt="p13_crop2">
+            <div class="card-info">
+                <div class="card-title">p13_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p13_crop3.png" alt="p13_crop3">
+            <div class="card-info">
+                <div class="card-title">p13_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1311x1620</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p13_crop4.png" alt="p13_crop4">
+            <div class="card-info">
+                <div class="card-title">p13_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1310x1440</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p14_crop0.png" alt="p14_crop0">
+            <div class="card-info">
+                <div class="card-title">p14_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p14_crop1.png" alt="p14_crop1">
+            <div class="card-info">
+                <div class="card-title">p14_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p14_crop2.png" alt="p14_crop2">
+            <div class="card-info">
+                <div class="card-title">p14_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p14_crop3.png" alt="p14_crop3">
+            <div class="card-info">
+                <div class="card-title">p14_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1311x1620</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p14_crop4.png" alt="p14_crop4">
+            <div class="card-info">
+                <div class="card-title">p14_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1402x1620</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p15_crop0.png" alt="p15_crop0">
+            <div class="card-info">
+                <div class="card-title">p15_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p15_crop1.png" alt="p15_crop1">
+            <div class="card-info">
+                <div class="card-title">p15_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p15_crop2.png" alt="p15_crop2">
+            <div class="card-info">
+                <div class="card-title">p15_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p15_crop3.png" alt="p15_crop3">
+            <div class="card-info">
+                <div class="card-title">p15_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1311x1509</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p15_crop4.png" alt="p15_crop4">
+            <div class="card-info">
+                <div class="card-title">p15_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1310x1555</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p16_crop0.png" alt="p16_crop0">
+            <div class="card-info">
+                <div class="card-title">p16_crop0</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1404x1405</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p16_crop1.png" alt="p16_crop1">
+            <div class="card-info">
+                <div class="card-title">p16_crop1</div>
+                <div class="card-meta">Type: banner<br>Size: 1287x470</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p16_crop2.png" alt="p16_crop2">
+            <div class="card-info">
+                <div class="card-title">p16_crop2</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p16_crop3.png" alt="p16_crop3">
+            <div class="card-info">
+                <div class="card-title">p16_crop3</div>
+                <div class="card-meta">Type: content_block<br>Size: 626x735</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p16_crop4.png" alt="p16_crop4">
+            <div class="card-info">
+                <div class="card-title">p16_crop4</div>
+                <div class="card-meta">Type: banner<br>Size: 1502x620</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p16_crop5.png" alt="p16_crop5">
+            <div class="card-info">
+                <div class="card-title">p16_crop5</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1270x1282</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p16_crop6.png" alt="p16_crop6">
+            <div class="card-info">
+                <div class="card-title">p16_crop6</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1556x1083</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p17_crop0.png" alt="p17_crop0">
+            <div class="card-info">
+                <div class="card-title">p17_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p17_crop1.png" alt="p17_crop1">
+            <div class="card-info">
+                <div class="card-title">p17_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p17_crop2.png" alt="p17_crop2">
+            <div class="card-info">
+                <div class="card-title">p17_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p17_crop3.png" alt="p17_crop3">
+            <div class="card-info">
+                <div class="card-title">p17_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1321x1620</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p17_crop4.png" alt="p17_crop4">
+            <div class="card-info">
+                <div class="card-title">p17_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1310x1516</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p18_crop0.png" alt="p18_crop0">
+            <div class="card-info">
+                <div class="card-title">p18_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p18_crop1.png" alt="p18_crop1">
+            <div class="card-info">
+                <div class="card-title">p18_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p18_crop2.png" alt="p18_crop2">
+            <div class="card-info">
+                <div class="card-title">p18_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p18_crop3.png" alt="p18_crop3">
+            <div class="card-info">
+                <div class="card-title">p18_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1810x1110</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p18_crop4.png" alt="p18_crop4">
+            <div class="card-info">
+                <div class="card-title">p18_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1565x1110</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p19_crop0.png" alt="p19_crop0">
+            <div class="card-info">
+                <div class="card-title">p19_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p19_crop1.png" alt="p19_crop1">
+            <div class="card-info">
+                <div class="card-title">p19_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p19_crop2.png" alt="p19_crop2">
+            <div class="card-info">
+                <div class="card-title">p19_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p19_crop3.png" alt="p19_crop3">
+            <div class="card-info">
+                <div class="card-title">p19_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1311x1620</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p19_crop4.png" alt="p19_crop4">
+            <div class="card-info">
+                <div class="card-title">p19_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1310x1552</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p20_crop0.png" alt="p20_crop0">
+            <div class="card-info">
+                <div class="card-title">p20_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p20_crop1.png" alt="p20_crop1">
+            <div class="card-info">
+                <div class="card-title">p20_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p20_crop2.png" alt="p20_crop2">
+            <div class="card-info">
+                <div class="card-title">p20_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p20_crop3.png" alt="p20_crop3">
+            <div class="card-info">
+                <div class="card-title">p20_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1311x1618</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p20_crop4.png" alt="p20_crop4">
+            <div class="card-info">
+                <div class="card-title">p20_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1371x1443</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p21_crop0.png" alt="p21_crop0">
+            <div class="card-info">
+                <div class="card-title">p21_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p21_crop1.png" alt="p21_crop1">
+            <div class="card-info">
+                <div class="card-title">p21_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p21_crop2.png" alt="p21_crop2">
+            <div class="card-info">
+                <div class="card-title">p21_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p21_crop3.png" alt="p21_crop3">
+            <div class="card-info">
+                <div class="card-title">p21_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1311x1620</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p21_crop4.png" alt="p21_crop4">
+            <div class="card-info">
+                <div class="card-title">p21_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 2264x1252</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p22_crop0.png" alt="p22_crop0">
+            <div class="card-info">
+                <div class="card-title">p22_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p22_crop1.png" alt="p22_crop1">
+            <div class="card-info">
+                <div class="card-title">p22_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p22_crop2.png" alt="p22_crop2">
+            <div class="card-info">
+                <div class="card-title">p22_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p22_crop3.png" alt="p22_crop3">
+            <div class="card-info">
+                <div class="card-title">p22_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1311x1620</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p22_crop4.png" alt="p22_crop4">
+            <div class="card-info">
+                <div class="card-title">p22_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1310x1620</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p23_crop0.png" alt="p23_crop0">
+            <div class="card-info">
+                <div class="card-title">p23_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p23_crop1.png" alt="p23_crop1">
+            <div class="card-info">
+                <div class="card-title">p23_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p23_crop2.png" alt="p23_crop2">
+            <div class="card-info">
+                <div class="card-title">p23_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p23_crop3.png" alt="p23_crop3">
+            <div class="card-info">
+                <div class="card-title">p23_crop3</div>
+                <div class="card-meta">Type: content_block<br>Size: 1323x753</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p23_crop4.png" alt="p23_crop4">
+            <div class="card-info">
+                <div class="card-title">p23_crop4</div>
+                <div class="card-meta">Type: content_block<br>Size: 1323x753</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p23_crop5.png" alt="p23_crop5">
+            <div class="card-info">
+                <div class="card-title">p23_crop5</div>
+                <div class="card-meta">Type: banner<br>Size: 1323x606</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p23_crop6.png" alt="p23_crop6">
+            <div class="card-info">
+                <div class="card-title">p23_crop6</div>
+                <div class="card-meta">Type: content_block<br>Size: 1323x753</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p24_crop0.png" alt="p24_crop0">
+            <div class="card-info">
+                <div class="card-title">p24_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1287x470</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p24_crop1.png" alt="p24_crop1">
+            <div class="card-info">
+                <div class="card-title">p24_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p24_crop2.png" alt="p24_crop2">
+            <div class="card-info">
+                <div class="card-title">p24_crop2</div>
+                <div class="card-meta">Type: content_block<br>Size: 787x721</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p24_crop3.png" alt="p24_crop3">
+            <div class="card-info">
+                <div class="card-title">p24_crop3</div>
+                <div class="card-meta">Type: banner<br>Size: 1502x620</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p24_crop4.png" alt="p24_crop4">
+            <div class="card-info">
+                <div class="card-title">p24_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1270x1282</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p24_crop5.png" alt="p24_crop5">
+            <div class="card-info">
+                <div class="card-title">p24_crop5</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1403x1404</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p24_crop6.png" alt="p24_crop6">
+            <div class="card-info">
+                <div class="card-title">p24_crop6</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1556x1083</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p25_crop0.png" alt="p25_crop0">
+            <div class="card-info">
+                <div class="card-title">p25_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p25_crop1.png" alt="p25_crop1">
+            <div class="card-info">
+                <div class="card-title">p25_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p25_crop2.png" alt="p25_crop2">
+            <div class="card-info">
+                <div class="card-title">p25_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p25_crop3.png" alt="p25_crop3">
+            <div class="card-info">
+                <div class="card-title">p25_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 2046x1258</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p26_crop0.png" alt="p26_crop0">
+            <div class="card-info">
+                <div class="card-title">p26_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p26_crop1.png" alt="p26_crop1">
+            <div class="card-info">
+                <div class="card-title">p26_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p26_crop2.png" alt="p26_crop2">
+            <div class="card-info">
+                <div class="card-title">p26_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p26_crop3.png" alt="p26_crop3">
+            <div class="card-info">
+                <div class="card-title">p26_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1006x1239</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p26_crop4.png" alt="p26_crop4">
+            <div class="card-info">
+                <div class="card-title">p26_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 987x1250</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p27_crop0.png" alt="p27_crop0">
+            <div class="card-info">
+                <div class="card-title">p27_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p27_crop1.png" alt="p27_crop1">
+            <div class="card-info">
+                <div class="card-title">p27_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p27_crop2.png" alt="p27_crop2">
+            <div class="card-info">
+                <div class="card-title">p27_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p27_crop3.png" alt="p27_crop3">
+            <div class="card-info">
+                <div class="card-title">p27_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 2212x1237</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p28_crop0.png" alt="p28_crop0">
+            <div class="card-info">
+                <div class="card-title">p28_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p28_crop1.png" alt="p28_crop1">
+            <div class="card-info">
+                <div class="card-title">p28_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p28_crop2.png" alt="p28_crop2">
+            <div class="card-info">
+                <div class="card-title">p28_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p28_crop3.png" alt="p28_crop3">
+            <div class="card-info">
+                <div class="card-title">p28_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1580x1237</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p29_crop0.png" alt="p29_crop0">
+            <div class="card-info">
+                <div class="card-title">p29_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p29_crop1.png" alt="p29_crop1">
+            <div class="card-info">
+                <div class="card-title">p29_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p29_crop2.png" alt="p29_crop2">
+            <div class="card-info">
+                <div class="card-title">p29_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p29_crop3.png" alt="p29_crop3">
+            <div class="card-info">
+                <div class="card-title">p29_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 937x1316</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p29_crop4.png" alt="p29_crop4">
+            <div class="card-info">
+                <div class="card-title">p29_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 937x1316</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p30_crop0.png" alt="p30_crop0">
+            <div class="card-info">
+                <div class="card-title">p30_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p30_crop1.png" alt="p30_crop1">
+            <div class="card-info">
+                <div class="card-title">p30_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p30_crop2.png" alt="p30_crop2">
+            <div class="card-info">
+                <div class="card-title">p30_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p30_crop3.png" alt="p30_crop3">
+            <div class="card-info">
+                <div class="card-title">p30_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1020x1239</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p31_crop0.png" alt="p31_crop0">
+            <div class="card-info">
+                <div class="card-title">p31_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p31_crop1.png" alt="p31_crop1">
+            <div class="card-info">
+                <div class="card-title">p31_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p31_crop2.png" alt="p31_crop2">
+            <div class="card-info">
+                <div class="card-title">p31_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p31_crop3.png" alt="p31_crop3">
+            <div class="card-info">
+                <div class="card-title">p31_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 965x1295</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p31_crop4.png" alt="p31_crop4">
+            <div class="card-info">
+                <div class="card-title">p31_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 947x1295</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p32_crop0.png" alt="p32_crop0">
+            <div class="card-info">
+                <div class="card-title">p32_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p32_crop1.png" alt="p32_crop1">
+            <div class="card-info">
+                <div class="card-title">p32_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p32_crop2.png" alt="p32_crop2">
+            <div class="card-info">
+                <div class="card-title">p32_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p32_crop3.png" alt="p32_crop3">
+            <div class="card-info">
+                <div class="card-title">p32_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 987x1291</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p32_crop4.png" alt="p32_crop4">
+            <div class="card-info">
+                <div class="card-title">p32_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 987x1288</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p33_crop0.png" alt="p33_crop0">
+            <div class="card-info">
+                <div class="card-title">p33_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p33_crop1.png" alt="p33_crop1">
+            <div class="card-info">
+                <div class="card-title">p33_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p33_crop2.png" alt="p33_crop2">
+            <div class="card-info">
+                <div class="card-title">p33_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p33_crop3.png" alt="p33_crop3">
+            <div class="card-info">
+                <div class="card-title">p33_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 998x1239</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p34_crop0.png" alt="p34_crop0">
+            <div class="card-info">
+                <div class="card-title">p34_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p34_crop1.png" alt="p34_crop1">
+            <div class="card-info">
+                <div class="card-title">p34_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p34_crop2.png" alt="p34_crop2">
+            <div class="card-info">
+                <div class="card-title">p34_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p34_crop3.png" alt="p34_crop3">
+            <div class="card-info">
+                <div class="card-title">p34_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 859x1240</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p35_crop0.png" alt="p35_crop0">
+            <div class="card-info">
+                <div class="card-title">p35_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p35_crop1.png" alt="p35_crop1">
+            <div class="card-info">
+                <div class="card-title">p35_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p35_crop2.png" alt="p35_crop2">
+            <div class="card-info">
+                <div class="card-title">p35_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p35_crop3.png" alt="p35_crop3">
+            <div class="card-info">
+                <div class="card-title">p35_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 915x1274</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p36_crop0.png" alt="p36_crop0">
+            <div class="card-info">
+                <div class="card-title">p36_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p36_crop1.png" alt="p36_crop1">
+            <div class="card-info">
+                <div class="card-title">p36_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p36_crop2.png" alt="p36_crop2">
+            <div class="card-info">
+                <div class="card-title">p36_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p36_crop3.png" alt="p36_crop3">
+            <div class="card-info">
+                <div class="card-title">p36_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 937x1316</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p36_crop4.png" alt="p36_crop4">
+            <div class="card-info">
+                <div class="card-title">p36_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 937x1316</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p37_crop0.png" alt="p37_crop0">
+            <div class="card-info">
+                <div class="card-title">p37_crop0</div>
+                <div class="card-meta">Type: banner<br>Size: 1114x546</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p37_crop1.png" alt="p37_crop1">
+            <div class="card-info">
+                <div class="card-title">p37_crop1</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x243</div>
+            </div>
+        </div>
+
+        <div class="card type-banner" data-type="banner">
+            <img src="smart_crops/p37_crop2.png" alt="p37_crop2">
+            <div class="card-info">
+                <div class="card-title">p37_crop2</div>
+                <div class="card-meta">Type: banner<br>Size: 1574x751</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p37_crop3.png" alt="p37_crop3">
+            <div class="card-info">
+                <div class="card-title">p37_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 883x1240</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p37_crop4.png" alt="p37_crop4">
+            <div class="card-info">
+                <div class="card-title">p37_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 883x1240</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p38_crop0.png" alt="p38_crop0">
+            <div class="card-info">
+                <div class="card-title">p38_crop0</div>
+                <div class="card-meta">Type: content_block<br>Size: 555x398</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p38_crop1.png" alt="p38_crop1">
+            <div class="card-info">
+                <div class="card-title">p38_crop1</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1151x1151</div>
+            </div>
+        </div>
+
+        <div class="card type-content_block" data-type="content_block">
+            <img src="smart_crops/p38_crop2.png" alt="p38_crop2">
+            <div class="card-info">
+                <div class="card-title">p38_crop2</div>
+                <div class="card-meta">Type: content_block<br>Size: 417x244</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p38_crop3.png" alt="p38_crop3">
+            <div class="card-info">
+                <div class="card-title">p38_crop3</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1627x1123</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p38_crop4.png" alt="p38_crop4">
+            <div class="card-info">
+                <div class="card-title">p38_crop4</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1270x1282</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p38_crop5.png" alt="p38_crop5">
+            <div class="card-info">
+                <div class="card-title">p38_crop5</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1205x910</div>
+            </div>
+        </div>
+
+        <div class="card type-large_photo" data-type="large_photo">
+            <img src="smart_crops/p38_crop6.png" alt="p38_crop6">
+            <div class="card-info">
+                <div class="card-title">p38_crop6</div>
+                <div class="card-meta">Type: large_photo<br>Size: 1085x905</div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        function filter(type) {
+            document.querySelectorAll('.card').forEach(c => {
+                c.style.display = (type === 'all' || c.dataset.type === type) ? 'block' : 'none';
+            });
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>

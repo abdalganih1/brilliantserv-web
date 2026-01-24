@@ -232,18 +232,16 @@
 .clients-track {
     display: flex;
     gap: var(--space-xl);
-    animation: marquee 30s linear infinite;
     width: max-content;
 }
 
-@keyframes marquee {
-    0% {
-        transform: translateX(0);
-    }
+/* Swiper Marquee Fixes */
+.swiper-wrapper {
+    transition-timing-function: linear !important;
+}
 
-    100% {
-        transform: translateX(-50%);
-    }
+.swiper-slide {
+    width: auto !important;
 }
 
 .client-logo {

@@ -4,14 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>مؤسسة روائع الكريستال | القالب العصري</title>
+    <title>مؤسسة روائع الكريستال للمقاولات الكهروميكانيكية</title>
     <meta name="description"
-        content="مؤسسة روائع الكريستال - خبراء في الأعمال الميكانيكية والكهربائية والاستشارات الهندسية في الرياض والمملكة العربية السعودية">
+        content="خبراء في الأعمال الميكانيكية والكهربائية، لف المحركات، وصيانة المصانع. خدمات متكاملة في المملكة العربية السعودية.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <!-- Swiper.js CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -26,16 +29,16 @@
                 <ul class="nav-links" id="navLinks">
                     <li><a href="index.html" class="active">الرئيسية</a></li>
                     <li><a href="about.html">من نحن</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
-                            data-bs-toggle="dropdown">خدماتنا</a>
+                    <li><a href="services.html">خدماتنا</a></li>
+                    <li class="dropdown">
+                        <a href="projects.html">أعمالنا</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="mechanical.html">أعمال ميكانيكية</a></li>
-                            <li><a class="dropdown-item" href="electrical.html">أعمال كهربائية</a></li>
+                            <li><a href="projects.html#mechanical">أعمال ميكانيكية</a></li>
+                            <li><a href="projects.html#electrical">أعمال كهربائية</a></li>
+                            <li><a href="projects.html#winding">لف محركات</a></li>
                         </ul>
                     </li>
-                    <li><a href="projects.html">أعمالنا</a></li>
-                    <li><a href="blog.html">المدونة</a></li>
+                    <li><a href="blog.html">المقالات</a></li>
                     <li><a href="contact.html">تواصل معنا</a></li>
                 </ul>
                 <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
@@ -120,10 +123,9 @@
                             <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
                         </svg>
                     </div>
-                    <h3>أعمال كهربائية</h3>
-                    <p>تصميم وتنفيذ لوحات التحكم، التمديدات الكهربائية، وصيانة الأنظمة الصناعية والسكنية بأحدث التقنيات.
-                    </p>
-                    <a href="#" class="service-link">تفاصيل الخدمة <svg xmlns="http://www.w3.org/2000/svg"
+                    <h3>لوحات تحكم MDB</h3>
+                    <p>تصنيع وتوريد لوحات التحكم الكهربائية MDB و PLC بأعلى معايير الجودة الصناعية.</p>
+                    <a href="services.html" class="service-link">تفاصيل الخدمة <svg xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16"
                             height="16">
                             <path d="M5 12h14M12 5l7 7-7 7" />
@@ -140,9 +142,9 @@
                                 d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" />
                         </svg>
                     </div>
-                    <h3>أعمال ميكانيكية</h3>
-                    <p>صيانة وتركيب المضخات بأنواعها، أنظمة الإطفاء، وشبكات الصرف والتغذية للمشاريع الكبرى.</p>
-                    <a href="#" class="service-link">تفاصيل الخدمة <svg xmlns="http://www.w3.org/2000/svg"
+                    <h3>مضخات KSB و جراندفوس</h3>
+                    <p>صيانة وتركيب مضخات المياه والحريق والصرف الصحي من كبرى الماركات العالمية.</p>
+                    <a href="services.html" class="service-link">تفاصيل الخدمة <svg xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16"
                             height="16">
                             <path d="M5 12h14M12 5l7 7-7 7" />
@@ -154,13 +156,13 @@
                     <div class="service-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                             stroke-width="2">
-                            <circle cx="12" cy="12" r="10" />
-                            <path d="M12 6v6l4 2" />
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
                         </svg>
                     </div>
-                    <h3>لف مواتير ومحولات</h3>
-                    <p>ورشة متخصصة لإعادة لف وصيانة المحركات الكهربائية والمحولات وضمان كفاءة أدائها.</p>
-                    <a href="#" class="service-link">تفاصيل الخدمة <svg xmlns="http://www.w3.org/2000/svg"
+                    <h3>أنظمة التهوية والدكت</h3>
+                    <p>تصميم وتنفيذ أنظمة التكييف المركزي والتهوية للمجمعات التجارية والمباني الإدارية.</p>
+                    <a href="services.html" class="service-link">تفاصيل الخدمة <svg xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16"
                             height="16">
                             <path d="M5 12h14M12 5l7 7-7 7" />
@@ -204,26 +206,61 @@
                 <h2>مشاريع نفخر بها</h2>
                 <p>نماذج من أعمالنا التي تعكس التزامنا بالجودة والاتقان</p>
             </div>
-            <div class="projects-grid">
+            <div class="projects-grid" style="grid-template-columns: repeat(4, 1fr);">
                 <div class="project-card">
-                    <img src="../../media/اعمال-كهرباء.webp" alt="أعمال كهرباء" loading="lazy">
+                    <img src="media/electrical/p17_img4.jpeg" alt="أعمال كهربائية" loading="lazy">
                     <div class="project-overlay">
-                        <h4>مشروع تمديدات صناعية</h4>
-                        <span>الرياض - المنطقة الصناعية</span>
+                        <h4>لوحات توزيع كهربائية</h4>
+                        <span>أعمال كهربائية</span>
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src="../../media/اعمال-ميكانيكا.webp" alt="مضخات" loading="lazy">
+                    <img src="media/mechanical/p9_img4.jpeg" alt="أعمال ميكانيكية" loading="lazy">
                     <div class="project-overlay">
-                        <h4>صيانة نظام مضخات مركزي</h4>
-                        <span>مجمع سكني</span>
+                        <h4>تركيب مضخات صناعية</h4>
+                        <span>أعمال ميكانيكية</span>
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src="../../media/استشارات-هندسية.webp" alt="استشارات" loading="lazy">
+                    <img src="media/electrical/p21_img4.jpeg" alt="أعمال كهربائية" loading="lazy">
                     <div class="project-overlay">
-                        <h4>إشراف هندسي وتنفيذ</h4>
-                        <span>مبنى تجاري</span>
+                        <h4>تمديدات كهربائية متكاملة</h4>
+                        <span>أعمال كهربائية</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="media/mechanical/p10_img4.jpeg" alt="أعمال ميكانيكية" loading="lazy">
+                    <div class="project-overlay">
+                        <h4>صيانة أنظمة الضخ</h4>
+                        <span>أعمال ميكانيكية</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="media/electrical/p18_img4.jpeg" alt="أعمال كهربائية" loading="lazy">
+                    <div class="project-overlay">
+                        <h4>لوحات تحكم PLC</h4>
+                        <span>أعمال كهربائية</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="media/mechanical/p11_img4.jpeg" alt="أعمال ميكانيكية" loading="lazy">
+                    <div class="project-overlay">
+                        <h4>تركيب خطوط أنابيب</h4>
+                        <span>أعمال ميكانيكية</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="media/electrical/p23_img4.jpeg" alt="أعمال كهربائية" loading="lazy">
+                    <div class="project-overlay">
+                        <h4>أنظمة التحكم الآلي</h4>
+                        <span>أعمال كهربائية</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="media/mechanical/p12_img4.jpeg" alt="أعمال ميكانيكية" loading="lazy">
+                    <div class="project-overlay">
+                        <h4>محطات ضخ مياه</h4>
+                        <span>أعمال ميكانيكية</span>
                     </div>
                 </div>
             </div>
@@ -233,31 +270,202 @@
         </div>
     </section>
 
-    <!-- Client Logos (New Section) -->
-    <section style="background: var(--color-bg); padding: var(--space-3xl) 0;">
+    <!-- References / Success Partners Section -->
+    <section class="references-section">
         <div class="container">
-            <div class="section-header" style="margin-bottom: var(--space-xl);">
-                <p style="font-weight: 600; color: var(--color-text-subtle);">نعتز بثقة شركاء النجاح</p>
+            <div class="section-header">
+                <span class="section-badge">مراجعنا</span>
+                <h2>شركاء النجاح</h2>
+                <p>نفخر بالعمل مع أبرز الجهات والمؤسسات في المملكة</p>
             </div>
-            <div style="display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; align-items: center;">
-                <img src="../../media/client-1.png" alt="عميل 1"
-                    style="height: 55px; object-fit: contain; opacity: 0.75; transition: all 0.3s;"
-                    onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.75'">
-                <img src="../../media/client-2.png" alt="عميل 2"
-                    style="height: 55px; object-fit: contain; opacity: 0.75; transition: all 0.3s;"
-                    onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.75'">
-                <img src="../../media/client-3.png" alt="عميل 3"
-                    style="height: 55px; object-fit: contain; opacity: 0.75; transition: all 0.3s;"
-                    onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.75'">
-                <img src="../../media/client-4.png" alt="عميل 4"
-                    style="height: 55px; object-fit: contain; opacity: 0.75; transition: all 0.3s;"
-                    onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.75'">
-                <img src="../../media/client-5.png" alt="عميل 5"
-                    style="height: 55px; object-fit: contain; opacity: 0.75; transition: all 0.3s;"
-                    onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.75'">
-                <img src="../../media/client-6.png" alt="عميل 6"
-                    style="height: 55px; object-fit: contain; opacity: 0.75; transition: all 0.3s;"
-                    onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.75'">
+            <div class="swiper references-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/12.png" alt="مرجع 1"
+                                loading="lazy"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/13.png" alt="مرجع 2"
+                                loading="lazy"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/14.png" alt="مرجع 3"
+                                loading="lazy"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/15.png" alt="مرجع 4"
+                                loading="lazy"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/16.png" alt="مرجع 5"
+                                loading="lazy"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/17.png" alt="مرجع 6"
+                                loading="lazy"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/18.png" alt="مرجع 7"
+                                loading="lazy"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/19.png" alt="مرجع 8"
+                                loading="lazy"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/20.png" alt="مرجع 9"
+                                loading="lazy"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/21.png" alt="مرجع 10"
+                                loading="lazy"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/22.png" alt="مرجع 11"
+                                loading="lazy"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/23.png" alt="مرجع 12"
+                                loading="lazy"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/24.png" alt="مرجع 13"
+                                loading="lazy"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/25.png" alt="مرجع 14"
+                                loading="lazy"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/26.png" alt="مرجع 15"
+                                loading="lazy"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners / Who Trust Us Section -->
+    <section class="clients-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">عملاؤنا</span>
+                <h2>شركاء نفخر بثقتهم</h2>
+            </div>
+        </div>
+        <div class="swiper clients-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/1.png" alt="عميل 1"
+                            loading="lazy"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/2.png" alt="عميل 2"
+                            loading="lazy"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/3.png" alt="عميل 3"
+                            loading="lazy"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/4.png" alt="عميل 4"
+                            loading="lazy"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/5.png" alt="عميل 5"
+                            loading="lazy"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/6.png" alt="عميل 6"
+                            loading="lazy"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/7.png" alt="عميل 7"
+                            loading="lazy"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/8.png" alt="عميل 8"
+                            loading="lazy"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/9.png" alt="عميل 9"
+                            loading="lazy"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/10.png" alt="عميل 10"
+                            loading="lazy"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/11.png" alt="عميل 11"
+                            loading="lazy"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Articles (New Section) -->
+    <section class="latest-blog" style="padding: 4rem 0; background: var(--color-bg);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">المدونة</span>
+                <h2>أحدث المقالات</h2>
+                <p>نصائح وإرشادات للحفاظ على منزلك ومنشأتك</p>
+            </div>
+            <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <!-- Blog Card 1 -->
+                <article class="service-card" style="text-align: right; padding: 0; overflow: hidden;">
+                    <img src="../../media/hero-mechanic-pumps.png" alt="كشف تسربات"
+                        style="width: 100%; height: 200px; object-fit: cover;">
+                    <div style="padding: 1.5rem;">
+                        <span
+                            style="font-size: 0.9rem; color: var(--color-primary); display: block; margin-bottom: 0.5rem;">24
+                            يناير 2026</span>
+                        <h3 style="margin-bottom: 1rem;">كشف تسربات المياه بجدة</h3>
+                        <a href="blog/leak-detection-jeddah.html" class="service-link">اقرأ المزيد <svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" width="16" height="16">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg></a>
+                    </div>
+                </article>
+
+                <!-- Blog Card 2 -->
+                <article class="service-card" style="text-align: right; padding: 0; overflow: hidden;">
+                    <img src="../../media/mechanic-project.webp" alt="عزل خزانات"
+                        style="width: 100%; height: 200px; object-fit: cover;">
+                    <div style="padding: 1.5rem;">
+                        <span
+                            style="font-size: 0.9rem; color: var(--color-primary); display: block; margin-bottom: 0.5rem;">23
+                            يناير 2026</span>
+                        <h3 style="margin-bottom: 1rem;">عزل خزانات بمكة المكرمة</h3>
+                        <a href="blog/tank-insulation-makkah.html" class="service-link">اقرأ المزيد <svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" width="16" height="16">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg></a>
+                    </div>
+                </article>
+
+                <!-- Blog Card 3 -->
+                <article class="service-card" style="text-align: right; padding: 0; overflow: hidden;">
+                    <img src="../../media/about-team-work.png" alt="عزل اسطح"
+                        style="width: 100%; height: 200px; object-fit: cover;">
+                    <div style="padding: 1.5rem;">
+                        <span
+                            style="font-size: 0.9rem; color: var(--color-primary); display: block; margin-bottom: 0.5rem;">22
+                            يناير 2026</span>
+                        <h3 style="margin-bottom: 1rem;">عزل اسطح بالطائف</h3>
+                        <a href="blog/roof-insulation-taif.html" class="service-link">اقرأ المزيد <svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" width="16" height="16">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg></a>
+                    </div>
+                </article>
+            </div>
+            <!-- View All Articles Button -->
+            <div class="section-footer" style="margin-top: 2.5rem;">
+                <a href="blog.html" class="btn btn-outline">مشاهدة كل المقالات</a>
             </div>
         </div>
     </section>
@@ -278,6 +486,15 @@
                             </path>
                         </svg>
                         0550698111
+                    </a>
+                    <a href="mailto:shimaaslah54@gmail.com" class="btn btn-outline-light">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        shimaaslah54@gmail.com
                     </a>
                 </div>
             </div>
@@ -313,36 +530,30 @@
                             </svg></a>
                     </div>
                 </div>
-
                 <div class="footer-links">
                     <h4>روابط سريعة</h4>
                     <ul>
                         <li><a href="index.html">الرئيسية</a></li>
                         <li><a href="about.html">من نحن</a></li>
                         <li><a href="projects.html">أعمالنا</a></li>
-                        <li><a href="blog.html">المدونة</a></li>
-                        <li><a href="contact.html">تواصل معنا</a></li>
+                        <li><a href="services.html">خدماتنا</a></li>
                     </ul>
                 </div>
-
                 <div class="footer-links">
-                    <h4>خدماتنا</h4>
+                    <h4>تواصل معنا</h4>
                     <ul>
-                        <li><a href="#">أعمال كهربائية</a></li>
-                        <li><a href="#">أعمال ميكانيكية</a></li>
-                        <li><a href="#">صيانة محطات</a></li>
-                        <li><a href="#">أنظمة حريق</a></li>
+                        <li><a href="contact.html">اتصل بنا</a></li>
+                        <li><a href="blog.html">المدونة</a></li>
                     </ul>
                 </div>
-
                 <div class="footer-contact">
-                    <h4>تواصل معنا</h4>
+                    <h4>معلومات الاتصال</h4>
                     <ul>
                         <li>
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2">
                                 <path
-                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72">
                                 </path>
                             </svg>
                             <span>0550698111</span>
@@ -364,7 +575,24 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        const swiperOptions = {
+            loop: true,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: false,
+            },
+            speed: 5000,
+            slidesPerView: 'auto',
+            spaceBetween: 32,
+            allowTouchMove: false,
+            freeMode: true,
+        };
+        new Swiper('.references-swiper', swiperOptions);
+        new Swiper('.clients-swiper', swiperOptions);
+    </script>
 </body>
 
 </html>

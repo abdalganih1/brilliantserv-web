@@ -27,15 +27,16 @@
                 <ul class="nav-links" id="navLinks">
                     <li><a href="index.html">الرئيسية</a></li>
                     <li><a href="about.html">من نحن</a></li>
+                    <li><a href="services.html">خدماتنا</a></li>
                     <li class="dropdown">
-                        <a href="#">خدماتنا</a>
+                        <a href="projects.html" class="active">أعمالنا</a>
                         <ul class="dropdown-menu">
-                            <li><a href="index.html#services">أعمال كهربائية</a></li>
-                            <li><a href="index.html#services">أعمال ميكانيكية</a></li>
-                            <li><a href="index.html#services">لف مواتير ومحولات</a></li>
+                            <li><a href="projects.html#mechanical">أعمال ميكانيكية</a></li>
+                            <li><a href="projects.html#electrical">أعمال كهربائية</a></li>
+                            <li><a href="projects.html#winding">لف محركات</a></li>
                         </ul>
                     </li>
-                    <li><a href="projects.html" class="active">أعمالنا</a></li>
+                    <li><a href="blog.html">المقالات</a></li>
                     <li><a href="contact.html">تواصل معنا</a></li>
                 </ul>
                 <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
@@ -58,85 +59,35 @@
         </div>
     </section>
 
-    <!-- Projects Grid -->
-    <section class="projects-page">
+    <!-- Projects Filter -->
+    <section class="projects-filter">
         <div class="container">
-            <div class="projects-full-grid">
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <img src="../../media/اعمال-كهرباء.webp" alt="أعمال كهرباء" loading="lazy">
-                    <div class="project-overlay">
-                        <h4>تمديدات كهربائية صناعية</h4>
-                        <span>المنطقة الصناعية - الرياض</span>
-                    </div>
-                </div>
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <img src="../../media/اعمال-ميكانيكا.webp" alt="أعمال ميكانيكية" loading="lazy">
-                    <div class="project-overlay">
-                        <h4>صيانة نظام مضخات مركزي</h4>
-                        <span>مجمع سكني</span>
-                    </div>
-                </div>
-                <!-- Project 3 -->
-                <div class="project-card">
-                    <img src="../../media/استشارات-هندسية.webp" alt="استشارات هندسية" loading="lazy">
-                    <div class="project-overlay">
-                        <h4>إشراف هندسي وتنفيذ</h4>
-                        <span>مبنى تجاري</span>
-                    </div>
-                </div>
-                <!-- Project 4 -->
-                <div class="project-card">
-                    <img src="../../media/hero-electrical-work.png" alt="لوحات تحكم" loading="lazy">
-                    <div class="project-overlay">
-                        <h4>تصميم لوحات تحكم</h4>
-                        <span>مصنع صناعي</span>
-                    </div>
-                </div>
-                <!-- Project 5 -->
-                <div class="project-card">
-                    <img src="../../media/hero-mechanic-pumps.png" alt="مضخات صناعية" loading="lazy">
-                    <div class="project-overlay">
-                        <h4>تركيب مضخات صناعية</h4>
-                        <span>محطة معالجة مياه</span>
-                    </div>
-                </div>
-                <!-- Project 6 -->
-                <div class="project-card">
-                    <img src="../../media/hero-motor-winding.png" alt="لف محركات" loading="lazy">
-                    <div class="project-overlay">
-                        <h4>إعادة لف محركات</h4>
-                        <span>ورشة متخصصة</span>
-                    </div>
-                </div>
-                <!-- Project 7 -->
-                <div class="project-card">
-                    <img src="../../media/اعمال-كهربائية-1.webp" alt="أعمال كهربائية" loading="lazy">
-                    <div class="project-overlay">
-                        <h4>توصيلات لوحات رئيسية</h4>
-                        <span>برج تجاري</span>
-                    </div>
-                </div>
-                <!-- Project 8 -->
-                <div class="project-card">
-                    <img src="../../media/اعمال-ميكانيكية-1.webp" alt="أعمال ميكانيكية" loading="lazy">
-                    <div class="project-overlay">
-                        <h4>صيانة أنظمة التبريد</h4>
-                        <span>مستودعات تبريد</span>
-                    </div>
-                </div>
-                <!-- Project 9 -->
-                <div class="project-card">
-                    <img src="../../media/صيانة-مضخات-KSB-.webp" alt="صيانة مضخات" loading="lazy">
-                    <div class="project-overlay">
-                        <h4>صيانة مضخات KSB</h4>
-                        <span>محطة ضخ مياه</span>
-                    </div>
-                </div>
+            <div class="filter-buttons"
+                style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap;">
+                <button class="filter-btn active" data-filter="all"
+                    style="padding: 0.5rem 1.5rem; border: 1px solid var(--color-primary); background: var(--color-primary); color: white; border-radius: 2rem; cursor: pointer; transition: all 0.3s;">الكل</button>
+                <button class="filter-btn" data-filter="electrical"
+                    style="padding: 0.5rem 1.5rem; border: 1px solid var(--color-primary); background: transparent; color: var(--color-primary); border-radius: 2rem; cursor: pointer; transition: all 0.3s;">أعمال
+                    كهربائية</button>
+                <button class="filter-btn" data-filter="mechanical"
+                    style="padding: 0.5rem 1.5rem; border: 1px solid var(--color-primary); background: transparent; color: var(--color-primary); border-radius: 2rem; cursor: pointer; transition: all 0.3s;">أعمال
+                    ميكانيكية</button>
+                <button class="filter-btn" data-filter="winding"
+                    style="padding: 0.5rem 1.5rem; border: 1px solid var(--color-primary); background: transparent; color: var(--color-primary); border-radius: 2rem; cursor: pointer; transition: all 0.3s;">لف
+                    محركات</button>
             </div>
         </div>
     </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-page">
+        <div class="container">
+            <div class="projects-full-grid" id="projects-grid">
+                <!-- Projects will be loaded dynamically from JSON -->
+            </div>
+        </div>
+    </section>
+
 
     <!-- CTA Section -->
     <section class="cta">
@@ -187,6 +138,171 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script>
+        // Projects data embedded for local file access
+        const projectsData = {
+            "electrical": [
+                { "id": 1, "title": "تمديدات كهربائية صناعية", "location": "المنطقة الصناعية - الرياض", "image": "اعمال-كهرباء-1.webp" },
+                { "id": 2, "title": "تنفيذ شبكات الضغط المنخفض", "location": "مشاريع سكنية المملكة", "image": "اعمال-كهرباء-2.webp" },
+                { "id": 3, "title": "لوحات توزيع كهربائية", "location": "مصنع تجميع - القصيم", "image": "اعمال-كهرباء-3.webp" },
+                { "id": 4, "title": "صيانة كهرباء مصانع", "location": "المنطقة الصناعية", "image": "اعمال-كهرباء-4.webp" },
+                { "id": 5, "title": "تمديدات إضاءة صناعية", "location": "مستودعات تخزين", "image": "اعمال-كهرباء-5.webp" },
+                { "id": 6, "title": "برمجة أنظمة تحكم", "location": "خطوط إنتاج", "image": "اعمال-كهرباء-6.webp" },
+                { "id": 7, "title": "لوحات كهرباء MDB", "location": "مجمعات تجارية", "image": "اعمال-كهرباء-7.webp" },
+                { "id": 8, "title": "تركيب محولات كهربائية", "location": "محطات توليد", "image": "اعمال-كهرباء-8.webp" },
+                { "id": 9, "title": "تركيبات لوحات التحكم", "location": "مصنع صناعي", "image": "p13_img4.jpeg" },
+                { "id": 10, "title": "أعمال كهربائية متكاملة", "location": "مجمع تجاري", "image": "p15_img4.jpeg" },
+                { "id": 11, "title": "تمديدات ضغط عالي", "location": "محطة كهرباء", "image": "p17_img4.jpeg" },
+                { "id": 12, "title": "لوحات توزيع رئيسية", "location": "منشأة صناعية", "image": "p17_img5.jpeg" },
+                { "id": 13, "title": "صيانة كهربائية", "location": "مصنع إنتاج", "image": "p18_img4.jpeg" },
+                { "id": 14, "title": "تركيب كيابل كهربائية", "location": "مشروع سكني", "image": "p18_img5.jpeg" },
+                { "id": 15, "title": "أنظمة إضاءة صناعية", "location": "مستودعات", "image": "p19_img4.jpeg" },
+                { "id": 16, "title": "لوحات تحكم PLC", "location": "خط إنتاج", "image": "p19_img5.jpeg" },
+                { "id": 17, "title": "تمديدات كهرباء مصانع", "location": "المنطقة الصناعية", "image": "p20_img4.jpeg" },
+                { "id": 18, "title": "صيانة محولات", "location": "محطة توليد", "image": "p20_img5.jpeg" },
+                { "id": 19, "title": "أعمال كهرباء متوسط", "location": "مبنى تجاري", "image": "p21_img4.jpeg" },
+                { "id": 20, "title": "تركيبات كهربائية", "location": "برج سكني", "image": "p21_img5.jpeg" },
+                { "id": 21, "title": "لوحات توزيع فرعية", "location": "مجمع صناعي", "image": "p22_img4.jpeg" },
+                { "id": 22, "title": "كيابل ضغط منخفض", "location": "مشروع إنشائي", "image": "p22_img5.jpeg" },
+                { "id": 23, "title": "تمديدات صناعية", "location": "مصنع أغذية", "image": "p23_img4.jpeg" },
+                { "id": 24, "title": "أنظمة تحكم كهربائي", "location": "منشأة صناعية", "image": "p23_img5.jpeg" },
+                { "id": 25, "title": "صيانة لوحات MDB", "location": "مجمع تجاري", "image": "p23_img6.jpeg" },
+                { "id": 26, "title": "تركيب محولات جهد", "location": "محطة فرعية", "image": "p23_img7.jpeg" }
+            ],
+            "mechanical": [
+                { "id": 1, "title": "إشراف هندسي وتنفيذ ميكانيكي", "location": "مبنى تجاري - جدة", "image": "اعمال-ميكانيكا-1.webp" },
+                { "id": 2, "title": "تركيب مضخات مياه", "location": "محطة ضخ رئيسية", "image": "اعمال-ميكانيكا-2.webp" },
+                { "id": 3, "title": "صيانة أنظمة التبريد", "location": "مصنع أغذية", "image": "اعمال-ميكانيكا-3.webp" },
+                { "id": 4, "title": "تركيب شبكات أنابيب", "location": "منشأة صناعية", "image": "اعمال-ميكانيكا-4.webp" },
+                { "id": 5, "title": "صيانة مضخات KSB", "location": "محطة معالجة", "image": "اعمال-ميكانيكا-5.webp" },
+                { "id": 6, "title": "أنظمة التهوية والدكت", "location": "مول تجاري", "image": "اعمال-ميكانيكا-6.webp" },
+                { "id": 7, "title": "صيانة مضخات حريق", "location": "برج سكني", "image": "اعمال-ميكانيكا-7.webp" },
+                { "id": 8, "title": "تركيب غلايات صناعية", "location": "مصنع نسيج", "image": "اعمال-ميكانيكا-8.webp" },
+                { "id": 9, "title": "صيانة مضخات صناعية", "location": "محطة ضخ", "image": "p9_img4.jpeg" },
+                { "id": 10, "title": "تركيب أنظمة ضخ", "location": "منشأة صناعية", "image": "p9_img5.jpeg" },
+                { "id": 11, "title": "صيانة معدات ميكانيكية", "location": "مصنع إنتاج", "image": "p10_img4.jpeg" },
+                { "id": 12, "title": "تركيب مضخات ديزل", "location": "موقع إنشائي", "image": "p10_img5.jpeg" },
+                { "id": 13, "title": "أنظمة تكييف مركزي", "location": "مول تجاري", "image": "p11_img4.jpeg" },
+                { "id": 14, "title": "صيانة أنظمة HVAC", "location": "برج إداري", "image": "p11_img5.jpeg" },
+                { "id": 15, "title": "تركيب شبكات تبريد", "location": "مستودع تبريد", "image": "p12_img4.jpeg" },
+                { "id": 16, "title": "صيانة مبردات صناعية", "location": "مصنع أغذية", "image": "p12_img5.jpeg" },
+                { "id": 17, "title": "تركيب مضخات حريق", "location": "مجمع سكني", "image": "p13_img5.jpeg" },
+                { "id": 18, "title": "صيانة مضخات جراندفوس", "location": "محطة معالجة مياه", "image": "p14_img4.jpeg" },
+                { "id": 19, "title": "أنظمة ضخ متكاملة", "location": "منشأة صناعية", "image": "p14_img5.jpeg" },
+                { "id": 20, "title": "تركيب خطوط أنابيب", "location": "مشروع بنية تحتية", "image": "p15_img5.jpeg" }
+            ],
+            "winding": [
+                { "id": 1, "title": "إعادة لف محرك 50 حصان", "location": "ورشة الصيانة", "image": "لف-مواتير-1.webp" },
+                { "id": 2, "title": "صيانة عازلية المحركات", "location": "مصنع بلاستيك", "image": "لف-مواتير-2.webp" }
+            ]
+        };
+
+        // Embedded data as fallback for file:// protocol
+        const embeddedProjectsData = projectsData;
+
+        document.addEventListener('DOMContentLoaded', async function () {
+            const grid = document.getElementById('projects-grid');
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            let data;
+
+            // Hybrid: Try fetch, fallback to embedded
+            try {
+                const response = await fetch('media/projects.json');
+                data = await response.json();
+                console.log('✓ Loaded from JSON');
+            } catch (e) {
+                data = embeddedProjectsData;
+                console.log('✓ Using embedded data (file:// mode)');
+            }
+
+            // Render all projects by category with progressive loading
+            ['electrical', 'mechanical', 'winding'].forEach(category => {
+                data[category].forEach(project => {
+                    const card = document.createElement('div');
+                    card.className = 'project-card';
+                    card.setAttribute('data-category', category);
+                    card.style.cursor = 'pointer';
+
+                    // Create placeholder with gradient background
+                    const placeholder = category === 'electrical' ? '#1a365d' :
+                        category === 'mechanical' ? '#2d3748' : '#4a5568';
+
+                    card.innerHTML = `
+                        <div class="img-placeholder" style="background: ${placeholder}; position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;">
+                            <div style="color: rgba(255,255,255,0.3); font-size: 3rem;">⚡</div>
+                        </div>
+                        <img src="media/${category}/${project.image}" alt="${project.title}" loading="lazy" style="opacity: 0; transition: opacity 0.3s;">
+                        <div class="project-overlay">
+                            <h4>${project.title}</h4>
+                            <span>${project.location}</span>
+                        </div>
+                    `;
+
+                    // When image loads, fade it in and hide placeholder
+                    const img = card.querySelector('img');
+                    img.onload = function () {
+                        this.style.opacity = '1';
+                        const ph = card.querySelector('.img-placeholder');
+                        if (ph) ph.style.display = 'none';
+                    };
+
+                    grid.appendChild(card);
+                });
+            });
+
+            // Initialize filtering
+            const projectCards = document.querySelectorAll('.project-card');
+
+            function filterProjects(category) {
+                filterBtns.forEach(b => {
+                    const btnFilter = b.getAttribute('data-filter');
+                    if (btnFilter === category) {
+                        b.classList.add('active');
+                        b.style.background = 'var(--color-primary)';
+                        b.style.color = 'white';
+                    } else {
+                        b.classList.remove('active');
+                        b.style.background = 'transparent';
+                        b.style.color = 'var(--color-primary)';
+                    }
+                });
+
+                projectCards.forEach(card => {
+                    if (category === 'all' || card.getAttribute('data-category') === category) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+
+                if (category !== 'all') {
+                    history.replaceState(null, null, '#' + category);
+                } else {
+                    history.replaceState(null, null, window.location.pathname);
+                }
+            }
+
+            // Check for URL hash
+            const hash = window.location.hash.replace('#', '');
+            if (hash) filterProjects(hash);
+
+            // Filter button click
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => filterProjects(btn.getAttribute('data-filter')));
+            });
+
+            // Card click to filter
+            projectCards.forEach(card => {
+                card.addEventListener('click', () => {
+                    const category = card.getAttribute('data-category');
+                    if (category) {
+                        filterProjects(category);
+                        document.querySelector('.projects-filter').scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
