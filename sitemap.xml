@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    
+    <!-- Homepage -->
+    <url>
+        <loc>https://brilliantserv.com/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://brilliantserv.com/media/brilliantcrystal-hd.png</image:loc>
+            <image:title>مؤسسة روائع الكريستال</image:title>
+        </image:image>
+    </url>
+    
+    <!-- About Page -->
+    <url>
+        <loc>https://brilliantserv.com/about.html</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Services Page -->
+    <url>
+        <loc>https://brilliantserv.com/services.html</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Projects Page -->
+    <url>
+        <loc>https://brilliantserv.com/projects.html</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Contact Page -->
+    <url>
+        <loc>https://brilliantserv.com/contact.html</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Blog Index -->
+    <url>
+        <loc>https://brilliantserv.com/blog.html</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+
+    <!-- Blog Posts -->
+    <url>
+        <loc>https://brilliantserv.com/blog/leak-detection-jeddah.html</loc>
+        <lastmod>2026-01-24</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://brilliantserv.com/blog/tank-insulation-makkah.html</loc>
+        <lastmod>2026-01-23</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://brilliantserv.com/blog/roof-insulation-taif.html</loc>
+        <lastmod>2026-01-22</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://brilliantserv.com/blog/pool-maintenance-jeddah.html</loc>
+        <lastmod>2026-01-21</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://brilliantserv.com/blog/bathroom-insulation-jeddah.html</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+</urlset>
