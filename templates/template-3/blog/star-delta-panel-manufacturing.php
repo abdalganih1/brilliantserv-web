@@ -35,7 +35,7 @@ include '../includes/config.php';
     <meta property="og:image" content="https://brilliantserv.com/media/blog/control-panel-prices-2026.webp">
     <meta property="og:url" content="https://brilliantserv.com/blog/star-delta-panel-manufacturing.php">
     <meta property="og:site_name" content="روائع الكريستال">
-    <meta property="article:published_time" content="2026-01-30T20:48:11.852451">
+    <meta property="article:published_time" content="2026-01-30T21:09:29.327796">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">

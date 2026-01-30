@@ -35,7 +35,7 @@ include '../includes/config.php';
     <meta property="og:image" content="https://brilliantserv.com/media/blog/fire-pump-maintenance.webp">
     <meta property="og:url" content="https://brilliantserv.com/blog/jockey-fire-pump-maintenance.php">
     <meta property="og:site_name" content="روائع الكريستال">
-    <meta property="article:published_time" content="2026-01-30T20:48:11.864806">
+    <meta property="article:published_time" content="2026-01-30T21:09:29.334420">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">

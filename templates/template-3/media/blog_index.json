@@ -218,5 +218,45 @@
         "desc": "مقالة شاملة عن تعبئة شبكة الحريق واختبار الضغط. نقدم أفضل خدمات تعبئة شبكة الحريق في الرياض وجدة. اتصل بنا 0550698111.",
         "link": "blog/fire-network-filling.php",
         "category": "أنظمة الحريق"
+    },
+    {
+        "title": "شركات معتمدة للدفاع المدني: تركيب وصيانة أنظمة السلامة",
+        "slug": "civil-defense-approved-companies",
+        "date": "30 يناير 2026",
+        "image": "civil-defense.webp",
+        "alt": "شركات معتمدة للدفاع المدني: تركيب وصيانة أنظمة السلامة",
+        "desc": "مقالة شاملة عن شركات معتمدة للدفاع المدني. نقدم أفضل خدمات أنظمة السلامة في الرياض وجدة. اتصل بنا 0550698111.",
+        "link": "blog/civil-defense-approved-companies.php",
+        "category": "أنظمة الحريق"
+    },
+    {
+        "title": "لف محركات كهربائية: إعادة الحياة لمحركك",
+        "slug": "electric-motor-winding",
+        "date": "30 يناير 2026",
+        "image": "motor-winding.webp",
+        "alt": "لف محركات كهربائية",
+        "desc": "خدمات احترافية في لف المحركات الكهربائية الصناعية حتى 500 حصان. ضمان على العزل وجودة الأسلاك.",
+        "link": "blog/electric-motor-winding.php",
+        "category": "صيانة المصانع"
+    },
+    {
+        "title": "صيانة خطوط إنتاج: تقليل فترات التوقف",
+        "slug": "production-line-maintenance",
+        "date": "30 يناير 2026",
+        "image": "production-line.webp",
+        "alt": "صيانة خطوط إنتاج",
+        "desc": "عقود صيانة دورية وطرائة لخطوط الإنتاج. نضمن استمرارية العمل وكفاءة المعدات.",
+        "link": "blog/production-line-maintenance.php",
+        "category": "صيانة المصانع"
+    },
+    {
+        "title": "توازن ميكانيكي للمراوح (Dynamic Balancing)",
+        "slug": "mechanical-fan-balancing",
+        "date": "30 يناير 2026",
+        "image": "fan-balancing.webp",
+        "alt": "توازن ميكانيكي للمراوح",
+        "desc": "تخلص من الاهتزازات والضجيج. خدمة موازنة ديناميكية للمراوح في الموقع (On-site Balancing).",
+        "link": "blog/mechanical-fan-balancing.php",
+        "category": "صيانة المصانع"
     }
 ]

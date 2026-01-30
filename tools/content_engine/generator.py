@@ -133,13 +133,62 @@ def generate_blog_index(articles):
         json.dump(index, f, ensure_ascii=False, indent=4)
     print(f"🚀 Generated Index: {output_file}")
 
+def generate_sitemap(articles):
+    """Generates a standard XML sitemap for Google."""
+    sitemap_path = os.path.join(BASE_DIR, "../../templates/template-3/sitemap.xml")
+    base_url = "https://brilliantserv.com"
+    today = datetime.datetime.now().strftime("%Y-%m-%d")
+
+    # 1. Static Pages (Priority 1.0 & 0.8)
+    static_pages = [
+        {"loc": "", "priority": "1.0"},
+        {"loc": "index.html", "priority": "1.0"}, # Canonically same as root usually, but keeping for safety
+        {"loc": "services.html", "priority": "0.9"},
+        {"loc": "projects.html", "priority": "0.9"},
+        {"loc": "blog.php", "priority": "0.9"},
+        {"loc": "about.html", "priority": "0.8"},
+        {"loc": "contact.html", "priority": "0.8"},
+    ]
+
+    xml = ['<?xml version="1.0" encoding="UTF-8"?>']
+    xml.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')
+
+    # Add Static Pages
+    for page in static_pages:
+        xml.append('  <url>')
+        xml.append(f'    <loc>{base_url}/{page["loc"]}</loc>')
+        xml.append(f'    <lastmod>{today}</lastmod>')
+        xml.append(f'    <changefreq>weekly</changefreq>')
+        xml.append(f'    <priority>{page["priority"]}</priority>')
+        xml.append('  </url>')
+
+    # Add Blog Posts (Priority 0.7)
+    for article in articles:
+        # Check if skipped? Maybe still include in sitemap if file exists? 
+        # For now, include all in JSON.
+        xml.append('  <url>')
+        xml.append(f'    <loc>{base_url}/blog/{article["slug"]}.php</loc>')
+        xml.append(f'    <lastmod>{today}</lastmod>')
+        xml.append('    <changefreq>monthly</changefreq>')
+        xml.append('    <priority>0.7</priority>')
+        xml.append('  </url>')
+
+    xml.append('</urlset>')
+
+    with open(sitemap_path, 'w', encoding='utf-8') as f:
+        f.write("\n".join(xml))
+    
+    print(f"🗺️  Generated Sitemap: {sitemap_path}")
+
 def main():
     articles = load_data()
     template = load_template()
     today_ar = datetime.datetime.now().strftime("%d %B %Y").replace("January", "يناير") # Simple map needed for full Arabic dates
 
     # 0. Generate Index
+    # 0. Generate Index & Sitemap
     generate_blog_index(articles)
+    generate_sitemap(articles)
 
     for article in articles:
         # Check bypass

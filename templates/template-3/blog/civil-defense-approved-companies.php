@@ -1,7 +1,7 @@
 <?php
 // AUTO-GENERATED FILE - DO NOT EDIT DIRECTLY
 // Page-specific variables
-$page_title = "تصليح مضخات الدفع (Booster) في الرياض";
+$page_title = "شركات معتمدة للدفاع المدني: تركيب وصيانة أنظمة السلامة";
 $base_path = "../";
 $active_page = "blog";
 
@@ -16,9 +16,9 @@ include '../includes/config.php';
     <meta name="google-site-verification" content="-4dWOJlQukPPTSz-ABTrob2Oe_vkEdm_y1_xFVryJTo" />
 
     <!-- SEO Meta Tags -->
-    <title>تصليح مضخات الدفع (Booster) في الرياض - روائع الكريستال</title>
-    <meta name="description" content="مقالة شاملة عن تصليح مضخات الدفع (Booster) في الرياض. نقدم أفضل خدمات تصليح مضخات الدفع في الرياض وجدة. اتصل بنا 0550698111.">
-    <meta name="keywords" content="تصليح مضخات الدفع, صيانة, تركيب, السعودية">
+    <title>شركات معتمدة للدفاع المدني: تركيب وصيانة أنظمة السلامة - روائع الكريستال</title>
+    <meta name="description" content="مقالة شاملة عن شركات معتمدة للدفاع المدني. نقدم أفضل خدمات أنظمة السلامة في الرياض وجدة. اتصل بنا 0550698111.">
+    <meta name="keywords" content="شركات معتمدة للدفاع المدني, صيانة, تركيب, السعودية">
     <meta name="author" content="مؤسسة روائع الكريستال">
     <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="language" content="Arabic">
@@ -26,29 +26,29 @@ include '../includes/config.php';
     <meta name="geo.placename" content="Riyadh">
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://brilliantserv.com/blog/booster-pump-repair.php">
+    <link rel="canonical" href="https://brilliantserv.com/blog/civil-defense-approved-companies.php">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
-    <meta property="og:title" content="تصليح مضخات الدفع (Booster) في الرياض - روائع الكريستال">
-    <meta property="og:description" content="مقالة شاملة عن تصليح مضخات الدفع (Booster) في الرياض. نقدم أفضل خدمات تصليح مضخات الدفع في الرياض وجدة. اتصل بنا 0550698111.">
-    <meta property="og:image" content="https://brilliantserv.com/media/blog/pump-repair-north-riyadh.webp">
-    <meta property="og:url" content="https://brilliantserv.com/blog/booster-pump-repair.php">
+    <meta property="og:title" content="شركات معتمدة للدفاع المدني: تركيب وصيانة أنظمة السلامة - روائع الكريستال">
+    <meta property="og:description" content="مقالة شاملة عن شركات معتمدة للدفاع المدني. نقدم أفضل خدمات أنظمة السلامة في الرياض وجدة. اتصل بنا 0550698111.">
+    <meta property="og:image" content="https://brilliantserv.com/media/blog/civil-defense.webp">
+    <meta property="og:url" content="https://brilliantserv.com/blog/civil-defense-approved-companies.php">
     <meta property="og:site_name" content="روائع الكريستال">
-    <meta property="article:published_time" content="2026-01-30T21:09:29.325511">
+    <meta property="article:published_time" content="2026-01-30T21:09:29.337617">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="تصليح مضخات الدفع (Booster) في الرياض - روائع الكريستال">
-    <meta property="twitter:description" content="مقالة شاملة عن تصليح مضخات الدفع (Booster) في الرياض. نقدم أفضل خدمات تصليح مضخات الدفع في الرياض وجدة. اتصل بنا 0550698111.">
-    <meta property="twitter:image" content="https://brilliantserv.com/media/blog/pump-repair-north-riyadh.webp">
+    <meta property="twitter:title" content="شركات معتمدة للدفاع المدني: تركيب وصيانة أنظمة السلامة - روائع الكريستال">
+    <meta property="twitter:description" content="مقالة شاملة عن شركات معتمدة للدفاع المدني. نقدم أفضل خدمات أنظمة السلامة في الرياض وجدة. اتصل بنا 0550698111.">
+    <meta property="twitter:image" content="https://brilliantserv.com/media/blog/civil-defense.webp">
 
     <!-- JSON-LD Schema -->
     <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "تصليح مضخات الدفع (Booster) في الرياض - روائع الكريستال",
-    "image": "https://brilliantserv.com/media/blog/pump-repair-north-riyadh.webp",
+    "headline": "شركات معتمدة للدفاع المدني: تركيب وصيانة أنظمة السلامة - روائع الكريستال",
+    "image": "https://brilliantserv.com/media/blog/civil-defense.webp",
     "datePublished": "2026-01-30",
     "author": {
         "@type": "Organization",
@@ -58,7 +58,7 @@ include '../includes/config.php';
 <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@type": "Service",
-    "name": "تصليح مضخات الدفع (Booster) في الرياض",
+    "name": "شركات معتمدة للدفاع المدني: تركيب وصيانة أنظمة السلامة",
     "provider": {
         "@type": "LocalBusiness",
         "name": "مؤسسة روائع الكريستال",
@@ -71,7 +71,7 @@ include '../includes/config.php';
         }
     },
     "areaServed": "الرياض",
-    "description": "مقالة شاملة عن تصليح مضخات الدفع (Booster) في الرياض. نقدم أفضل خدمات تصليح مضخات الدفع في الرياض وجدة. اتصل بنا 0550698111."
+    "description": "مقالة شاملة عن شركات معتمدة للدفاع المدني. نقدم أفضل خدمات أنظمة السلامة في الرياض وجدة. اتصل بنا 0550698111."
 }</script>
 <script type="application/ld+json">{
     "@context": "https://schema.org",
@@ -79,18 +79,10 @@ include '../includes/config.php';
     "mainEntity": [
         {
             "@type": "Question",
-            "name": "ما هو سعر تصليح مضخات الدفع؟",
+            "name": "كم سعر عقد الصيانة؟",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "الأسعار تعتمد على حجم العمل ونوع المعدات. اتصل بنا للحصول على معاينة مجانية."
-            }
-        },
-        {
-            "@type": "Question",
-            "name": "هل تقدمون ضمان؟",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "نعم، نقدم ضمان شامل على جميع أعمالنا."
+                "text": "الأسعار تعتمد على مساحة المنشأة ونوع النشاط. اتصل بنا للحصول على عرض سعر."
             }
         }
     ]
@@ -111,8 +103,8 @@ include '../includes/config.php';
     <section class="page-hero">
         <div class="container">
             <div class="page-hero-content">
-                <span class="section-badge">مضخات المياه</span>
-                <h1>تصليح مضخات الدفع (Booster) في الرياض</h1>
+                <span class="section-badge">أنظمة الحريق</span>
+                <h1>شركات معتمدة للدفاع المدني: تركيب وصيانة أنظمة السلامة</h1>
                 <p>30 يناير 2026 • فريق روائع الكريستال</p>
             </div>
         </div>
@@ -124,16 +116,16 @@ include '../includes/config.php';
             <div class="article-wrapper">
                 <!-- Featured Image -->
                 <div class="article-image">
-                    <img src="../../media/blog/pump-repair-north-riyadh.webp" alt="تصليح مضخات الدفع (Booster) في الرياض" loading="lazy">
+                    <img src="../../media/blog/civil-defense.webp" alt="شركات معتمدة للدفاع المدني: تركيب وصيانة أنظمة السلامة" loading="lazy">
                 </div>
 
                 <!-- Article Body -->
                 <div class="article-body">
-                    <p><p class='lead'>تعتبر تصليح مضخات الدفع من الخدمات الأساسية التي نقدمها في مؤسسة روائع الكريستال. في هذا المقال، سنناقش أهم الجوانب التقنية.</p></p>
-<h2>لماذا تختار خدماتنا؟</h2>
-<ul><li>فريق فني متخصص ومدرب.</li><li>استخدام قطع غيار أصلية.</li><li>ضمان على العمل والتنفيذ.</li></ul>
-<h2>تفاصيل الخدمة</h2>
-<p>نحن نضمن لك جودة عالية وسرعة في الإنجاز. تواصل معنا اليوم لمعرفة المزيد.</p>
+                    <p><p class='lead'>تعتبر تراخيص الدفاع المدني ضرورية لكل منشأة. نحن في روائع الكريستال نوفر جميع متطلبات السلامة وفق أحدث الكود السعودي.</p></p>
+<h2>خدماتنا المعتمدة</h2>
+<ul><li>اصدار شهادات سلامة.</li><li>تركيب وصيانة شبكات الإنذار والإطفاء.</li><li>عقود صيانة سنوية معتمدة.</li></ul>
+<h2>لماذا تختارنا؟</h2>
+<p>سرعة في الإنجاز ودقة في التنفيذ مع ضمان قبول المعاملات لدى الدفاع المدني.</p>
 
 
                     <!-- Call to Action -->
