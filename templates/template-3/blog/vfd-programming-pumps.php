@@ -35,7 +35,7 @@ include '../includes/config.php';
     <meta property="og:image" content="https://brilliantserv.com/media/blog/vfd-programming.webp">
     <meta property="og:url" content="https://brilliantserv.com/blog/vfd-programming-pumps.php">
     <meta property="og:site_name" content="روائع الكريستال">
-    <meta property="article:published_time" content="2026-01-30T21:09:29.328694">
+    <meta property="article:published_time" content="2026-01-30T21:37:26.296673">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">

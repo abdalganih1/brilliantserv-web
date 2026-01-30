@@ -258,5 +258,35 @@
         "desc": "تخلص من الاهتزازات والضجيج. خدمة موازنة ديناميكية للمراوح في الموقع (On-site Balancing).",
         "link": "blog/mechanical-fan-balancing.php",
         "category": "صيانة المصانع"
+    },
+    {
+        "title": "أنواع المضخات وطرق عملها وصيانتها: دليلك الشامل",
+        "slug": "types-of-water-pumps",
+        "date": "30 يناير 2026",
+        "image": "water-pump-types.webp",
+        "alt": "أنواع مضخات المياه",
+        "desc": "تعرف على أنواع مضخات المياه المنزلية والصناعية وطرق عملها. دليل شامل لاختيار المضخة المناسبة وصيانتها.",
+        "link": "blog/types-of-water-pumps.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "قوانين لف المحركات الكهربائية 3 فاز: دليل الفني المحترف",
+        "slug": "3-phase-motor-winding-rules",
+        "date": "30 يناير 2026",
+        "image": "motor-winding-diagram.webp",
+        "alt": "مخطط لف محرك 3 فاز",
+        "desc": "شرح مبسط وعملي لقوانين لف المحركات الكهربائية 3 فاز. حساب عدد اللفات، قطر السلك، وطرق التوصيل.",
+        "link": "blog/3-phase-motor-winding-rules.php",
+        "category": "صيانة المصانع"
+    },
+    {
+        "title": "صيانة غرف التبريد والتجميد: الحفاظ على سلامة منتجاتك",
+        "slug": "cold-room-maintenance",
+        "date": "30 يناير 2026",
+        "image": "cold-room.webp",
+        "alt": "صيانة غرف التبريد",
+        "desc": "تصليح وصيانة غرف التبريد المركزية ومستودعات التجميد. فنيين متخصصين، قطع غيار أصلية، وعقود صيانة سنوية.",
+        "link": "blog/cold-room-maintenance.php",
+        "category": "التبريد والتكييف"
     }
 ]

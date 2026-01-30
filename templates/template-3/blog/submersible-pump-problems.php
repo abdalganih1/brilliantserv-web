@@ -35,7 +35,7 @@ include '../includes/config.php';
     <meta property="og:image" content="https://brilliantserv.com/media/blog/weak-water-pressure.webp">
     <meta property="og:url" content="https://brilliantserv.com/blog/submersible-pump-problems.php">
     <meta property="og:site_name" content="روائع الكريستال">
-    <meta property="article:published_time" content="2026-01-30T21:09:29.326794">
+    <meta property="article:published_time" content="2026-01-30T21:37:26.294077">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
