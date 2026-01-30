@@ -35,7 +35,7 @@ include '../includes/config.php';
     <meta property="og:image" content="https://brilliantserv.com/media/blog/motor-winding-diagram.webp">
     <meta property="og:url" content="https://brilliantserv.com/blog/3-phase-motor-winding-rules.php">
     <meta property="og:site_name" content="روائع الكريستال">
-    <meta property="article:published_time" content="2026-01-30T22:37:35.314211">
+    <meta property="article:published_time" content="2026-01-30T22:53:10.931822">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">

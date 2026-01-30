@@ -5,18 +5,33 @@ $base_path = "";
 $active_page = "404";
 
 // Attempt Smart Recover (Migration Logic)
-// If the user requested /old-post-name, check if /blog/old-post-name.php exists
 $request_uri = $_SERVER['REQUEST_URI'];
-$clean_slug = basename(parse_url($request_uri, PHP_URL_PATH));
+$clean_slug = urldecode(basename(parse_url($request_uri, PHP_URL_PATH)));
 
-// Check if this slug exists as a blog post
-if (file_exists(__DIR__ . "/blog/" . $clean_slug . ".php")) {
-    header("Location: /blog/" . $clean_slug . ".php", true, 301);
+// 1. GSC Recovery Map (Old Arabic Slugs -> New English Paths)
+// Based on Google Search Console Analysis (Jan 2026)
+$redirect_map = [
+    'انواع-المضخات' => '/blog/types-of-water-pumps',
+    'صيانة-مضخات-المياه-الاحترافية' => '/blog/pump-repair-north-riyadh', // Nearest service match
+    'لف-المحركات-الكهربائية' => '/blog/electric-motor-winding',
+    'صيانة-غرف-التبريد-والتجميد' => '/blog/cold-room-maintenance',
+    'صيانة-مضخات-الحريق' => '/blog/jockey-fire-pump-maintenance',
+    'تصنيع-لوحات-التوزيع-الكهربائية' => '/blog/star-delta-panel-manufacturing',
+    'تصنيع-وتوريد-لوحات-mdb' => '/blog/control-panel-prices-2026',
+    'صيانة-كهرباء-المصانع' => '/blog/production-line-maintenance',
+    'دور-الكهرباء-الصناعية-في-تطوير-المصان' => '/blog/production-line-maintenance',
+    'سرعة-المحركات-الكهربائية' => '/blog/vfd-programming-pumps',
+    'افضل-مقاول-كهرباء' => '/contact.html',
+    'المخططات-الكهربائية-للمباني' => '/blog/electrical-layouts-for-buildings' // New specific article
+];
+
+if (array_key_exists($clean_slug, $redirect_map)) {
+    header("Location: " . $redirect_map[$clean_slug], true, 301);
     exit();
 }
 
-// Check without extension just in case
-if (file_exists(__DIR__ . "/blog/" . $clean_slug)) {
+// 2. Check if this slug exists as a blog post (Direct Match)
+if (file_exists(__DIR__ . "/blog/" . $clean_slug . ".php")) {
     header("Location: /blog/" . $clean_slug . ".php", true, 301);
     exit();
 }
