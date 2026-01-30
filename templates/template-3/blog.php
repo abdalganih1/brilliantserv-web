@@ -83,113 +83,145 @@ include 'includes/config.php';
         <div class="container">
             <div class="blog-main-grid">
                 <?php
-                // Blog Articles Data
-                $articles = [
-                    [
-                        'title' => 'أفضل فني تصليح مضخات مياه شمال الرياض',
-                        'date' => '30 يناير 2026',
-                        'image' => '../../media/hero-mechanic-pumps.png',
-                        'alt' => 'تصليح مضخات مياه شمال الرياض',
-                        'desc' => 'هل توقفت مضخة المياه فجأة؟ فريقنا المتخصص جاهز لخدمتك بقطع غيار أصلية وضمان شامل...',
-                        'link' => 'blog/pump-repair-north-riyadh.php'
-                    ],
-                    [
-                        'title' => 'حل مشكلة ضعف ضغط الماء في المنزل',
-                        'date' => '30 يناير 2026',
-                        'image' => '../../media/blog/weak-water-pressure.webp',
-                        'alt' => 'ضعف ضغط الماء',
-                        'desc' => 'هل تعاني من تدفق مياه ضعيف؟ تعرف على الأسباب الثلاثة الرئيسية والحلول العملية...',
-                        'link' => 'blog/weak-water-pressure-solution.php'
-                    ],
-                    [
-                        'title' => 'المضخة تصدر صوت طنين ولا تعمل؟',
-                        'date' => '30 يناير 2026',
-                        'image' => '../../media/blog/pump-humming-sound.webp',
-                        'alt' => 'صوت طنين المضخة',
-                        'desc' => 'تحذير: صوت الزنة المستمرة قد يحرق المحرك! اكتشف السبب وكيفية التصرف فوراً...',
-                        'link' => 'blog/pump-humming-sound.php'
-                    ],
-                    [
-                        'title' => 'أنواع مضخات المياه المنزلية والفرق بينها',
-                        'date' => '30 يناير 2026',
-                        'image' => '../../media/blog/home-water-pump-types.webp',
-                        'alt' => 'أنواع مضخات المياه',
-                        'desc' => 'مقارنة شاملة بين المضخات الطرفية والمركزية ومضخات الدفع الذكية. كيف تختار الأنسب؟',
-                        'link' => 'blog/home-water-pump-types.php'
-                    ],
-                    [
-                        'title' => 'خدمات معتمدة لمضخات Grundfos في الرياض',
-                        'date' => '30 يناير 2026',
-                        'image' => '../../media/blog/grundfos-pump-agent.webp',
-                        'alt' => 'وكيل مضخات Grundfos الرياض',
-                        'desc' => 'نقدم خدمات الصيانة المعتمدة وقطع الغيار الأصلية لأقوى مضخات المياه في العالم...',
-                        'link' => 'blog/grundfos-pump-agent-riyadh.php'
-                    ],
-                    [
-                        'title' => 'صيانة مضخات KSB الصناعية',
-                        'date' => '30 يناير 2026',
-                        'image' => '../../media/blog/ksb-pump-maintenance.webp',
-                        'alt' => 'صيانة مضخات KSB',
-                        'desc' => 'حلول هندسية متكاملة لصيانة وإصلاح مضخات KSB الألمانية للمصانع والمباني...',
-                        'link' => 'blog/ksb-pump-maintenance.php'
-                    ],
-                    [
-                        'title' => 'كشف تسربات المياه بجدة بدون تكسير',
-                        'date' => '24 يناير 2026',
-                        'image' => '../../media/blog/leak-detection.webp',
-                        'alt' => 'كشف تسربات المياه بجدة',
-                        'desc' => 'هل تعاني من ارتفاع فاتورة المياه؟ اكتشف الحلول الجذرية لمشاكل التسربات بأحدث الأجهزة...',
-                        'link' => 'blog/leak-detection-jeddah.php'
-                    ],
-                    [
-                        'title' => 'أفضل شركة عزل خزانات بمكة',
-                        'date' => '23 يناير 2026',
-                        'image' => '../../media/mechanic-project.webp',
-                        'alt' => 'عزل خزانات بمكة',
-                        'desc' => 'احمِ صحة عائلتك مع خدمات عزل وتعقيم الخزانات بأفضل المواد المصرحة...',
-                        'link' => 'blog/tank-insulation-makkah.php'
-                    ],
-                    [
-                        'title' => 'عزل اسطح بالطائف: مائي وحراري',
-                        'date' => '22 يناير 2026',
-                        'image' => '../../media/about-team-work.png',
-                        'alt' => 'عزل اسطح بالطائف',
-                        'desc' => 'تخلص من مشاكل تسرب مياه الأمطار والحرارة العالية مع حلول العزل المتكاملة...',
-                        'link' => 'blog/roof-insulation-taif.php'
-                    ],
-                    [
-                        'title' => 'صيانة مسابح بجدة',
-                        'date' => '20 يناير 2026',
-                        'image' => '../../media/mechanic-works.webp',
-                        'alt' => 'صيانة مسابح',
-                        'desc' => 'خدمات تنظيف وتعقيم وفلترة المسابح لضمان مياه نقية وسباحة آمنة طوال العام...',
-                        'link' => 'blog/pool-maintenance-jeddah.php'
-                    ],
-                    [
-                        'title' => 'عزل حمامات بجدة',
-                        'date' => '18 يناير 2026',
-                        'image' => '../../media/hero-electrical-work.png',
-                        'alt' => 'عزل حمامات',
-                        'desc' => 'الحل الجذري لمشاكل الرطوبة وتقشير الدهانات في دورات المياه مع ضمان التسليم...',
-                        'link' => 'blog/bathroom-insulation-jeddah.php'
-                    ]
-                ];
+                // 1. Load Blog Index
+                $blog_index_path = 'media/blog_index.json';
+                $articles = [];
 
-                // Loop through articles
-                foreach ($articles as $article): ?>
-                    <article class="blog-card">
-                        <div class="blog-image">
-                            <img src="<?php echo $article['image']; ?>" alt="<?php echo $article['alt']; ?>" loading="lazy">
-                        </div>
-                        <div class="blog-content">
-                            <span class="blog-date"><?php echo $article['date']; ?></span>
-                            <h3><?php echo $article['title']; ?></h3>
-                            <p><?php echo $article['desc']; ?></p>
-                            <a href="<?php echo $article['link']; ?>" class="read-more">قراءة المزيد</a>
-                        </div>
-                    </article>
-                <?php endforeach; ?>
+                if (file_exists($blog_index_path)) {
+                    $json_data = file_get_contents($blog_index_path);
+                    $articles = json_decode($json_data, true);
+                    if ($articles === null) {
+                        $articles = []; // Fallback if JSON error
+                        echo "<!-- Error decoding blog_index.json -->";
+                    }
+                } else {
+                    echo "<!-- blog_index.json not found -->";
+                }
+
+                // 2. Pagination Logic
+                $items_per_page = 6;
+                $total_articles = count($articles);
+                $total_pages = ceil($total_articles / $items_per_page);
+
+                // Get current page from URL, validate it
+                $current_page = isset($_GET['page']) ? (int) $_GET['page'] : 1;
+                if ($current_page < 1)
+                    $current_page = 1;
+                if ($current_page > $total_pages && $total_pages > 0)
+                    $current_page = $total_pages;
+
+                // Slice array for current page
+                $offset = ($current_page - 1) * $items_per_page;
+                $current_articles = array_slice($articles, $offset, $items_per_page);
+
+                // 3. Display Articles
+                if (count($current_articles) > 0) {
+                    foreach ($current_articles as $article):
+                        // Fix relative paths for image if needed
+                        // The JSON has "image_filename", we need "media/blog/..." or check where it is
+                        // Old loop used: ../../media/ or ../../media/blog/
+                        // Generator output says: article['image_filename']
+                        // Let's assume standard path "media/blog/" unless it's a root image.
+                        // However, migration kept root images as filenames too.
+                        // Let's try to detect if it's in root media or blog folder or just use the link if provided?
+                        // No, the JSON 'image' field holds the filename.
+                        // Let's assume most are in media/blog/ but some legacy ones might be elsewhere.
+                        // Actually, let's just use a smart variable.
+                
+                        $img_src = "media/blog/" . $article['image'];
+                        // Fallback check for root media (legacy)
+                        // If file doesn't exist there, maybe it's in media/ directly?
+                        // But verifying via PHP file_exists might be slow for remote, but this is local.
+                        // Let's stick to a robust simple path for now, maybe checking typical paths.
+                
+                        // NOTE: detailed check
+                        if (!file_exists($img_src) && file_exists("media/" . $article['image'])) {
+                            $img_src = "media/" . $article['image'];
+                        }
+                        // Also check for the hardcoded ../../media paths from the old array
+                        // The migration script extracted filename logic: raw_img.split('/')[-1]
+                        // So we lost the path.
+                        // Most old ones were in ../../media/ i.e. root media.
+                        // New ones are in media/blog/.
+                        // I will try media/blog/ first, then media/.
+                        ?>
+                        <article class="blog-card">
+                            <div class="blog-image">
+                                <!-- Use a placeholder or reliable path -->
+                                <img src="<?php echo htmlspecialchars($img_src); ?>"
+                                    alt="<?php echo htmlspecialchars($article['alt']); ?>" loading="lazy">
+                            </div>
+                            <div class="blog-content">
+                                <span class="blog-date"><?php echo htmlspecialchars($article['date']); ?></span>
+                                <h3><?php echo htmlspecialchars($article['title']); ?></h3>
+                                <p><?php echo htmlspecialchars($article['desc']); ?></p>
+                                <a href="<?php echo htmlspecialchars($article['link']); ?>" class="read-more">قراءة المزيد</a>
+                            </div>
+                        </article>
+                    <?php endforeach;
+                } else {
+                    echo '<p class="text-center">لا توجد مقالات حالياً.</p>';
+                }
+                ?>
             </div>
+
+            <!-- Pagination Controls -->
+            <?php if ($total_pages > 1): ?>
+                <div class="pagination">
+                    <?php if ($current_page > 1): ?>
+                        <a href="?page=<?php echo $current_page - 1; ?>" class="page-link prev">السابق</a>
+                    <?php endif; ?>
+
+                    <div class="page-numbers">
+                        <?php for ($i = 1; $i <= $total_pages; $i++): ?>
+                            <a href="?page=<?php echo $i; ?>"
+                                class="page-link <?php echo ($i === $current_page) ? 'active' : ''; ?>">
+                                <?php echo $i; ?>
+                            </a>
+                        <?php endfor; ?>
+                    </div>
+
+                    <?php if ($current_page < $total_pages): ?>
+                        <a href="?page=<?php echo $current_page + 1; ?>" class="page-link next">التالي</a>
+                    <?php endif; ?>
+                </div>
+            <?php endif; ?>
+
+            <!-- Style for pagination -->
+            <style>
+                .pagination {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 40px;
+                    gap: 10px;
+                    flex-wrap: wrap;
+                }
+
+                .page-link {
+                    padding: 8px 16px;
+                    border: 1px solid #e0e0e0;
+                    border-radius: 4px;
+                    color: #333;
+                    text-decoration: none;
+                    transition: all 0.3s ease;
+                }
+
+                .page-link:hover,
+                .page-link.active {
+                    background-color: #2b5c9b;
+                    /* Main theme color */
+                    color: #fff;
+                    border-color: #2b5c9b;
+                }
+
+                .page-link.prev,
+                .page-link.next {
+                    font-weight: bold;
+                }
+            </style>
+
+        </div>
         </div>
     </section>
 
