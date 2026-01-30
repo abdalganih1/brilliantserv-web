@@ -11,11 +11,11 @@
 
 ## Hub 1: Water Pumps (مضخات المياه)
 - [P] `blog/pump-repair-north-riyadh.php` - تصليح مضخات مياه شمال الرياض
-- [ ] `blog/grundfos-pump-agent-riyadh.php` - وكيل مضخات Grundfos الرياض
-- [ ] `blog/ksb-pump-maintenance.php` - صيانة مضخات KSB
-- [ ] `blog/weak-water-pressure-solution.php` - حل مشكلة ضعف ضغط الماء
-- [ ] `blog/pump-humming-sound.php` - أسباب صوت طنين المضخة
-- [ ] `blog/home-water-pump-types.php` - أنواع مضخات المياه المنزلية
+- [P] `blog/grundfos-pump-agent-riyadh.php` - وكيل مضخات Grundfos الرياض
+- [P] `blog/ksb-pump-maintenance.php` - صيانة مضخات KSB
+- [P] `blog/weak-water-pressure-solution.php` - حل مشكلة ضعف ضغط الماء
+- [P] `blog/pump-humming-sound.php` - أسباب صوت طنين المضخة
+- [P] `blog/home-water-pump-types.php` - أنواع مضخات المياه المنزلية
 - [ ] `blog/pump-installation-east-riyadh.php` - تركيب مضخات شرق الرياض
 - [ ] `blog/booster-pump-repair.php` - تصليح مضخات الدفع (Booster)
 - [ ] `blog/submersible-pump-problems.php` - مشاكل الغطاسات وحلها
