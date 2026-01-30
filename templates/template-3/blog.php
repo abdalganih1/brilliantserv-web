@@ -82,6 +82,20 @@ include 'includes/config.php';
     <section class="blog-section">
         <div class="container">
             <div class="blog-main-grid">
+                <!-- Blog Card NEW - Pump Repair North Riyadh -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="../../media/hero-mechanic-pumps.png" alt="تصليح مضخات مياه شمال الرياض"
+                            loading="lazy">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">30 يناير 2026</span>
+                        <h3>أفضل فني تصليح مضخات مياه شمال الرياض</h3>
+                        <p>هل توقفت مضخة المياه فجأة؟ فريقنا المتخصص جاهز لخدمتك بقطع غيار أصلية وضمان شامل...</p>
+                        <a href="blog/pump-repair-north-riyadh.php" class="read-more">قراءة المزيد</a>
+                    </div>
+                </article>
+
                 <!-- Blog Card 1 -->
                 <article class="blog-card">
                     <div class="blog-image">
