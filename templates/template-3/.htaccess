@@ -1,0 +1,40 @@
+# Enable Rewrite Engine
+RewriteEngine On
+
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Custom Error Page
+ErrorDocument 404 /404.php
+
+# Redirect common WordPress paths
+# If someone visits /category/pumps/ -> redirect to /blog.php
+RewriteRule ^category/(.*)$ /blog.php [R=301,L]
+
+# Handle clean URLs (remove .php extension)
+# E.g. /about -> /about.php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Smart Redirect for old WP Posts logic
+# If file not found, pass to 404.php which has smart logic
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /404.php [L]
+
+# Cache Control (Browser Caching)
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpg "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/pdf "access plus 1 month"
+  ExpiresByType text/x-javascript "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresDefault "access plus 2 days"
+</IfModule>

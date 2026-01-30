@@ -35,7 +35,7 @@ include '../includes/config.php';
     <meta property="og:image" content="https://brilliantserv.com/media/blog/cold-room.webp">
     <meta property="og:url" content="https://brilliantserv.com/blog/cold-room-maintenance.php">
     <meta property="og:site_name" content="روائع الكريستال">
-    <meta property="article:published_time" content="2026-01-30T21:37:26.314587">
+    <meta property="article:published_time" content="2026-01-30T22:37:35.322125">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -143,7 +143,7 @@ include '../includes/config.php';
     </article>
 
     <?php include '../includes/footer.php'; ?>
-    <script src="../js/main.min.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>

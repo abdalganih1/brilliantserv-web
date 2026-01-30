@@ -17,7 +17,7 @@ include '../includes/config.php';
 
     <!-- SEO Meta Tags -->
     <title>مشاكل الغطاسات وحلها: دليل شامل - روائع الكريستال</title>
-    <meta name="description" content="مقالة شاملة عن مشاكل الغطاسات وحلها: دليل شامل. نقدم أفضل خدمات مشاكل الغطاسات في الرياض وجدة. اتصل بنا 0550698111.">
+    <meta name="description" content="دليل حل مشاكل الغطاسات: أسباب نزول القاطع، ضعف الضخ، واحتراق المحرك. خدمة سحب وصيانة الغطاسات في الرياض مع الضمان. اتصل 0550698111">
     <meta name="keywords" content="مشاكل الغطاسات, صيانة, تركيب, السعودية">
     <meta name="author" content="مؤسسة روائع الكريستال">
     <meta name="robots" content="index, follow, max-image-preview:large">
@@ -31,16 +31,16 @@ include '../includes/config.php';
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
     <meta property="og:title" content="مشاكل الغطاسات وحلها: دليل شامل - روائع الكريستال">
-    <meta property="og:description" content="مقالة شاملة عن مشاكل الغطاسات وحلها: دليل شامل. نقدم أفضل خدمات مشاكل الغطاسات في الرياض وجدة. اتصل بنا 0550698111.">
+    <meta property="og:description" content="دليل حل مشاكل الغطاسات: أسباب نزول القاطع، ضعف الضخ، واحتراق المحرك. خدمة سحب وصيانة الغطاسات في الرياض مع الضمان. اتصل 0550698111">
     <meta property="og:image" content="https://brilliantserv.com/media/blog/weak-water-pressure.webp">
     <meta property="og:url" content="https://brilliantserv.com/blog/submersible-pump-problems.php">
     <meta property="og:site_name" content="روائع الكريستال">
-    <meta property="article:published_time" content="2026-01-30T21:37:26.294077">
+    <meta property="article:published_time" content="2026-01-30T22:37:35.195757">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="مشاكل الغطاسات وحلها: دليل شامل - روائع الكريستال">
-    <meta property="twitter:description" content="مقالة شاملة عن مشاكل الغطاسات وحلها: دليل شامل. نقدم أفضل خدمات مشاكل الغطاسات في الرياض وجدة. اتصل بنا 0550698111.">
+    <meta property="twitter:description" content="دليل حل مشاكل الغطاسات: أسباب نزول القاطع، ضعف الضخ، واحتراق المحرك. خدمة سحب وصيانة الغطاسات في الرياض مع الضمان. اتصل 0550698111">
     <meta property="twitter:image" content="https://brilliantserv.com/media/blog/weak-water-pressure.webp">
 
     <!-- JSON-LD Schema -->
@@ -71,7 +71,7 @@ include '../includes/config.php';
         }
     },
     "areaServed": "الرياض",
-    "description": "مقالة شاملة عن مشاكل الغطاسات وحلها: دليل شامل. نقدم أفضل خدمات مشاكل الغطاسات في الرياض وجدة. اتصل بنا 0550698111."
+    "description": "دليل حل مشاكل الغطاسات: أسباب نزول القاطع، ضعف الضخ، واحتراق المحرك. خدمة سحب وصيانة الغطاسات في الرياض مع الضمان. اتصل 0550698111"
 }</script>
 <script type="application/ld+json">{
     "@context": "https://schema.org",
@@ -129,11 +129,12 @@ include '../includes/config.php';
 
                 <!-- Article Body -->
                 <div class="article-body">
-                    <p><p class='lead'>تعتبر مشاكل الغطاسات من الخدمات الأساسية التي نقدمها في مؤسسة روائع الكريستال. في هذا المقال، سنناقش أهم الجوانب التقنية.</p></p>
-<h2>لماذا تختار خدماتنا؟</h2>
-<ul><li>فريق فني متخصص ومدرب.</li><li>استخدام قطع غيار أصلية.</li><li>ضمان على العمل والتنفيذ.</li></ul>
-<h2>تفاصيل الخدمة</h2>
-<p>نحن نضمن لك جودة عالية وسرعة في الإنجاز. تواصل معنا اليوم لمعرفة المزيد.</p>
+                    <p><p class='lead'>الغطاسات (Submersible Pumps) تعمل في ظروف قاسية تحت الماء، مما يجعل صيانتها تحدياً خاصاً. هل توقف الغطاس فجأة؟ أو أصبح صوته عالياً؟ إليك الدليل الشامل لتشخيص المشكلة.</p></p>
+<h2>5 علامات تدل على قرب احتراق الغطاس</h2>
+<ul><li><strong>نزول القاطع الكهربائي (Ttrip):</strong> بمجرد تشغيل الغطاس يفصل الكهرباء، وهذا يعني وجود تماس داخلي (Short Circuit).</li><li><strong>ضعف ضخ المياه:</strong> قد يكون بسبب انسداد مصفاة السحب بالأتربة أو تآكل الريش (Impellers).</li><li><strong>حرارة زائدة في الكابل:</strong> تدل على سحب تيار عالي (High Ampere) نتيجة حمل زائد أو مشكلة ميكانيكية.</li><li><strong>وجود زيت في الخزان:</strong> يعني تلف غرفة الزيت وتسرب زيت التبريد إلى مياه الشرب.</li></ul>
+<h2>كيف نحمي الغطاس من التلف؟</h2>
+<p>ننصح دائماً بتركيب <strong>لوحة حماية</strong> تحتوي على (Overload) و (Phase Failure) لحماية الغطاس من نقص الكهرباء أو سقوط إحدى الفازات. كما يجب تنظيف الخزان دورياً لمنع تراكم الطين الذي يخنق الغطاس.</p>
+<p>فريقنا مختص في سحب الغطاسات وفحصها ولف المحركات المحروقة مع الضمان.</p>
 
 
                     <!-- Call to Action -->
@@ -153,7 +154,7 @@ include '../includes/config.php';
     </article>
 
     <?php include '../includes/footer.php'; ?>
-    <script src="../js/main.min.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>

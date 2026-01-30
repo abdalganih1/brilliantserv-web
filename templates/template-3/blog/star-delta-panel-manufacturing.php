@@ -17,7 +17,7 @@ include '../includes/config.php';
 
     <!-- SEO Meta Tags -->
     <title>تصنيع لوحات ستار دلتا للمصانع والمزارع - روائع الكريستال</title>
-    <meta name="description" content="مقالة شاملة عن تصنيع لوحات ستار دلتا للمصانع والمزارع. نقدم أفضل خدمات لوحات ستار دلتا في الرياض وجدة. اتصل بنا 0550698111.">
+    <meta name="description" content="تصنيع وصيانة لوحات ستار دلتا (Star-Delta) للمضخات والمصانع. مكونات أوروبية أصلية (Schneider/ABB) مع ضمان وضبط هندسي دقيق. اتصل 0550698111">
     <meta name="keywords" content="لوحات ستار دلتا, صيانة, تركيب, السعودية">
     <meta name="author" content="مؤسسة روائع الكريستال">
     <meta name="robots" content="index, follow, max-image-preview:large">
@@ -31,16 +31,16 @@ include '../includes/config.php';
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
     <meta property="og:title" content="تصنيع لوحات ستار دلتا للمصانع والمزارع - روائع الكريستال">
-    <meta property="og:description" content="مقالة شاملة عن تصنيع لوحات ستار دلتا للمصانع والمزارع. نقدم أفضل خدمات لوحات ستار دلتا في الرياض وجدة. اتصل بنا 0550698111.">
+    <meta property="og:description" content="تصنيع وصيانة لوحات ستار دلتا (Star-Delta) للمضخات والمصانع. مكونات أوروبية أصلية (Schneider/ABB) مع ضمان وضبط هندسي دقيق. اتصل 0550698111">
     <meta property="og:image" content="https://brilliantserv.com/media/blog/control-panel-prices-2026.webp">
     <meta property="og:url" content="https://brilliantserv.com/blog/star-delta-panel-manufacturing.php">
     <meta property="og:site_name" content="روائع الكريستال">
-    <meta property="article:published_time" content="2026-01-30T21:37:26.295451">
+    <meta property="article:published_time" content="2026-01-30T22:37:35.198762">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="تصنيع لوحات ستار دلتا للمصانع والمزارع - روائع الكريستال">
-    <meta property="twitter:description" content="مقالة شاملة عن تصنيع لوحات ستار دلتا للمصانع والمزارع. نقدم أفضل خدمات لوحات ستار دلتا في الرياض وجدة. اتصل بنا 0550698111.">
+    <meta property="twitter:description" content="تصنيع وصيانة لوحات ستار دلتا (Star-Delta) للمضخات والمصانع. مكونات أوروبية أصلية (Schneider/ABB) مع ضمان وضبط هندسي دقيق. اتصل 0550698111">
     <meta property="twitter:image" content="https://brilliantserv.com/media/blog/control-panel-prices-2026.webp">
 
     <!-- JSON-LD Schema -->
@@ -71,7 +71,7 @@ include '../includes/config.php';
         }
     },
     "areaServed": "الرياض",
-    "description": "مقالة شاملة عن تصنيع لوحات ستار دلتا للمصانع والمزارع. نقدم أفضل خدمات لوحات ستار دلتا في الرياض وجدة. اتصل بنا 0550698111."
+    "description": "تصنيع وصيانة لوحات ستار دلتا (Star-Delta) للمضخات والمصانع. مكونات أوروبية أصلية (Schneider/ABB) مع ضمان وضبط هندسي دقيق. اتصل 0550698111"
 }</script>
 <script type="application/ld+json">{
     "@context": "https://schema.org",
@@ -129,11 +129,12 @@ include '../includes/config.php';
 
                 <!-- Article Body -->
                 <div class="article-body">
-                    <p><p class='lead'>تعتبر لوحات ستار دلتا من الخدمات الأساسية التي نقدمها في مؤسسة روائع الكريستال. في هذا المقال، سنناقش أهم الجوانب التقنية.</p></p>
-<h2>لماذا تختار خدماتنا؟</h2>
-<ul><li>فريق فني متخصص ومدرب.</li><li>استخدام قطع غيار أصلية.</li><li>ضمان على العمل والتنفيذ.</li></ul>
-<h2>تفاصيل الخدمة</h2>
-<p>نحن نضمن لك جودة عالية وسرعة في الإنجاز. تواصل معنا اليوم لمعرفة المزيد.</p>
+                    <p><p class='lead'>لوحات ستار دلتا (Star-Delta) هي الحل الأمثل لتشغيل المحركات الكبيرة (فوق 15 حصان) لحمايتها من تيار البدء العالي. نحن في روائع الكريستال نصمم ونجمع أفضل اللوحات الصناعية.</p></p>
+<h2>مكونات لوحة الستار دلتا القياسية</h2>
+<p>نحرص على استخدام مكونات أوروبية (Schneider, ABB) لضمان الاستدامة:</p>
+<ul><li><strong>3 كونتاكتورات رئيسية:</strong> (Main, Delta, Star) تتحمل الحمل الكامل.</li><li><strong>مؤقت زمني (Timer):</strong> للتحويل الدقيق من ستار إلى دلتا.</li><li><strong>قواطع حماية (Overload Relay):</strong> لحماية المحرك من الحمل الزائد.</li><li><strong>فاز فيلير (Phase Sequence):</strong> لمنع تشغيل المحرك في حال نقص أو قلب الفازات.</li></ul>
+<h2>لماذا تختار لوحاتنا؟</h2>
+<p>نقدم تصميم هندسي يراعي التهوية الجيدة للوحة، وترتيب الأسلاك (Cable Management)، مع مخطط كهربائي (Diagram) ملصق على الباب لسهولة الصيانة مستقبلاً. لوحاتنا مناسبة للمزارع، المصانع، ومضخات الحريق.</p>
 
 
                     <!-- Call to Action -->
@@ -153,7 +154,7 @@ include '../includes/config.php';
     </article>
 
     <?php include '../includes/footer.php'; ?>
-    <script src="../js/main.min.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>

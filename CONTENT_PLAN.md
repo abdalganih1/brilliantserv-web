@@ -10,36 +10,36 @@
 - [P] Published to Server
 
 ## Hub 1: Water Pumps (مضخات المياه)
-- [P] `blog/pump-repair-north-riyadh.php` - تصليح مضخات مياه شمال الرياض
-- [P] `blog/grundfos-pump-agent-riyadh.php` - وكيل مضخات Grundfos الرياض
-- [P] `blog/ksb-pump-maintenance.php` - صيانة مضخات KSB
-- [P] `blog/weak-water-pressure-solution.php` - حل مشكلة ضعف ضغط الماء
-- [P] `blog/pump-humming-sound.php` - أسباب صوت طنين المضخة
-- [P] `blog/home-water-pump-types.php` - أنواع مضخات المياه المنزلية
-- [ ] `blog/pump-installation-east-riyadh.php` - تركيب مضخات شرق الرياض
-- [ ] `blog/booster-pump-repair.php` - تصليح مضخات الدفع (Booster)
-- [ ] `blog/submersible-pump-problems.php` - مشاكل الغطاسات وحلها
+- [x] `blog/pump-repair-north-riyadh.php` - تصليح مضخات مياه شمال الرياض
+- [x] `blog/grundfos-pump-agent-riyadh.php` - وكيل مضخات Grundfos الرياض
+- [x] `blog/ksb-pump-maintenance.php` - صيانة مضخات KSB
+- [x] `blog/weak-water-pressure-solution.php` - حل مشكلة ضعف ضغط الماء
+- [x] `blog/pump-humming-sound.php` - أسباب صوت طنين المضخة
+- [x] `blog/home-water-pump-types.php` - أنواع مضخات المياه المنزلية
+- [x] `blog/pump-installation-east-riyadh.php` - تركيب مضخات شرق الرياض
+- [x] `blog/booster-pump-repair.php` - تصليح مضخات الدفع (Booster)
+- [x] `blog/submersible-pump-problems.php` - مشاكل الغطاسات وحلها
 
 ## Hub 2: Control Panels (لوحات التحكم)
-- [ ] `blog/star-delta-panel-manufacturing.php` - تصنيع لوحات ستار دلتا
-- [ ] `blog/vfd-programming-pumps.php` - برمجة انفرتر VFD للمضخات
-- [ ] `blog/control-panel-prices-2026.php` - أسعار لوحات التحكم 2026
+- [x] `blog/star-delta-panel-manufacturing.php` - تصنيع لوحات ستار دلتا
+- [x] `blog/vfd-programming-pumps.php` - برمجة انفرتر VFD للمضخات
+- [x] `blog/control-panel-prices-2026.php` - أسعار لوحات التحكم 2026
 
 ## Hub 3: HVAC & Ducting (التكييف والتهوية)
-- [ ] `blog/central-chiller-maintenance.php` - صيانة تشيلرات مركزي
-- [ ] `blog/ac-duct-cleaning.php` - تنظيف دكت مكيفات
-- [ ] `blog/industrial-exhaust-fan-installation.php` - تركيب مراوح شفط صناعية
-- [P] `blog/central-ac-maintenance-riyadh.php` - صيانة تكييف مركزي بالرياض
+- [x] `blog/central-chiller-maintenance.php` - صيانة تشيلرات مركزي
+- [x] `blog/ac-duct-cleaning.php` - تنظيف دكت مكيفات
+- [x] `blog/industrial-exhaust-fan-installation.php` - تركيب مراوح شفط صناعية
+- [x] `blog/central-ac-maintenance-riyadh.php` - صيانة تكييف مركزي بالرياض
 
 ## Hub 4: Fire Fighting Systems (أنظمة الحريق)
-- [ ] `blog/jockey-fire-pump-maintenance.php` - صيانة مضخات الحريق جوكي
-- [ ] `blog/fire-network-filling.php` - تعبئة شبكة الحريق
-- [ ] `blog/civil-defense-approved-companies.php` - شركات معتمدة للدفاع المدني
+- [x] `blog/jockey-fire-pump-maintenance.php` - صيانة مضخات الحريق جوكي
+- [x] `blog/fire-network-filling.php` - تعبئة شبكة الحريق
+- [x] `blog/civil-defense-approved-companies.php` - شركات معتمدة للدفاع المدني
 
 ## Hub 5: Factory Maintenance (صيانة المصانع)
-- [ ] `blog/electric-motor-winding.php` - لف محركات كهربائية
-- [ ] `blog/production-line-maintenance.php` - صيانة خطوط إنتاج
-- [ ] `blog/mechanical-fan-balancing.php` - توازن ميكانيكي للمراوح
+- [x] `blog/electric-motor-winding.php` - لف محركات كهربائية
+- [x] `blog/production-line-maintenance.php` - صيانة خطوط إنتاج
+- [x] `blog/mechanical-fan-balancing.php` - توازن ميكانيكي للمراوح
 
 ## Other Services (From Existing Files)
 - [P] `blog/leak-detection-jeddah.php` - كشف تسربات المياه بجدة

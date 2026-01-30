@@ -17,7 +17,7 @@ include '../includes/config.php';
 
     <!-- SEO Meta Tags -->
     <title>تصليح مضخات الدفع (Booster) في الرياض - روائع الكريستال</title>
-    <meta name="description" content="مقالة شاملة عن تصليح مضخات الدفع (Booster) في الرياض. نقدم أفضل خدمات تصليح مضخات الدفع في الرياض وجدة. اتصل بنا 0550698111.">
+    <meta name="description" content="تصليح وصيانة مضخات البوستر (Booster) بالرياض. حل مشاكل ضعف الضغط، استبدال البالونات، وصيانة لوحات التحكم بأيدي مهندسين مختصين. اتصل 0550698111">
     <meta name="keywords" content="تصليح مضخات الدفع, صيانة, تركيب, السعودية">
     <meta name="author" content="مؤسسة روائع الكريستال">
     <meta name="robots" content="index, follow, max-image-preview:large">
@@ -31,16 +31,16 @@ include '../includes/config.php';
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
     <meta property="og:title" content="تصليح مضخات الدفع (Booster) في الرياض - روائع الكريستال">
-    <meta property="og:description" content="مقالة شاملة عن تصليح مضخات الدفع (Booster) في الرياض. نقدم أفضل خدمات تصليح مضخات الدفع في الرياض وجدة. اتصل بنا 0550698111.">
+    <meta property="og:description" content="تصليح وصيانة مضخات البوستر (Booster) بالرياض. حل مشاكل ضعف الضغط، استبدال البالونات، وصيانة لوحات التحكم بأيدي مهندسين مختصين. اتصل 0550698111">
     <meta property="og:image" content="https://brilliantserv.com/media/blog/pump-repair-north-riyadh.webp">
     <meta property="og:url" content="https://brilliantserv.com/blog/booster-pump-repair.php">
     <meta property="og:site_name" content="روائع الكريستال">
-    <meta property="article:published_time" content="2026-01-30T21:37:26.291960">
+    <meta property="article:published_time" content="2026-01-30T22:37:35.192370">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="تصليح مضخات الدفع (Booster) في الرياض - روائع الكريستال">
-    <meta property="twitter:description" content="مقالة شاملة عن تصليح مضخات الدفع (Booster) في الرياض. نقدم أفضل خدمات تصليح مضخات الدفع في الرياض وجدة. اتصل بنا 0550698111.">
+    <meta property="twitter:description" content="تصليح وصيانة مضخات البوستر (Booster) بالرياض. حل مشاكل ضعف الضغط، استبدال البالونات، وصيانة لوحات التحكم بأيدي مهندسين مختصين. اتصل 0550698111">
     <meta property="twitter:image" content="https://brilliantserv.com/media/blog/pump-repair-north-riyadh.webp">
 
     <!-- JSON-LD Schema -->
@@ -71,7 +71,7 @@ include '../includes/config.php';
         }
     },
     "areaServed": "الرياض",
-    "description": "مقالة شاملة عن تصليح مضخات الدفع (Booster) في الرياض. نقدم أفضل خدمات تصليح مضخات الدفع في الرياض وجدة. اتصل بنا 0550698111."
+    "description": "تصليح وصيانة مضخات البوستر (Booster) بالرياض. حل مشاكل ضعف الضغط، استبدال البالونات، وصيانة لوحات التحكم بأيدي مهندسين مختصين. اتصل 0550698111"
 }</script>
 <script type="application/ld+json">{
     "@context": "https://schema.org",
@@ -129,11 +129,13 @@ include '../includes/config.php';
 
                 <!-- Article Body -->
                 <div class="article-body">
-                    <p><p class='lead'>تعتبر تصليح مضخات الدفع من الخدمات الأساسية التي نقدمها في مؤسسة روائع الكريستال. في هذا المقال، سنناقش أهم الجوانب التقنية.</p></p>
-<h2>لماذا تختار خدماتنا؟</h2>
-<ul><li>فريق فني متخصص ومدرب.</li><li>استخدام قطع غيار أصلية.</li><li>ضمان على العمل والتنفيذ.</li></ul>
-<h2>تفاصيل الخدمة</h2>
-<p>نحن نضمن لك جودة عالية وسرعة في الإنجاز. تواصل معنا اليوم لمعرفة المزيد.</p>
+                    <p><p class='lead'>مضخات الدفع (Booster Pumps) هي عصب شبكة المياه في المباني الشاهقة والفنادق. تعطلها يعني انقطاع المياه عن الأدوار العليا. في روائع الكريستال، نقدم خدمة تصليح فورية لضمان استمرار تدفق المياه.</p></p>
+<h2>أشهر أعطال مضخات البوستر</h2>
+<p>من خلال خبرتنا الميدانية، تواجه هذه المضخات مشاكل متكررة مثل:</p>
+<ul><li><strong>تلف البالونات (Pressure Tanks):</strong> يؤدي إلى تشغيل المضخة وإيقافها بشكل متكرر وسريع (Tcycling)، مما يحرق المحرك.</li><li><strong>تسريب في الصوفة (Mechanical Seal):</strong> يظهر على شكل ماء يقطر أسفل المضخة.</li><li><strong>مشاكل لوحة التحكم:</strong> عدم التبديل بين المضخات (Alternation) مما يستهلك مضخة واحدة ويترك الأخرى.</li></ul>
+<h2>لماذا يجب صيانة البوستر فوراً؟</h2>
+<p>إهمال صيانة نظام البوستر لا يؤدي فقط لانقطاع المياه، بل قد يسبب انفجار في المواسير القديمة بسبب اختلال الضغط (Water Hammer). صيانتنا تشمل فحص ضغط البالونات، ضبط مفاتيح الضغط (Pressure Switches)، وفحص الامبيرات.</p>
+<p>نستخدم قطع غيار أصلية من ماركات عالمية مثل <strong>Grundfos</strong> و <strong>Ebara</strong> و <strong>KSB</strong> لضمان أطول عمر افتراضي.</p>
 
 
                     <!-- Call to Action -->
@@ -153,7 +155,7 @@ include '../includes/config.php';
     </article>
 
     <?php include '../includes/footer.php'; ?>
-    <script src="../js/main.min.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>
