@@ -96,7 +96,7 @@ include 'includes/config.php';
                     [
                         'title' => 'كشف تسربات المياه بجدة بدون تكسير',
                         'date' => '24 يناير 2026',
-                        'image' => '../../media/hero-mechanic-pumps.png',
+                        'image' => '../../media/blog/leak-detection.webp',
                         'alt' => 'كشف تسربات المياه بجدة',
                         'desc' => 'هل تعاني من ارتفاع فاتورة المياه؟ اكتشف الحلول الجذرية لمشاكل التسربات بأحدث الأجهزة...',
                         'link' => 'blog/leak-detection-jeddah.php'
