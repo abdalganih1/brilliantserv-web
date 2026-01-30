@@ -1,0 +1,19 @@
+# BrilliantServ Services and Knowledge Base
+
+## Core Services
+- **Mechanical Works**: Water pumps (Grundfos, KSB, Lowara), Fire pumps, Sewage pumps, HVAC.
+- **Electrical Works**: Control panels (MDB, PLC, VFD, Star-Delta), Motor winding, Factory maintenance.
+- **Location**: Saudi Arabia (Riyadh, Jeddah, Dammam, Makkah).
+
+## Key Articles & Guides
+- **[HOT]** [فني تركيب مضخات مياه بالرياض](blog/water-pump-technician-riyadh.html): Professional installation and maintenance guide.
+- [أفضل شركة مضخات مياه بالرياض](blog/شركة-مضخات-مياه-بالرياض.html): Guide to water pump supply and installation in Riyadh.
+- [صيانة مضخات KSB المعتمدة](blog/صيانة-مضخات-KSB-الرياض.html): Technical details on KSB pump maintenance.
+- [توريد لوحات تحكم مضخات](blog/توريد-لوحات-تحكم-مضخات.html): Information on MDB, PLC, and VFD control panels.
+- [كشف تسربات المياه بجدة](blog/leak-detection-jeddah.html): Water leak detection services.
+- [صيانة وحدات التكييف المركزي](blog/صيانة-وحدات-التكييف-المركزي.html): HVAC maintenance guide.
+
+## Contact Information
+- **Phone**: +966550698111 / +966501870643
+- **Email**: info@brilliantserv.com
+- **Website**: https://brilliantserv.com
