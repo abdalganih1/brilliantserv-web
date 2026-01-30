@@ -21,6 +21,34 @@ include '../includes/config.php';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap"
         rel="stylesheet">
+        <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "أفضل شركة عزل خزانات بمكة للحفاظ على نقاء المياه",
+    "description": "خدمات عزل وخزانات المياه بمكة المكرمة بمواد عزل آمنة ومعتمدة. نظافة وتعقيم وعزل مائي وحراري لضمان مياه نقية.",
+    "image": "https://brilliantserv.com/media/mechanic-project.webp",
+    "datePublished": "2026-01-23",
+    "dateModified": "2026-01-23",
+    "author": {
+        "@type": "Organization",
+        "name": "روائع الكريستال"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "روائع الكريستال",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://brilliantserv.com/media/brilliantcrystal-hd.webp"
+        }
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://brilliantserv.com/blog/tank-insulation-makkah.php"
+    }
+}
+    </script>
     <?php include '../includes/head.php'; ?>
 </head>
 
@@ -44,7 +72,7 @@ include '../includes/config.php';
             <div class="article-wrapper">
                 <!-- Featured Image -->
                 <div class="article-image">
-                    <img src="../../media/mechanic-project.webp" alt="أفضل شركة عزل خزانات بمكة للحفاظ على نقاء المياه">
+                    <img src="../../media/mechanic-project.webp" alt="أفضل شركة عزل خزانات بمكة للحفاظ على نقاء المياه" loading="lazy">
                 </div>
 
                 <!-- Article Body -->
@@ -93,7 +121,7 @@ include '../includes/config.php';
 
     <?php include '../includes/footer.php'; ?>
 
-    <script src="../js/main.js"></script>
+    <script src="../js/main.min.js"></script>
 </body>
 
 </html>

@@ -36,7 +36,7 @@ include '../includes/config.php';
     <meta property="og:title" content="أفضل فني تصليح مضخات مياه شمال الرياض - خدمة 24 ساعة">
     <meta property="og:description"
         content="هل تبحث عن فني مضخات مياه شمال الرياض؟ نقدم خدمة تصليح وصيانة جميع أنواع المضخات مع ضمان شامل وقطع غيار أصلية.">
-    <meta property="og:image" content="https://brilliantserv.com/media/hero-mechanic-pumps.png">
+    <meta property="og:image" content="https://brilliantserv.com/media/hero-mechanic-pumps.webp">
     <meta property="og:locale" content="ar_SA">
     <meta property="og:site_name" content="روائع الكريستال">
     <meta property="article:published_time" content="2026-01-30T18:00:00+03:00">
@@ -48,7 +48,7 @@ include '../includes/config.php';
     <meta property="twitter:title" content="أفضل فني تصليح مضخات مياه شمال الرياض - خدمة 24 ساعة">
     <meta property="twitter:description"
         content="هل تبحث عن فني مضخات مياه شمال الرياض؟ نقدم خدمة تصليح وصيانة جميع أنواع المضخات مع ضمان شامل وقطع غيار أصلية.">
-    <meta property="twitter:image" content="https://brilliantserv.com/media/hero-mechanic-pumps.png">
+    <meta property="twitter:image" content="https://brilliantserv.com/media/hero-mechanic-pumps.webp">
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
@@ -57,7 +57,7 @@ include '../includes/config.php';
         "@type": "Article",
         "headline": "أفضل فني تصليح مضخات مياه شمال الرياض - خدمة 24 ساعة",
         "description": "دليل شامل لخدمات تصليح وصيانة مضخات المياه في شمال الرياض مع قطع غيار أصلية وضمان شامل",
-        "image": "https://brilliantserv.com/media/hero-mechanic-pumps.png",
+        "image": "https://brilliantserv.com/media/hero-mechanic-pumps.webp",
         "datePublished": "2026-01-30",
         "dateModified": "2026-01-30",
         "author": {
@@ -70,7 +70,7 @@ include '../includes/config.php';
             "name": "مؤسسة روائع الكريستال",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://brilliantserv.com/media/brilliantcrystal-hd.png"
+                "url": "https://brilliantserv.com/media/brilliantcrystal-hd.webp"
             }
         },
         "mainEntityOfPage": {
@@ -175,7 +175,7 @@ include '../includes/config.php';
             <div class="article-wrapper">
                 <!-- Featured Image -->
                 <div class="article-image">
-                    <img src="../../media/hero-mechanic-pumps.png"
+                    <img src="../../media/hero-mechanic-pumps.webp"
                         alt="فني تصليح مضخات مياه شمال الرياض - روائع الكريستال">
                 </div>
 
@@ -307,7 +307,7 @@ include '../includes/config.php';
 
     <?php include '../includes/footer.php'; ?>
 
-    <script src="../js/main.js"></script>
+    <script src="../js/main.min.js"></script>
 </body>
 
 </html>

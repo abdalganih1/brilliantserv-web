@@ -40,7 +40,7 @@ include 'includes/config.php';
     <meta property="og:title" content="المدونة | نصائح الصيانة والأعمال الهندسية - روائع الكريستال">
     <meta property="og:description"
         content="مقالات ونصائح متخصصة في صيانة التكييف، كشف التسربات، عزل الخزانات والأسطح. دليلك للحفاظ على منشأتك">
-    <meta property="og:image" content="https://brilliantserv.com/media/hero-mechanic-pumps.png">
+    <meta property="og:image" content="https://brilliantserv.com/media/hero-mechanic-pumps.webp">
     <meta property="og:locale" content="ar_SA">
     <meta property="og:site_name" content="روائع الكريستال">
 
@@ -50,17 +50,57 @@ include 'includes/config.php';
     <meta property="twitter:title" content="المدونة | نصائح الصيانة والأعمال الهندسية - روائع الكريستال">
     <meta property="twitter:description"
         content="مقالات ونصائح متخصصة في صيانة التكييف، كشف التسربات، عزل الخزانات والأسطح. دليلك للحفاظ على منشأتك">
-    <meta property="twitter:image" content="https://brilliantserv.com/media/hero-mechanic-pumps.png">
+    <meta property="twitter:image" content="https://brilliantserv.com/media/hero-mechanic-pumps.webp">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="media/brilliantcrystal-hd.png">
-    <link rel="apple-touch-icon" href="media/brilliantcrystal-hd.png">
+    <link rel="icon" type="image/png" href="media/brilliantcrystal-hd.webp">
+    <link rel="apple-touch-icon" href="media/brilliantcrystal-hd.webp">
 
     <!-- Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap"
         rel="stylesheet">
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "الرئيسية",
+                        "item": "https://brilliantserv.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "المدونة",
+                        "item": "https://brilliantserv.com/blog.php"
+                    }
+                ]
+            },
+            {
+                "@type": "CollectionPage",
+                "headline": "المدونة الهندسية - نصائح وحلول الصيانة",
+                "description": "اكتشف أحدث المقالات والنصائح في مجال صيانة المضخات، كشف التسربات، والأعمال الكهربائية من خبراء روائع الكريستال.",
+                "url": "https://brilliantserv.com/blog.php",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "روائع الكريستال",
+                    "url": "https://brilliantserv.com",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://brilliantserv.com/media/brilliantcrystal-hd.webp"
+                    }
+                }
+            }
+        ]
+    }
+    </script>
     <?php include 'includes/head.php'; ?>
 </head>
 
@@ -148,13 +188,19 @@ include 'includes/config.php';
                         <article class="blog-card">
                             <div class="blog-image">
                                 <!-- Use a placeholder or reliable path -->
-                                <img src="<?php echo htmlspecialchars($img_src); ?>"
-                                    alt="<?php echo htmlspecialchars($article['alt']); ?>" loading="lazy">
+                                <img src="<?php echo htmlspecialchars($img_src); ?>" loading="lazy"
+                                    alt="<?php echo htmlspecialchars($article['alt']); ?>">
                             </div>
                             <div class="blog-content">
-                                <span class="blog-date"><?php echo htmlspecialchars($article['date']); ?></span>
-                                <h3><?php echo htmlspecialchars($article['title']); ?></h3>
-                                <p><?php echo htmlspecialchars($article['desc']); ?></p>
+                                <span class="blog-date">
+                                    <?php echo htmlspecialchars($article['date']); ?>
+                                </span>
+                                <h3>
+                                    <?php echo htmlspecialchars($article['title']); ?>
+                                </h3>
+                                <p>
+                                    <?php echo htmlspecialchars($article['desc']); ?>
+                                </p>
                                 <a href="<?php echo htmlspecialchars($article['link']); ?>" class="read-more">قراءة المزيد</a>
                             </div>
                         </article>
@@ -248,7 +294,7 @@ include 'includes/config.php';
 
     <?php include 'includes/footer.php'; ?>
 
-    <script src="js/main.js"></script>
+    <script src="js/main.min.js"></script>
 </body>
 
 </html>

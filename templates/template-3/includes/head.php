@@ -13,5 +13,5 @@
 <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
 
 <!-- Stylesheets -->
-<link rel="stylesheet" href="<?= $base_path ?>css/style.css">
-<link rel="stylesheet" href="<?= $base_path ?>css/pages.css">
+<link rel="stylesheet" href="<?= $base_path ?>css/style.min.css">
+<link rel="stylesheet" href="<?= $base_path ?>css/pages.min.css">

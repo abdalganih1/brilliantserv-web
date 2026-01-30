@@ -24,6 +24,34 @@ include '../includes/config.php';
     <meta property="og:title" content="المضخة تصدر صوت طنين ولا تعمل؟">
     <meta property="og:image" content="https://brilliantserv.com/media/blog/pump-humming-sound.webp">
 
+        <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "صوت \"طنين\" من المضخة.. ماذا يعني؟",
+    "description": "هل تسمع صوت",
+    "image": "https://brilliantserv.com/media/blog/pump-humming-sound.webp",
+    "datePublished": "2026-01-30",
+    "dateModified": "2026-01-30",
+    "author": {
+        "@type": "Organization",
+        "name": "روائع الكريستال"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "روائع الكريستال",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://brilliantserv.com/media/brilliantcrystal-hd.webp"
+        }
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://brilliantserv.com/blog/pump-humming-sound.php"
+    }
+}
+    </script>
     <?php include '../includes/head.php'; ?>
 </head>
 
@@ -44,7 +72,7 @@ include '../includes/config.php';
         <div class="container">
             <div class="article-wrapper">
                 <div class="article-image">
-                    <img src="../../media/blog/pump-humming-sound.webp" alt="فني يفحص صوت محرك المضخة">
+                    <img src="../../media/blog/pump-humming-sound.webp" alt="فني يفحص صوت محرك المضخة" loading="lazy">
                 </div>
 
                 <div class="article-body">
@@ -84,7 +112,7 @@ include '../includes/config.php';
     </article>
 
     <?php include '../includes/footer.php'; ?>
-    <script src="../js/main.js"></script>
+    <script src="../js/main.min.js"></script>
 </body>
 
 </html>

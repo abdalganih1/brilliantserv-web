@@ -34,7 +34,7 @@
       "colors": ["#0a0a0a", "#00ff88", "#ff8c00"],
       "description": "تصميم مطابق للهوية البصرية للشركة. ألوان نيون خضراء مع لمسات برتقالية ذهبية. يركز على المضخات ولوحات التحكم مع عرض شهادات وشعارات العملاء.",
       "features": ["المضخات والبوسترات", "لوحات التحكم", "شهادات معتمدة", "شعارات العملاء", "مراجع الشركة"],
-      "preview": "ملفات المستخدم/extracted/images/page1_img8.jpeg",
+      "preview": "ملفات المستخدم/extracted/images/page1_img8.webp",
       "pages": ["index", "about", "pumps", "control-panels", "projects", "contact"]
     },
     {
@@ -46,7 +46,7 @@
       "colors": ["#ffffff", "#10b981", "#1f2937"],
       "description": "تصميم نظيف وبسيط بخلفية بيضاء. مثالي للمظهر الحديث والمريح للعين. يتميز بصور Hero احترافية وعرض شعارات العملاء.",
       "features": ["تصميم عصري", "صور Hero احترافية", "شعارات العملاء", "سهولة القراءة"],
-      "preview": "ملفات المستخدم/extracted/images/page10_img5.jpeg",
+      "preview": "ملفات المستخدم/extracted/images/page10_img5.webp",
       "pages": ["index", "about", "projects", "contact"]
     },
     {

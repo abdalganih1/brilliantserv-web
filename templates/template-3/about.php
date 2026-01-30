@@ -41,7 +41,7 @@ include 'includes/config.php';
     <meta property="og:title" content="من نحن | روائع الكريستال - شريكك الهندسي المعتمد منذ 2010">
     <meta property="og:description"
         content="تعرف على مؤسسة روائع الكريستال، خبرة 15+ عام في الأعمال الكهربائية والميكانيكية. شهادات معتمدة، 500+ مشروع ناجح. اتصل 0550698111">
-    <meta property="og:image" content="https://brilliantserv.com/media/about-team-work.png">
+    <meta property="og:image" content="https://brilliantserv.com/media/about-team-work.webp">
     <meta property="og:locale" content="ar_SA">
     <meta property="og:site_name" content="روائع الكريستال">
 
@@ -51,17 +51,71 @@ include 'includes/config.php';
     <meta property="twitter:title" content="من نحن | روائع الكريستال - شريكك الهندسي المعتمد منذ 2010">
     <meta property="twitter:description"
         content="تعرف على مؤسسة روائع الكريستال، خبرة 15+ عام في الأعمال الكهربائية والميكانيكية. شهادات معتمدة، 500+ مشروع ناجح. اتصل 0550698111">
-    <meta property="twitter:image" content="https://brilliantserv.com/media/about-team-work.png">
+    <meta property="twitter:image" content="https://brilliantserv.com/media/about-team-work.webp">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="media/brilliantcrystal-hd.png">
-    <link rel="apple-touch-icon" href="media/brilliantcrystal-hd.png">
+    <link rel="icon" type="image/png" href="media/brilliantcrystal-hd.webp">
+    <link rel="apple-touch-icon" href="media/brilliantcrystal-hd.webp">
 
     <!-- Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap"
         rel="stylesheet">
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "الرئيسية",
+                        "item": "https://brilliantserv.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "من نحن",
+                        "item": "https://brilliantserv.com/about.html"
+                    }
+                ]
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "كم سنة خبرة لديكم في السوق السعودي؟",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "تمتلك مؤسسة روائع الكريستال خبرة تمتد لأكثر من 15 عاماً في مجال المقاولات الكهروميكانيكية في المملكة العربية السعودية."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "هل المؤسسة معتمدة رسمياً؟",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "نعم، مؤسستنا نظامية ومعتمدة، ولدينا كافة التراخيص اللازمة بما في ذلك السجل التجاري وترخيص الدفاع المدني وشهادات الجودة."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "كيف يمكنني طلب عرض سعر؟",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "يمكنك التواصل معنا مباشرة عبر الهاتف 0550698111 أو الواتساب، أو زيارة صفحة 'تواصل معنا' لتعبئة النموذج وسنقوم بالرد عليك فوراً."
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+    </script>
     <?php include 'includes/head.php'; ?>
 </head>
 
@@ -94,7 +148,7 @@ include 'includes/config.php';
                 </div>
                 <div class="about-image">
                     <div class="image-wrapper">
-                        <img src="../../media/about-team-work.png" alt="فريق العمل" loading="lazy">
+                        <img src="../../media/about-team-work.webp" alt="فريق العمل" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -278,7 +332,7 @@ include 'includes/config.php';
                     <img src="../../ملفات المستخدم/شهادات/شهادة تسليم.png" alt="شهادة تسليم" loading="lazy">
                 </div>
                 <div class="cert-card">
-                    <img src="../../ملفات المستخدم/شهادات/شهادة تسليم 2.png" alt="شهادة تسليم مشروع" loading="lazy">
+                    <img src="../../ملفات المستخدم/شهادات/شهادة تسليم 2.webp" alt="شهادة تسليم مشروع" loading="lazy">
                 </div>
                 <div class="cert-card">
                     <img src="../../ملفات المستخدم/شهادات/شهادة تسليم مخططات سلامة.png" alt="شهادة تسليم مخططات سلامة"
@@ -296,7 +350,7 @@ include 'includes/config.php';
                     <img src="../../ملفات المستخدم/شهادات/شهادة.png" alt="شهادة" loading="lazy">
                 </div>
                 <div class="cert-card">
-                    <img src="../../ملفات المستخدم/شهادات/شهادة 2.png" alt="شهادة 2" loading="lazy">
+                    <img src="../../ملفات المستخدم/شهادات/شهادة 2.webp" alt="شهادة 2" loading="lazy">
                 </div>
                 <div class="cert-card">
                     <img src="../../ملفات المستخدم/شهادات/قائمة الفروع.png" alt="قائمة الفروع" loading="lazy">
@@ -315,49 +369,49 @@ include 'includes/config.php';
             </div>
             <div class="references-grid">
                 <div class="reference-card">
-                    <img src="../../ملفات المستخدم/مراجعنا/12.png" alt="مرجع 1" loading="lazy">
+                    <img src="../../ملفات المستخدم/مراجعنا/12.webp" alt="مرجع 1" loading="lazy">
                 </div>
                 <div class="reference-card">
-                    <img src="../../ملفات المستخدم/مراجعنا/13.png" alt="مرجع 2" loading="lazy">
+                    <img src="../../ملفات المستخدم/مراجعنا/13.webp" alt="مرجع 2" loading="lazy">
                 </div>
                 <div class="reference-card">
-                    <img src="../../ملفات المستخدم/مراجعنا/14.png" alt="مرجع 3" loading="lazy">
+                    <img src="../../ملفات المستخدم/مراجعنا/14.webp" alt="مرجع 3" loading="lazy">
                 </div>
                 <div class="reference-card">
-                    <img src="../../ملفات المستخدم/مراجعنا/15.png" alt="مرجع 4" loading="lazy">
+                    <img src="../../ملفات المستخدم/مراجعنا/15.webp" alt="مرجع 4" loading="lazy">
                 </div>
                 <div class="reference-card">
-                    <img src="../../ملفات المستخدم/مراجعنا/16.png" alt="مرجع 5" loading="lazy">
+                    <img src="../../ملفات المستخدم/مراجعنا/16.webp" alt="مرجع 5" loading="lazy">
                 </div>
                 <div class="reference-card">
-                    <img src="../../ملفات المستخدم/مراجعنا/17.png" alt="مرجع 6" loading="lazy">
+                    <img src="../../ملفات المستخدم/مراجعنا/17.webp" alt="مرجع 6" loading="lazy">
                 </div>
                 <div class="reference-card">
-                    <img src="../../ملفات المستخدم/مراجعنا/18.png" alt="مرجع 7" loading="lazy">
+                    <img src="../../ملفات المستخدم/مراجعنا/18.webp" alt="مرجع 7" loading="lazy">
                 </div>
                 <div class="reference-card">
-                    <img src="../../ملفات المستخدم/مراجعنا/19.png" alt="مرجع 8" loading="lazy">
+                    <img src="../../ملفات المستخدم/مراجعنا/19.webp" alt="مرجع 8" loading="lazy">
                 </div>
                 <div class="reference-card">
-                    <img src="../../ملفات المستخدم/مراجعنا/20.png" alt="مرجع 9" loading="lazy">
+                    <img src="../../ملفات المستخدم/مراجعنا/20.webp" alt="مرجع 9" loading="lazy">
                 </div>
                 <div class="reference-card">
-                    <img src="../../ملفات المستخدم/مراجعنا/21.png" alt="مرجع 10" loading="lazy">
+                    <img src="../../ملفات المستخدم/مراجعنا/21.webp" alt="مرجع 10" loading="lazy">
                 </div>
                 <div class="reference-card">
-                    <img src="../../ملفات المستخدم/مراجعنا/22.png" alt="مرجع 11" loading="lazy">
+                    <img src="../../ملفات المستخدم/مراجعنا/22.webp" alt="مرجع 11" loading="lazy">
                 </div>
                 <div class="reference-card">
-                    <img src="../../ملفات المستخدم/مراجعنا/23.png" alt="مرجع 12" loading="lazy">
+                    <img src="../../ملفات المستخدم/مراجعنا/23.webp" alt="مرجع 12" loading="lazy">
                 </div>
                 <div class="reference-card">
-                    <img src="../../ملفات المستخدم/مراجعنا/24.png" alt="مرجع 13" loading="lazy">
+                    <img src="../../ملفات المستخدم/مراجعنا/24.webp" alt="مرجع 13" loading="lazy">
                 </div>
                 <div class="reference-card">
-                    <img src="../../ملفات المستخدم/مراجعنا/25.png" alt="مرجع 14" loading="lazy">
+                    <img src="../../ملفات المستخدم/مراجعنا/25.webp" alt="مرجع 14" loading="lazy">
                 </div>
                 <div class="reference-card">
-                    <img src="../../ملفات المستخدم/مراجعنا/26.png" alt="مرجع 15" loading="lazy">
+                    <img src="../../ملفات المستخدم/مراجعنا/26.webp" alt="مرجع 15" loading="lazy">
                 </div>
             </div>
         </div>
@@ -373,41 +427,73 @@ include 'includes/config.php';
         </div>
         <div class="clients-marquee">
             <div class="clients-track">
-                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/1.png" alt="عميل 1"
+                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/1.webp" alt="عميل 1"
                         loading="lazy"></div>
-                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/2.png" alt="عميل 2"
+                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/2.webp" alt="عميل 2"
                         loading="lazy"></div>
-                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/3.png" alt="عميل 3"
+                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/3.webp" alt="عميل 3"
                         loading="lazy"></div>
-                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/4.png" alt="عميل 4"
+                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/4.webp" alt="عميل 4"
                         loading="lazy"></div>
-                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/5.png" alt="عميل 5"
+                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/5.webp" alt="عميل 5"
                         loading="lazy"></div>
-                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/6.png" alt="عميل 6"
+                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/6.webp" alt="عميل 6"
                         loading="lazy"></div>
-                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/7.png" alt="عميل 7"
+                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/7.webp" alt="عميل 7"
                         loading="lazy"></div>
-                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/8.png" alt="عميل 8"
+                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/8.webp" alt="عميل 8"
                         loading="lazy"></div>
-                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/9.png" alt="عميل 9"
+                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/9.webp" alt="عميل 9"
                         loading="lazy"></div>
-                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/10.png" alt="عميل 10"
+                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/10.webp" alt="عميل 10"
                         loading="lazy"></div>
-                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/11.png" alt="عميل 11"
+                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/11.webp" alt="عميل 11"
                         loading="lazy"></div>
                 <!-- Duplicate for seamless loop -->
-                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/1.png" alt="عميل 1"
+                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/1.webp" alt="عميل 1"
                         loading="lazy"></div>
-                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/2.png" alt="عميل 2"
+                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/2.webp" alt="عميل 2"
                         loading="lazy"></div>
-                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/3.png" alt="عميل 3"
+                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/3.webp" alt="عميل 3"
                         loading="lazy"></div>
-                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/4.png" alt="عميل 4"
+                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/4.webp" alt="عميل 4"
                         loading="lazy"></div>
-                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/5.png" alt="عميل 5"
+                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/5.webp" alt="عميل 5"
                         loading="lazy"></div>
-                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/6.png" alt="عميل 6"
+                <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/6.webp" alt="عميل 6"
                         loading="lazy"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" style="padding: 4rem 0; background-color: var(--color-bg-light);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">الأسئلة الشائعة</span>
+                <h2>أسئلة حول المؤسسة</h2>
+                <p>تعرف أكثر على روائع الكريستال</p>
+            </div>
+            <div class="faq-grid"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <div class="faq-item"
+                    style="background: var(--color-surface); padding: 2rem; border-radius: 12px; border: 1px solid var(--color-border);">
+                    <h3 style="margin-bottom: 1rem; color: var(--color-primary);">كم سنة خبرة لديكم؟</h3>
+                    <p style="color: var(--color-text-muted);">تمتلك مؤسسة روائع الكريستال خبرة تمتد لأكثر من 15 عاماً
+                        في مجال المقاولات الكهروميكانيكية في المملكة العربية السعودية.</p>
+                </div>
+                <div class="faq-item"
+                    style="background: var(--color-surface); padding: 2rem; border-radius: 12px; border: 1px solid var(--color-border);">
+                    <h3 style="margin-bottom: 1rem; color: var(--color-primary);">هل المؤسسة معتمدة رسمياً؟</h3>
+                    <p style="color: var(--color-text-muted);">نعم، مؤسستنا نظامية ومعتمدة، ولدينا كافة التراخيص اللازمة
+                        بما في ذلك السجل التجاري وترخيص الدفاع المدني وشهادات الجودة.</p>
+                </div>
+                <div class="faq-item"
+                    style="background: var(--color-surface); padding: 2rem; border-radius: 12px; border: 1px solid var(--color-border);">
+                    <h3 style="margin-bottom: 1rem; color: var(--color-primary);">كيف يمكنني طلب عرض سعر؟</h3>
+                    <p style="color: var(--color-text-muted);">يمكنك التواصل معنا مباشرة عبر الهاتف 0550698111 أو
+                        الواتساب، أو زيارة صفحة 'تواصل معنا' لتعبئة النموذج وسنقوم بالرد عليك فوراً.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -435,7 +521,7 @@ include 'includes/config.php';
 
     <?php include 'includes/footer.php'; ?>
 
-    <script src="js/main.js"></script>
+    <script src="js/main.min.js"></script>
 </body>
 
 </html>

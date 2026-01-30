@@ -41,7 +41,7 @@ include 'includes/config.php';
     <meta property="og:title" content="تواصل معنا | اطلب استشارة مجانية - روائع الكريستال">
     <meta property="og:description"
         content="اتصل الآن 0550698111 أو راسلنا. مؤسسة روائع الكريستال للأعمال الكهربائية والميكانيكية، الرياض">
-    <meta property="og:image" content="https://brilliantserv.com/media/brilliantcrystal-hd.png">
+    <meta property="og:image" content="https://brilliantserv.com/media/brilliantcrystal-hd.webp">
     <meta property="og:locale" content="ar_SA">
     <meta property="og:site_name" content="روائع الكريستال">
 
@@ -51,17 +51,71 @@ include 'includes/config.php';
     <meta property="twitter:title" content="تواصل معنا | اطلب استشارة مجانية - روائع الكريستال">
     <meta property="twitter:description"
         content="اتصل الآن 0550698111 أو راسلنا. مؤسسة روائع الكريستال للأعمال الكهربائية والميكانيكية، الرياض">
-    <meta property="twitter:image" content="https://brilliantserv.com/media/brilliantcrystal-hd.png">
+    <meta property="twitter:image" content="https://brilliantserv.com/media/brilliantcrystal-hd.webp">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="media/brilliantcrystal-hd.png">
-    <link rel="apple-touch-icon" href="media/brilliantcrystal-hd.png">
+    <link rel="icon" type="image/png" href="media/brilliantcrystal-hd.webp">
+    <link rel="apple-touch-icon" href="media/brilliantcrystal-hd.webp">
 
     <!-- Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap"
         rel="stylesheet">
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "الرئيسية",
+                        "item": "https://brilliantserv.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "تواصل معنا",
+                        "item": "https://brilliantserv.com/contact.html"
+                    }
+                ]
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "ما هي ساعات العمل؟",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "نعمل من السبت إلى الخميس من الساعة 8:00 صباحاً وحتى 6:00 مساءً. فرق الطوارئ متوفرة 24/7."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "كيف يمكنني الوصول إليكم؟",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "يقع مقرنا الرئيسي في الرياض. يمكنك استخدام خريطة جوجل الموجودة في أسفل الصفحة للوصول إلينا بسهولة."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "هل تقدمون خدمات الطوارئ؟",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "نعم، لدينا فريق متخصص للحالات الطارئة يعمل على مدار 24 ساعة لخدمة المصانع والمنشآت الحيوية."
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+    </script>
     <?php include 'includes/head.php'; ?>
 </head>
 
@@ -191,6 +245,37 @@ include 'includes/config.php';
         </div>
     </section>
 
+    <!-- FAQ Section -->
+    <section class="faq-section" style="padding: 4rem 0; background-color: var(--color-bg-light);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">الأسئلة الشائعة</span>
+                <h2>استفسارات التواصل</h2>
+            </div>
+            <div class="faq-grid"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <div class="faq-item"
+                    style="background: var(--color-surface); padding: 2rem; border-radius: 12px; border: 1px solid var(--color-border);">
+                    <h3 style="margin-bottom: 1rem; color: var(--color-primary);">ما هي ساعات العمل؟</h3>
+                    <p style="color: var(--color-text-muted);">نعمل من السبت إلى الخميس من الساعة 8:00 صباحاً وحتى 6:00
+                        مساءً. فرق الطوارئ متوفرة 24/7.</p>
+                </div>
+                <div class="faq-item"
+                    style="background: var(--color-surface); padding: 2rem; border-radius: 12px; border: 1px solid var(--color-border);">
+                    <h3 style="margin-bottom: 1rem; color: var(--color-primary);">هل تقدمون خدمات الطوارئ؟</h3>
+                    <p style="color: var(--color-text-muted);">نعم، لدينا فريق متخصص للحالات الطارئة يعمل على مدار 24
+                        ساعة لخدمة المصانع والمنشآت الحيوية.</p>
+                </div>
+                <div class="faq-item"
+                    style="background: var(--color-surface); padding: 2rem; border-radius: 12px; border: 1px solid var(--color-border);">
+                    <h3 style="margin-bottom: 1rem; color: var(--color-primary);">كيف يمكنني الوصول إليكم؟</h3>
+                    <p style="color: var(--color-text-muted);">يقع مقرنا الرئيسي في الرياض. يمكنك استخدام خريطة جوجل
+                        الموجودة في أسفل الصفحة للوصول إلينا بسهولة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Map Section -->
     <section class="map-section">
         <iframe
@@ -200,7 +285,7 @@ include 'includes/config.php';
 
     <?php include 'includes/footer.php'; ?>
 
-    <script src="js/main.js"></script>
+    <script src="js/main.min.js"></script>
 </body>
 
 </html>

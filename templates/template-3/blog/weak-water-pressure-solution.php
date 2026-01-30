@@ -24,6 +24,34 @@ include '../includes/config.php';
     <meta property="og:title" content="حل مشكلة ضعف ضغط الماء في المنزل">
     <meta property="og:image" content="https://brilliantserv.com/media/blog/weak-water-pressure.webp">
 
+        <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "لماذا ضغط الماء ضعيف في منزلي؟ وكيف أحله؟",
+    "description": "هل تعاني من ضعف ضغط الماء في الحنفيات والدش؟ اكتشف الأسباب والحلول العملية لزيادة ضغط المياه في منزلك. استشارة مجانية 0550698111",
+    "image": "https://brilliantserv.com/media/blog/weak-water-pressure.webp",
+    "datePublished": "2026-01-30",
+    "dateModified": "2026-01-30",
+    "author": {
+        "@type": "Organization",
+        "name": "روائع الكريستال"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "روائع الكريستال",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://brilliantserv.com/media/brilliantcrystal-hd.webp"
+        }
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://brilliantserv.com/blog/weak-water-pressure-solution.php"
+    }
+}
+    </script>
     <?php include '../includes/head.php'; ?>
 </head>
 
@@ -44,7 +72,7 @@ include '../includes/config.php';
         <div class="container">
             <div class="article-wrapper">
                 <div class="article-image">
-                    <img src="../../media/blog/weak-water-pressure.webp" alt="حنفية مياه بضغط ضعيف جداً">
+                    <img src="../../media/blog/weak-water-pressure.webp" alt="حنفية مياه بضغط ضعيف جداً" loading="lazy">
                 </div>
 
                 <div class="article-body">
@@ -77,7 +105,7 @@ include '../includes/config.php';
     </article>
 
     <?php include '../includes/footer.php'; ?>
-    <script src="../js/main.js"></script>
+    <script src="../js/main.min.js"></script>
 </body>
 
 </html>

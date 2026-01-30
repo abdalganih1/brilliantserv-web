@@ -1,19 +1,26 @@
-# BrilliantServ Services and Knowledge Base
+# PROJECT CONTEXT: BrilliantServ (Template 3)
+# ROLE: Elite AI Developer
+# GOAL: Performance optimization, SEO dominance, and high-quality code.
 
-## Core Services
-- **Mechanical Works**: Water pumps (Grundfos, KSB, Lowara), Fire pumps, Sewage pumps, HVAC.
-- **Electrical Works**: Control panels (MDB, PLC, VFD, Star-Delta), Motor winding, Factory maintenance.
-- **Location**: Saudi Arabia (Riyadh, Jeddah, Dammam, Makkah).
+## 📂 STRUCTURE
+- `templates/template-3/` is the ACTIVE production site.
+- `blog.php`: Dynamic controller for blog posts.
+- `media/`: Images (WebP format mandatory).
+- `tools/`: Python automation scripts (optimize_media.py, minify_assets.py).
 
-## Key Articles & Guides
-- **[HOT]** [فني تركيب مضخات مياه بالرياض](blog/water-pump-technician-riyadh.html): Professional installation and maintenance guide.
-- [أفضل شركة مضخات مياه بالرياض](blog/شركة-مضخات-مياه-بالرياض.html): Guide to water pump supply and installation in Riyadh.
-- [صيانة مضخات KSB المعتمدة](blog/صيانة-مضخات-KSB-الرياض.html): Technical details on KSB pump maintenance.
-- [توريد لوحات تحكم مضخات](blog/توريد-لوحات-تحكم-مضخات.html): Information on MDB, PLC, and VFD control panels.
-- [كشف تسربات المياه بجدة](blog/leak-detection-jeddah.html): Water leak detection services.
-- [صيانة وحدات التكييف المركزي](blog/صيانة-وحدات-التكييف-المركزي.html): HVAC maintenance guide.
+## ⚡ TECHNICAL STANDARDS
+1. **Images**: MUST be WebP. Use `tools/optimize_media.py`.
+2. **Assets**: CSS/JS MUST be minified. Use `tools/minify_assets.py`.
+3. **Links**: Use `.min.css` and `.min.js` in Production.
+4. **Data**: Hybrid JSON loading (fetch 'media/projects.json' w/ fallback).
+5. **Schema**: EVERY page needs JSON-LD (BreadcrumbList + Context).
 
-## Contact Information
-- **Phone**: +966550698111 / +966501870643
-- **Email**: info@brilliantserv.com
-- **Website**: https://brilliantserv.com
+## 🚀 DEPLOYMENT PROTOCOL
+1. **Changes**: Modify code locally.
+2. **Minify**: Run minification scripts if CSS/JS changed.
+3. **Push**: `git push origin main`.
+4. **Deploy**: Trigger server pull via SSH (see `ssh_connection/SSH_GUIDE.md`).
+
+## 🧠 CONTEXT MEMORY
+- **Phase 2 Complete**: WebP conversion, Minification, Lazy Loading, FAQ Schema.
+- **Current Focus**: Content Expansion & Maintenance.

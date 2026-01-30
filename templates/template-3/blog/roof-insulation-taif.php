@@ -21,6 +21,34 @@ include '../includes/config.php';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap"
         rel="stylesheet">
+        <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "عزل اسطح بالطائف: الحل النهائي لتسربات الأمطار والحرارة",
+    "description": "حماية كاملة لمنزلك من الأمطار والحرارة مع خدمة عزل الأسطح بالطائف. عزل فوم وبولي يوريثان بضمان يصل لـ 10 سنوات.",
+    "image": "https://brilliantserv.com/media/about-team-work.webp",
+    "datePublished": "2026-01-22",
+    "dateModified": "2026-01-22",
+    "author": {
+        "@type": "Organization",
+        "name": "روائع الكريستال"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "روائع الكريستال",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://brilliantserv.com/media/brilliantcrystal-hd.webp"
+        }
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://brilliantserv.com/blog/roof-insulation-taif.php"
+    }
+}
+    </script>
     <?php include '../includes/head.php'; ?>
 </head>
 
@@ -44,8 +72,8 @@ include '../includes/config.php';
             <div class="article-wrapper">
                 <!-- Featured Image -->
                 <div class="article-image">
-                    <img src="../../media/about-team-work.png"
-                        alt="عزل اسطح بالطائف: الحل النهائي لتسربات الأمطار والحرارة">
+                    <img src="../../media/about-team-work.webp"
+                        alt="عزل اسطح بالطائف: الحل النهائي لتسربات الأمطار والحرارة" loading="lazy">
                 </div>
 
                 <!-- Article Body -->
@@ -93,7 +121,7 @@ include '../includes/config.php';
 
     <?php include '../includes/footer.php'; ?>
 
-    <script src="../js/main.js"></script>
+    <script src="../js/main.min.js"></script>
 </body>
 
 </html>

@@ -21,6 +21,34 @@ include '../includes/config.php';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap"
         rel="stylesheet">
+        <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "صيانة مسابح بجدة: مياه نقية وسباحة آمنة",
+    "description": "خدمة صيانة ومسابح شاملة في جدة. تنظيف، تعقيم، صيانة مضخات وفلاتر، وكشف تسربات المسابح بأيدي خبراء.",
+    "image": "https://brilliantserv.com/media/mechanic-works.webp",
+    "datePublished": "2026-01-20",
+    "dateModified": "2026-01-20",
+    "author": {
+        "@type": "Organization",
+        "name": "روائع الكريستال"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "روائع الكريستال",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://brilliantserv.com/media/brilliantcrystal-hd.webp"
+        }
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://brilliantserv.com/blog/pool-maintenance-jeddah.php"
+    }
+}
+    </script>
     <?php include '../includes/head.php'; ?>
 </head>
 
@@ -44,7 +72,7 @@ include '../includes/config.php';
             <div class="article-wrapper">
                 <!-- Featured Image -->
                 <div class="article-image">
-                    <img src="../../media/mechanic-works.webp" alt="صيانة مسابح بجدة: مياه نقية وسباحة آمنة">
+                    <img src="../../media/mechanic-works.webp" alt="صيانة مسابح بجدة: مياه نقية وسباحة آمنة" loading="lazy">
                 </div>
 
                 <!-- Article Body -->
@@ -86,7 +114,7 @@ include '../includes/config.php';
 
     <?php include '../includes/footer.php'; ?>
 
-    <script src="../js/main.js"></script>
+    <script src="../js/main.min.js"></script>
 </body>
 
 </html>

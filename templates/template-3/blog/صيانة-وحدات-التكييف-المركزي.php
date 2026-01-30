@@ -15,10 +15,40 @@ include '../includes/config.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="-4dWOJlQukPPTSz-ABTrob2Oe_vkEdm_y1_xFVryJTo" />
     <title>صيانة وحدات التكييف المركزي - مدونة روائع الكريستال</title>
+    <meta name="description"
+        content="تعتبر صيانة وحدات التكييف المركزي ضرورية لتوفير الطاقة وإطالة عمر الاجهزة. نقدم في روائع الكريستال خدمات صيانة دورية واحترافية. اتصل الآن.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap"
         rel="stylesheet">
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "صيانة وحدات التكييف المركزي",
+        "description": "تعتبر صيانة وحدات التكييف المركزي ضرورية لتوفير الطاقة وإطالة عمر الاجهزة. نقدم في روائع الكريستال خدمات صيانة دورية واحترافية. اتصل الآن.",
+        "image": "https://brilliantserv.com/media/صيانة-وحدات-التكييف-المركزي.webp",
+        "datePublished": "2025-05-04",
+        "dateModified": "2025-05-04",
+        "author": {
+            "@type": "Organization",
+            "name": "روائع الكريستال"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "روائع الكريستال",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://brilliantserv.com/media/brilliantcrystal-hd.webp"
+            }
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://brilliantserv.com/blog/صيانة-وحدات-التكييف-المركزي.php"
+        }
+    }
+    </script>
     <?php include '../includes/head.php'; ?>
 </head>
 
@@ -42,7 +72,8 @@ include '../includes/config.php';
             <div class="article-wrapper">
                 <!-- Featured Image -->
                 <div class="article-image">
-                    <img src="../media/صيانة-وحدات-التكييف-المركزي.webp" alt="صيانة وحدات التكييف المركزي">
+                    <img src="../media/صيانة-وحدات-التكييف-المركزي.webp" alt="صيانة وحدات التكييف المركزي"
+                        loading="lazy">
                 </div>
 
                 <!-- Article Body -->
@@ -97,7 +128,7 @@ include '../includes/config.php';
 
     <?php include '../includes/footer.php'; ?>
 
-    <script src="../js/main.js"></script>
+    <script src="../js/main.min.js"></script>
 </body>
 
 </html>

@@ -23,7 +23,7 @@ $geo_region = "SA-01";
 $geo_placename = "Riyadh";
 
 // مسارات الأصول
-$logo_path = "media/brilliantcrystal-hd.png";
+$logo_path = "media/brilliantcrystal-hd.webp";
 $logo_version = "?v=1769376863";
 
 // روابط التواصل الاجتماعي

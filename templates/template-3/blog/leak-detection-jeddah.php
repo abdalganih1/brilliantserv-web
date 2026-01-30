@@ -21,6 +21,34 @@ include '../includes/config.php';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap"
         rel="stylesheet">
+        <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "كشف تسربات المياه بجدة بدون تكسير",
+    "description": "نقدم خدمة كشف تسربات المياه بجدة بأحدث الأجهزة الإلكترونية بدون تكسير. فريق فني متخصص وتقارير معتمدة لشركة المياه الوطنية.",
+    "image": "https://brilliantserv.com/media/hero-mechanic-pumps.webp",
+    "datePublished": "2026-01-24",
+    "dateModified": "2026-01-24",
+    "author": {
+        "@type": "Organization",
+        "name": "روائع الكريستال"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "روائع الكريستال",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://brilliantserv.com/media/brilliantcrystal-hd.webp"
+        }
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://brilliantserv.com/blog/leak-detection-jeddah.php"
+    }
+}
+    </script>
     <?php include '../includes/head.php'; ?>
 </head>
 
@@ -44,7 +72,7 @@ include '../includes/config.php';
             <div class="article-wrapper">
                 <!-- Featured Image -->
                 <div class="article-image">
-                    <img src="../../media/hero-mechanic-pumps.png" alt="كشف تسربات المياه بجدة بدون تكسير">
+                    <img src="../../media/hero-mechanic-pumps.webp" alt="كشف تسربات المياه بجدة بدون تكسير">
                 </div>
 
                 <!-- Article Body -->
@@ -94,7 +122,7 @@ include '../includes/config.php';
 
     <?php include '../includes/footer.php'; ?>
 
-    <script src="../js/main.js"></script>
+    <script src="../js/main.min.js"></script>
 </body>
 
 </html>

@@ -24,6 +24,34 @@ include '../includes/config.php';
     <meta property="og:title" content="أنواع مضخات المياه المنزلية والفرق بينها">
     <meta property="og:image" content="https://brilliantserv.com/media/blog/home-water-pump-types.webp">
 
+        <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "أي مضخة مياه أختار لمنزلي؟",
+    "description": "ما هو الفرق بين مضخة نصف حصان ومضخة الدفع؟ تعرف على أنواع مضخات المياه المنزلية (Booster, Centrifugal, Peripheral) وكيف تختار الأنسب لمنزلك.",
+    "image": "https://brilliantserv.com/media/blog/home-water-pump-types.webp",
+    "datePublished": "2026-01-30",
+    "dateModified": "2026-01-30",
+    "author": {
+        "@type": "Organization",
+        "name": "روائع الكريستال"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "روائع الكريستال",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://brilliantserv.com/media/brilliantcrystal-hd.webp"
+        }
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://brilliantserv.com/blog/home-water-pump-types.php"
+    }
+}
+    </script>
     <?php include '../includes/head.php'; ?>
 </head>
 
@@ -44,7 +72,7 @@ include '../includes/config.php';
         <div class="container">
             <div class="article-wrapper">
                 <div class="article-image">
-                    <img src="../../media/blog/home-water-pump-types.webp" alt="أنواع مضخات المياه المختلفة">
+                    <img src="../../media/blog/home-water-pump-types.webp" alt="أنواع مضخات المياه المختلفة" loading="lazy">
                 </div>
 
                 <div class="article-body">
@@ -81,7 +109,7 @@ include '../includes/config.php';
     </article>
 
     <?php include '../includes/footer.php'; ?>
-    <script src="../js/main.js"></script>
+    <script src="../js/main.min.js"></script>
 </body>
 
 </html>

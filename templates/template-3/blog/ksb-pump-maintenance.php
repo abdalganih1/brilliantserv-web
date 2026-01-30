@@ -25,6 +25,34 @@ include '../includes/config.php';
     <meta property="og:title" content="صيانة مضخات KSB الرياض - الخبرة الألمانية">
     <meta property="og:image" content="https://brilliantserv.com/media/blog/ksb-pump-maintenance.webp">
 
+        <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "صيانة مضخات KSB الصناعية",
+    "description": "خدمة صيانة متخصصة لمضخات KSB الصناعية ومضخات الحريق. فحص، إصلاح، وتوريد قطع غيار KSB الأصلية في الرياض. اتصل 0550698111",
+    "image": "https://brilliantserv.com/media/blog/ksb-pump-maintenance.webp",
+    "datePublished": "2026-01-30",
+    "dateModified": "2026-01-30",
+    "author": {
+        "@type": "Organization",
+        "name": "روائع الكريستال"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "روائع الكريستال",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://brilliantserv.com/media/brilliantcrystal-hd.webp"
+        }
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://brilliantserv.com/blog/ksb-pump-maintenance.php"
+    }
+}
+    </script>
     <?php include '../includes/head.php'; ?>
 </head>
 
@@ -45,7 +73,7 @@ include '../includes/config.php';
         <div class="container">
             <div class="article-wrapper">
                 <div class="article-image">
-                    <img src="../../media/blog/ksb-pump-maintenance.webp" alt="صيانة مضخة KSB زرقاء">
+                    <img src="../../media/blog/ksb-pump-maintenance.webp" alt="صيانة مضخة KSB زرقاء" loading="lazy">
                 </div>
 
                 <div class="article-body">
@@ -79,7 +107,7 @@ include '../includes/config.php';
     </article>
 
     <?php include '../includes/footer.php'; ?>
-    <script src="../js/main.js"></script>
+    <script src="../js/main.min.js"></script>
 </body>
 
 </html>

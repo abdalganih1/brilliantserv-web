@@ -40,7 +40,7 @@ include 'includes/config.php';
     <meta property="og:title" content="خدماتنا | أعمال كهرباء وميكانيكا احترافية - روائع الكريستال">
     <meta property="og:description"
         content="لوحات تحكم MDB وPLC، صيانة مضخات KSB وGrundfos، لف محركات كهربائية، صيانة مصانع. خدمات متكاملة بضمان شامل في السعودية">
-    <meta property="og:image" content="https://brilliantserv.com/media/hero-electrical-work.png">
+    <meta property="og:image" content="https://brilliantserv.com/media/hero-electrical-work.webp">
     <meta property="og:locale" content="ar_SA">
     <meta property="og:site_name" content="روائع الكريستال">
 
@@ -50,17 +50,79 @@ include 'includes/config.php';
     <meta property="twitter:title" content="خدماتنا | أعمال كهرباء وميكانيكا احترافية - روائع الكريستال">
     <meta property="twitter:description"
         content="لوحات تحكم MDB وPLC، صيانة مضخات KSB وGrundfos، لف محركات كهربائية، صيانة مصانع. خدمات متكاملة بضمان شامل في السعودية">
-    <meta property="twitter:image" content="https://brilliantserv.com/media/hero-electrical-work.png">
+    <meta property="twitter:image" content="https://brilliantserv.com/media/hero-electrical-work.webp">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="media/brilliantcrystal-hd.png">
-    <link rel="apple-touch-icon" href="media/brilliantcrystal-hd.png">
+    <link rel="icon" type="image/png" href="media/brilliantcrystal-hd.webp">
+    <link rel="apple-touch-icon" href="media/brilliantcrystal-hd.webp">
 
     <!-- Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap"
         rel="stylesheet">
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "الرئيسية",
+                        "item": "https://brilliantserv.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "خدماتنا",
+                        "item": "https://brilliantserv.com/services.html"
+                    }
+                ]
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "ما هي الخدمات التي تقدمونها؟",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "نقدم خدمات متكاملة تشمل تصنيع لوحات التحكم MDB و PLC، صيانة مضخات المياه والحريق (KSB، Grundfos)، لف المحركات الكهربائية، وصيانة المصانع."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "هل تقدمون عقود صيانة دورية؟",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "نعم، نوفر عقود صيانة سنوية وشهرية للمصانع والمباني التجارية لضمان استمرارية العمل وكفاءة المعدات."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "هل تتوفر لديكم قطع غيار أصلية؟",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "نعم، نستخدم قطع غيار أصلية ومعتمدة لجميع عمليات الصيانة لضمان الجودة والعمر الافتراضي الطويل."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "ما هي مناطق تغطية خدمتكم؟",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "مركزنا الرئيسي في الرياض، ونقدم خدماتنا في جميع أنحاء المملكة العربية السعودية، مع فرق متنقلة للوصول إلى المواقع البعيدة."
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+    </script>
     <?php include 'includes/head.php'; ?>
 </head>
 
@@ -175,6 +237,44 @@ include 'includes/config.php';
                         <h4>محطة ضخ مياه</h4>
                         <span>صيانة مضخات KSB</span>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" style="padding: 4rem 0; background-color: var(--color-bg-light);">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">الأسئلة الشائعة</span>
+                <h2>أسئلة يتكرر طرحها</h2>
+                <p>إجابات على استفساراتكم حول خدماتنا وسياسات العمل</p>
+            </div>
+            <div class="faq-grid"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <div class="faq-item"
+                    style="background: var(--color-surface); padding: 2rem; border-radius: 12px; border: 1px solid var(--color-border);">
+                    <h3 style="margin-bottom: 1rem; color: var(--color-primary);">ما هي الخدمات التي تقدمونها؟</h3>
+                    <p style="color: var(--color-text-muted);">نقدم خدمات متكاملة تشمل تصنيع لوحات التحكم MDB و PLC،
+                        صيانة مضخات المياه والحريق (KSB، Grundfos)، لف المحركات الكهربائية، وصيانة المصانع.</p>
+                </div>
+                <div class="faq-item"
+                    style="background: var(--color-surface); padding: 2rem; border-radius: 12px; border: 1px solid var(--color-border);">
+                    <h3 style="margin-bottom: 1rem; color: var(--color-primary);">هل تقدمون عقود صيانة دورية؟</h3>
+                    <p style="color: var(--color-text-muted);">نعم، نوفر عقود صيانة سنوية وشهرية للمصانع والمباني
+                        التجارية لضمان استمرارية العمل وكفاءة المعدات.</p>
+                </div>
+                <div class="faq-item"
+                    style="background: var(--color-surface); padding: 2rem; border-radius: 12px; border: 1px solid var(--color-border);">
+                    <h3 style="margin-bottom: 1rem; color: var(--color-primary);">هل تتوفر لديكم قطع غيار أصلية؟</h3>
+                    <p style="color: var(--color-text-muted);">نعم، نستخدم قطع غيار أصلية ومعتمدة لجميع عمليات الصيانة
+                        لضمان الجودة والعمر الافتراضي الطويل.</p>
+                </div>
+                <div class="faq-item"
+                    style="background: var(--color-surface); padding: 2rem; border-radius: 12px; border: 1px solid var(--color-border);">
+                    <h3 style="margin-bottom: 1rem; color: var(--color-primary);">ما هي مناطق تغطية خدمتكم؟</h3>
+                    <p style="color: var(--color-text-muted);">مركزنا الرئيسي في الرياض، ونقدم خدماتنا في جميع أنحاء
+                        المملكة العربية السعودية، مع فرق متنقلة للوصول إلى المواقع البعيدة.</p>
                 </div>
             </div>
         </div>
