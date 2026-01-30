@@ -27,16 +27,16 @@ include 'includes/config.php';
     <meta name="geo.placename" content="Riyadh">
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://brilliantserv.com/blog.html">
+    <link rel="canonical" href="https://brilliantserv.com/blog.php">
 
     <!-- Alternate Language -->
-    <link rel="alternate" hreflang="ar-SA" href="https://brilliantserv.com/blog.html">
-    <link rel="alternate" hreflang="ar" href="https://brilliantserv.com/blog.html">
-    <link rel="alternate" hreflang="x-default" href="https://brilliantserv.com/blog.html">
+    <link rel="alternate" hreflang="ar-SA" href="https://brilliantserv.com/blog.php">
+    <link rel="alternate" hreflang="ar" href="https://brilliantserv.com/blog.php">
+    <link rel="alternate" hreflang="x-default" href="https://brilliantserv.com/blog.php">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://brilliantserv.com/blog.html">
+    <meta property="og:url" content="https://brilliantserv.com/blog.php">
     <meta property="og:title" content="المدونة | نصائح الصيانة والأعمال الهندسية - روائع الكريستال">
     <meta property="og:description"
         content="مقالات ونصائح متخصصة في صيانة التكييف، كشف التسربات، عزل الخزانات والأسطح. دليلك للحفاظ على منشأتك">
@@ -46,7 +46,7 @@ include 'includes/config.php';
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://brilliantserv.com/blog.html">
+    <meta property="twitter:url" content="https://brilliantserv.com/blog.php">
     <meta property="twitter:title" content="المدونة | نصائح الصيانة والأعمال الهندسية - روائع الكريستال">
     <meta property="twitter:description"
         content="مقالات ونصائح متخصصة في صيانة التكييف، كشف التسربات، عزل الخزانات والأسطح. دليلك للحفاظ على منشأتك">
@@ -82,84 +82,73 @@ include 'includes/config.php';
     <section class="blog-section">
         <div class="container">
             <div class="blog-main-grid">
-                <!-- Blog Card NEW - Pump Repair North Riyadh -->
-                <article class="blog-card">
-                    <div class="blog-image">
-                        <img src="../../media/hero-mechanic-pumps.png" alt="تصليح مضخات مياه شمال الرياض"
-                            loading="lazy">
-                    </div>
-                    <div class="blog-content">
-                        <span class="blog-date">30 يناير 2026</span>
-                        <h3>أفضل فني تصليح مضخات مياه شمال الرياض</h3>
-                        <p>هل توقفت مضخة المياه فجأة؟ فريقنا المتخصص جاهز لخدمتك بقطع غيار أصلية وضمان شامل...</p>
-                        <a href="blog/pump-repair-north-riyadh.php" class="read-more">قراءة المزيد</a>
-                    </div>
-                </article>
+                <?php
+                // Blog Articles Data
+                $articles = [
+                    [
+                        'title' => 'أفضل فني تصليح مضخات مياه شمال الرياض',
+                        'date' => '30 يناير 2026',
+                        'image' => '../../media/hero-mechanic-pumps.png',
+                        'alt' => 'تصليح مضخات مياه شمال الرياض',
+                        'desc' => 'هل توقفت مضخة المياه فجأة؟ فريقنا المتخصص جاهز لخدمتك بقطع غيار أصلية وضمان شامل...',
+                        'link' => 'blog/pump-repair-north-riyadh.php'
+                    ],
+                    [
+                        'title' => 'كشف تسربات المياه بجدة بدون تكسير',
+                        'date' => '24 يناير 2026',
+                        'image' => '../../media/hero-mechanic-pumps.png',
+                        'alt' => 'كشف تسربات المياه بجدة',
+                        'desc' => 'هل تعاني من ارتفاع فاتورة المياه؟ اكتشف الحلول الجذرية لمشاكل التسربات بأحدث الأجهزة...',
+                        'link' => 'blog/leak-detection-jeddah.php'
+                    ],
+                    [
+                        'title' => 'أفضل شركة عزل خزانات بمكة',
+                        'date' => '23 يناير 2026',
+                        'image' => '../../media/mechanic-project.webp',
+                        'alt' => 'عزل خزانات بمكة',
+                        'desc' => 'احمِ صحة عائلتك مع خدمات عزل وتعقيم الخزانات بأفضل المواد المصرحة...',
+                        'link' => 'blog/tank-insulation-makkah.php'
+                    ],
+                    [
+                        'title' => 'عزل اسطح بالطائف: مائي وحراري',
+                        'date' => '22 يناير 2026',
+                        'image' => '../../media/about-team-work.png',
+                        'alt' => 'عزل اسطح بالطائف',
+                        'desc' => 'تخلص من مشاكل تسرب مياه الأمطار والحرارة العالية مع حلول العزل المتكاملة...',
+                        'link' => 'blog/roof-insulation-taif.php'
+                    ],
+                    [
+                        'title' => 'صيانة مسابح بجدة',
+                        'date' => '20 يناير 2026',
+                        'image' => '../../media/mechanic-works.webp',
+                        'alt' => 'صيانة مسابح',
+                        'desc' => 'خدمات تنظيف وتعقيم وفلترة المسابح لضمان مياه نقية وسباحة آمنة طوال العام...',
+                        'link' => 'blog/pool-maintenance-jeddah.php'
+                    ],
+                    [
+                        'title' => 'عزل حمامات بجدة',
+                        'date' => '18 يناير 2026',
+                        'image' => '../../media/hero-electrical-work.png',
+                        'alt' => 'عزل حمامات',
+                        'desc' => 'الحل الجذري لمشاكل الرطوبة وتقشير الدهانات في دورات المياه مع ضمان التسليم...',
+                        'link' => 'blog/bathroom-insulation-jeddah.php'
+                    ]
+                ];
 
-                <!-- Blog Card 1 -->
-                <article class="blog-card">
-                    <div class="blog-image">
-                        <img src="../../media/hero-mechanic-pumps.png" alt="كشف تسربات المياه بجدة" loading="lazy">
-                    </div>
-                    <div class="blog-content">
-                        <span class="blog-date">24 يناير 2026</span>
-                        <h3>كشف تسربات المياه بجدة بدون تكسير</h3>
-                        <p>هل تعاني من ارتفاع فاتورة المياه؟ اكتشف الحلول الجذرية لمشاكل التسربات بأحدث الأجهزة...</p>
-                        <a href="blog/leak-detection-jeddah.html" class="read-more">قراءة المزيد</a>
-                    </div>
-                </article>
-
-                <!-- Blog Card 2 -->
-                <article class="blog-card">
-                    <div class="blog-image">
-                        <img src="../../media/mechanic-project.webp" alt="عزل خزانات بمكة" loading="lazy">
-                    </div>
-                    <div class="blog-content">
-                        <span class="blog-date">23 يناير 2026</span>
-                        <h3>أفضل شركة عزل خزانات بمكة</h3>
-                        <p>احمِ صحة عائلتك مع خدمات عزل وتعقيم الخزانات بأفضل المواد المصرحة...</p>
-                        <a href="blog/tank-insulation-makkah.html" class="read-more">قراءة المزيد</a>
-                    </div>
-                </article>
-
-                <!-- Blog Card 3 -->
-                <article class="blog-card">
-                    <div class="blog-image">
-                        <img src="../../media/about-team-work.png" alt="عزل اسطح بالطائف" loading="lazy">
-                    </div>
-                    <div class="blog-content">
-                        <span class="blog-date">22 يناير 2026</span>
-                        <h3>عزل اسطح بالطائف: مائي وحراري</h3>
-                        <p>تخلص من مشاكل تسرب مياه الأمطار والحرارة العالية مع حلول العزل المتكاملة...</p>
-                        <a href="blog/roof-insulation-taif.html" class="read-more">قراءة المزيد</a>
-                    </div>
-                </article>
-
-                <!-- Blog Card 4 -->
-                <article class="blog-card">
-                    <div class="blog-image">
-                        <img src="../../media/mechanic-works.webp" alt="صيانة مسابح" loading="lazy">
-                    </div>
-                    <div class="blog-content">
-                        <span class="blog-date">20 يناير 2026</span>
-                        <h3>صيانة مسابح بجدة</h3>
-                        <p>خدمات تنظيف وتعقيم وفلترة المسابح لضمان مياه نقية وسباحة آمنة طوال العام...</p>
-                        <a href="blog/pool-maintenance-jeddah.html" class="read-more">قراءة المزيد</a>
-                    </div>
-                </article>
-
-                <!-- Blog Card 5 -->
-                <article class="blog-card">
-                    <div class="blog-image">
-                        <img src="../../media/hero-electrical-work.png" alt="عزل حمامات" loading="lazy">
-                    </div>
-                    <div class="blog-content">
-                        <span class="blog-date">18 يناير 2026</span>
-                        <h3>عزل حمامات بجدة</h3>
-                        <p>الحل الجذري لمشاكل الرطوبة وتقشير الدهانات في دورات المياه مع ضمان التسليم...</p>
-                        <a href="blog/bathroom-insulation-jeddah.html" class="read-more">قراءة المزيد</a>
-                    </div>
-                </article>
+                // Loop through articles
+                foreach ($articles as $article): ?>
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="<?php echo $article['image']; ?>" alt="<?php echo $article['alt']; ?>" loading="lazy">
+                        </div>
+                        <div class="blog-content">
+                            <span class="blog-date"><?php echo $article['date']; ?></span>
+                            <h3><?php echo $article['title']; ?></h3>
+                            <p><?php echo $article['desc']; ?></p>
+                            <a href="<?php echo $article['link']; ?>" class="read-more">قراءة المزيد</a>
+                        </div>
+                    </article>
+                <?php endforeach; ?>
             </div>
         </div>
     </section>

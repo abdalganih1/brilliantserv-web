@@ -46,6 +46,8 @@ fi
 # Copy blog folder PHP files
 if [ -d "$TEMPLATE_DIR/blog" ]; then
     mkdir -p "$SITE_ROOT/blog"
+    # Clean up old HTML files
+    rm -f "$SITE_ROOT/blog/"*.html
     cp "$TEMPLATE_DIR/blog/"*.php "$SITE_ROOT/blog/" 2>/dev/null || true
     echo "  ✅ Copied: blog/*.php"
 fi

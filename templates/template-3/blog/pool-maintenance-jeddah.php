@@ -78,7 +78,7 @@ include '../includes/config.php';
 
                 <!-- Back Link -->
                 <div class="article-back">
-                    <a href="../blog.html" class="back-link">← العودة للمدونة</a>
+                    <a href="../blog.php" class="back-link">← العودة للمدونة</a>
                 </div>
             </div>
         </div>
