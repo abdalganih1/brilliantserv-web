@@ -94,6 +94,46 @@ include 'includes/config.php';
                         'link' => 'blog/pump-repair-north-riyadh.php'
                     ],
                     [
+                        'title' => 'حل مشكلة ضعف ضغط الماء في المنزل',
+                        'date' => '30 يناير 2026',
+                        'image' => '../../media/blog/weak-water-pressure.webp',
+                        'alt' => 'ضعف ضغط الماء',
+                        'desc' => 'هل تعاني من تدفق مياه ضعيف؟ تعرف على الأسباب الثلاثة الرئيسية والحلول العملية...',
+                        'link' => 'blog/weak-water-pressure-solution.php'
+                    ],
+                    [
+                        'title' => 'المضخة تصدر صوت طنين ولا تعمل؟',
+                        'date' => '30 يناير 2026',
+                        'image' => '../../media/blog/pump-humming-sound.webp',
+                        'alt' => 'صوت طنين المضخة',
+                        'desc' => 'تحذير: صوت الزنة المستمرة قد يحرق المحرك! اكتشف السبب وكيفية التصرف فوراً...',
+                        'link' => 'blog/pump-humming-sound.php'
+                    ],
+                    [
+                        'title' => 'أنواع مضخات المياه المنزلية والفرق بينها',
+                        'date' => '30 يناير 2026',
+                        'image' => '../../media/blog/home-water-pump-types.webp',
+                        'alt' => 'أنواع مضخات المياه',
+                        'desc' => 'مقارنة شاملة بين المضخات الطرفية والمركزية ومضخات الدفع الذكية. كيف تختار الأنسب؟',
+                        'link' => 'blog/home-water-pump-types.php'
+                    ],
+                    [
+                        'title' => 'خدمات معتمدة لمضخات Grundfos في الرياض',
+                        'date' => '30 يناير 2026',
+                        'image' => '../../media/blog/grundfos-pump-agent.webp',
+                        'alt' => 'وكيل مضخات Grundfos الرياض',
+                        'desc' => 'نقدم خدمات الصيانة المعتمدة وقطع الغيار الأصلية لأقوى مضخات المياه في العالم...',
+                        'link' => 'blog/grundfos-pump-agent-riyadh.php'
+                    ],
+                    [
+                        'title' => 'صيانة مضخات KSB الصناعية',
+                        'date' => '30 يناير 2026',
+                        'image' => '../../media/blog/ksb-pump-maintenance.webp',
+                        'alt' => 'صيانة مضخات KSB',
+                        'desc' => 'حلول هندسية متكاملة لصيانة وإصلاح مضخات KSB الألمانية للمصانع والمباني...',
+                        'link' => 'blog/ksb-pump-maintenance.php'
+                    ],
+                    [
                         'title' => 'كشف تسربات المياه بجدة بدون تكسير',
                         'date' => '24 يناير 2026',
                         'image' => '../../media/blog/leak-detection.webp',
