@@ -460,64 +460,49 @@ include 'includes/config.php';
             <div class="swiper references-swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/12.webp" alt="مرجع 1"
-                                loading="lazy"></div>
+                        <div class="client-logo"><img src="media/references/12.png" alt="مرجع 1" loading="lazy"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/13.webp" alt="مرجع 2"
-                                loading="lazy"></div>
+                        <div class="client-logo"><img src="media/references/13.png" alt="مرجع 2" loading="lazy"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/14.webp" alt="مرجع 3"
-                                loading="lazy"></div>
+                        <div class="client-logo"><img src="media/references/14.png" alt="مرجع 3" loading="lazy"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/15.webp" alt="مرجع 4"
-                                loading="lazy"></div>
+                        <div class="client-logo"><img src="media/references/15.png" alt="مرجع 4" loading="lazy"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/16.webp" alt="مرجع 5"
-                                loading="lazy"></div>
+                        <div class="client-logo"><img src="media/references/16.png" alt="مرجع 5" loading="lazy"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/17.webp" alt="مرجع 6"
-                                loading="lazy"></div>
+                        <div class="client-logo"><img src="media/references/17.png" alt="مرجع 6" loading="lazy"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/18.webp" alt="مرجع 7"
-                                loading="lazy"></div>
+                        <div class="client-logo"><img src="media/references/18.png" alt="مرجع 7" loading="lazy"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/19.webp" alt="مرجع 8"
-                                loading="lazy"></div>
+                        <div class="client-logo"><img src="media/references/19.png" alt="مرجع 8" loading="lazy"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/20.webp" alt="مرجع 9"
-                                loading="lazy"></div>
+                        <div class="client-logo"><img src="media/references/20.png" alt="مرجع 9" loading="lazy"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/21.webp" alt="مرجع 10"
-                                loading="lazy"></div>
+                        <div class="client-logo"><img src="media/references/21.png" alt="مرجع 10" loading="lazy"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/22.webp" alt="مرجع 11"
-                                loading="lazy"></div>
+                        <div class="client-logo"><img src="media/references/22.png" alt="مرجع 11" loading="lazy"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/23.webp" alt="مرجع 12"
-                                loading="lazy"></div>
+                        <div class="client-logo"><img src="media/references/23.png" alt="مرجع 12" loading="lazy"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/24.webp" alt="مرجع 13"
-                                loading="lazy"></div>
+                        <div class="client-logo"><img src="media/references/24.png" alt="مرجع 13" loading="lazy"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/25.webp" alt="مرجع 14"
-                                loading="lazy"></div>
+                        <div class="client-logo"><img src="media/references/25.png" alt="مرجع 14" loading="lazy"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="client-logo"><img src="../../ملفات المستخدم/مراجعنا/26.webp" alt="مرجع 15"
-                                loading="lazy"></div>
+                        <div class="client-logo"><img src="media/references/26.png" alt="مرجع 15" loading="lazy"></div>
                     </div>
                 </div>
             </div>
@@ -535,48 +520,37 @@ include 'includes/config.php';
         <div class="swiper clients-swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/1.webp" alt="عميل 1"
-                            loading="lazy"></div>
+                    <div class="client-logo"><img src="media/clients/1.png" alt="عميل 1" loading="lazy"></div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/2.webp" alt="عميل 2"
-                            loading="lazy"></div>
+                    <div class="client-logo"><img src="media/clients/2.png" alt="عميل 2" loading="lazy"></div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/3.webp" alt="عميل 3"
-                            loading="lazy"></div>
+                    <div class="client-logo"><img src="media/clients/3.png" alt="عميل 3" loading="lazy"></div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/4.webp" alt="عميل 4"
-                            loading="lazy"></div>
+                    <div class="client-logo"><img src="media/clients/4.png" alt="عميل 4" loading="lazy"></div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/5.webp" alt="عميل 5"
-                            loading="lazy"></div>
+                    <div class="client-logo"><img src="media/clients/5.png" alt="عميل 5" loading="lazy"></div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/6.webp" alt="عميل 6"
-                            loading="lazy"></div>
+                    <div class="client-logo"><img src="media/clients/6.png" alt="عميل 6" loading="lazy"></div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/7.webp" alt="عميل 7"
-                            loading="lazy"></div>
+                    <div class="client-logo"><img src="media/clients/7.png" alt="عميل 7" loading="lazy"></div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/8.webp" alt="عميل 8"
-                            loading="lazy"></div>
+                    <div class="client-logo"><img src="media/clients/8.png" alt="عميل 8" loading="lazy"></div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/9.webp" alt="عميل 9"
-                            loading="lazy"></div>
+                    <div class="client-logo"><img src="media/clients/9.png" alt="عميل 9" loading="lazy"></div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/10.webp" alt="عميل 10"
-                            loading="lazy"></div>
+                    <div class="client-logo"><img src="media/clients/10.png" alt="عميل 10" loading="lazy"></div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="client-logo"><img src="../../ملفات المستخدم/شعارات العملاء/11.webp" alt="عميل 11"
-                            loading="lazy"></div>
+                    <div class="client-logo"><img src="media/clients/11.png" alt="عميل 11" loading="lazy"></div>
                 </div>
             </div>
         </div>
