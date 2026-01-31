@@ -1,0 +1,24 @@
+# Apache Configuration for BrilliantServ
+
+# 1. Enable Rewrite Engine
+RewriteEngine On
+
+# 2. Redirect Old Arabic URLs (301 Permanent)
+# Diesel Pumps
+RewriteRule ^صيانة-مضخات-الديزل/?$ /blog/diesel-pump-maintenance-saudi.php [R=301,L]
+
+# Electronic Boards
+RewriteRule ^صيانة-البوردات-الالكترونية/?$ /blog/electronic-board-repair-saudi.php [R=301,L]
+RewriteRule ^صيانة-الكروت-الإلكترونية/?$ /blog/electronic-board-repair-saudi.php [R=301,L]
+RewriteRule ^تصليح-بوردات-الكترونيات/?$ /blog/electronic-board-repair-saudi.php [R=301,L]
+
+# Motor Winding
+RewriteRule ^لف-المحركات-الكهربائية/?$ /blog/electric-motor-winding.php [R=301,L]
+RewriteRule ^أساسيات-لف-المحركات-الكهربائية/?$ /blog/3-phase-motor-winding-rules.php [R=301,L]
+
+# Grundfos
+RewriteRule ^صيانة-مضخات-جراندفوس/?$ /blog/grundfos-pump-agent-riyadh.php [R=301,L]
+
+# 3. Security & Encoding
+AddDefaultCharset UTF-8
+Options -Indexes

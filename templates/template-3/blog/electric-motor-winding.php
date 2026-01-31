@@ -16,9 +16,9 @@ include '../includes/config.php';
     <meta name="google-site-verification" content="-4dWOJlQukPPTSz-ABTrob2Oe_vkEdm_y1_xFVryJTo" />
 
     <!-- SEO Meta Tags -->
-    <title>لف محركات كهربائية: إعادة الحياة لمحركك - روائع الكريستال</title>
+    <title>لف محركات كهربائية في الرياض والسعودية - روائع الكريستال</title>
     <meta name="description" content="خدمات احترافية في لف المحركات الكهربائية الصناعية حتى 500 حصان. ضمان على العزل وجودة الأسلاك.">
-    <meta name="keywords" content="لف محركات, صيانة محركات, السعودية">
+    <meta name="keywords" content="لف محركات, صيانة محركات, السعودية, الرياض, لف مواتير">
     <meta name="author" content="مؤسسة روائع الكريستال">
     <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="language" content="Arabic">
@@ -30,16 +30,16 @@ include '../includes/config.php';
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
-    <meta property="og:title" content="لف محركات كهربائية: إعادة الحياة لمحركك - روائع الكريستال">
+    <meta property="og:title" content="لف محركات كهربائية في الرياض والسعودية - روائع الكريستال">
     <meta property="og:description" content="خدمات احترافية في لف المحركات الكهربائية الصناعية حتى 500 حصان. ضمان على العزل وجودة الأسلاك.">
     <meta property="og:image" content="https://brilliantserv.com/media/blog/motor-winding.webp">
     <meta property="og:url" content="https://brilliantserv.com/blog/electric-motor-winding.php">
     <meta property="og:site_name" content="روائع الكريستال">
-    <meta property="article:published_time" content="2026-01-30T22:53:10.923472">
+    <meta property="article:published_time" content="2026-01-31T14:19:23.748076">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="لف محركات كهربائية: إعادة الحياة لمحركك - روائع الكريستال">
+    <meta property="twitter:title" content="لف محركات كهربائية في الرياض والسعودية - روائع الكريستال">
     <meta property="twitter:description" content="خدمات احترافية في لف المحركات الكهربائية الصناعية حتى 500 حصان. ضمان على العزل وجودة الأسلاك.">
     <meta property="twitter:image" content="https://brilliantserv.com/media/blog/motor-winding.webp">
 
@@ -47,9 +47,9 @@ include '../includes/config.php';
     <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "لف محركات كهربائية: إعادة الحياة لمحركك - روائع الكريستال",
+    "headline": "لف محركات كهربائية في الرياض والسعودية - روائع الكريستال",
     "image": "https://brilliantserv.com/media/blog/motor-winding.webp",
-    "datePublished": "2026-01-30",
+    "datePublished": "2026-01-31",
     "author": {
         "@type": "Organization",
         "name": "مؤسسة روائع الكريستال"

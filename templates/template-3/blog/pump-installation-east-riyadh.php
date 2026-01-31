@@ -35,7 +35,7 @@ include '../includes/config.php';
     <meta property="og:image" content="https://brilliantserv.com/media/blog/home-water-pump-types.webp">
     <meta property="og:url" content="https://brilliantserv.com/blog/pump-installation-east-riyadh.php">
     <meta property="og:site_name" content="روائع الكريستال">
-    <meta property="article:published_time" content="2026-01-30T22:53:10.910392">
+    <meta property="article:published_time" content="2026-01-31T14:19:23.710774">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -49,7 +49,7 @@ include '../includes/config.php';
     "@type": "Article",
     "headline": "تركيب مضخات مياه شرق الرياض - خصم 20% | روائع الكريستال",
     "image": "https://brilliantserv.com/media/blog/home-water-pump-types.webp",
-    "datePublished": "2026-01-30",
+    "datePublished": "2026-01-31",
     "author": {
         "@type": "Organization",
         "name": "مؤسسة روائع الكريستال"

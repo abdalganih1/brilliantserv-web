@@ -35,7 +35,7 @@ include '../includes/config.php';
     <meta property="og:image" content="https://brilliantserv.com/media/blog/chiller-maintenance.webp">
     <meta property="og:url" content="https://brilliantserv.com/blog/central-chiller-maintenance.php">
     <meta property="og:site_name" content="روائع الكريستال">
-    <meta property="article:published_time" content="2026-01-30T22:53:10.916847">
+    <meta property="article:published_time" content="2026-01-31T14:19:23.731661">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
@@ -49,7 +49,7 @@ include '../includes/config.php';
     "@type": "Article",
     "headline": "صيانة تشيلرات مركزي: خطوات تضمن كفاءة التبريد - روائع الكريستال",
     "image": "https://brilliantserv.com/media/blog/chiller-maintenance.webp",
-    "datePublished": "2026-01-30",
+    "datePublished": "2026-01-31",
     "author": {
         "@type": "Organization",
         "name": "مؤسسة روائع الكريستال"
