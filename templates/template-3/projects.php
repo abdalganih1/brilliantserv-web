@@ -473,59 +473,12 @@ include 'includes/config.php';
 
     <script src="js/main.js?v=1769376863"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', async function () {
+        document.addEventListener('DOMContentLoaded', function () {
             const filterBtns = document.querySelectorAll('.filter-btn');
-            let data;
-
-            // Hybrid: Try fetch, fallback to embedded
-            try {
-                const response = await fetch('media/projects.json');
-                data = await response.json();
-                console.log('✓ Loaded from JSON');
-            } catch (e) {
-                data = embeddedProjectsData;
-                console.log('✓ Using embedded data (file:// mode)');
-            }
-
-            // Render all projects by category with progressive loading
-            ['electrical', 'mechanical', 'winding'].forEach(category => {
-                data[category].forEach(project => {
-                    const card = document.createElement('div');
-                    card.className = 'project-card';
-                    card.setAttribute('data-category', category);
-                    card.style.cursor = 'pointer';
-
-                    // Create placeholder with gradient background
-                    const placeholder = category === 'electrical' ? '#1a365d' :
-                        category === 'mechanical' ? '#2d3748' : '#4a5568';
-
-                    card.innerHTML = `
-                        <div class="img-placeholder" style="background: ${placeholder}; position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;">
-                            <div style="color: rgba(255,255,255,0.3); font-size: 3rem;">⚡</div>
-                        </div>
-                        <img src="media/${category}/${project.image}" alt="${project.title}" loading="lazy" style="opacity: 0; transition: opacity 0.3s;">
-                        <div class="project-overlay">
-                            <h4>${project.title}</h4>
-                            <span>${project.location}</span>
-                        </div>
-                    `;
-
-                    // When image loads, fade it in and hide placeholder
-                    const img = card.querySelector('img');
-                    img.onload = function () {
-                        this.style.opacity = '1';
-                        const ph = card.querySelector('.img-placeholder');
-                        if (ph) ph.style.display = 'none';
-                    };
-
-                    grid.appendChild(card);
-                });
-            });
-
-            // Initialize filtering
             const projectCards = document.querySelectorAll('.project-card');
 
             function filterProjects(category) {
+                // Update buttons state
                 filterBtns.forEach(b => {
                     const btnFilter = b.getAttribute('data-filter');
                     if (btnFilter === category) {
@@ -539,28 +492,49 @@ include 'includes/config.php';
                     }
                 });
 
+                // Filter cards
                 projectCards.forEach(card => {
-                    if (category === 'all' || card.getAttribute('data-category') === category) {
+                    const cardCategory = card.getAttribute('data-category');
+                    if (category === 'all' || cardCategory === category) {
                         card.style.display = 'block';
+                        // Trigger a reflow/repaint for animation if needed, or simple show
+                        card.style.opacity = '1';
                     } else {
                         card.style.display = 'none';
+                        card.style.opacity = '0';
                     }
                 });
 
+                // Update URL hash without scrolling
                 if (category !== 'all') {
                     history.replaceState(null, null, '#' + category);
                 } else {
-                    history.replaceState(null, null, window.location.pathname);
+                    history.replaceState(null, null, window.location.pathname + window.location.search);
                 }
             }
 
+            // Handle initial Hash
             const hash = window.location.hash.replace('#', '');
-            if (hash) filterProjects(hash);
+            if (hash && ['electrical', 'mechanical', 'winding'].includes(hash)) {
+                filterProjects(hash);
+                // Optional: Scroll to filter section if hash is present
+                const filterSection = document.querySelector('.projects-filter');
+                if (filterSection) {
+                    setTimeout(() => {
+                        filterSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }, 100);
+                }
+            }
 
+            // Button Click Events
             filterBtns.forEach(btn => {
-                btn.addEventListener('click', () => filterProjects(btn.getAttribute('data-filter')));
+                btn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    filterProjects(btn.getAttribute('data-filter'));
+                });
             });
 
+            // Card Click Events (Filter by category of clicked card)
             projectCards.forEach(card => {
                 card.addEventListener('click', () => {
                     const category = card.getAttribute('data-category');
