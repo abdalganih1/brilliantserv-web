@@ -86,6 +86,12 @@ RewriteRule ^blog/(.+)\.html$ blog/$1.php [L,R=301]
 AddOutputFilterByType DEFLATE text/html text/plain text/css application/javascript application/json
 </IfModule>
 
+# Force UTF-8 encoding for text files (Arabic support)
+AddDefaultCharset UTF-8
+<FilesMatch "\.(txt|md|json)$">
+    AddCharset UTF-8 .txt .md .json
+</FilesMatch>
+
 # Cache static assets
 <IfModule mod_expires.c>
 ExpiresActive On
