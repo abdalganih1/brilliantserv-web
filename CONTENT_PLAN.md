@@ -1,7 +1,6 @@
-# Content Production Plan: 100 Articles Strategy
+# Content Production Plan: Strict Protocol
 
-**Goal:** Publish 100 high-quality, SEO-optimized articles targeting the Saudi Arabia market (Riyadh, Jeddah, etc.).
-**Standard:** All articles must follow the structure defined in `SEO_CONTENT_PLAN.md` and be saved as `.php` files in `templates/template-3/blog/`.
+**Goal:** Execute the 100-article strategy based strictly on `SEO.md`.
 
 ## Legend
 - [ ] Pending
@@ -10,43 +9,56 @@
 - [P] Published to Server
 
 ## Hub 1: Water Pumps (مضخات المياه)
-- [x] `blog/pump-repair-north-riyadh.php` - تصليح مضخات مياه شمال الرياض
-- [x] `blog/grundfos-pump-agent-riyadh.php` - وكيل مضخات Grundfos الرياض
-- [x] `blog/ksb-pump-maintenance.php` - صيانة مضخات KSB
-- [x] `blog/weak-water-pressure-solution.php` - حل مشكلة ضعف ضغط الماء
-- [x] `blog/pump-humming-sound.php` - أسباب صوت طنين المضخة
-- [x] `blog/home-water-pump-types.php` - أنواع مضخات المياه المنزلية
-- [x] `blog/pump-installation-east-riyadh.php` - تركيب مضخات شرق الرياض
-- [x] `blog/booster-pump-repair.php` - تصليح مضخات الدفع (Booster)
-- [x] `blog/submersible-pump-problems.php` - مشاكل الغطاسات وحلها
+### General & Sales
+- [ ] `blog/water-pumps.php` - مضخات مياه
+- [ ] `blog/water-pump-company.php` - شركة مضخات مياه
+- [ ] `blog/selling-water-pumps.php` - بيع مضخات مياه
+- [ ] `blog/supply-water-pumps.php` - توريد مضخات مياه
+- [ ] `blog/install-water-pumps.php` - تركيب مضخات مياه
+- [ ] `blog/maintain-water-pumps.php` - صيانة مضخات مياه
+- [ ] `blog/water-pumping-systems.php` - أنظمة ضخ المياه
+
+### Types
+- [ ] `blog/centrifugal-pumps.php` - مضخات طرد مركزي
+- [ ] `blog/horizontal-pumps.php` - مضخات أفقية
+- [ ] `blog/vertical-pumps.php` - مضخات رأسية
+- [ ] `blog/multistage-pumps.php` - مضخات متعددة المراحل
+- [ ] `blog/booster-pumps.php` - مضخات تعزيز الضغط
+- [ ] `blog/fire-pumps.php` - مضخات الحريق
+- [ ] `blog/submersible-pumps.php` - مضخات غاطسة
+- [ ] `blog/well-pumps.php` - مضخات آبار
+- [ ] `blog/industrial-water-pumps.php` - مضخات مياه صناعية
+- [ ] `blog/building-water-pumps.php` - مضخات مياه للمباني
+
+### Brands
+- [ ] `blog/grundfos-pumps.php` - مضخات Grundfos (جراندفوس)
+- [ ] `blog/lowara-pumps.php` - مضخات Lowara (لووارا)
+- [ ] `blog/ebara-pumps.php` - مضخات إبارا
+- [ ] `blog/original-water-pumps.php` - مضخات مياه أصلية
+- [ ] `blog/authorized-pump-distributor.php` - موزع مضخات معتمد
 
 ## Hub 2: Control Panels (لوحات التحكم)
-- [x] `blog/star-delta-panel-manufacturing.php` - تصنيع لوحات ستار دلتا
-- [x] `blog/vfd-programming-pumps.php` - برمجة انفرتر VFD للمضخات
-- [x] `blog/control-panel-prices-2026.php` - أسعار لوحات التحكم 2026
+- [ ] `blog/pump-control-panels.php` - لوحات تحكم مضخات
+- [ ] `blog/mcc-panels.php` - لوحات MCC
+- [ ] `blog/pressure-control-panels.php` - لوحات تحكم ضغط
+- [ ] `blog/water-pump-control-panels.php` - لوحات تحكم مضخات مياه
+- [ ] `blog/pump-operation-panels.php` - لوحات تشغيل مضخات
+- [ ] `blog/automatic-control-panels.php` - لوحات تحكم أوتوماتيك
+- [ ] `blog/schneider-control-panels.php` - لوحات تحكم بشنايدر
+- [ ] `blog/vfd-control-panels.php` - لوحات تحكم VFD
+- [ ] `blog/fire-pump-control-panels.php` - لوحات تحكم مضخات حريق
+- [ ] `blog/plc-panels.php` - لوحات PLC
+- [ ] `blog/supply-star-delta-panels.php` - توريد لوحات ستار دلتا
+- [ ] `blog/supply-soft-starter-panels.php` - توريد لوحات سوفت ستارتر
 
-## Hub 3: HVAC & Ducting (التكييف والتهوية)
-- [x] `blog/central-chiller-maintenance.php` - صيانة تشيلرات مركزي
-- [x] `blog/ac-duct-cleaning.php` - تنظيف دكت مكيفات
-- [x] `blog/industrial-exhaust-fan-installation.php` - تركيب مراوح شفط صناعية
-- [x] `blog/central-ac-maintenance-riyadh.php` - صيانة تكييف مركزي بالرياض
-
-## Hub 4: Fire Fighting Systems (أنظمة الحريق)
-- [x] `blog/jockey-fire-pump-maintenance.php` - صيانة مضخات الحريق جوكي
-- [x] `blog/fire-network-filling.php` - تعبئة شبكة الحريق
-- [x] `blog/civil-defense-approved-companies.php` - شركات معتمدة للدفاع المدني
-
-## Hub 5: Factory Maintenance (صيانة المصانع)
-- [x] `blog/electric-motor-winding.php` - لف محركات كهربائية
-- [x] `blog/production-line-maintenance.php` - صيانة خطوط إنتاج
-- [x] `blog/mechanical-fan-balancing.php` - توازن ميكانيكي للمراوح
-
-## Other Services (From Existing Files)
-- [P] `blog/leak-detection-jeddah.php` - كشف تسربات المياه بجدة
-- [P] `blog/tank-insulation-makkah.php` - شركة عزل خزانات بمكة
-- [P] `blog/roof-insulation-taif.php` - عزل اسطح بالطائف
-- [P] `blog/pool-maintenance-jeddah.php` - صيانة مسابح بجدة
-- [P] `blog/bathroom-insulation-jeddah.php` - عزل حمامات بجدة
-
----
-*Note: This list will be populated dynamically as we generate more topics.*
+## Hub 3: Technical Services (الخدمات الفنية)
+- [ ] `blog/control-panel-maintenance.php` - صيانة لوحات تحكم
+- [ ] `blog/water-pump-repair.php` - إصلاح مضخات مياه
+- [ ] `blog/pumping-system-maintenance.php` - صيانة أنظمة الضخ
+- [ ] `blog/pump-after-sales.php` - خدمات ما بعد البيع للمضخات
+- [ ] `blog/pump-inspection.php` - فحص وتشغيل المضخات
+- [ ] `blog/pump-room-execution.php` - تنفيذ غرف مضخات
+- [ ] `blog/ksb-pump-maintenance.php` - صيانة مضخات KSB
+- [ ] `blog/inverter-panel-maintenance.php` - صيانة لوحات انفرتر
+- [ ] `blog/pump-piping-maintenance.php` - صيانة مواسير مضخات
+- [ ] `blog/pump-pressure-calibration.php` - معايرة ضغط مضخات
