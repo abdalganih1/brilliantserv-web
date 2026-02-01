@@ -1,0 +1,23 @@
+# BrilliantServ Robots.txt
+# Last Updated: 2026-02-01
+
+User-agent: *
+Allow: /
+
+# Block legacy WordPress URLs
+Disallow: /tag/
+Disallow: /category/
+Disallow: /feed/
+Disallow: */feed/
+Disallow: /wp-content/
+Disallow: /wp-includes/
+Disallow: /wp-admin/
+
+# Allow important paths
+Allow: /media/
+Allow: /css/
+Allow: /js/
+
+# Sitemaps
+Sitemap: https://brilliantserv.com/sitemap.xml
+Sitemap: https://brilliantserv.com/sitemap_index.xml

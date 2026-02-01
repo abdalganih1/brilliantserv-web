@@ -6,9 +6,14 @@ RewriteEngine On
 RewriteBase /
 
 # =====================================================
-# Arabic URL Rewrites - Match GSC indexed URLs
-# Use B flag for proper URL encoding handling
+# Legacy WordPress URLs - Return 410 Gone
+# Tells Google to stop crawling and remove from index
 # =====================================================
+RewriteRule ^tag/.* - [G,L]
+RewriteRule ^category/.*/feed/.* - [G,L]
+RewriteRule ^.*/feed/?$ - [G,L]
+RewriteRule ^wp-content/.* - [G,L]
+RewriteRule ^wp-includes/.* - [G,L]
 
 # لف المحركات الكهربائية
 RewriteRule ^لف-المحركات-الكهربائية/?$ blog/لف-المحركات-الكهربائية.php [L,NC]
