@@ -634,14 +634,14 @@ include 'includes/config.php';
             </div>
             <div class="map-container"
                 style="border-radius: 1rem; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3627.0!2d46.7277!3d24.6033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f0652b0000001%3A0x1!2z2YXYpNiz2LPYqSDYsdmI2KfYptmAINin2YTZg9ix2YrYs9iq2KfZhA!5e0!3m2!1sar!2ssa!4v1706795000000"
-                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                <iframe src="https://maps.google.com/maps?q=24.508528,46.884278&hl=ar&z=17&output=embed" width="100%"
+                    height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>
             <div style="display: flex; justify-content: center; gap: 1.5rem; margin-top: 2rem; flex-wrap: wrap;">
-                <a href="https://goo.gl/maps/yAETd1PkKQrXdpEp6" target="_blank" class="btn btn-primary"
+                <a href="https://www.google.com/maps/place/24%C2%B030'30.7%22N+46%C2%B053'03.4%22E/@24.508528,46.884278,17z"
+                    target="_blank" class="btn btn-primary"
                     style="display: inline-flex; align-items: center; gap: 0.5rem;">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2">

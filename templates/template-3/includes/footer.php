@@ -62,7 +62,11 @@
                             </path>
                         </svg>
                         <span>
-                            <?= $phone_primary ?>
+                            <a href="tel:<?= $phone_primary ?>"
+                                style="color: inherit; text-decoration: none;"><?= $phone_primary ?></a>
+                            <span style="margin: 0 5px; color: var(--color-primary);">|</span>
+                            <a href="tel:<?= $phone_secondary ?>"
+                                style="color: inherit; text-decoration: none;"><?= $phone_secondary ?></a>
                         </span>
                     </li>
                     <li>
