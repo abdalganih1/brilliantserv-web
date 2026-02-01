@@ -50,3 +50,64 @@
 
 ---
 *Note: This list will be populated dynamically as we generate more topics.*
+
+## Phase 7 Planned Articles
+
+### Hub: Water Pumps
+- [ ] blog/centrifugal-pumps.php - مضخات طرد مركزي
+- [ ] blog/horizontal-pumps.php - مضخات أفقية
+- [ ] blog/vertical-pumps.php - مضخات رأسية
+- [ ] blog/multistage-pumps.php - مضخات متعددة المراحل
+- [ ] blog/fire-pumps.php - مضخات الحريق
+- [ ] blog/well-pumps.php - مضخات آبار
+- [ ] blog/industrial-water-pumps.php - مضخات مياه صناعية
+- [ ] blog/building-water-pumps.php - مضخات مياه للمباني
+- [ ] blog/lowara-pumps.php - مضخات Lowara
+- [ ] blog/ebara-pumps.php - مضخات إبارا
+- [ ] blog/original-water-pumps.php - مضخات مياه أصلية
+- [ ] blog/authorized-pump-distributor.php - موزع مضخات معتمد
+- [ ] blog/water-booster-systems.php - توريد بوسترات مياه
+- [ ] blog/sewage-pumps.php - مضخات صرف صحي
+- [ ] blog/pump-company-riyadh.php - شركة مضخات في الرياض
+- [ ] blog/pump-supplier-saudi.php - مورد مضخات السعودية
+- [ ] blog/water-pumping-solutions.php - حلول ضخ المياه
+- [ ] blog/water-pumps-saudi.php - مضخات مياه في السعودية
+- [ ] blog/pump-maintenance-riyadh.php - صيانة مضخات بالرياض
+- [ ] blog/best-pump-company-saudi.php - أفضل شركة مضخات مياه في السعودية
+- [ ] blog/fire-pump-specialist.php - شركة متخصصة في مضخات الحريق
+- [ ] blog/fire-pump-installation.php - تركيب مضخات حريق
+- [ ] blog/pump-services-riyadh.php - تركيب وصيانة مضخات مياه بالرياض
+- [ ] blog/grundfos-pump-assembly.php - تجميع مضخات GRUNDFOS
+- [ ] blog/lowara-pump-maintenance.php - صيانة مضخات LOWARA
+
+### Hub: Control Panels
+- [ ] blog/pump-control-panels.php - لوحات تحكم مضخات
+- [ ] blog/mcc-panels.php - لوحات MCC
+- [ ] blog/pressure-control-panels.php - لوحات تحكم ضغط
+- [ ] blog/pump-operation-panels.php - لوحات تشغيل مضخات
+- [ ] blog/automatic-control-panels.php - لوحات تحكم أوتوماتيك
+- [ ] blog/schneider-control-panels.php - لوحات تحكم بشنايدر
+- [ ] blog/fire-pump-control-panels.php - لوحات تحكم مضخات حريق
+- [ ] blog/plc-control-panels.php - لوحات PLC
+- [ ] blog/soft-starter-panels.php - توريد لوحات سوفت ستارتر
+- [ ] blog/hvac-control-panels.php - لوحات HVAC
+- [ ] blog/hvac-panel-manufacturing.php - تصنيع لوحات HVAC
+- [ ] blog/inverter-panel-maintenance.php - صيانة لوحات انفرتر
+- [ ] blog/control-panels-riyadh.php - لوحات تحكم مضخات الرياض
+- [ ] blog/certified-pump-panels.php - لوحات تحكم مضخات معتمدة
+- [ ] blog/control-panel-installation.php - تركيب لوحات تحكم
+- [ ] blog/pump-panel-assembly.php - تجميع لوحات مضخات
+- [ ] blog/sewage-pump-panels.php - توريد لوحات مضخات صرف
+
+### Hub: Technical Services
+- [ ] blog/pumping-system-maintenance.php - صيانة أنظمة الضخ
+- [ ] blog/pump-room-construction.php - تنفيذ غرف مضخات
+- [ ] blog/pump-commissioning.php - فحص وتشغيل المضخات
+- [ ] blog/pump-piping-maintenance.php - صيانة مواسير مضخات
+- [ ] blog/pump-pressure-calibration.php - معايرة ضغط مضخات
+- [ ] blog/pump-maintenance-contracts.php - عقود صيانة مضخات
+- [ ] blog/pumping-system-installation.php - تركيب أنظمة ضخ
+- [ ] blog/pump-handover.php - تشغيل وتسليم المضخات
+- [ ] blog/pump-testing.php - اختبار وتشغيل المضخات
+- [ ] blog/pump-room-maintenance.php - صيانة غرف مضخات
+- [ ] blog/pump-pressure-sensor.php - تبديل حساس ضغط مضخات
