@@ -98,6 +98,13 @@ include 'includes/config.php';
                     </article>
                 </div>
             </div>
+
+            <div
+                style="background: var(--color-bg-dark); color: white; padding: 2rem; border-radius: 1rem; margin-top: 2rem; display: inline-block;">
+                <p>تحتاج مساعدة؟ تواصل معنا:</p>
+                <a href="tel:0550698111" style="color: var(--color-primary); font-size: 1.5rem; font-weight: bold;">📞
+                    0550698111</a>
+            </div>
         </div>
     </section>
 

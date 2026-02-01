@@ -30,7 +30,7 @@ echo ""
 echo "📋 Syncing template-3 to root..."
 
 # Copy main PHP files and configs
-for file in index.php about.php services.php projects.php contact.php blog.php 404.php .htaccess robots.txt sitemap.xml sitemap_index.xml; do
+for file in index.php about.php services.php projects.php contact.php blog.php 403.php 404.php 410.php .htaccess robots.txt sitemap.xml sitemap_index.xml; do
     if [ -f "$TEMPLATE_DIR/$file" ]; then
         cp "$TEMPLATE_DIR/$file" "$SITE_ROOT/"
         echo "  ✅ Copied: $file"
