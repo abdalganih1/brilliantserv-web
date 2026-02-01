@@ -335,12 +335,13 @@ include 'includes/config.php';
                     <div class="service-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                             stroke-width="2">
-                            <circle cx="12" cy="12" r="10" />
-                            <path d="M12 6v6l4 2" />
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                            <line x1="8" y1="21" x2="16" y2="21" />
+                            <line x1="12" y1="17" x2="12" y2="21" />
                         </svg>
                     </div>
-                    <h3>لف المحركات الكهربائية</h3>
-                    <p>إعادة لف وصيانة المحركات الكهربائية الصناعية بجميع الأحجام مع ضمان شامل على الجودة.</p>
+                    <h3>لوحات تحكم التكييف</h3>
+                    <p>تصميم وتجميع لوحات التحكم الكهربائية لأنظمة التكييف المركزي والمضخات الصناعية.</p>
                     <a href="services.html" class="service-link">تفاصيل الخدمة <svg xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16"
                             height="16">
@@ -619,6 +620,46 @@ include 'includes/config.php';
             <!-- View All Articles Button -->
             <div class="section-footer" style="margin-top: 2.5rem;">
                 <a href="blog.html" class="btn btn-outline">مشاهدة كل المقالات</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Map Section -->
+    <section class="location-map" style="padding: 4rem 0; background: var(--color-bg-alt);">
+        <div class="container">
+            <div class="section-header" style="text-align: center; margin-bottom: 2rem;">
+                <span class="section-badge">موقعنا</span>
+                <h2>زورونا في ورشتنا</h2>
+                <p>الرياض - حي المصفاة، طريق الخرج</p>
+            </div>
+            <div class="map-container"
+                style="border-radius: 1rem; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3627.5!2d46.7!3d24.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDM2JzAwLjAiTiA0NsKwNDInMDAuMCJF!5e0!3m2!1sar!2ssa!4v1706795000000"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div style="display: flex; justify-content: center; gap: 1.5rem; margin-top: 2rem; flex-wrap: wrap;">
+                <a href="https://maps.google.com/?q=24.6,46.7" target="_blank" class="btn btn-primary"
+                    style="display: inline-flex; align-items: center; gap: 0.5rem;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    احصل على الاتجاهات
+                </a>
+                <a href="tel:0550698111" class="btn btn-outline"
+                    style="display: inline-flex; align-items: center; gap: 0.5rem;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72">
+                        </path>
+                    </svg>
+                    اتصل بنا
+                </a>
             </div>
         </div>
     </section>
