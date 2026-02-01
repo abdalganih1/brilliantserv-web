@@ -18,7 +18,7 @@ $email = "info@brilliantcrystal.sa";
 $whatsapp = "966550698111";
 
 // العنوان
-$address = "الرياض - السلي، المملكة العربية السعودية";
+$address = "الرياض - حي المصفاة، طريق الخرج، المملكة العربية السعودية";
 $geo_region = "SA-01";
 $geo_placename = "Riyadh";
 
@@ -35,7 +35,8 @@ $social_instagram = "https://instagram.com/brilliantserv";
 $google_verification = "-4dWOJlQukPPTSz-ABTrob2Oe_vkEdm_y1_xFVryJTo";
 
 // دالة مساعدة لتحديد الصفحة النشطة
-function isActive($page, $current) {
+function isActive($page, $current)
+{
     return ($page === $current) ? 'active' : '';
 }
 ?>

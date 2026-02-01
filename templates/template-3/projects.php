@@ -329,14 +329,7 @@ include 'includes/config.php';
                         <span>محطة معالجة</span>
                     </div>
                 </div>
-                <div class="project-card" data-category="mechanical">
-                    <img src="media/mechanical/اعمال-ميكانيكا-6.webp?v=1769376863" alt="أنظمة التهوية والدكت"
-                        loading="lazy">
-                    <div class="project-overlay">
-                        <h4>أنظمة التهوية والدكت</h4>
-                        <span>مول تجاري</span>
-                    </div>
-                </div>
+
                 <div class="project-card" data-category="mechanical">
                     <img src="media/mechanical/اعمال-ميكانيكا-7.webp?v=1769376863" alt="صيانة مضخات حريق"
                         loading="lazy">
@@ -374,13 +367,7 @@ include 'includes/config.php';
                         <span>مصنع إنتاج</span>
                     </div>
                 </div>
-                <div class="project-card" data-category="mechanical">
-                    <img src="media/mechanical/p10_img5.webp?v=1769376863" alt="تركيب مضخات ديزل" loading="lazy">
-                    <div class="project-overlay">
-                        <h4>تركيب مضخات ديزل</h4>
-                        <span>موقع إنشائي</span>
-                    </div>
-                </div>
+
                 <div class="project-card" data-category="mechanical">
                     <img src="media/mechanical/p11_img4.webp?v=1769376863" alt="أنظمة تكييف مركزي" loading="lazy">
                     <div class="project-overlay">

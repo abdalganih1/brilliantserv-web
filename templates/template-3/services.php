@@ -185,14 +185,7 @@ include 'includes/config.php';
                         <span>تجميع وبرمجة | مصانع أغذية</span>
                     </div>
                 </div>
-                <div class="project-card">
-                    <img src="media/services/صيانة-كهرباء-المصانع-بالرياض.png?v=1769376863" alt="كهرباء وصيانة مصانع"
-                        loading="lazy">
-                    <div class="project-overlay">
-                        <h4>كهرباء وصيانة مصانع</h4>
-                        <span>عقود صيانة | الرياض</span>
-                    </div>
-                </div>
+
                 <div class="project-card">
                     <img src="media/services/لف-المحركات-الكهربائية.webp?v=1769376863" alt="لف المحركات الكهربائية"
                         loading="lazy">
@@ -218,13 +211,7 @@ include 'includes/config.php';
                         <span>وكيل صيانة معتمد | مركز خدمة</span>
                     </div>
                 </div>
-                <div class="project-card">
-                    <img src="media/services/صيانة-مضخات-الخرسانة.webp?v=1769376863" alt="مضخات خرسانة" loading="lazy">
-                    <div class="project-overlay">
-                        <h4>مضخات خرسانة</h4>
-                        <span>صيانة وإصلاح | محطات خلط</span>
-                    </div>
-                </div>
+
                 <div class="project-card">
                     <img src="media/services/صيانة-مضخات-KSB-.webp?v=1769376863" alt="محطة ضخ مياه" loading="lazy">
                     <div class="project-overlay">
