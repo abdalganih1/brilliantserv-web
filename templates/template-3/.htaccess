@@ -29,7 +29,7 @@ RewriteRule ^لف-مواتير-ومحولات/?$ /لف-المحركات-الكه
 RewriteRule ^لف-المحركات-الكهربائية/?$ blog/لف-المحركات-الكهربائية.php [L,NC]
 
 # صيانة مضخات الديزل - ARCHIVED (410 Gone)
-RewriteRule ^صيانة-مضخات-الديزل/?$ - [G,L]
+RewriteRule ^blog/(.*-diesel-.*|.*-hydraulic-.*|.*-electronics-.*|.*-hvac-.*|.*-ac-.*|.*-duct-.*|.*-insulation-.*|.*-leak-.*|.*-tank-.*|.*-roof-.*)$ - [G,L]
 
 # صيانة البوردات الالكترونية - ARCHIVED (410 Gone)
 RewriteRule ^صيانة-البوردات-الالكترونية/?$ - [G,L]

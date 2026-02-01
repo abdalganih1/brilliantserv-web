@@ -602,14 +602,14 @@ include 'includes/config.php';
 
                 <!-- Blog Card 3 -->
                 <article class="service-card" style="text-align: right; padding: 0; overflow: hidden;">
-                    <img src="../../media/about-team-work.webp" alt="عزل اسطح"
+                    <img src="media/services/installation-pumps.webp" alt="أنواع المضخات"
                         style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
                     <div style="padding: 1.5rem;">
                         <span
-                            style="font-size: 0.9rem; color: var(--color-primary); display: block; margin-bottom: 0.5rem;">22
+                            style="font-size: 0.9rem; color: var(--color-primary); display: block; margin-bottom: 0.5rem;">28
                             يناير 2026</span>
-                        <h3 style="margin-bottom: 1rem;">عزل اسطح بالطائف</h3>
-                        <a href="blog/roof-insulation-taif.html" class="service-link">اقرأ المزيد <svg
+                        <h3 style="margin-bottom: 1rem;">أفضل أنواع مضخات المياه</h3>
+                        <a href="blog/types-of-water-pumps.php" class="service-link">اقرأ المزيد <svg
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" width="16" height="16">
                                 <path d="M5 12h14M12 5l7 7-7 7" />
