@@ -152,7 +152,15 @@ include '../includes/config.php';
                         </div>
                     </div>
 
-                    <div class="article-cta">
+                    
+                    <div class="related-articles">
+                        <h3>مقالات ذات صلة</h3>
+                        <ul>
+                            <li><a href="صيانة-الكروت-الإلكترونية.php">صيانة الكروت الإلكترونية</a></li>
+                            <li><a href="electronic-board-repair-saudi.php">إصلاح البوردات في السعودية</a></li>
+                        </ul>
+                    </div>
+<div class="article-cta">
                         <h3>بورد تالف؟</h3>
                         <p>أرسل لنا صورة البورد عبر الواتساب للحصول على تقييم مبدئي مجاني.</p>
                         <a href="tel:0550698111" class="btn btn-primary">اتصل الآن 0550698111</a>

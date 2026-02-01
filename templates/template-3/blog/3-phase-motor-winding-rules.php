@@ -102,7 +102,7 @@ include '../includes/config.php';
             <div class="article-wrapper">
                 <!-- Featured Image -->
                 <div class="article-image">
-                    <img src="../../media/blog/motor-winding-diagram.webp" alt="مخطط لف محرك 3 فاز" loading="lazy">
+                    <img src="../media/blog/motor-winding-diagram.webp" alt="مخطط لف محرك 3 فاز" loading="lazy">
                 </div>
 
                 <!-- Article Body -->
@@ -114,7 +114,15 @@ include '../includes/config.php';
 
 
                     <!-- Call to Action -->
-                    <div class="article-cta">
+                    
+                    <div class="related-articles">
+                        <h3>مقالات ذات صلة</h3>
+                        <ul>
+                            <li><a href="لف-المحركات-الكهربائية.php">لف المحركات الكهربائية</a></li>
+                            <li><a href="سرعة-المحركات-الكهربائية.php">سرعة المحركات الكهربائية</a></li>
+                        </ul>
+                    </div>
+<div class="article-cta">
                         <h3>خدمة لف احترافية</h3>
                         <p>ورشة روائع الكريستال مجهزة بأحدث آلات اللف والعزل. ضمان شامل على جميع أعمال اللف.</p>
                         <a href="tel:0550698111" class="btn btn-primary">اتصل الآن 0550698111</a>

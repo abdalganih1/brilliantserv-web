@@ -72,7 +72,7 @@ include '../includes/config.php';
         <div class="container">
             <div class="article-wrapper">
                 <div class="article-image">
-                    <img src="../../media/blog/home-water-pump-types.webp" alt="أنواع مضخات المياه المختلفة" loading="lazy">
+                    <img src="../media/blog/home-water-pump-types.webp" alt="أنواع مضخات المياه المختلفة" loading="lazy">
                 </div>
 
                 <div class="article-body">
@@ -94,7 +94,16 @@ include '../includes/config.php';
                     <p>لمنزل من طابقين، ننصح بمضخة **1 حصان تحضير ذاتي** لرفع المياه للخزان العلوي، ومضخة **ضغط ذكية**
                         للتوزيع داخل المنزل.</p>
 
-                    <div class="article-cta">
+                    
+                    <div class="related-articles">
+                        <h3>مقالات ذات صلة</h3>
+                        <ul>
+                            <li><a href="انواع-المضخات.php">أنواع المضخات</a></li>
+                            <li><a href="صيانة-مضخات-جراندفوس.php">صيانة مضخات جراندفوس</a></li>
+                            <li><a href="booster-pump-repair.php">صيانة مضخات التعزيز</a></li>
+                        </ul>
+                    </div>
+<div class="article-cta">
                         <h3>محتاج مساعدة في الاختيار؟</h3>
                         <p>اتصل بنا لننصحك بالمضخة المناسبة لميزانيتك واحتياجك.</p>
                         <a href="tel:0550698111" class="btn btn-primary">استشارة مجانية 0550698111</a>

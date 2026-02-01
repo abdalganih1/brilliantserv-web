@@ -102,7 +102,7 @@ include '../includes/config.php';
             <div class="article-wrapper">
                 <!-- Featured Image -->
                 <div class="article-image">
-                    <img src="../../media/blog/fan-balancing.webp" alt="توازن ميكانيكي للمراوح" loading="lazy">
+                    <img src="../media/blog/fan-balancing.webp" alt="توازن ميكانيكي للمراوح" loading="lazy">
                 </div>
 
                 <!-- Article Body -->
@@ -111,7 +111,16 @@ include '../includes/config.php';
 
 
                     <!-- Call to Action -->
-                    <div class="article-cta">
+                    
+                    <div class="related-articles">
+                        <h3>مقالات ذات صلة</h3>
+                        <ul>
+                            <li><a href="انواع-المضخات.php">أنواع المضخات</a></li>
+                            <li><a href="لف-المحركات-الكهربائية.php">لف المحركات الكهربائية</a></li>
+                            <li><a href="صيانة-البوردات-الالكترونية.php">صيانة البوردات الإلكترونية</a></li>
+                        </ul>
+                    </div>
+<div class="article-cta">
                         <h3>اهتزاز المروحة خطير؟</h3>
                         <p>نعم، قد يدمر الكراسي والمحرك. اطلب فحص التوازن الآن.</p>
                         <a href="tel:0550698111" class="btn btn-primary">اتصل الآن 0550698111</a>

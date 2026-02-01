@@ -1,0 +1,280 @@
+{
+  "generated_at": "2026-01-31T16:25:20.133045",
+  "site": "https://brilliantserv.com/",
+  "comparison": {
+    "last_24h": {
+      "clicks": 8,
+      "impressions": 693,
+      "ctr": 0.011544011544011544,
+      "position": 5.343434343434343
+    },
+    "last_30d": {
+      "clicks": 453,
+      "impressions": 25493,
+      "ctr": 0.017769583807319658,
+      "position": 5.5230063154591456
+    },
+    "period_24h": "2026-01-29 - 2026-01-30",
+    "period_30d": "2026-01-01 - 2026-01-30"
+  },
+  "top_queries": [
+    {
+      "keys": [
+        "روائع الكريستال"
+      ],
+      "clicks": 16,
+      "impressions": 41,
+      "ctr": 0.3902439024390244,
+      "position": 2.5365853658536586
+    },
+    {
+      "keys": [
+        "أساسيات لف المحركات الكهربائية"
+      ],
+      "clicks": 5,
+      "impressions": 70,
+      "ctr": 0.07142857142857142,
+      "position": 2.2857142857142856
+    },
+    {
+      "keys": [
+        "انواع المضخات"
+      ],
+      "clicks": 4,
+      "impressions": 352,
+      "ctr": 0.011363636363636364,
+      "position": 2.2386363636363633
+    },
+    {
+      "keys": [
+        "تصليح بوردات الكترونيات"
+      ],
+      "clicks": 4,
+      "impressions": 61,
+      "ctr": 0.06557377049180328,
+      "position": 4.311475409836065
+    },
+    {
+      "keys": [
+        "صيانة مضخات جراندفوس"
+      ],
+      "clicks": 4,
+      "impressions": 56,
+      "ctr": 0.07142857142857142,
+      "position": 2.928571428571429
+    },
+    {
+      "keys": [
+        "تلفيف المحركات الكهربائية"
+      ],
+      "clicks": 3,
+      "impressions": 47,
+      "ctr": 0.06382978723404255,
+      "position": 3.382978723404255
+    },
+    {
+      "keys": [
+        "دورة صيانة البوردات الالكترونية"
+      ],
+      "clicks": 3,
+      "impressions": 32,
+      "ctr": 0.09375,
+      "position": 5.5625
+    },
+    {
+      "keys": [
+        "صيانة انفرترات"
+      ],
+      "clicks": 3,
+      "impressions": 10,
+      "ctr": 0.3,
+      "position": 6.1
+    },
+    {
+      "keys": [
+        "صيانة بوردات الكترونية"
+      ],
+      "clicks": 3,
+      "impressions": 24,
+      "ctr": 0.125,
+      "position": 3.8333333333333335
+    },
+    {
+      "keys": [
+        "أنواع المضخات وطرق عملها وصيانتها"
+      ],
+      "clicks": 2,
+      "impressions": 57,
+      "ctr": 0.03508771929824561,
+      "position": 2.947368421052632
+    }
+  ],
+  "top_pages": [
+    {
+      "keys": [
+        "https://brilliantserv.com/%D9%84%D9%81-%D8%A7%D9%84%D9%85%D8%AD%D8%B1%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A6%D9%8A%D8%A9/"
+      ],
+      "clicks": 123,
+      "impressions": 6849,
+      "ctr": 0.017958826106000875,
+      "position": 3.0475981895167177
+    },
+    {
+      "keys": [
+        "https://brilliantserv.com/%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%A7%D9%84%D8%A8%D9%88%D8%B1%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9/"
+      ],
+      "clicks": 39,
+      "impressions": 1087,
+      "ctr": 0.035878564857405704,
+      "position": 4.452621895124195
+    },
+    {
+      "keys": [
+        "https://brilliantserv.com/%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D9%85%D8%B6%D8%AE%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%8A%D8%B2%D9%84/"
+      ],
+      "clicks": 39,
+      "impressions": 4676,
+      "ctr": 0.008340461933276304,
+      "position": 2.7117194183062447
+    },
+    {
+      "keys": [
+        "https://brilliantserv.com/%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%A7%D9%84%D9%83%D8%B1%D9%88%D8%AA-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9/"
+      ],
+      "clicks": 36,
+      "impressions": 798,
+      "ctr": 0.045112781954887216,
+      "position": 6.324561403508772
+    },
+    {
+      "keys": [
+        "https://brilliantserv.com/"
+      ],
+      "clicks": 30,
+      "impressions": 197,
+      "ctr": 0.15228426395939088,
+      "position": 5.451776649746193
+    },
+    {
+      "keys": [
+        "https://brilliantserv.com/%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D9%85%D8%B6%D8%AE%D8%A7%D8%AA-%D8%AC%D8%B1%D8%A7%D9%86%D8%AF%D9%81%D9%88%D8%B3/"
+      ],
+      "clicks": 23,
+      "impressions": 732,
+      "ctr": 0.031420765027322405,
+      "position": 5.551912568306011
+    },
+    {
+      "keys": [
+        "https://brilliantserv.com/%D8%A5%D8%B5%D9%84%D8%A7%D8%AD-%D9%88%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%A7%D9%86%D9%81%D8%B1%D8%AA%D8%B1/"
+      ],
+      "clicks": 19,
+      "impressions": 339,
+      "ctr": 0.05604719764011799,
+      "position": 5.908554572271386
+    },
+    {
+      "keys": [
+        "https://brilliantserv.com/%D8%A7%D9%84%D9%85%D8%AE%D8%B7%D8%B7%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A6%D9%8A%D8%A9-%D9%84%D9%84%D9%85%D8%A8%D8%A7%D9%86%D9%8A/"
+      ],
+      "clicks": 17,
+      "impressions": 828,
+      "ctr": 0.020531400966183576,
+      "position": 7.559178743961352
+    },
+    {
+      "keys": [
+        "https://brilliantserv.com/%D8%B3%D8%B1%D8%B9%D8%A9-%D8%A7%D9%84%D9%85%D8%AD%D8%B1%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A6%D9%8A%D8%A9/"
+      ],
+      "clicks": 14,
+      "impressions": 1400,
+      "ctr": 0.01,
+      "position": 4.703571428571429
+    },
+    {
+      "keys": [
+        "https://brilliantserv.com/%D8%A7%D9%86%D9%88%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%B6%D8%AE%D8%A7%D8%AA/"
+      ],
+      "clicks": 13,
+      "impressions": 1565,
+      "ctr": 0.008306709265175719,
+      "position": 8.808306709265175
+    }
+  ],
+  "devices": [
+    {
+      "keys": [
+        "MOBILE"
+      ],
+      "clicks": 380,
+      "impressions": 21381,
+      "ctr": 0.01777278892474627,
+      "position": 4.216126467424349
+    },
+    {
+      "keys": [
+        "DESKTOP"
+      ],
+      "clicks": 70,
+      "impressions": 3894,
+      "ctr": 0.017976373908577297,
+      "position": 12.751669234720081
+    },
+    {
+      "keys": [
+        "TABLET"
+      ],
+      "clicks": 3,
+      "impressions": 218,
+      "ctr": 0.013761467889908258,
+      "position": 4.577981651376147
+    }
+  ],
+  "countries": [
+    {
+      "keys": [
+        "sau"
+      ],
+      "clicks": 145,
+      "impressions": 4899,
+      "ctr": 0.02959787711777914,
+      "position": 7.699530516431925
+    },
+    {
+      "keys": [
+        "egy"
+      ],
+      "clicks": 124,
+      "impressions": 6922,
+      "ctr": 0.01791389771742271,
+      "position": 4.807425599537706
+    },
+    {
+      "keys": [
+        "dza"
+      ],
+      "clicks": 58,
+      "impressions": 3097,
+      "ctr": 0.018727801097836616,
+      "position": 3.264449467226348
+    },
+    {
+      "keys": [
+        "syr"
+      ],
+      "clicks": 25,
+      "impressions": 1676,
+      "ctr": 0.014916467780429593,
+      "position": 3.1372315035799523
+    },
+    {
+      "keys": [
+        "irq"
+      ],
+      "clicks": 17,
+      "impressions": 1159,
+      "ctr": 0.014667817083692839,
+      "position": 3.6125970664365834
+    }
+  ]
+}

@@ -116,7 +116,7 @@ include '../includes/config.php';
             <div class="article-wrapper">
                 <!-- Featured Image -->
                 <div class="article-image">
-                    <img src="../../media/blog/motor-winding.webp" alt="لف محركات كهربائية" loading="lazy">
+                    <img src="../media/blog/motor-winding.webp" alt="لف محركات كهربائية" loading="lazy">
                 </div>
 
                 <!-- Article Body -->
@@ -127,7 +127,16 @@ include '../includes/config.php';
 
 
                     <!-- Call to Action -->
-                    <div class="article-cta">
+                    
+                    <div class="related-articles">
+                        <h3>مقالات ذات صلة</h3>
+                        <ul>
+                            <li><a href="لف-المحركات-الكهربائية.php">لف المحركات الكهربائية</a></li>
+                            <li><a href="سرعة-المحركات-الكهربائية.php">سرعة المحركات الكهربائية</a></li>
+                            <li><a href="3-phase-motor-winding-rules.php">قواعد لف المحركات ثلاثية الفاز</a></li>
+                        </ul>
+                    </div>
+<div class="article-cta">
                         <h3>محركك تعطل؟</h3>
                         <p>لا تستعجل بشراء جديد. خدمة اللف توفر عليك 60% من التكلفة.</p>
                         <a href="tel:0550698111" class="btn btn-primary">اتصل الآن 0550698111</a>

@@ -1,257 +1,324 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main Pages -->
   <url>
     <loc>https://brilliantserv.com/</loc>
-    <lastmod>2026-01-31</lastmod>
+    <lastmod>2026-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://brilliantserv.com/index.html</loc>
-    <lastmod>2026-01-31</lastmod>
+    <loc>https://brilliantserv.com/index.php</loc>
+    <lastmod>2026-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://brilliantserv.com/services.html</loc>
-    <lastmod>2026-01-31</lastmod>
+    <lastmod>2026-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://brilliantserv.com/projects.html</loc>
-    <lastmod>2026-01-31</lastmod>
+    <lastmod>2026-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://brilliantserv.com/blog.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://brilliantserv.com/about.html</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://brilliantserv.com/contact.html</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  
+  <!-- Blog Articles -->
   <url>
-    <loc>https://brilliantserv.com/blog/electrical-layouts-for-buildings.php</loc>
-    <lastmod>2026-01-31</lastmod>
+    <loc>https://brilliantserv.com/blog/%D9%84%D9%81-%D8%A7%D9%84%D9%85%D8%AD%D8%B1%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A6%D9%8A%D8%A9.php</loc>
+    <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://brilliantserv.com/blog/diesel-pump-maintenance-saudi.php</loc>
-    <lastmod>2026-01-31</lastmod>
+    <loc>https://brilliantserv.com/blog/%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D9%88%D8%AD%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%83%D9%8A%D9%8A%D9%81-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A.php</loc>
+    <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://brilliantserv.com/blog/electronic-board-repair-saudi.php</loc>
-    <lastmod>2026-01-31</lastmod>
+    <loc>https://brilliantserv.com/blog/%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D9%85%D8%B6%D8%AE%D8%A7%D8%AA-%D8%AC%D8%B1%D8%A7%D9%86%D8%AF%D9%81%D9%88%D8%B3.php</loc>
+    <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://brilliantserv.com/blog/pump-installation-east-riyadh.php</loc>
-    <lastmod>2026-01-31</lastmod>
+    <loc>https://brilliantserv.com/blog/%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D9%85%D8%B6%D8%AE%D8%A7%D8%AA-%D8%A7%D9%84%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83.php</loc>
+    <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://brilliantserv.com/blog/pump-repair-north-riyadh.php</loc>
-    <lastmod>2026-01-31</lastmod>
+    <loc>https://brilliantserv.com/blog/%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D9%85%D8%B6%D8%AE%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%8A%D8%B2%D9%84.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%A8%D9%84%D9%88%D9%81-%D8%A7%D9%84%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%A8%D8%B3%D8%A7%D8%AA%D9%85-%D8%A7%D9%84%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%A7%D9%84%D9%83%D8%B1%D9%88%D8%AA-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%A7%D9%84%D8%A8%D9%88%D8%B1%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/%D8%B3%D8%B1%D8%B9%D8%A9-%D8%A7%D9%84%D9%85%D8%AD%D8%B1%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A6%D9%8A%D8%A9.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1-%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D9%8A%D8%A9-%D9%81%D9%8A-%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%B5%D8%A7%D9%86.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/%D8%A7%D9%86%D9%88%D8%A7%D8%B9-%D8%A7%D9%84%D9%85%D8%B6%D8%AE%D8%A7%D8%AA.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/%D8%A7%D9%84%D9%85%D8%AE%D8%B7%D8%B7%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A6%D9%8A%D8%A9-%D9%84%D9%84%D9%85%D8%A8%D8%A7%D9%86%D9%8A.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/%D8%A5%D8%B5%D9%84%D8%A7%D8%AD-%D9%88%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%A7%D9%86%D9%81%D8%B1%D8%AA%D8%B1.php</loc>
+    <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brilliantserv.com/blog/weak-water-pressure-solution.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://brilliantserv.com/blog/pump-humming-sound.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://brilliantserv.com/blog/home-water-pump-types.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://brilliantserv.com/blog/grundfos-pump-agent-riyadh.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://brilliantserv.com/blog/ksb-pump-maintenance.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://brilliantserv.com/blog/leak-detection-jeddah.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://brilliantserv.com/blog/tank-insulation-makkah.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://brilliantserv.com/blog/roof-insulation-taif.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://brilliantserv.com/blog/pool-maintenance-jeddah.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://brilliantserv.com/blog/bathroom-insulation-jeddah.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://brilliantserv.com/blog/booster-pump-repair.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://brilliantserv.com/blog/submersible-pump-problems.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://brilliantserv.com/blog/star-delta-panel-manufacturing.php</loc>
-    <lastmod>2026-01-31</lastmod>
+    <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brilliantserv.com/blog/vfd-programming-pumps.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://brilliantserv.com/blog/control-panel-prices-2026.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://brilliantserv.com/blog/central-chiller-maintenance.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://brilliantserv.com/blog/ac-duct-cleaning.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://brilliantserv.com/blog/industrial-exhaust-fan-installation.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://brilliantserv.com/blog/jockey-fire-pump-maintenance.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://brilliantserv.com/blog/fire-network-filling.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://brilliantserv.com/blog/civil-defense-approved-companies.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://brilliantserv.com/blog/electric-motor-winding.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://brilliantserv.com/blog/production-line-maintenance.php</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://brilliantserv.com/blog/mechanical-fan-balancing.php</loc>
-    <lastmod>2026-01-31</lastmod>
+    <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brilliantserv.com/blog/types-of-water-pumps.php</loc>
-    <lastmod>2026-01-31</lastmod>
+    <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://brilliantserv.com/blog/3-phase-motor-winding-rules.php</loc>
-    <lastmod>2026-01-31</lastmod>
+    <loc>https://brilliantserv.com/blog/tank-insulation-makkah.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/submersible-pump-problems.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/star-delta-panel-manufacturing.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/roof-insulation-taif.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/pump-repair-north-riyadh.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/pump-installation-east-riyadh.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/pump-humming-sound.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/production-line-maintenance.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/pool-maintenance-jeddah.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/mechanical-fan-balancing.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/leak-detection-jeddah.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/ksb-pump-maintenance.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/jockey-fire-pump-maintenance.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/industrial-exhaust-fan-installation.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/home-water-pump-types.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/grundfos-pump-agent-riyadh.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/fire-network-filling.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/electronic-board-repair-saudi.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/electrical-layouts-for-buildings.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/electric-motor-winding.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/diesel-pump-maintenance-saudi.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/control-panel-prices-2026.php</loc>
+    <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://brilliantserv.com/blog/cold-room-maintenance.php</loc>
-    <lastmod>2026-01-31</lastmod>
+    <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://brilliantserv.com/%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D9%85%D8%B6%D8%AE%D8%A7%D8%AA-%D8%A7%D9%84%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83/</loc>
+    <loc>https://brilliantserv.com/blog/civil-defense-approved-companies.php</loc>
     <lastmod>2026-02-01</lastmod>
-    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://brilliantserv.com/%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%A8%D9%84%D9%88%D9%81-%D8%A7%D9%84%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83/</loc>
+    <loc>https://brilliantserv.com/blog/central-chiller-maintenance.php</loc>
     <lastmod>2026-02-01</lastmod>
-    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://brilliantserv.com/%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D8%A8%D8%B3%D8%A7%D8%AA%D9%85-%D8%A7%D9%84%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83/</loc>
+    <loc>https://brilliantserv.com/blog/booster-pump-repair.php</loc>
     <lastmod>2026-02-01</lastmod>
-    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://brilliantserv.com/%D8%AF%D9%88%D8%B1-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1-%D8%A7%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D9%8A%D8%A9-%D9%81%D9%8A-%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%B5%D8%A7%D9%86/</loc>
+    <loc>https://brilliantserv.com/blog/bathroom-insulation-jeddah.php</loc>
     <lastmod>2026-02-01</lastmod>
-    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/ac-duct-cleaning.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/blog/3-phase-motor-winding-rules.php</loc>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

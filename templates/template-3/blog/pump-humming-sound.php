@@ -72,7 +72,7 @@ include '../includes/config.php';
         <div class="container">
             <div class="article-wrapper">
                 <div class="article-image">
-                    <img src="../../media/blog/pump-humming-sound.webp" alt="فني يفحص صوت محرك المضخة" loading="lazy">
+                    <img src="../media/blog/pump-humming-sound.webp" alt="فني يفحص صوت محرك المضخة" loading="lazy">
                 </div>
 
                 <div class="article-body">
@@ -97,7 +97,16 @@ include '../includes/config.php';
                     <p>إذا كان السبب مكثفاً، فالإصلاح بسيط وغير مكلف. اتصل بنا لنقوم بفحصها وتغيير القطعة التالفة في
                         منزلك.</p>
 
-                    <div class="article-cta">
+                    
+                    <div class="related-articles">
+                        <h3>مقالات ذات صلة</h3>
+                        <ul>
+                            <li><a href="انواع-المضخات.php">أنواع المضخات</a></li>
+                            <li><a href="صيانة-مضخات-جراندفوس.php">صيانة مضخات جراندفوس</a></li>
+                            <li><a href="booster-pump-repair.php">صيانة مضخات التعزيز</a></li>
+                        </ul>
+                    </div>
+<div class="article-cta">
                         <h3>أنقذ مضختك قبل فوات الأوان</h3>
                         <p>نصلك ونصلح العطل في نفس الزيارة.</p>
                         <a href="tel:0550698111" class="btn btn-primary">صيانة طارئة 0550698111</a>

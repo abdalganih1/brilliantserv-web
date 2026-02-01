@@ -124,7 +124,7 @@ include '../includes/config.php';
             <div class="article-wrapper">
                 <!-- Featured Image -->
                 <div class="article-image">
-                    <img src="../../media/blog/home-water-pump-types.webp" alt="فني يركب مضخة مياه جديدة" loading="lazy">
+                    <img src="../media/blog/home-water-pump-types.webp" alt="فني يركب مضخة مياه جديدة" loading="lazy">
                 </div>
 
                 <!-- Article Body -->
@@ -137,7 +137,16 @@ include '../includes/config.php';
 
 
                     <!-- Call to Action -->
-                    <div class="article-cta">
+                    
+                    <div class="related-articles">
+                        <h3>مقالات ذات صلة</h3>
+                        <ul>
+                            <li><a href="انواع-المضخات.php">أنواع المضخات</a></li>
+                            <li><a href="صيانة-مضخات-جراندفوس.php">صيانة مضخات جراندفوس</a></li>
+                            <li><a href="booster-pump-repair.php">صيانة مضخات التعزيز</a></li>
+                        </ul>
+                    </div>
+<div class="article-cta">
                         <h3>مضخة جديدة؟ ركبها صح!</h3>
                         <p>تركيب خاطئ = عمر أقصر للمضخة. اطلب محترفين الآن.</p>
                         <a href="tel:0550698111" class="btn btn-primary">اتصل الآن 0550698111</a>

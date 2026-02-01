@@ -177,7 +177,15 @@ include '../includes/config.php';
                         <li>✅ ضمان على الإصلاح</li>
                     </ul>
 
-                    <div class="article-cta">
+                    
+                    <div class="related-articles">
+                        <h3>مقالات ذات صلة</h3>
+                        <ul>
+                            <li><a href="انواع-المضخات.php">أنواع المضخات</a></li>
+                            <li><a href="booster-pump-repair.php">صيانة مضخات التعزيز</a></li>
+                        </ul>
+                    </div>
+<div class="article-cta">
                         <h3>مضخة جراندفوس تحتاج صيانة؟</h3>
                         <p>اتصل بنا للحصول على تقييم مجاني وأسعار قطع الغيار.</p>
                         <a href="tel:0550698111" class="btn btn-primary">اتصل الآن 0550698111</a>

@@ -36,7 +36,7 @@ include '../includes/config.php';
     <meta property="og:title" content="أفضل فني تصليح مضخات مياه شمال الرياض - خدمة 24 ساعة">
     <meta property="og:description"
         content="هل تبحث عن فني مضخات مياه شمال الرياض؟ نقدم خدمة تصليح وصيانة جميع أنواع المضخات مع ضمان شامل وقطع غيار أصلية.">
-    <meta property="og:image" content="https://brilliantserv.com/media/hero-mechanic-pumps.webp">
+    <meta property="og:image" content="https://brilliantserv.com/media/blog/hero-mechanic-pumps.webp">
     <meta property="og:locale" content="ar_SA">
     <meta property="og:site_name" content="روائع الكريستال">
     <meta property="article:published_time" content="2026-01-30T18:00:00+03:00">
@@ -48,7 +48,7 @@ include '../includes/config.php';
     <meta property="twitter:title" content="أفضل فني تصليح مضخات مياه شمال الرياض - خدمة 24 ساعة">
     <meta property="twitter:description"
         content="هل تبحث عن فني مضخات مياه شمال الرياض؟ نقدم خدمة تصليح وصيانة جميع أنواع المضخات مع ضمان شامل وقطع غيار أصلية.">
-    <meta property="twitter:image" content="https://brilliantserv.com/media/hero-mechanic-pumps.webp">
+    <meta property="twitter:image" content="https://brilliantserv.com/media/blog/hero-mechanic-pumps.webp">
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
@@ -57,7 +57,7 @@ include '../includes/config.php';
         "@type": "Article",
         "headline": "أفضل فني تصليح مضخات مياه شمال الرياض - خدمة 24 ساعة",
         "description": "دليل شامل لخدمات تصليح وصيانة مضخات المياه في شمال الرياض مع قطع غيار أصلية وضمان شامل",
-        "image": "https://brilliantserv.com/media/hero-mechanic-pumps.webp",
+        "image": "https://brilliantserv.com/media/blog/hero-mechanic-pumps.webp",
         "datePublished": "2026-01-30",
         "dateModified": "2026-01-30",
         "author": {
@@ -175,7 +175,7 @@ include '../includes/config.php';
             <div class="article-wrapper">
                 <!-- Featured Image -->
                 <div class="article-image">
-                    <img src="../../media/hero-mechanic-pumps.webp"
+                    <img src="../media/blog/hero-mechanic-pumps.webp"
                         alt="فني تصليح مضخات مياه شمال الرياض - روائع الكريستال">
                 </div>
 
@@ -291,7 +291,16 @@ include '../includes/config.php';
                 </div>
 
                 <!-- CTA Box -->
-                <div class="article-cta">
+                
+                    <div class="related-articles">
+                        <h3>مقالات ذات صلة</h3>
+                        <ul>
+                            <li><a href="انواع-المضخات.php">أنواع المضخات</a></li>
+                            <li><a href="صيانة-مضخات-جراندفوس.php">صيانة مضخات جراندفوس</a></li>
+                            <li><a href="booster-pump-repair.php">صيانة مضخات التعزيز</a></li>
+                        </ul>
+                    </div>
+<div class="article-cta">
                     <h3>مضختك معطلة؟ لا تنتظر!</h3>
                     <p>فريقنا جاهز للوصول إليك في شمال الرياض خلال ساعة واحدة.</p>
                     <a href="tel:0550698111" class="btn btn-primary">اتصل الآن 0550698111</a>

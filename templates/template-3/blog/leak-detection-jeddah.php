@@ -28,7 +28,7 @@ include '../includes/config.php';
     "@type": "BlogPosting",
     "headline": "كشف تسربات المياه بجدة بدون تكسير",
     "description": "نقدم خدمة كشف تسربات المياه بجدة بأحدث الأجهزة الإلكترونية بدون تكسير. فريق فني متخصص وتقارير معتمدة لشركة المياه الوطنية.",
-    "image": "https://brilliantserv.com/media/hero-mechanic-pumps.webp",
+    "image": "https://brilliantserv.com/media/blog/hero-mechanic-pumps.webp",
     "datePublished": "2026-01-24",
     "dateModified": "2026-01-24",
     "author": {
@@ -72,7 +72,7 @@ include '../includes/config.php';
             <div class="article-wrapper">
                 <!-- Featured Image -->
                 <div class="article-image">
-                    <img src="../../media/hero-mechanic-pumps.webp" alt="كشف تسربات المياه بجدة بدون تكسير">
+                    <img src="../media/blog/hero-mechanic-pumps.webp" alt="كشف تسربات المياه بجدة بدون تكسير">
                 </div>
 
                 <!-- Article Body -->
@@ -106,7 +106,16 @@ include '../includes/config.php';
                 </div>
 
                 <!-- CTA Box -->
-                <div class="article-cta">
+                
+                    <div class="related-articles">
+                        <h3>مقالات ذات صلة</h3>
+                        <ul>
+                            <li><a href="انواع-المضخات.php">أنواع المضخات</a></li>
+                            <li><a href="لف-المحركات-الكهربائية.php">لف المحركات الكهربائية</a></li>
+                            <li><a href="صيانة-البوردات-الالكترونية.php">صيانة البوردات الإلكترونية</a></li>
+                        </ul>
+                    </div>
+<div class="article-cta">
                     <h3>هل فاتورة المياه مرتفعة؟</h3>
                     <p>احجز موعدك الآن للكشف عن التسربات واحصل على تقرير معتمد.</p>
                     <a href="tel:0550698111" class="btn btn-primary">اتصل بنا 0550698111</a>

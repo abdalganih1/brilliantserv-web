@@ -124,7 +124,7 @@ include '../includes/config.php';
             <div class="article-wrapper">
                 <!-- Featured Image -->
                 <div class="article-image">
-                    <img src="../../media/blog/pcb-repair.webp" alt="مهندس الكترونيات يفحص بوردة دقيقة بالمجهر" loading="lazy">
+                    <img src="../media/blog/pcb-repair.webp" alt="مهندس الكترونيات يفحص بوردة دقيقة بالمجهر" loading="lazy">
                 </div>
 
                 <!-- Article Body -->
@@ -137,7 +137,15 @@ include '../includes/config.php';
 
 
                     <!-- Call to Action -->
-                    <div class="article-cta">
+                    
+                    <div class="related-articles">
+                        <h3>مقالات ذات صلة</h3>
+                        <ul>
+                            <li><a href="صيانة-البوردات-الالكترونية.php">صيانة البوردات الإلكترونية</a></li>
+                            <li><a href="صيانة-الكروت-الإلكترونية.php">صيانة الكروت الإلكترونية</a></li>
+                        </ul>
+                    </div>
+<div class="article-cta">
                         <h3>البوردة محروقة؟</h3>
                         <p>بدلاً من شراء وحدة جديدة بآلاف الريالات، يمكننا إصلاح القديمة بتكلفة 20% فقط.</p>
                         <a href="tel:0550698111" class="btn btn-primary">اتصل الآن 0550698111</a>

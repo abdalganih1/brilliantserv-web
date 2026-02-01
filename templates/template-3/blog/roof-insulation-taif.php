@@ -28,7 +28,7 @@ include '../includes/config.php';
     "@type": "BlogPosting",
     "headline": "عزل اسطح بالطائف: الحل النهائي لتسربات الأمطار والحرارة",
     "description": "حماية كاملة لمنزلك من الأمطار والحرارة مع خدمة عزل الأسطح بالطائف. عزل فوم وبولي يوريثان بضمان يصل لـ 10 سنوات.",
-    "image": "https://brilliantserv.com/media/about-team-work.webp",
+    "image": "https://brilliantserv.com/media/blog/about-team-work.webp",
     "datePublished": "2026-01-22",
     "dateModified": "2026-01-22",
     "author": {
@@ -72,7 +72,7 @@ include '../includes/config.php';
             <div class="article-wrapper">
                 <!-- Featured Image -->
                 <div class="article-image">
-                    <img src="../../media/about-team-work.webp"
+                    <img src="../media/blog/about-team-work.webp"
                         alt="عزل اسطح بالطائف: الحل النهائي لتسربات الأمطار والحرارة" loading="lazy">
                 </div>
 
@@ -105,7 +105,16 @@ include '../includes/config.php';
                 </div>
 
                 <!-- CTA Box -->
-                <div class="article-cta">
+                
+                    <div class="related-articles">
+                        <h3>مقالات ذات صلة</h3>
+                        <ul>
+                            <li><a href="انواع-المضخات.php">أنواع المضخات</a></li>
+                            <li><a href="لف-المحركات-الكهربائية.php">لف المحركات الكهربائية</a></li>
+                            <li><a href="صيانة-البوردات-الالكترونية.php">صيانة البوردات الإلكترونية</a></li>
+                        </ul>
+                    </div>
+<div class="article-cta">
                     <h3>وداعاً لتسربات الأمطار</h3>
                     <p>اطلب خدمة عزل الأسطح الآن واستمتع بضمان وراحة بال.</p>
                     <a href="tel:0550698111" class="btn btn-primary">اتصل بنا 0550698111</a>

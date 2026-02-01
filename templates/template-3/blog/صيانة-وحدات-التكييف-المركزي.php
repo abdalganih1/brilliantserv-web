@@ -112,7 +112,16 @@ include '../includes/config.php';
                 </div>
 
                 <!-- CTA Box -->
-                <div class="article-cta">
+                
+                    <div class="related-articles">
+                        <h3>مقالات ذات صلة</h3>
+                        <ul>
+                            <li><a href="انواع-المضخات.php">أنواع المضخات</a></li>
+                            <li><a href="لف-المحركات-الكهربائية.php">لف المحركات الكهربائية</a></li>
+                            <li><a href="صيانة-البوردات-الالكترونية.php">صيانة البوردات الإلكترونية</a></li>
+                        </ul>
+                    </div>
+<div class="article-cta">
                     <h3>هل تعاني من ضعف في تبريد المكيف؟</h3>
                     <p>تواصل معنا الآن للحصول على فحص شامل لوحدات التكييف لديك بأحدث الأجهزة.</p>
                     <a href="tel:0550698111" class="btn btn-primary">اتصل بنا 0550698111</a>

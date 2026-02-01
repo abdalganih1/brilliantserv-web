@@ -28,7 +28,7 @@ include '../includes/config.php';
     "@type": "BlogPosting",
     "headline": "عزل حمامات بجدة: الحل الجذري لمشاكل الرطوبة",
     "description": "أقوى مواد عزل الحمامات ودورات المياه بجدة قبل وبعد البلاط. نضمن لك حمامات خالية من الرطوبة والتسريب.",
-    "image": "https://brilliantserv.com/media/hero-electrical-work.webp",
+    "image": "https://brilliantserv.com/media/blog/hero-electrical-work.webp",
     "datePublished": "2026-01-18",
     "dateModified": "2026-01-18",
     "author": {
@@ -72,7 +72,7 @@ include '../includes/config.php';
             <div class="article-wrapper">
                 <!-- Featured Image -->
                 <div class="article-image">
-                    <img src="../../media/hero-electrical-work.webp" alt="عزل حمامات بجدة: الحل الجذري لمشاكل الرطوبة">
+                    <img src="../media/blog/hero-electrical-work.webp" alt="عزل حمامات بجدة: الحل الجذري لمشاكل الرطوبة">
                 </div>
 
                 <!-- Article Body -->
@@ -98,7 +98,16 @@ include '../includes/config.php';
                 </div>
 
                 <!-- CTA Box -->
-                <div class="article-cta">
+                
+                    <div class="related-articles">
+                        <h3>مقالات ذات صلة</h3>
+                        <ul>
+                            <li><a href="انواع-المضخات.php">أنواع المضخات</a></li>
+                            <li><a href="لف-المحركات-الكهربائية.php">لف المحركات الكهربائية</a></li>
+                            <li><a href="صيانة-البوردات-الالكترونية.php">صيانة البوردات الإلكترونية</a></li>
+                        </ul>
+                    </div>
+<div class="article-cta">
                     <h3>توقف عن القلق من الجيران</h3>
                     <p>اعزل حمامك الآن وامنع تسرب المياه للدور السفلي نهائياً.</p>
                     <a href="tel:0550698111" class="btn btn-primary">اتصل بنا 0550698111</a>

@@ -76,7 +76,7 @@ include '../includes/config.php';
         <div class="container">
             <div class="article-wrapper">
                 <div class="article-image">
-                    <img src="../../media/blog/grundfos-pump-agent.webp" alt="معرض مضخات Grundfos الرياض" loading="lazy">
+                    <img src="../media/blog/grundfos-pump-agent.webp" alt="معرض مضخات Grundfos الرياض" loading="lazy">
                 </div>
 
                 <div class="article-body">
@@ -101,7 +101,16 @@ include '../includes/config.php';
                         <li><strong>NB/NKG:</strong> مضخات الطرد المركزي للتطبيقات الصناعية.</li>
                     </ul>
 
-                    <div class="article-cta">
+                    
+                    <div class="related-articles">
+                        <h3>مقالات ذات صلة</h3>
+                        <ul>
+                            <li><a href="انواع-المضخات.php">أنواع المضخات</a></li>
+                            <li><a href="صيانة-مضخات-جراندفوس.php">صيانة مضخات جراندفوس</a></li>
+                            <li><a href="booster-pump-repair.php">صيانة مضخات التعزيز</a></li>
+                        </ul>
+                    </div>
+<div class="article-cta">
                         <h3>هل تملك مضخة Grundfos معطلة؟</h3>
                         <p>لا تغامر مع فنيين غير متخصصين. اتصل بخبراء جراندفوس الآن.</p>
                         <a href="tel:0550698111" class="btn btn-primary">صيانة فورية 0550698111</a>

@@ -180,7 +180,15 @@ include '../includes/config.php';
                         </p>
                     </div>
 
-                    <div class="article-cta">
+                    
+                    <div class="related-articles">
+                        <h3>مقالات ذات صلة</h3>
+                        <ul>
+                            <li><a href="لف-المحركات-الكهربائية.php">لف المحركات الكهربائية</a></li>
+                            <li><a href="3-phase-motor-winding-rules.php">قواعد لف المحركات ثلاثية الفاز</a></li>
+                        </ul>
+                    </div>
+<div class="article-cta">
                         <h3>تحتاج تحكم في سرعة المحرك؟</h3>
                         <p>نوفر انفرترات لجميع الأحجام مع خدمة التركيب والبرمجة.</p>
                         <a href="tel:0550698111" class="btn btn-primary">اتصل الآن 0550698111</a>

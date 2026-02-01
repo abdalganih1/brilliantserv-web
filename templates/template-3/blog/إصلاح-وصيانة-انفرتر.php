@@ -167,7 +167,16 @@ include '../includes/config.php';
                             كبير.</p>
                     </div>
 
-                    <div class="article-cta">
+                    
+                    <div class="related-articles">
+                        <h3>مقالات ذات صلة</h3>
+                        <ul>
+                            <li><a href="انواع-المضخات.php">أنواع المضخات</a></li>
+                            <li><a href="لف-المحركات-الكهربائية.php">لف المحركات الكهربائية</a></li>
+                            <li><a href="صيانة-البوردات-الالكترونية.php">صيانة البوردات الإلكترونية</a></li>
+                        </ul>
+                    </div>
+<div class="article-cta">
                         <h3>انفرتر يظهر خطأ؟</h3>
                         <p>أرسل لنا كود الخطأ عبر الواتساب للحصول على تشخيص مبدئي مجاني.</p>
                         <a href="tel:0550698111" class="btn btn-primary">اتصل الآن 0550698111</a>

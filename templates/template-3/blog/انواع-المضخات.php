@@ -208,7 +208,15 @@ include '../includes/config.php';
                         </div>
                     </div>
 
-                    <div class="article-cta">
+                    
+                    <div class="related-articles">
+                        <h3>مقالات ذات صلة</h3>
+                        <ul>
+                            <li><a href="صيانة-مضخات-جراندفوس.php">صيانة مضخات جراندفوس</a></li>
+                            <li><a href="booster-pump-repair.php">صيانة مضخات التعزيز</a></li>
+                        </ul>
+                    </div>
+<div class="article-cta">
                         <h3>تحتاج مساعدة في اختيار المضخة؟</h3>
                         <p>فريقنا الفني جاهز لمساعدتك في اختيار وتركيب المضخة المناسبة.</p>
                         <a href="tel:0550698111" class="btn btn-primary">اتصل الآن 0550698111</a>

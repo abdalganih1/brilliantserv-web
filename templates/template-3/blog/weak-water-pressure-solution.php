@@ -72,7 +72,7 @@ include '../includes/config.php';
         <div class="container">
             <div class="article-wrapper">
                 <div class="article-image">
-                    <img src="../../media/blog/weak-water-pressure.webp" alt="حنفية مياه بضغط ضعيف جداً" loading="lazy">
+                    <img src="../media/blog/weak-water-pressure.webp" alt="حنفية مياه بضغط ضعيف جداً" loading="lazy">
                 </div>
 
                 <div class="article-body">
@@ -91,7 +91,16 @@ include '../includes/config.php';
                     <p>إذا كانت الشبكة سليمة، فالحل الأمثل هو تركيب مضخة تقوية ذكية (مثل Scala2 أو Esybox) التي تضمن ضغط
                         ثابت لجميع الحنفيات في نفس الوقت.</p>
 
-                    <div class="article-cta">
+                    
+                    <div class="related-articles">
+                        <h3>مقالات ذات صلة</h3>
+                        <ul>
+                            <li><a href="انواع-المضخات.php">أنواع المضخات</a></li>
+                            <li><a href="لف-المحركات-الكهربائية.php">لف المحركات الكهربائية</a></li>
+                            <li><a href="صيانة-البوردات-الالكترونية.php">صيانة البوردات الإلكترونية</a></li>
+                        </ul>
+                    </div>
+<div class="article-cta">
                         <h3>تريد ضغط ماء قوي كالفنادق؟</h3>
                         <p>نقوم بتركيب أفضل مضخات الضغط مع ضمان شامل.</p>
                         <a href="tel:0550698111" class="btn btn-primary">احجز موعد كشف 0550698111</a>
