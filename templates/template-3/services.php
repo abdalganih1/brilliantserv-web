@@ -209,13 +209,7 @@ include 'includes/config.php';
                         <span>صيانة وتركيب | أبراج إدارية</span>
                     </div>
                 </div>
-                <div class="project-card">
-                    <img src="media/services/صيانة-مضخات-الديزل.webp?v=1769376863" alt="مضخات ديزل" loading="lazy">
-                    <div class="project-overlay">
-                        <h4>مضخات ديزل</h4>
-                        <span>عمرة وصيانة | مواقع إنشائية</span>
-                    </div>
-                </div>
+
                 <div class="project-card">
                     <img src="media/services/صيانة-مضخات-جراندفوس.webp?v=1769376863" alt="مضخات جراندفوس"
                         loading="lazy">
