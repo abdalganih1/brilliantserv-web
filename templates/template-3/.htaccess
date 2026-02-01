@@ -15,6 +15,9 @@ RewriteRule ^.*/feed/?$ - [G,L]
 RewriteRule ^wp-content/.* - [G,L]
 RewriteRule ^wp-includes/.* - [G,L]
 
+# 301 Redirect - Old URL to new canonical page
+RewriteRule ^لف-مواتير-ومحولات/?$ /لف-المحركات-الكهربائية/ [R=301,L]
+
 # لف المحركات الكهربائية
 RewriteRule ^لف-المحركات-الكهربائية/?$ blog/لف-المحركات-الكهربائية.php [L,NC]
 
