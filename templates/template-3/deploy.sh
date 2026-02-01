@@ -29,6 +29,9 @@ git pull origin main
 echo ""
 echo "📋 Syncing template-3 to root..."
 
+# Remove old llm.txt (developer file - replaced by llms.txt)
+rm -f "$SITE_ROOT/llm.txt"
+
 # Copy main PHP files and configs
 for file in index.php about.php services.php projects.php contact.php blog.php 403.php 404.php 410.php .htaccess robots.txt sitemap.xml sitemap_index.xml llms.txt; do
     if [ -f "$TEMPLATE_DIR/$file" ]; then
