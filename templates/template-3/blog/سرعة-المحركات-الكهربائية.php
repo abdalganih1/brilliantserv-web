@@ -2,7 +2,7 @@
 // سرعة المحركات الكهربائية
 // URL: /سرعة-المحركات-الكهربائية/
 
-$page_title = "سرعة المحركات الكهربائية - التحكم والحساب | روائع الكريستال";
+$page_title = "كيف تحسب سرعة المحرك الكهربائي؟ المعادلة + جدول السرعات 2026";
 $base_path = "../";
 $active_page = "blog";
 
@@ -16,9 +16,9 @@ include '../includes/config.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="-4dWOJlQukPPTSz-ABTrob2Oe_vkEdm_y1_xFVryJTo" />
 
-    <title>سرعة المحركات الكهربائية - حساب وتحكم RPM 2026</title>
+    <title>كيف تحسب سرعة المحرك الكهربائي؟ المعادلة + جدول السرعات 2026</title>
     <meta name="description"
-        content="تعلم كيفية حساب سرعة المحرك الكهربائي وطرق التحكم بها: عدد الأقطاب، التردد، الانفرتر. دليل شامل للمهندسين والفنيين.">
+        content="تعلم حساب سرعة المحركات الكهربائية بمعادلات بسيطة. جدول سرعات جاهز لجميع الأقطاب. التحكم بالانفرتر يوفر 50% طاقة! للفنيين والمهندسين">
     <meta name="keywords" content="سرعة المحركات الكهربائية, حساب RPM, التحكم في سرعة المحرك, عدد أقطاب المحرك, VFD">
     <meta name="robots" content="index, follow">
 

@@ -2,7 +2,7 @@
 // صيانة مضخات الديزل - الصفحة المفهرسة في جوجل
 // URL: /صيانة-مضخات-الديزل/
 
-$page_title = "صيانة مضخات الديزل - دليل شامل | روائع الكريستال";
+$page_title = "صيانة مضخات الديزل 2026: 7 أسرار لتجنب الأعطال المكلفة | الرياض";
 $base_path = "../";
 $active_page = "blog";
 
@@ -17,9 +17,11 @@ include '../includes/config.php';
     <meta name="google-site-verification" content="-4dWOJlQukPPTSz-ABTrob2Oe_vkEdm_y1_xFVryJTo" />
 
     <!-- SEO Meta Tags -->
-    <title>صيانة مضخات الديزل الصناعية - الأعطال والحلول 2026</title>
-    <meta name="description" content="دليل شامل لصيانة مضخات الديزل: الصيانة الوقائية، الأعطال الشائعة وكيفية إصلاحها، قطع الغيار الأصلية. خدمة في الرياض والسعودية.">
-    <meta name="keywords" content="صيانة مضخات الديزل, مضخات ديزل, أعطال مضخات الديزل, صيانة مضخات الحريق, مضخات ديزل صناعية">
+    <title>صيانة مضخات الديزل 2026: 7 أسرار لتجنب الأعطال المكلفة | الرياض</title>
+    <meta name="description"
+        content="اكتشف أسرار صيانة مضخات الديزل الصناعية. تعلم كيف توفر 60% من تكاليف الإصلاح مع جدول صيانة وقائية مجرب. خدمة 24/7 في الرياض ☎ 0550698111">
+    <meta name="keywords"
+        content="صيانة مضخات الديزل, مضخات ديزل, أعطال مضخات الديزل, صيانة مضخات الحريق, مضخات ديزل صناعية">
     <meta name="author" content="مؤسسة روائع الكريستال">
     <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="language" content="Arabic">
@@ -27,12 +29,14 @@ include '../includes/config.php';
     <meta name="geo.placename" content="Riyadh">
 
     <!-- Canonical URL - مطابق لما في GSC -->
-    <link rel="canonical" href="https://brilliantserv.com/%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D9%85%D8%B6%D8%AE%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%8A%D8%B2%D9%84/">
+    <link rel="canonical"
+        href="https://brilliantserv.com/%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D9%85%D8%B6%D8%AE%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%8A%D8%B2%D9%84/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
-    <meta property="og:title" content="صيانة مضخات الديزل الصناعية - الأعطال والحلول">
-    <meta property="og:description" content="دليل شامل لصيانة مضخات الديزل: الصيانة الوقائية والأعطال الشائعة.">
+    <meta property="og:title" content="صيانة مضخات الديزل 2026: 7 أسرار لتجنب الأعطال المكلفة">
+    <meta property="og:description"
+        content="اكتشف كيف توفر 60% من تكاليف إصلاح مضخات الديزل. جدول صيانة وقائية + قطع غيار أصلية. خدمة 24/7 الرياض">
     <meta property="og:image" content="https://brilliantserv.com/media/services/صيانة-مضخات-الديزل.webp">
     <meta property="og:url" content="https://brilliantserv.com/صيانة-مضخات-الديزل/">
     <meta property="og:site_name" content="روائع الكريستال">
@@ -52,7 +56,7 @@ include '../includes/config.php';
         "name": "مؤسسة روائع الكريستال"
     }
 }</script>
-<script type="application/ld+json">{
+    <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
@@ -82,7 +86,7 @@ include '../includes/config.php';
         }
     ]
 }</script>
-<script type="application/ld+json">{
+    <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "صيانة مضخات الديزل",
@@ -103,7 +107,8 @@ include '../includes/config.php';
     <!-- Fonts & Styles -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap"
+        rel="stylesheet">
     <?php include '../includes/head.php'; ?>
 </head>
 
@@ -132,19 +137,21 @@ include '../includes/config.php';
 
                 <!-- Article Body -->
                 <div class="article-body">
-                    <p class="lead">مضخات الديزل هي العمود الفقري للعديد من المنشآت الصناعية ومحطات الإطفاء. الصيانة الدورية والإصلاح السريع للأعطال يضمن استمرارية العمل وحماية الأرواح والممتلكات.</p>
+                    <p class="lead">مضخات الديزل هي العمود الفقري للعديد من المنشآت الصناعية ومحطات الإطفاء. الصيانة
+                        الدورية والإصلاح السريع للأعطال يضمن استمرارية العمل وحماية الأرواح والممتلكات.</p>
 
                     <h2>أنواع مضخات الديزل</h2>
-                    
+
                     <h3>1. مضخات الحريق (Fire Pumps)</h3>
-                    <p>تُستخدم في أنظمة الإطفاء التلقائي وتعمل عند انقطاع الكهرباء. تتطلب صيانة دقيقة لضمان جاهزيتها للطوارئ.</p>
-                    
+                    <p>تُستخدم في أنظمة الإطفاء التلقائي وتعمل عند انقطاع الكهرباء. تتطلب صيانة دقيقة لضمان جاهزيتها
+                        للطوارئ.</p>
+
                     <h3>2. مضخات الري الزراعي</h3>
                     <p>مضخات قوية لسحب المياه من الآبار والأنهار لري المزارع الكبيرة.</p>
-                    
+
                     <h3>3. مضخات نقل الوقود</h3>
                     <p>لنقل الوقود من الخزانات إلى المعدات والمركبات.</p>
-                    
+
                     <h3>4. مضخات الصرف الصحي</h3>
                     <p>لضخ مياه الصرف والمياه الملوثة في المشاريع الإنشائية.</p>
 
@@ -232,7 +239,7 @@ include '../includes/config.php';
                     </ul>
 
                     <h2>جدول الصيانة الدورية</h2>
-                    
+
                     <h3>صيانة يومية</h3>
                     <ul>
                         <li>✅ فحص مستوى الزيت والوقود</li>
@@ -267,7 +274,8 @@ include '../includes/config.php';
 
                     <div class="info-box warning">
                         <h4>⚠️ تحذير هام</h4>
-                        <p>مضخات الحريق يجب اختبارها أسبوعياً حسب معايير NFPA 25. الإهمال في الصيانة قد يؤدي لفشل المضخة أثناء الحريق!</p>
+                        <p>مضخات الحريق يجب اختبارها أسبوعياً حسب معايير NFPA 25. الإهمال في الصيانة قد يؤدي لفشل المضخة
+                            أثناء الحريق!</p>
                     </div>
 
                     <h2>نصائح لإطالة عمر مضخة الديزل</h2>

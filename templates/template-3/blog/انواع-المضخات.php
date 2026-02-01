@@ -2,7 +2,7 @@
 // انواع المضخات
 // URL: /انواع-المضخات/
 
-$page_title = "أنواع المضخات - دليل شامل للمضخات الصناعية | روائع الكريستال";
+$page_title = "12 نوع مضخة يجب أن تعرفها قبل الشراء - دليل 2026 الشامل";
 $base_path = "../";
 $active_page = "blog";
 
@@ -16,9 +16,9 @@ include '../includes/config.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="-4dWOJlQukPPTSz-ABTrob2Oe_vkEdm_y1_xFVryJTo" />
 
-    <title>أنواع المضخات - دليل شامل مصور للمضخات الصناعية 2026</title>
+    <title>12 نوع مضخة يجب أن تعرفها قبل الشراء - دليل 2026 الشامل</title>
     <meta name="description"
-        content="تعرف على جميع أنواع المضخات: الطرد المركزي، الغاطسة، الترسية، الديافراجم، المكبسية. مقارنة شاملة واستخدامات كل نوع.">
+        content="دليل مصور لجميع أنواع المضخات: غاطسة، طرد مركزي، ترسية، هيدروليكية. اختر المضخة المناسبة بسهولة. مقارنة أسعار + جدول مقارنة شامل">
     <meta name="keywords"
         content="انواع المضخات, أنواع المضخات, مضخات طرد مركزي, مضخات غاطسة, مضخات صناعية, pump types">
     <meta name="robots" content="index, follow">

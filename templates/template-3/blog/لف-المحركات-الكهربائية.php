@@ -2,7 +2,7 @@
 // لف المحركات الكهربائية - الصفحة المفهرسة في جوجل
 // URL: /لف-المحركات-الكهربائية/
 
-$page_title = "لف المحركات الكهربائية - دليل شامل | روائع الكريستال";
+$page_title = "احترف لف المحركات الكهربائية: دليل الفنيين خطوة بخطوة 2026";
 $base_path = "../";
 $active_page = "blog";
 
@@ -17,9 +17,11 @@ include '../includes/config.php';
     <meta name="google-site-verification" content="-4dWOJlQukPPTSz-ABTrob2Oe_vkEdm_y1_xFVryJTo" />
 
     <!-- SEO Meta Tags -->
-    <title>لف المحركات الكهربائية - دليل شامل للفني والمهندس 2026</title>
-    <meta name="description" content="تعلم أساسيات لف المحركات الكهربائية: الأدوات المطلوبة، خطوات اللف الصحيحة، حساب عدد اللفات، واختيار السلك المناسب. دليل مفصل للفنيين.">
-    <meta name="keywords" content="لف المحركات الكهربائية, أساسيات لف المحركات, تلفيف المحركات, لف مواتير, إعادة لف المحرك, حساب لفات المحرك">
+    <title>احترف لف المحركات الكهربائية: دليل الفنيين خطوة بخطوة 2026</title>
+    <meta name="description"
+        content="تعلم لف المحركات من الصفر للاحتراف. 5 خطوات عملية + جداول اللفات + معادلات الحساب. وفر 50-70% من تكلفة المحرك الجديد. ضمان سنة كاملة">
+    <meta name="keywords"
+        content="لف المحركات الكهربائية, أساسيات لف المحركات, تلفيف المحركات, لف مواتير, إعادة لف المحرك, حساب لفات المحرك">
     <meta name="author" content="مؤسسة روائع الكريستال">
     <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="language" content="Arabic">
@@ -27,12 +29,14 @@ include '../includes/config.php';
     <meta name="geo.placename" content="Riyadh">
 
     <!-- Canonical URL - مطابق لما في GSC -->
-    <link rel="canonical" href="https://brilliantserv.com/%D9%84%D9%81-%D8%A7%D9%84%D9%85%D8%AD%D8%B1%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A6%D9%8A%D8%A9/">
+    <link rel="canonical"
+        href="https://brilliantserv.com/%D9%84%D9%81-%D8%A7%D9%84%D9%85%D8%AD%D8%B1%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A6%D9%8A%D8%A9/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
-    <meta property="og:title" content="لف المحركات الكهربائية - دليل شامل للفني والمهندس">
-    <meta property="og:description" content="تعلم أساسيات لف المحركات الكهربائية: الأدوات المطلوبة، خطوات اللف الصحيحة، حساب عدد اللفات.">
+    <meta property="og:title" content="احترف لف المحركات الكهربائية: 5 خطوات عملية 2026">
+    <meta property="og:description"
+        content="تعلم لف المحركات من الصفر للاحتراف. وفر 50-70% من تكلفة المحرك الجديد + ضمان سنة">
     <meta property="og:image" content="https://brilliantserv.com/media/services/لف-المحركات-الكهربائية.webp">
     <meta property="og:url" content="https://brilliantserv.com/لف-المحركات-الكهربائية/">
     <meta property="og:site_name" content="روائع الكريستال">
@@ -66,7 +70,7 @@ include '../includes/config.php';
         }
     }
 }</script>
-<script type="application/ld+json">{
+    <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@type": "HowTo",
     "name": "كيفية لف المحرك الكهربائي",
@@ -99,7 +103,7 @@ include '../includes/config.php';
         }
     ]
 }</script>
-<script type="application/ld+json">{
+    <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
@@ -141,7 +145,8 @@ include '../includes/config.php';
     <!-- Fonts & Styles -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap"
+        rel="stylesheet">
     <?php include '../includes/head.php'; ?>
 </head>
 
@@ -165,20 +170,25 @@ include '../includes/config.php';
             <div class="article-wrapper">
                 <!-- Featured Image -->
                 <div class="article-image">
-                    <img src="../media/services/لف-المحركات-الكهربائية.webp" alt="لف المحركات الكهربائية" loading="lazy">
+                    <img src="../media/services/لف-المحركات-الكهربائية.webp" alt="لف المحركات الكهربائية"
+                        loading="lazy">
                 </div>
 
                 <!-- Article Body -->
                 <div class="article-body">
-                    <p class="lead">لف المحركات الكهربائية هو عملية إعادة تأهيل الملفات النحاسية داخل المحرك بعد تلفها بسبب الاحتراق أو التقادم. هذا الدليل الشامل يغطي كل ما تحتاجه لفهم وتنفيذ عملية اللف بشكل احترافي.</p>
+                    <p class="lead">لف المحركات الكهربائية هو عملية إعادة تأهيل الملفات النحاسية داخل المحرك بعد تلفها
+                        بسبب الاحتراق أو التقادم. هذا الدليل الشامل يغطي كل ما تحتاجه لفهم وتنفيذ عملية اللف بشكل
+                        احترافي.</p>
 
                     <h2>ما هو لف المحركات الكهربائية؟</h2>
-                    <p>لف المحرك الكهربائي هو عملية استبدال الملفات النحاسية (الأسلاك) داخل الستاتور عند تلفها. المحرك الكهربائي يعمل عن طريق مرور التيار في الملفات لخلق مجال مغناطيسي يدير الروتور.</p>
-                    
-                    <p>عندما تحترق هذه الملفات بسبب الحمل الزائد أو ارتفاع الحرارة أو الرطوبة، يتوقف المحرك عن العمل. هنا يأتي دور <strong>إعادة اللف</strong> لاستعادة المحرك لحالته الأصلية.</p>
+                    <p>لف المحرك الكهربائي هو عملية استبدال الملفات النحاسية (الأسلاك) داخل الستاتور عند تلفها. المحرك
+                        الكهربائي يعمل عن طريق مرور التيار في الملفات لخلق مجال مغناطيسي يدير الروتور.</p>
+
+                    <p>عندما تحترق هذه الملفات بسبب الحمل الزائد أو ارتفاع الحرارة أو الرطوبة، يتوقف المحرك عن العمل.
+                        هنا يأتي دور <strong>إعادة اللف</strong> لاستعادة المحرك لحالته الأصلية.</p>
 
                     <h2>أساسيات لف المحركات الكهربائية</h2>
-                    
+
                     <h3>1. فهم أنواع المحركات</h3>
                     <table class="comparison-table">
                         <thead>
@@ -249,7 +259,8 @@ include '../includes/config.php';
                     </ol>
 
                     <h3>الخطوة 2: إزالة الملفات القديمة</h3>
-                    <p>استخدم سخان أو فرن لتسخين الستاتور (حوالي 200°م) لتليين الورنيش، ثم اسحب الأسلاك القديمة. نظّف المجاري جيداً من بقايا العزل.</p>
+                    <p>استخدم سخان أو فرن لتسخين الستاتور (حوالي 200°م) لتليين الورنيش، ثم اسحب الأسلاك القديمة. نظّف
+                        المجاري جيداً من بقايا العزل.</p>
 
                     <h3>الخطوة 3: تحضير العزل الجديد</h3>
                     <p>قص ورق العزل (Nomex أو DMD) بالحجم المناسب لكل مجرى. العزل الجيد هو أساس المحرك طويل العمر.</p>
@@ -263,7 +274,8 @@ include '../includes/config.php';
                     </ul>
 
                     <h3>الخطوة 5: التشريب والتجفيف</h3>
-                    <p>اغمر الستاتور في ورنيش العزل الحراري، ثم ضعه في فرن التجفيف على درجة 120-150°م لمدة 4-6 ساعات.</p>
+                    <p>اغمر الستاتور في ورنيش العزل الحراري، ثم ضعه في فرن التجفيف على درجة 120-150°م لمدة 4-6 ساعات.
+                    </p>
 
                     <h3>الخطوة 6: الفحص والتجميع</h3>
                     <ul>
