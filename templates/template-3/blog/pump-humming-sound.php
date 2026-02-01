@@ -1,6 +1,6 @@
 <?php
-// Page-specific variables
-$page_title = "أسباب صوت طنين المضخة";
+// pump-humming-sound - OPTIMIZED by Phase 6
+$page_title = "أسباب صوت طنين المضخة - وحلولها | روائع الكريستال";
 $base_path = "../";
 $active_page = "blog";
 
@@ -12,46 +12,67 @@ include '../includes/config.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="-4dWOJlQukPPTSz-ABTrob2Oe_vkEdm_y1_xFVryJTo" />
 
-    <title>المضخة تصدر صوت طنين ولا تعمل؟ الأسباب والحلول | روائع الكريستال</title>
-    <meta name="description" content="هل تسمع صوت " زنة" أو طنين من مضخة الماء وهي لا تدور؟ هذه علامة خطيرة قد تحرق
-        المحرك. تعرف على الأسباب وكيفية التصرف فوراً.">
-    <meta name="keywords" content="صوت طنين المضخة, تصليح مضخات, زنة الدينمو, احتراق المضخة, صيانة مضخات الرياض">
-    <meta name="author" content="مؤسسة روائع الكريستال">
-    <link rel="canonical" href="https://brilliantserv.com/blog/pump-humming-sound.php">
+    <!-- SEO Meta Tags -->
+    <title><?= $page_title ?></title>
+    <meta name="description"
+        content="المضخة تصدر صوت طنين ولا تعمل؟ الأسباب: مكثف تالف، بلي مكسور، مروحة عالقة. افصل الكهرباء فوراً! 0550698111">
+    <meta name="keywords" content="صوت طنين المضخة, زنة الدينمو, احتراق المضخة, صيانة مضخات">
+    <meta name="robots" content="index, follow">
 
-    <meta property="og:title" content="المضخة تصدر صوت طنين ولا تعمل؟">
+    <!-- Canonical -->
+    <link rel="canonical" href="https://brilliantserv.com/blog/pump-humming-sound.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="<?= $page_title ?>">
+    <meta property="og:description" content="المضخة تصدر صوت طنين ولا تعمل؟">
+    <meta property="og:url" content="https://brilliantserv.com/blog/pump-humming-sound.html">
     <meta property="og:image" content="https://brilliantserv.com/media/blog/pump-humming-sound.webp">
 
-        <!-- Schema.org Structured Data -->
+    <!-- JSON-LD Article Schema -->
     <script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "صوت \"طنين\" من المضخة.. ماذا يعني؟",
-    "description": "هل تسمع صوت",
-    "image": "https://brilliantserv.com/media/blog/pump-humming-sound.webp",
-    "datePublished": "2026-01-30",
-    "dateModified": "2026-01-30",
-    "author": {
-        "@type": "Organization",
-        "name": "روائع الكريستال"
-    },
-    "publisher": {
-        "@type": "Organization",
-        "name": "روائع الكريستال",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://brilliantserv.com/media/brilliantcrystal-hd.webp"
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "<?= $page_title ?>",
+        "datePublished": "2026-01-30",
+        "dateModified": "2026-02-01",
+        "author": {"@type": "Organization", "name": "مؤسسة روائع الكريستال"},
+        "publisher": {
+            "@type": "Organization",
+            "name": "مؤسسة روائع الكريستال",
+            "logo": {"@type": "ImageObject", "url": "https://brilliantserv.com/media/logo.webp"}
         }
-    },
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://brilliantserv.com/blog/pump-humming-sound.php"
     }
-}
     </script>
+
+    <!-- JSON-LD FAQ Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "لماذا المضخة تطن ولا تعمل؟",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "الأسباب الشائعة: 1) مكثف تالف (Capacitor) - الأكثر شيوعاً، 2) بلي مكسور (Bearings)، 3) مروحة عالقة بصدأ أو حصى."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "هل صوت الطنين خطير؟",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "نعم! ترك المضخة تطن أكثر من دقيقة قد يحرق ملفات المحرك. افصل الكهرباء فوراً!"
+                }
+            }
+        ]
+    }
+    </script>
+
     <?php include '../includes/head.php'; ?>
 </head>
 
@@ -62,8 +83,8 @@ include '../includes/config.php';
         <div class="container">
             <div class="page-hero-content">
                 <span class="section-badge">أعطال شائعة</span>
-                <h1>صوت "طنين" من المضخة.. ماذا يعني؟</h1>
-                <p>30 يناير 2026 • تشخيص فني دقيق من الخبراء</p>
+                <h1>صوت طنين المضخة - ماذا يعني؟</h1>
+                <p>آخر تحديث: 1 فبراير 2026</p>
             </div>
         </div>
     </section>
@@ -72,44 +93,73 @@ include '../includes/config.php';
         <div class="container">
             <div class="article-wrapper">
                 <div class="article-image">
-                    <img src="../media/blog/pump-humming-sound.webp" alt="فني يفحص صوت محرك المضخة" loading="lazy">
+                    <img src="../media/blog/pump-humming-sound.webp" alt="صوت طنين المضخة" loading="lazy">
                 </div>
-
                 <div class="article-body">
-                    <p class="lead">تسمع صوت "هممممم" (Humming) من دينمو الماء لكنه لا يضخ أي مياه؟ هذا يعني أن المحرك
-                        يحاول الدوران لكنه عالق. **افصل الكهرباء فوراً!**</p>
+                    <h2>المضخة تطن ولا تعمل؟</h2>
+                    <p>تسمع صوت <strong>"هممممم" (Humming)</strong> من الدينمو لكن لا يضخ مياه؟ هذا يعني المحرك يحاول
+                        الدوران لكنه عالق. <strong>افصل الكهرباء فوراً!</strong></p>
 
-                    <h2>لماذا يحدث هذا الصوت؟</h2>
-                    <ol>
-                        <li><strong>تلف المكثف (Capacitor):</strong> هذا هو السبب الأكثر شيوعاً. المكثف الضعيف لا يعطي
-                            "دفعة الانطلاق" للمحرك.</li>
-                        <li><strong>انحشار المروحة:</strong> وجود صدأ أو حصى يعيق دوران المروحة ميكانيكياً.</li>
-                        <li><strong>تلف البلي (Bearings):</strong> الرولمان بلي المكسور يمنع المحور من الدوران بسلاسة.
-                        </li>
-                    </ol>
+                    <h2>أسباب صوت الطنين</h2>
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>السبب</th>
+                                <th>الوصف</th>
+                                <th>تكلفة الإصلاح</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>مكثف تالف</strong></td>
+                                <td>Capacitor ضعيف لا يعطي دفعة الانطلاق</td>
+                                <td>50-150 ريال ✅</td>
+                            </tr>
+                            <tr>
+                                <td><strong>بلي مكسور</strong></td>
+                                <td>Bearings تالفة تمنع الدوران</td>
+                                <td>150-400 ريال</td>
+                            </tr>
+                            <tr>
+                                <td><strong>مروحة عالقة</strong></td>
+                                <td>صدأ أو حصى يعيق المروحة</td>
+                                <td>100-300 ريال</td>
+                            </tr>
+                            <tr>
+                                <td><strong>ملفات محترقة</strong></td>
+                                <td>إذا تركت المضخة تطن طويلاً</td>
+                                <td>لف جديد أو مضخة جديدة ❌</td>
+                            </tr>
+                        </tbody>
+                    </table>
 
                     <div class="alert alert-warning">
-                        <strong>تحذير:</strong> ترك المضخة في هذه الحالة لأكثر من دقيقة قد يؤدي لاحتراق ملفات المحرك
-                        بالكامل، مما يكلفك سعر مضخة جديدة.
+                        <strong>⚠️ تحذير:</strong> ترك المضخة تطن أكثر من دقيقة يحرق الملفات ويكلفك مضخة جديدة!
                     </div>
 
-                    <h3>الحل؟</h3>
-                    <p>إذا كان السبب مكثفاً، فالإصلاح بسيط وغير مكلف. اتصل بنا لنقوم بفحصها وتغيير القطعة التالفة في
-                        منزلك.</p>
+                    <h2>ماذا تفعل؟</h2>
+                    <ol>
+                        <li>افصل الكهرباء فوراً</li>
+                        <li>اتصل بنا للفحص</li>
+                        <li>غالباً السبب مكثف (إصلاح سريع)</li>
+                    </ol>
 
-                    
+                    <div class="article-cta">
+                        <h3>أنقذ مضختك!</h3>
+                        <p>نصلك ونصلح في نفس الزيارة!</p>
+                        <div class="cta-buttons">
+                            <a href="tel:0550698111" class="btn btn-primary">📞 صيانة طارئة</a>
+                            <a href="https://wa.me/966550698111" class="btn btn-success">💬 واتساب</a>
+                        </div>
+                    </div>
+
                     <div class="related-articles">
                         <h3>مقالات ذات صلة</h3>
                         <ul>
-                            <li><a href="انواع-المضخات.php">أنواع المضخات</a></li>
-                            <li><a href="صيانة-مضخات-جراندفوس.php">صيانة مضخات جراندفوس</a></li>
-                            <li><a href="booster-pump-repair.php">صيانة مضخات التعزيز</a></li>
+                            <li><a href="booster-pump-repair.php">صيانة مضخات البوستر</a></li>
+                            <li><a href="pump-maintenance-riyadh.php">صيانة مضخات الرياض</a></li>
+                            <li><a href="electric-motor-winding.php">لف المحركات</a></li>
                         </ul>
-                    </div>
-<div class="article-cta">
-                        <h3>أنقذ مضختك قبل فوات الأوان</h3>
-                        <p>نصلك ونصلح العطل في نفس الزيارة.</p>
-                        <a href="tel:0550698111" class="btn btn-primary">صيانة طارئة 0550698111</a>
                     </div>
 
                     <div class="article-back">

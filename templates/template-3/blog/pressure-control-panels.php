@@ -1,0 +1,210 @@
+<?php
+// pressure-control-panels - OPTIMIZED by Phase 6
+$page_title = "لوحات تحكم الضغط الأوتوماتيكية | روائع الكريستال";
+$base_path = "../";
+$active_page = "blog";
+
+include '../includes/config.php';
+?>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title><?= $page_title ?></title>
+    <meta name="description"
+        content="لوحات تحكم ضغط المياه الأوتوماتيكية: حساسات ضغط، VFD، تحكم ذكي. ضغط ثابت وتوفير طاقة. تصنيع وتركيب بالرياض. 0550698111">
+    <meta name="keywords" content="لوحات تحكم ضغط, تحكم أوتوماتيكي, VFD, مضخات مياه, السعودية">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://brilliantserv.com/blog/pressure-control-panels.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="<?= $page_title ?>">
+    <meta property="og:description" content="لوحات تحكم ضغط المياه الأوتوماتيكية في السعودية.">
+    <meta property="og:url" content="https://brilliantserv.com/blog/pressure-control-panels.html">
+    <meta property="og:image" content="https://brilliantserv.com/media/blog/pressure-control-panels-featured.webp">
+
+    <!-- JSON-LD Article Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "<?= $page_title ?>",
+        "datePublished": "2026-02-01",
+        "dateModified": "2026-02-01",
+        "author": {"@type": "Organization", "name": "مؤسسة روائع الكريستال"},
+        "publisher": {
+            "@type": "Organization",
+            "name": "مؤسسة روائع الكريستال",
+            "logo": {"@type": "ImageObject", "url": "https://brilliantserv.com/media/logo.webp"}
+        }
+    }
+    </script>
+
+    <!-- JSON-LD FAQ Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "ما هي لوحات تحكم الضغط؟",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "أنظمة تتحكم أوتوماتيكياً في تشغيل المضخات للحفاظ على ضغط ثابت في الشبكة. تستخدم حساسات ضغط وVFD للتحكم الدقيق."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "كم توفر لوحة تحكم الضغط من الطاقة؟",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "مع VFD، توفر 30-50% من استهلاك الطاقة مقارنة بالتشغيل التقليدي. العائد على الاستثمار عادة 1-2 سنة."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <?php include '../includes/head.php'; ?>
+</head>
+
+<body>
+    <?php include '../includes/nav.php'; ?>
+
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <span class="section-badge">لوحات التحكم</span>
+                <h1>لوحات تحكم الضغط الأوتوماتيكية</h1>
+                <p>آخر تحديث: 1 فبراير 2026</p>
+            </div>
+        </div>
+    </section>
+
+    <article class="blog-article">
+        <div class="container">
+            <div class="article-wrapper">
+                <div class="article-image">
+                    <img src="../media/blog/pressure-control-panels-featured.webp" alt="لوحات تحكم ضغط أوتوماتيكية"
+                        loading="lazy">
+                </div>
+                <div class="article-body">
+                    <h2>ما هي لوحات تحكم الضغط؟</h2>
+                    <p>لوحات تحكم الضغط هي <strong>أنظمة أوتوماتيكية</strong> تتحكم في تشغيل وسرعة المضخات للحفاظ على
+                        ضغط ثابت في شبكة المياه. تستخدم حساسات ضغط دقيقة ومحولات تردد (VFD) للتحكم السلس.</p>
+
+                    <p>تُستخدم في <a href="water-booster-systems.php">أنظمة Booster</a>، المباني السكنية، التجارية،
+                        والصناعية.</p>
+
+                    <h2>أنواع التحكم بالضغط</h2>
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>النوع</th>
+                                <th>المكونات</th>
+                                <th>المميزات</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>تحكم ON/OFF</strong></td>
+                                <td>مفتاح ضغط ميكانيكي</td>
+                                <td>بسيط، اقتصادي</td>
+                            </tr>
+                            <tr>
+                                <td><strong>تحكم PID</strong></td>
+                                <td>حساس + متحكم</td>
+                                <td>ضبط دقيق</td>
+                            </tr>
+                            <tr>
+                                <td><strong>تحكم VFD</strong></td>
+                                <td>حساس + VFD</td>
+                                <td>ضغط ثابت + توفير طاقة</td>
+                            </tr>
+                            <tr>
+                                <td><strong>تحكم متقدم</strong></td>
+                                <td>PLC + VFD + SCADA</td>
+                                <td>مراقبة وتحكم شامل</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h2>مكونات النظام</h2>
+                    <ol>
+                        <li><strong>حساس الضغط:</strong> 4-20mA أو 0-10V</li>
+                        <li><strong>المتحكم:</strong> PID controller أو PLC</li>
+                        <li><strong>VFD:</strong> للتحكم بسرعة المحرك</li>
+                        <li><strong>شاشة العرض:</strong> HMI للمراقبة</li>
+                        <li><strong>إنذارات:</strong> ضغط عالي/منخفض</li>
+                    </ol>
+
+                    <h2>فوائد التحكم الأوتوماتيكي</h2>
+                    <ul>
+                        <li>✅ <strong>ضغط ثابت:</strong> لا تذبذب في الضغط</li>
+                        <li>✅ <strong>توفير طاقة:</strong> 30-50% مع VFD</li>
+                        <li>✅ <strong>حماية الشبكة:</strong> من الضغط الزائد</li>
+                        <li>✅ <strong>إطالة عمر المضخة:</strong> تشغيل سلس</li>
+                        <li>✅ <strong>تقليل الصيانة:</strong> بدء ناعم</li>
+                    </ul>
+
+                    <h2>التطبيقات</h2>
+                    <ul>
+                        <li><a href="water-booster-systems.php">أنظمة تعزيز الضغط</a></li>
+                        <li>مباني سكنية وتجارية</li>
+                        <li>مصانع ومحطات معالجة</li>
+                        <li><a href="fire-pumps.php">أنظمة الحريق (Jockey)</a></li>
+                        <li>أنظمة الري</li>
+                    </ul>
+
+                    <h2>الأسئلة الشائعة</h2>
+                    <div class="faq-section">
+                        <div class="faq-item">
+                            <h3>كم توفر من الطاقة؟</h3>
+                            <p>مع VFD، توفر 30-50% من استهلاك الطاقة. العائد على الاستثمار 1-2 سنة.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h3>هل تحتاج صيانة دورية؟</h3>
+                            <p>نعم، فحص سنوي للحساسات ومعايرة النظام. الصيانة بسيطة مقارنة بالأنظمة الميكانيكية.</p>
+                        </div>
+                    </div>
+
+                    <div class="article-cta">
+                        <h3>تحتاج نظام تحكم ضغط؟</h3>
+                        <p>ضغط ثابت وتوفير طاقة مضمون!</p>
+                        <div class="cta-buttons">
+                            <a href="tel:0550698111" class="btn btn-primary">📞 0550698111</a>
+                            <a href="https://wa.me/966550698111" class="btn btn-success">💬 واتساب</a>
+                        </div>
+                    </div>
+
+                    <div class="related-articles">
+                        <h3>مقالات ذات صلة</h3>
+                        <ul>
+                            <li><a href="pump-control-panels.php">لوحات تحكم المضخات</a></li>
+                            <li><a href="automatic-control-panels.php">لوحات تحكم أوتوماتيكية</a></li>
+                            <li><a href="vfd-programming-pumps.php">برمجة VFD للمضخات</a></li>
+                            <li><a href="water-booster-systems.php">أنظمة تعزيز الضغط</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="article-back">
+                        <a href="../blog.php" class="back-link">← العودة للمدونة</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <?php include '../includes/footer.php'; ?>
+    <script src="../js/main.min.js"></script>
+</body>
+
+</html>

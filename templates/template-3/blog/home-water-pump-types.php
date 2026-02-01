@@ -1,6 +1,6 @@
 <?php
-// Page-specific variables
-$page_title = "أنواع مضخات المياه المنزلية";
+// home-water-pump-types - OPTIMIZED by Phase 6
+$page_title = "أنواع مضخات المياه المنزلية - دليل الشراء | روائع الكريستال";
 $base_path = "../";
 $active_page = "blog";
 
@@ -12,46 +12,67 @@ include '../includes/config.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="-4dWOJlQukPPTSz-ABTrob2Oe_vkEdm_y1_xFVryJTo" />
 
-    <title>دليلك لأنواع مضخات المياه المنزلية والفرق بينها | روائع الكريستال</title>
+    <!-- SEO Meta Tags -->
+    <title><?= $page_title ?></title>
     <meta name="description"
-        content="ما هو الفرق بين مضخة نصف حصان ومضخة الدفع؟ تعرف على أنواع مضخات المياه المنزلية (Booster, Centrifugal, Peripheral) وكيف تختار الأنسب لمنزلك.">
-    <meta name="keywords" content="أنواع مضخات المياه, مضخة نصف حصان, مضخة واحد حصان, مضخات بوستر, أفضل مضخة منزلية">
-    <meta name="author" content="مؤسسة روائع الكريستال">
-    <link rel="canonical" href="https://brilliantserv.com/blog/home-water-pump-types.php">
+        content="أنواع مضخات المياه المنزلية: Peripheral، Centrifugal، Booster. كيف تختار المضخة المناسبة لمنزلك؟ 0550698111">
+    <meta name="keywords" content="مضخات منزلية, نصف حصان, مضخة بوستر, أفضل مضخة منزلية">
+    <meta name="robots" content="index, follow">
 
-    <meta property="og:title" content="أنواع مضخات المياه المنزلية والفرق بينها">
+    <!-- Canonical -->
+    <link rel="canonical" href="https://brilliantserv.com/blog/home-water-pump-types.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="<?= $page_title ?>">
+    <meta property="og:description" content="دليل أنواع مضخات المياه المنزلية.">
+    <meta property="og:url" content="https://brilliantserv.com/blog/home-water-pump-types.html">
     <meta property="og:image" content="https://brilliantserv.com/media/blog/home-water-pump-types.webp">
 
-        <!-- Schema.org Structured Data -->
+    <!-- JSON-LD Article Schema -->
     <script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "أي مضخة مياه أختار لمنزلي؟",
-    "description": "ما هو الفرق بين مضخة نصف حصان ومضخة الدفع؟ تعرف على أنواع مضخات المياه المنزلية (Booster, Centrifugal, Peripheral) وكيف تختار الأنسب لمنزلك.",
-    "image": "https://brilliantserv.com/media/blog/home-water-pump-types.webp",
-    "datePublished": "2026-01-30",
-    "dateModified": "2026-01-30",
-    "author": {
-        "@type": "Organization",
-        "name": "روائع الكريستال"
-    },
-    "publisher": {
-        "@type": "Organization",
-        "name": "روائع الكريستال",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://brilliantserv.com/media/brilliantcrystal-hd.webp"
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "<?= $page_title ?>",
+        "datePublished": "2026-01-30",
+        "dateModified": "2026-02-01",
+        "author": {"@type": "Organization", "name": "مؤسسة روائع الكريستال"},
+        "publisher": {
+            "@type": "Organization",
+            "name": "مؤسسة روائع الكريستال",
+            "logo": {"@type": "ImageObject", "url": "https://brilliantserv.com/media/logo.webp"}
         }
-    },
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://brilliantserv.com/blog/home-water-pump-types.php"
     }
-}
     </script>
+
+    <!-- JSON-LD FAQ Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "ما أفضل مضخة للمنزل؟",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "للمنزل العادي: Peripheral نصف حصان. للفيلا: Booster ذكية. للخزان العلوي: Centrifugal."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "كم سعر مضخة منزلية؟",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Peripheral صيني: 100-300 ريال. Peripheral إيطالي: 300-600 ريال. Booster: 1,500-4,000 ريال."
+                }
+            }
+        ]
+    }
+    </script>
+
     <?php include '../includes/head.php'; ?>
 </head>
 
@@ -62,8 +83,8 @@ include '../includes/config.php';
         <div class="container">
             <div class="page-hero-content">
                 <span class="section-badge">دليل الشراء</span>
-                <h1>أي مضخة مياه أختار لمنزلي؟</h1>
-                <p>30 يناير 2026 • مقارنة شاملة بين الأنواع المختلفة</p>
+                <h1>أنواع مضخات المياه المنزلية</h1>
+                <p>آخر تحديث: 1 فبراير 2026</p>
             </div>
         </div>
     </section>
@@ -72,41 +93,91 @@ include '../includes/config.php';
         <div class="container">
             <div class="article-wrapper">
                 <div class="article-image">
-                    <img src="../media/blog/home-water-pump-types.webp" alt="أنواع مضخات المياه المختلفة" loading="lazy">
+                    <img src="../media/blog/home-water-pump-types.webp" alt="أنواع مضخات منزلية" loading="lazy">
                 </div>
-
                 <div class="article-body">
-                    <p class="lead">السوق مليء بمضخات المياه: صيني، إيطالي، ألماني.. نصف حصان، واحد حصان.. كيف تختار؟ في
-                        هذا الدليل نبسط لك الأمور.</p>
+                    <h2>كيف تختار مضخة مناسبة لمنزلك؟</h2>
+                    <p>السوق مليء بالمضخات: صيني، إيطالي، ألماني.. نصف حصان، واحد حصان.. هذا الدليل يساعدك في الاختيار.
+                    </p>
 
-                    <h2>1. المضخات الطرفية (Peripheral Pumps)</h2>
-                    <p>هي المضخات الصغيرة (عادة نصف حصان QB60) التي نراها في كل مكان. رخيصة الثمن، لكن صوتها مرتفع
-                        وضغطها متوسط. مناسبة للخزان الأرضي الصغير.</p>
+                    <h2>مقارنة أنواع المضخات المنزلية</h2>
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>النوع</th>
+                                <th>المميزات</th>
+                                <th>السعر</th>
+                                <th>الاستخدام</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Peripheral</strong></td>
+                                <td>رخيصة، بسيطة</td>
+                                <td>100-600 ريال</td>
+                                <td>خزان أرضي صغير</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Centrifugal</strong></td>
+                                <td>غزارة عالية، هادئة</td>
+                                <td>300-1,200 ريال</td>
+                                <td>ملء خزان علوي</td>
+                            </tr>
+                            <tr>
+                                <td><strong><a href="water-booster-systems.php">Booster</a></strong></td>
+                                <td>ذكية، ضغط ثابت</td>
+                                <td>1,500-4,000 ريال</td>
+                                <td>توزيع داخل المنزل</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Self-Priming</strong></td>
+                                <td>تحضير ذاتي</td>
+                                <td>400-1,000 ريال</td>
+                                <td>سحب من خزان منخفض</td>
+                            </tr>
+                        </tbody>
+                    </table>
 
-                    <h2>2. مضخات الطرد المركزي (Centrifugal Pumps)</h2>
-                    <p>تتميز بغزارة المياه (Flow Rate) العالية وصوت أهدأ. ممتازة لملء الخزان العلوي بسرعة.</p>
+                    <h2>نصيحة الخبير</h2>
+                    <p>لمنزل من طابقين ننصح بـ:</p>
+                    <ul>
+                        <li>مضخة <strong>1 حصان تحضير ذاتي</strong> لرفع المياه للخزان العلوي</li>
+                        <li>مضخة <strong><a href="water-booster-systems.php">ضغط ذكية (Booster)</a></strong> للتوزيع
+                            داخل المنزل</li>
+                    </ul>
 
-                    <h2>3. مضخات الضغط الذكية (Booster Pumps)</h2>
-                    <p>الجيل الجديد (مثل Scala2). تأتي مع كمبيوتر داخلي يتحكم في الضغط، فإذا فتحت حنفية واحدة تعمل بطاقة
-                        منخفضة، وإذا فتحت 5 حنفيات تزيد طاقتها. هي الأغلى لكنها الأفضل للراحة.</p>
+                    <h2>الماركات المنزلية</h2>
+                    <ul>
+                        <li>🇮🇹 Pedrollo - ممتازة وأسعار معقولة</li>
+                        <li>🇮🇹 <a href="lowara-pumps.php">Lowara</a> - جودة عالية</li>
+                        <li>🇩🇰 Grundfos Scala - الأفضل للـ Booster</li>
+                        <li>🇨🇳 LEO - جيدة للميزانية المحدودة</li>
+                    </ul>
 
-                    <h3>نصيحة خبير:</h3>
-                    <p>لمنزل من طابقين، ننصح بمضخة **1 حصان تحضير ذاتي** لرفع المياه للخزان العلوي، ومضخة **ضغط ذكية**
-                        للتوزيع داخل المنزل.</p>
+                    <h2>الأسئلة الشائعة</h2>
+                    <div class="faq-section">
+                        <div class="faq-item">
+                            <h3>نصف حصان أم واحد حصان؟</h3>
+                            <p>شقة: نصف حصان كافي. فيلا دورين: واحد حصان. فيلا 3 أدوار: 1.5-2 حصان.</p>
+                        </div>
+                    </div>
 
-                    
+                    <div class="article-cta">
+                        <h3>محتاج مساعدة في الاختيار؟</h3>
+                        <p>استشارة مجانية!</p>
+                        <div class="cta-buttons">
+                            <a href="tel:0550698111" class="btn btn-primary">📞 0550698111</a>
+                            <a href="https://wa.me/966550698111" class="btn btn-success">💬 واتساب</a>
+                        </div>
+                    </div>
+
                     <div class="related-articles">
                         <h3>مقالات ذات صلة</h3>
                         <ul>
-                            <li><a href="انواع-المضخات.php">أنواع المضخات</a></li>
-                            <li><a href="صيانة-مضخات-جراندفوس.php">صيانة مضخات جراندفوس</a></li>
-                            <li><a href="booster-pump-repair.php">صيانة مضخات التعزيز</a></li>
+                            <li><a href="water-booster-systems.php">أنظمة Booster</a></li>
+                            <li><a href="building-water-pumps.php">مضخات المباني</a></li>
+                            <li><a href="centrifugal-pumps.php">مضخات الطرد المركزي</a></li>
                         </ul>
-                    </div>
-<div class="article-cta">
-                        <h3>محتاج مساعدة في الاختيار؟</h3>
-                        <p>اتصل بنا لننصحك بالمضخة المناسبة لميزانيتك واحتياجك.</p>
-                        <a href="tel:0550698111" class="btn btn-primary">استشارة مجانية 0550698111</a>
                     </div>
 
                     <div class="article-back">
