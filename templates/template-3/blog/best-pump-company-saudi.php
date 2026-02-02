@@ -208,25 +208,6 @@ include '../includes/config.php';
                         </div>
                     </div>
 
-                    <div class="article-cta">
-                        <h3>تواصل مع أفضل شركة مضخات!</h3>
-                        <p>استشارة مجانية وعرض سعر خلال 24 ساعة!</p>
-                        <div class="cta-buttons">
-                            <a href="tel:0550698111" class="btn btn-primary">📞 0550698111</a>
-                            <a href="https://wa.me/966550698111" class="btn btn-success">💬 واتساب</a>
-                        </div>
-                    </div>
-
-                    <div class="related-articles">
-                        <h3>مقالات ذات صلة</h3>
-                        <ul>
-                            <li><a href="pump-company-riyadh.php">شركة مضخات الرياض</a></li>
-                            <li><a href="authorized-pump-distributor.php">موزع مضخات معتمد</a></li>
-                            <li><a href="original-water-pumps.php">مضخات مياه أصلية</a></li>
-                        </ul>
-                    </div>
-
-                    
                     <?php 
                     // Article data for CTA
                     $article = ['title' => $page_title];

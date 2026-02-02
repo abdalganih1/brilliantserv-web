@@ -318,26 +318,6 @@ include '../includes/config.php';
                         </div>
                     </div>
 
-                    <div class="article-cta">
-                        <h3>تحتاج منظومة مضخات حريق معتمدة؟</h3>
-                        <p>نوفر التصميم والتوريد والتركيب مع شهادة الدفاع المدني!</p>
-                        <div class="cta-buttons">
-                            <a href="tel:0550698111" class="btn btn-primary">📞 0550698111</a>
-                            <a href="https://wa.me/966550698111" class="btn btn-success">💬 واتساب</a>
-                        </div>
-                    </div>
-
-                    <div class="related-articles">
-                        <h3>مقالات ذات صلة</h3>
-                        <ul>
-                            <li><a href="fire-pump-control-panels.php">لوحات تحكم مضخات الحريق</a></li>
-                            <li><a href="centrifugal-pumps.php">مضخات الطرد المركزي</a></li>
-                            <li><a href="vertical-pumps.php">المضخات العمودية التوربينية</a></li>
-                            <li><a href="horizontal-pumps.php">المضخات الأفقية</a></li>
-                        </ul>
-                    </div>
-
-                    
                     <?php 
                     // Article data for CTA
                     $article = ['title' => $page_title];

@@ -143,25 +143,6 @@ include '../includes/config.php';
                         <li>توثيق النتائج في تقرير</li>
                     </ol>
 
-                    <div class="article-cta">
-                        <h3>تحتاج خدمة Commissioning؟</h3>
-                        <p>تقارير معتمدة وموثقة!</p>
-                        <div class="cta-buttons">
-                            <a href="tel:0550698111" class="btn btn-primary">📞 0550698111</a>
-                            <a href="https://wa.me/966550698111" class="btn btn-success">💬 واتساب</a>
-                        </div>
-                    </div>
-
-                    <div class="related-articles">
-                        <h3>مقالات ذات صلة</h3>
-                        <ul>
-                            <li><a href="pump-handover.php">تسليم المضخات</a></li>
-                            <li><a href="pumping-system-installation.php">تركيب أنظمة الضخ</a></li>
-                            <li><a href="pump-pressure-calibration.php">معايرة الضغط</a></li>
-                        </ul>
-                    </div>
-
-                    
                     <?php 
                     // Article data for CTA
                     $article = ['title' => $page_title];

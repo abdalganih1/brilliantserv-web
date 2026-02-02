@@ -154,9 +154,7 @@ include '../includes/config.php';
                     <p>نستخدم قطع غيار أصلية من ماركات عالمية مثل <strong>Grundfos</strong> و <strong>Ebara</strong> و
                         <strong>KSB</strong> لضمان أطول عمر افتراضي.</p>
 
-
-
-                    <?php
+                    <?php 
                     // Article data for CTA
                     $article = ['title' => $page_title];
 

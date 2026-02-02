@@ -94,25 +94,6 @@ include '../includes/config.php';
                     </ul>
 
                     <!-- CTA Box -->
-                    <div class="article-cta">
-                        <h3>تحتاج مساعدة في تجميع مضخات GRUNDFOS؟</h3>
-                        <p>فريقنا المتخصص جاهز لخدمتك على مدار الساعة.</p>
-                        <div class="cta-buttons">
-                            <a href="tel:0550698111" class="btn btn-primary">📞 0550698111</a>
-                            <a href="https://wa.me/966550698111" class="btn btn-success">💬 واتساب</a>
-                        </div>
-                    </div>
-
-                    <!-- Related Articles -->
-                    <div class="related-articles">
-                        <h3>مقالات ذات صلة</h3>
-                        <ul>
-                            <li><a href="grundfos-pump-agent-riyadh.php">وكيل مضخات Grundfos</a></li>
-                            <li><a href="صيانة-مضخات-جراندفوس.php">صيانة مضخات جراندفوس</a></li>
-                        </ul>
-                    </div>
-
-                    
                     <?php 
                     // Article data for CTA
                     $article = ['title' => $page_title];

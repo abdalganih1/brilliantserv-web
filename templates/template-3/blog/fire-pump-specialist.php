@@ -150,25 +150,6 @@ include '../includes/config.php';
                         <li>🇦🇪 Naffco</li>
                     </ul>
 
-                    <div class="article-cta">
-                        <h3>تحتاج شركة متخصصة؟</h3>
-                        <p>اتصل بنا للاستشارة المجانية!</p>
-                        <div class="cta-buttons">
-                            <a href="tel:0550698111" class="btn btn-primary">📞 0550698111</a>
-                            <a href="https://wa.me/966550698111" class="btn btn-success">💬 واتساب</a>
-                        </div>
-                    </div>
-
-                    <div class="related-articles">
-                        <h3>مقالات ذات صلة</h3>
-                        <ul>
-                            <li><a href="fire-pumps.php">مضخات الحريق</a></li>
-                            <li><a href="fire-pump-installation.php">تركيب مضخات حريق</a></li>
-                            <li><a href="fire-pump-control-panels.php">لوحات مضخات الحريق</a></li>
-                        </ul>
-                    </div>
-
-                    
                     <?php 
                     // Article data for CTA
                     $article = ['title' => $page_title];

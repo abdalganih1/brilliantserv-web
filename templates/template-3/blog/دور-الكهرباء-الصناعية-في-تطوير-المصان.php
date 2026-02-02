@@ -386,13 +386,6 @@ include '../includes/config.php';
                             سيرف</strong> للحصول على استشارة مجانية وعرض سعر شامل. اتصل الآن:
                         <strong>0550698111</strong></p>
 
-                    <div class="article-cta">
-                        <h3>تحتاج مساعدة؟</h3>
-                        <p>فريقنا جاهز لخدمتك على مدار الساعة.</p>
-                        <a href="tel:0550698111" class="btn btn-primary">اتصل الآن: 0550698111</a>
-                    </div>
-
-                    
                     <?php 
                     // Article data for CTA
                     $article = ['title' => $page_title];

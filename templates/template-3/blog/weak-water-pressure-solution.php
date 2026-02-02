@@ -92,20 +92,6 @@ include '../includes/config.php';
                         ثابت لجميع الحنفيات في نفس الوقت.</p>
 
                     
-                    <div class="related-articles">
-                        <h3>مقالات ذات صلة</h3>
-                        <ul>
-                            <li><a href="انواع-المضخات.php">أنواع المضخات</a></li>
-                            <li><a href="لف-المحركات-الكهربائية.php">لف المحركات الكهربائية</a></li>
-                            <li><a href="صيانة-البوردات-الالكترونية.php">صيانة البوردات الإلكترونية</a></li>
-                        </ul>
-                    </div>
-<div class="article-cta">
-                        <h3>تريد ضغط ماء قوي كالفنادق؟</h3>
-                        <p>نقوم بتركيب أفضل مضخات الضغط مع ضمان شامل.</p>
-                        <a href="tel:0550698111" class="btn btn-primary">احجز موعد كشف 0550698111</a>
-                    </div>
-                    
                     <?php 
                     // Article data for CTA
                     $article = ['title' => $page_title];

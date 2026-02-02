@@ -256,26 +256,6 @@ include '../includes/config.php';
                         </div>
                     </div>
 
-                    <div class="article-cta">
-                        <h3>تحتاج لوحة تحكم لمضختك؟</h3>
-                        <p>تصنيع محلي بمكونات أوروبية أصلية!</p>
-                        <div class="cta-buttons">
-                            <a href="tel:0550698111" class="btn btn-primary">📞 0550698111</a>
-                            <a href="https://wa.me/966550698111" class="btn btn-success">💬 واتساب</a>
-                        </div>
-                    </div>
-
-                    <div class="related-articles">
-                        <h3>مقالات ذات صلة</h3>
-                        <ul>
-                            <li><a href="vfd-programming-pumps.php">برمجة انفرتر VFD للمضخات</a></li>
-                            <li><a href="star-delta-panel-manufacturing.php">تصنيع لوحات ستار دلتا</a></li>
-                            <li><a href="plc-control-panels.php">لوحات PLC</a></li>
-                            <li><a href="fire-pump-control-panels.php">لوحات مضخات الحريق</a></li>
-                        </ul>
-                    </div>
-
-                    
                     <?php 
                     // Article data for CTA
                     $article = ['title' => $page_title];

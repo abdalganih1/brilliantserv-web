@@ -102,21 +102,6 @@ include '../includes/config.php';
                     </ul>
 
                     
-                    <div class="related-articles">
-                        <h3>مقالات ذات صلة</h3>
-                        <ul>
-                            <li><a href="انواع-المضخات.php">أنواع المضخات</a></li>
-                            <li><a href="صيانة-مضخات-جراندفوس.php">صيانة مضخات جراندفوس</a></li>
-                            <li><a href="booster-pump-repair.php">صيانة مضخات التعزيز</a></li>
-                        </ul>
-                    </div>
-<div class="article-cta">
-                        <h3>هل تملك مضخة Grundfos معطلة؟</h3>
-                        <p>لا تغامر مع فنيين غير متخصصين. اتصل بخبراء جراندفوس الآن.</p>
-                        <a href="tel:0550698111" class="btn btn-primary">صيانة فورية 0550698111</a>
-                    </div>
-
-                    
                     <?php 
                     // Article data for CTA
                     $article = ['title' => $page_title];

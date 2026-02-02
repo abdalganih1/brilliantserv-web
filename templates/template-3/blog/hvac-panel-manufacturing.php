@@ -141,25 +141,6 @@ include '../includes/config.php';
                         <li>✅ IP54-IP65 للبيئات القاسية</li>
                     </ul>
 
-                    <div class="article-cta">
-                        <h3>تحتاج لوحة HVAC؟</h3>
-                        <p>تصنيع محلي بجودة عالمية!</p>
-                        <div class="cta-buttons">
-                            <a href="tel:0550698111" class="btn btn-primary">📞 0550698111</a>
-                            <a href="https://wa.me/966550698111" class="btn btn-success">💬 واتساب</a>
-                        </div>
-                    </div>
-
-                    <div class="related-articles">
-                        <h3>مقالات ذات صلة</h3>
-                        <ul>
-                            <li><a href="hvac-control-panels.php">لوحات HVAC</a></li>
-                            <li><a href="pump-panel-assembly.php">تجميع لوحات</a></li>
-                            <li><a href="inverter-panel-maintenance.php">صيانة انفرتر</a></li>
-                        </ul>
-                    </div>
-
-                    
                     <?php 
                     // Article data for CTA
                     $article = ['title' => $page_title];

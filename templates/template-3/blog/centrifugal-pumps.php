@@ -361,28 +361,6 @@ include '../includes/config.php';
                     </ul>
 
                     <!-- CTA Box -->
-                    <div class="article-cta">
-                        <h3>تحتاج مساعدة في مضخات طرد مركزي؟</h3>
-                        <p>فريقنا المتخصص جاهز لخدمتك على مدار الساعة. احصل على استشارة مجانية الآن!</p>
-                        <div class="cta-buttons">
-                            <a href="tel:0550698111" class="btn btn-primary">📞 اتصل الآن: 0550698111</a>
-                            <a href="https://wa.me/966550698111" class="btn btn-success">💬 واتساب مباشر</a>
-                        </div>
-                    </div>
-
-                    <!-- Related Articles -->
-                    <div class="related-articles">
-                        <h3>مقالات ذات صلة</h3>
-                        <ul>
-                            <li><a href="multistage-pumps.php">مضخات متعددة المراحل - دليل شامل</a></li>
-                            <li><a href="horizontal-pumps.php">المضخات الأفقية: أنواعها واستخداماتها</a></li>
-                            <li><a href="vertical-pumps.php">المضخات العمودية للآبار والخزانات</a></li>
-                            <li><a href="fire-pumps.php">مضخات الحريق ومتطلبات الدفاع المدني</a></li>
-                            <li><a href="industrial-water-pumps.php">مضخات المياه الصناعية</a></li>
-                        </ul>
-                    </div>
-
-                    
                     <?php 
                     // Article data for CTA
                     $article = ['title' => $page_title];

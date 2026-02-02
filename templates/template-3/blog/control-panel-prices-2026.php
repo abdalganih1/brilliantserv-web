@@ -146,9 +146,7 @@ include '../includes/config.php';
                     <h2>تفاصيل الخدمة</h2>
                     <p>نحن نضمن لك جودة عالية وسرعة في الإنجاز. تواصل معنا اليوم لمعرفة المزيد.</p>
 
-
-
-                    <?php
+                    <?php 
                     // Article data for CTA
                     $article = ['title' => $page_title];
 

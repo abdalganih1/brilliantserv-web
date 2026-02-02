@@ -319,26 +319,6 @@ include '../includes/config.php';
                         <li>✅ طوارئ 24/7</li>
                     </ul>
 
-                    <div class="article-cta">
-                        <h3>تحتاج مضخة بئر؟</h3>
-                        <p>استشارة مجانية لاختيار المضخة المناسبة!</p>
-                        <div class="cta-buttons">
-                            <a href="tel:0550698111" class="btn btn-primary">📞 0550698111</a>
-                            <a href="https://wa.me/966550698111" class="btn btn-success">💬 واتساب</a>
-                        </div>
-                    </div>
-
-                    <div class="related-articles">
-                        <h3>مقالات ذات صلة</h3>
-                        <ul>
-                            <li><a href="submersible-pump-problems.php">مشاكل المضخات الغاطسة وحلولها</a></li>
-                            <li><a href="vertical-pumps.php">المضخات العمودية التوربينية</a></li>
-                            <li><a href="centrifugal-pumps.php">مضخات الطرد المركزي</a></li>
-                            <li><a href="multistage-pumps.php">المضخات متعددة المراحل</a></li>
-                        </ul>
-                    </div>
-
-                    
                     <?php 
                     // Article data for CTA
                     $article = ['title' => $page_title];
