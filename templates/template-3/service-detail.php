@@ -291,6 +291,11 @@ include 'includes/config.php';
             font-size: 1.5rem;
         }
 
+        .feature-icon svg {
+            stroke: white !important;
+            color: white !important;
+        }
+
         .feature-card h4 {
             margin-bottom: 0.5rem;
             color: var(--color-text);
