@@ -17,7 +17,8 @@ include '../includes/config.php';
 
     <!-- SEO Meta Tags -->
     <title>أسعار لوحات التحكم الكهربائية 2026 في السعودية - روائع الكريستال</title>
-    <meta name="description" content="مقالة شاملة عن أسعار لوحات التحكم الكهربائية 2026 في السعودية. نقدم أفضل خدمات أسعار لوحات التحكم في الرياض وجدة. اتصل بنا 0550698111.">
+    <meta name="description"
+        content="مقالة شاملة عن أسعار لوحات التحكم الكهربائية 2026 في السعودية. نقدم أفضل خدمات أسعار لوحات التحكم في الرياض وجدة. اتصل بنا 0550698111.">
     <meta name="keywords" content="أسعار لوحات التحكم, صيانة, تركيب, السعودية">
     <meta name="author" content="مؤسسة روائع الكريستال">
     <meta name="robots" content="index, follow, max-image-preview:large">
@@ -31,7 +32,8 @@ include '../includes/config.php';
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
     <meta property="og:title" content="أسعار لوحات التحكم الكهربائية 2026 في السعودية - روائع الكريستال">
-    <meta property="og:description" content="مقالة شاملة عن أسعار لوحات التحكم الكهربائية 2026 في السعودية. نقدم أفضل خدمات أسعار لوحات التحكم في الرياض وجدة. اتصل بنا 0550698111.">
+    <meta property="og:description"
+        content="مقالة شاملة عن أسعار لوحات التحكم الكهربائية 2026 في السعودية. نقدم أفضل خدمات أسعار لوحات التحكم في الرياض وجدة. اتصل بنا 0550698111.">
     <meta property="og:image" content="https://brilliantserv.com/media/blog/control-panel-prices.webp">
     <meta property="og:url" content="https://brilliantserv.com/blog/control-panel-prices-2026.php">
     <meta property="og:site_name" content="روائع الكريستال">
@@ -40,7 +42,8 @@ include '../includes/config.php';
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="أسعار لوحات التحكم الكهربائية 2026 في السعودية - روائع الكريستال">
-    <meta property="twitter:description" content="مقالة شاملة عن أسعار لوحات التحكم الكهربائية 2026 في السعودية. نقدم أفضل خدمات أسعار لوحات التحكم في الرياض وجدة. اتصل بنا 0550698111.">
+    <meta property="twitter:description"
+        content="مقالة شاملة عن أسعار لوحات التحكم الكهربائية 2026 في السعودية. نقدم أفضل خدمات أسعار لوحات التحكم في الرياض وجدة. اتصل بنا 0550698111.">
     <meta property="twitter:image" content="https://brilliantserv.com/media/blog/control-panel-prices.webp">
 
     <!-- JSON-LD Schema -->
@@ -55,7 +58,7 @@ include '../includes/config.php';
         "name": "مؤسسة روائع الكريستال"
     }
 }</script>
-<script type="application/ld+json">{
+    <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "أسعار لوحات التحكم الكهربائية 2026 في السعودية",
@@ -73,7 +76,7 @@ include '../includes/config.php';
     "areaServed": "الرياض",
     "description": "مقالة شاملة عن أسعار لوحات التحكم الكهربائية 2026 في السعودية. نقدم أفضل خدمات أسعار لوحات التحكم في الرياض وجدة. اتصل بنا 0550698111."
 }</script>
-<script type="application/ld+json">{
+    <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
@@ -124,45 +127,37 @@ include '../includes/config.php';
             <div class="article-wrapper">
                 <!-- Featured Image -->
                 <div class="article-image">
-                    <img src="../media/blog/control-panel-prices.webp" alt="أسعار لوحات التحكم الكهربائية 2026 في السعودية" loading="lazy">
+                    <img src="../media/blog/control-panel-prices.webp"
+                        alt="أسعار لوحات التحكم الكهربائية 2026 في السعودية" loading="lazy">
                 </div>
 
                 <!-- Article Body -->
                 <div class="article-body">
-                    <p><p class='lead'>تعتبر أسعار لوحات التحكم من الخدمات الأساسية التي نقدمها في مؤسسة روائع الكريستال. في هذا المقال، سنناقش أهم الجوانب التقنية.</p></p>
-<h2>لماذا تختار خدماتنا؟</h2>
-<ul><li>فريق فني متخصص ومدرب.</li><li>استخدام قطع غيار أصلية.</li><li>ضمان على العمل والتنفيذ.</li></ul>
-<h2>تفاصيل الخدمة</h2>
-<p>نحن نضمن لك جودة عالية وسرعة في الإنجاز. تواصل معنا اليوم لمعرفة المزيد.</p>
+                    <p>
+                    <p class='lead'>تعتبر أسعار لوحات التحكم من الخدمات الأساسية التي نقدمها في مؤسسة روائع الكريستال.
+                        في هذا المقال، سنناقش أهم الجوانب التقنية.</p>
+                    </p>
+                    <h2>لماذا تختار خدماتنا؟</h2>
+                    <ul>
+                        <li>فريق فني متخصص ومدرب.</li>
+                        <li>استخدام قطع غيار أصلية.</li>
+                        <li>ضمان على العمل والتنفيذ.</li>
+                    </ul>
+                    <h2>تفاصيل الخدمة</h2>
+                    <p>نحن نضمن لك جودة عالية وسرعة في الإنجاز. تواصل معنا اليوم لمعرفة المزيد.</p>
 
 
-                    <!-- Call to Action -->
-                    
-                    <div class="related-articles">
-                        <h3>مقالات ذات صلة</h3>
-                        <ul>
-                            <li><a href="انواع-المضخات.php">أنواع المضخات</a></li>
-                            <li><a href="لف-المحركات-الكهربائية.php">لف المحركات الكهربائية</a></li>
-                            <li><a href="صيانة-البوردات-الالكترونية.php">صيانة البوردات الإلكترونية</a></li>
-                        </ul>
-                    </div>
-<div class="article-cta">
-                        <h3>هل تحتاج مساعدة؟</h3>
-                        <p>تواصل مع خبرائنا الآن للحصول على استشارة مجانية وعرض سعر.</p>
-                        <a href="tel:0550698111" class="btn btn-primary">اتصل الآن 0550698111</a>
-                    </div>
 
-                    <!-- Back Link -->
-                    <div class="article-back">
-                        <a href="../blog.php" class="back-link">← العودة للمدونة</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </article>
+                    <?php
+                    // Article data for CTA
+                    $article = ['title' => $page_title];
 
-    <?php include '../includes/footer.php'; ?>
-    <script src="../js/main.js"></script>
-</body>
+                    // Related articles
+                    $related_articles = [
+                        'انواع-المضخات.php' => 'أنواع المضخات',
+                        'لف-المحركات-الكهربائية.php' => 'لف المحركات الكهربائية',
+                        'mcc-panels.php' => 'لوحات MCC'
+                    ];
 
-</html>
+                    include '../includes/blog-article-footer.php';
+                    ?>

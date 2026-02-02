@@ -146,34 +146,16 @@ include '../includes/config.php';
                         <li>🇯🇵 Naffco</li>
                     </ul>
 
-                    <div class="article-cta">
-                        <h3>تحتاج تركيب مضخات حريق؟</h3>
-                        <p>معتمدين لدى الدفاع المدني!</p>
-                        <div class="cta-buttons">
-                            <a href="tel:0550698111" class="btn btn-primary">📞 0550698111</a>
-                            <a href="https://wa.me/966550698111" class="btn btn-success">💬 واتساب</a>
-                        </div>
-                    </div>
+                    <?php
+                    // Article data for CTA
+                    $article = ['title' => $page_title];
 
-                    <div class="related-articles">
-                        <h3>مقالات ذات صلة</h3>
-                        <ul>
-                            <li><a href="fire-pumps.php">مضخات الحريق</a></li>
-                            <li><a href="fire-pump-control-panels.php">لوحات مضخات الحريق</a></li>
-                            <li><a href="fire-pump-specialist.php">شركة متخصصة</a></li>
-                        </ul>
-                    </div>
+                    // Related articles
+                    $related_articles = [
+                        'fire-pumps.php' => 'مضخات الحريق',
+                        'fire-pump-control-panels.php' => 'لوحات مضخات الحريق',
+                        'fire-pump-specialist.php' => 'شركة متخصصة'
+                    ];
 
-                    <div class="article-back">
-                        <a href="../blog.php" class="back-link">← العودة للمدونة</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </article>
-
-    <?php include '../includes/footer.php'; ?>
-    <script src="../js/main.min.js"></script>
-</body>
-
-</html>
+                    include '../includes/blog-article-footer.php';
+                    ?>
