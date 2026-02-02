@@ -15,3 +15,4 @@
 <!-- Stylesheets -->
 <link rel="stylesheet" href="<?= $base_path ?>css/style.min.css">
 <link rel="stylesheet" href="<?= $base_path ?>css/pages.min.css">
+<link rel="stylesheet" href="<?= $base_path ?>css/blog-premium.css">

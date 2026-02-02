@@ -1,0 +1,363 @@
+/**
+ * Blog Premium Styles
+ * تنسيقات احترافية للمقالات - جداول وCTA
+ * مؤسسة روائع الكريستال
+ */
+
+/* ============================================
+   PREMIUM CTA COMPONENT
+   ============================================ */
+
+.article-cta {
+    background: linear-gradient(135deg, #1e3a5f 0%, #0d1f33 100%) !important;
+    padding: 3rem !important;
+    border-radius: 1.5rem !important;
+    margin: 3rem 0 !important;
+    text-align: center !important;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+/* Glassmorphism overlay */
+.article-cta::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, transparent 50%);
+    pointer-events: none;
+}
+
+/* Decorative circles */
+.article-cta::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(37, 211, 102, 0.15) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.article-cta h3 {
+    font-size: 1.75rem !important;
+    margin-bottom: 0.75rem !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    position: relative;
+    z-index: 1;
+}
+
+.article-cta p {
+    margin-bottom: 2rem !important;
+    color: rgba(255, 255, 255, 0.95) !important;
+    font-size: 1.1rem !important;
+    position: relative;
+    z-index: 1;
+}
+
+.article-cta .cta-buttons {
+    display: flex !important;
+    gap: 1rem !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    position: relative;
+    z-index: 1;
+}
+
+.article-cta .cta-buttons a {
+    padding: 1rem 2rem !important;
+    border-radius: 3rem !important;
+    text-decoration: none !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 0.75rem !important;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.article-cta .cta-buttons a:first-child {
+    background: linear-gradient(135deg, #25D366 0%, #128C7E 100%) !important;
+    color: white !important;
+}
+
+.article-cta .cta-buttons a:first-child:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4) !important;
+}
+
+.article-cta .cta-buttons a:last-child {
+    background: rgba(255, 255, 255, 0.95) !important;
+    color: #1e3a5f !important;
+}
+
+.article-cta .cta-buttons a:last-child:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.3) !important;
+    background: #ffffff !important;
+}
+
+/* ============================================
+   PREMIUM TABLES
+   ============================================ */
+
+.comparison-table,
+.blog-article table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.comparison-table thead,
+.blog-article table thead {
+    background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 100%);
+}
+
+.comparison-table th,
+.blog-article table th {
+    padding: 1.25rem 1.5rem;
+    text-align: right;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0.02em;
+    text-transform: none;
+    border: none;
+}
+
+.comparison-table th:first-child,
+.blog-article table th:first-child {
+    border-radius: 0 1rem 0 0;
+}
+
+.comparison-table th:last-child,
+.blog-article table th:last-child {
+    border-radius: 1rem 0 0 0;
+}
+
+.comparison-table td,
+.blog-article table td {
+    padding: 1.25rem 1.5rem;
+    text-align: right;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    transition: all 0.2s ease;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.comparison-table tbody tr,
+.blog-article table tbody tr {
+    background: #fff;
+    transition: all 0.2s ease;
+}
+
+/* Zebra striping with subtle color */
+.comparison-table tbody tr:nth-child(even),
+.blog-article table tbody tr:nth-child(even) {
+    background: #f8fafc;
+}
+
+/* Hover effect */
+.comparison-table tbody tr:hover,
+.blog-article table tbody tr:hover {
+    background: linear-gradient(90deg, rgba(30, 58, 95, 0.05) 0%, rgba(30, 58, 95, 0.02) 100%);
+    transform: scale(1.005);
+}
+
+/* First column highlight */
+.comparison-table td:first-child,
+.blog-article table td:first-child {
+    font-weight: 600;
+    color: #1e3a5f;
+}
+
+/* Price/value column styling */
+.comparison-table td:last-child,
+.blog-article table td:last-child {
+    color: #059669;
+    font-weight: 600;
+}
+
+/* Links in tables */
+.comparison-table a,
+.blog-article table a {
+    color: #2563eb;
+    text-decoration: none;
+    border-bottom: 1px dashed #2563eb;
+    transition: all 0.2s ease;
+}
+
+.comparison-table a:hover,
+.blog-article table a:hover {
+    color: #1e3a5f;
+    border-bottom-style: solid;
+}
+
+/* ============================================
+   PREMIUM RELATED ARTICLES
+   ============================================ */
+
+.related-articles {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%) !important;
+    padding: 2rem !important;
+    border-radius: 1rem !important;
+    margin: 2rem 0 !important;
+    border: 1px solid rgba(30, 58, 95, 0.1);
+}
+
+.related-articles h3 {
+    color: #1e3a5f !important;
+    margin-bottom: 1.25rem !important;
+    font-size: 1.25rem !important;
+    font-weight: 700 !important;
+}
+
+.related-articles ul {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: grid !important;
+    gap: 0.75rem !important;
+}
+
+.related-articles li a {
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.75rem !important;
+    padding: 0.875rem 1rem !important;
+    background: rgba(255, 255, 255, 0.8) !important;
+    border-radius: 0.75rem !important;
+    color: #1e3a5f !important;
+    text-decoration: none !important;
+    transition: all 0.25s ease !important;
+    border: 1px solid transparent;
+    font-weight: 500;
+}
+
+.related-articles li a:hover {
+    background: #ffffff !important;
+    transform: translateX(-5px);
+    border-color: rgba(30, 58, 95, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.related-articles li a span {
+    color: #25D366 !important;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease;
+}
+
+.related-articles li a:hover span {
+    transform: translateX(-5px);
+}
+
+/* ============================================
+   FAQ SECTION ENHANCEMENT
+   ============================================ */
+
+.faq-section {
+    margin: 2rem 0;
+}
+
+.faq-item {
+    background: #fff;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    transition: all 0.2s ease;
+}
+
+.faq-item:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.faq-item h3 {
+    color: #1e3a5f;
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.faq-item h3::before {
+    content: '❓';
+    font-size: 1.2rem;
+}
+
+.faq-item p {
+    color: #4b5563;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* ============================================
+   MOBILE RESPONSIVENESS
+   ============================================ */
+
+@media (max-width: 768px) {
+    .comparison-table,
+    .blog-article table {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .comparison-table th,
+    .comparison-table td,
+    .blog-article table th,
+    .blog-article table td {
+        padding: 1rem;
+        font-size: 0.875rem;
+        white-space: nowrap;
+    }
+    
+    .article-cta {
+        padding: 2rem 1.5rem !important;
+    }
+    
+    .article-cta h3 {
+        font-size: 1.4rem !important;
+    }
+    
+    .article-cta .cta-buttons {
+        flex-direction: column !important;
+    }
+    
+    .article-cta .cta-buttons a {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* ============================================
+   ANIMATION KEYFRAMES
+   ============================================ */
+
+@keyframes subtlePulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.85; }
+}
+
+.article-cta .cta-buttons a:first-child {
+    animation: subtlePulse 2s ease-in-out infinite;
+}
+
+.article-cta .cta-buttons a:first-child:hover {
+    animation: none;
+}
