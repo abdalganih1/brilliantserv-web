@@ -154,71 +154,72 @@ include 'includes/config.php';
     <section class="projects-page">
         <div class="container">
             <div class="projects-full-grid" id="services-grid">
-                <div class="project-card">
+                <a href="/services/mdb-control-panels" class="project-card">
                     <img src="media/services/تصنيع-وتوريد-لوحات-MDB.webp?v=1769376863" alt="لوحات تحكم MDB"
                         loading="lazy">
                     <div class="project-overlay">
                         <h4>لوحات تحكم MDB</h4>
                         <span>تصنيع وتوريد | مصنع صناعي</span>
                     </div>
-                </div>
-                <div class="project-card">
+                </a>
+                <a href="/services/ksb-pumps" class="project-card">
                     <img src="media/services/صيانة-مضخات-KSB-_1_.webp?v=1769376863" alt="مضخات صناعية KSB"
                         loading="lazy">
                     <div class="project-overlay">
                         <h4>مضخات صناعية KSB</h4>
                         <span>تركيب وصيانة | محطة معالجة مياه</span>
                     </div>
-                </div>
-                <div class="project-card">
+                </a>
+                <a href="/services/electrical-works" class="project-card">
                     <img src="media/services/أفضل-مؤسسة-تنفيذ-أعمال-كهرباء-في-المملكة.webp?v=1769376863"
                         alt="أعمال كهربائية" loading="lazy">
                     <div class="project-overlay">
                         <h4>أعمال كهربائية</h4>
                         <span>تنفيذ أعمال كهرباء | مشاريع المملكة</span>
                     </div>
-                </div>
-                <div class="project-card">
+                </a>
+                <a href="/services/plc-control-panels" class="project-card">
                     <img src="media/services/تجميع-لوحات-التحكم.webp?v=1769376863" alt="لوحات تحكم PLC" loading="lazy">
                     <div class="project-overlay">
                         <h4>لوحات تحكم PLC</h4>
                         <span>تجميع وبرمجة | مصانع أغذية</span>
                     </div>
-                </div>
+                </a>
 
-                <div class="project-card">
+                <a href="/services/motor-winding" class="project-card">
                     <img src="media/services/لف-المحركات-الكهربائية.webp?v=1769376863" alt="لف المحركات الكهربائية"
                         loading="lazy">
                     <div class="project-overlay">
                         <h4>لف المحركات الكهربائية</h4>
                         <span>إعادة لف وصيانة | ورشة متخصصة</span>
                     </div>
-                </div>
-                <div class="project-card">
+                </a>
+                <a href="/services/fire-pumps" class="project-card">
                     <img src="media/services/صيانة-مضخات-الحريق.webp?v=1769376863" alt="مضخات حريق UL/FM"
                         loading="lazy">
                     <div class="project-overlay">
                         <h4>مضخات حريق UL/FM</h4>
                         <span>صيانة وتركيب | أبراج إدارية</span>
                     </div>
-                </div>
+                </a>
 
-                <div class="project-card">
+                <a href="/services/grundfos-pumps" class="project-card">
                     <img src="media/services/صيانة-مضخات-جراندفوس.webp?v=1769376863" alt="مضخات جراندفوس"
                         loading="lazy">
                     <div class="project-overlay">
                         <h4>مضخات جراندفوس</h4>
                         <span>وكيل صيانة معتمد | مركز خدمة</span>
                     </div>
-                </div>
+                </a>
 
-                <div class="project-card">
-                    <img src="media/services/صيانة-مضخات-KSB-.webp?v=1769376863" alt="محطة ضخ مياه" loading="lazy">
+                <a href="/services/hvac-control-panels" class="project-card">
+                    <img src="media/services/تجميع-لوحات-التحكم.webp?v=1769376863" alt="لوحات تحكم التكييف"
+                        loading="lazy">
                     <div class="project-overlay">
-                        <h4>محطة ضخ مياه</h4>
-                        <span>صيانة مضخات KSB</span>
+                        <h4>لوحات تحكم التكييف</h4>
+                        <span>تصميم وتجميع HVAC</span>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>

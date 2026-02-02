@@ -47,11 +47,6 @@
           "answer": "نعم، نقدم خدمة التركيب والتشغيل الكاملة في موقع العميل مع فريق هندسي متخصص."
         }
       ],
-      "related_articles": [
-        "blog/mcc-panels.php",
-        "blog/schneider-control-panels.php",
-        "blog/control-panel-prices-2026.php"
-      ],
       "gallery": [
         "electrical/p17_img4.webp",
         "electrical/p18_img4.webp",
@@ -59,25 +54,25 @@
       ]
     },
     {
-      "id": "ksb-grundfos-pumps",
-      "slug": "ksb-grundfos-pumps",
-      "title": "مضخات KSB و جراندفوس",
-      "meta_title": "صيانة مضخات KSB وجراندفوس | خبراء المضخات الصناعية - روائع الكريستال",
-      "meta_description": "صيانة وتركيب مضخات المياه والحريق والصرف الصحي من KSB وGrundfos. قطع غيار أصلية، فنيين معتمدين، خدمة 24/7 في الرياض والسعودية. اتصل 0550698111",
-      "keywords": "صيانة مضخات KSB, صيانة مضخات جراندفوس, Grundfos pump maintenance, KSB pump repair, مضخات صناعية الرياض",
+      "id": "ksb-pumps",
+      "slug": "ksb-pumps",
+      "title": "مضخات صناعية KSB",
+      "meta_title": "صيانة مضخات KSB | خبراء المضخات الألمانية في السعودية - روائع الكريستال",
+      "meta_description": "صيانة وتركيب مضخات KSB الألمانية. قطع غيار أصلية، فنيين معتمدين، خدمة طوارئ 24/7 في الرياض والسعودية. اتصل 0550698111",
+      "keywords": "صيانة مضخات KSB, KSB pump repair, مضخات صناعية, مضخات ألمانية, صيانة مضخات الرياض",
       "hero_image": "services/صيانة-مضخات-KSB-_1_.webp",
       "icon": "cog",
-      "short_description": "صيانة وتركيب مضخات المياه والحريق والصرف الصحي من كبرى الماركات العالمية.",
-      "content": "<p>نحن في مؤسسة روائع الكريستال متخصصون في <strong>صيانة وتركيب مضخات KSB الألمانية ومضخات Grundfos الدنماركية</strong>، وهي من أفضل الماركات العالمية في مجال المضخات الصناعية.</p><h3>خدماتنا للمضخات</h3><ul><li>صيانة دورية ووقائية</li><li>إصلاح الأعطال الطارئة</li><li>توريد وتركيب مضخات جديدة</li><li>تبديل قطع الغيار الأصلية</li><li>محاذاة بالليزر (Laser Alignment)</li><li>عقود صيانة سنوية</li></ul><h3>أنواع المضخات التي نخدمها</h3><ul><li><strong>مضخات المياه:</strong> Grundfos CR, CM, SP</li><li><strong>مضخات الحريق:</strong> KSB Etanorm, UL/FM Listed</li><li><strong>مضخات الصرف:</strong> Grundfos SEG, KSB Amarex</li><li><strong>مضخات التكييف:</strong> Grundfos UPS, Magna</li></ul><h3>لماذا تختارنا؟</h3><p>فريقنا مدرب على أيدي خبراء من الشركات المصنعة، ونستخدم قطع غيار أصلية 100% لضمان أداء مثالي وعمر افتراضي طويل للمضخات.</p>",
+      "short_description": "صيانة وتركيب مضخات KSB الألمانية للتطبيقات الصناعية ومحطات معالجة المياه.",
+      "content": "<p>نحن متخصصون في <strong>صيانة وتركيب مضخات KSB الألمانية</strong>، وهي من أفضل المضخات الصناعية في العالم.</p><h3>خدماتنا لمضخات KSB</h3><ul><li>صيانة دورية ووقائية</li><li>إصلاح الأعطال الطارئة</li><li>توريد وتركيب مضخات جديدة</li><li>تبديل قطع الغيار الأصلية</li><li>محاذاة بالليزر (Laser Alignment)</li><li>عقود صيانة سنوية</li></ul><h3>أنواع مضخات KSB التي نخدمها</h3><ul><li><strong>Etanorm:</strong> مضخات طرد مركزي معيارية</li><li><strong>Omega:</strong> مضخات الشفط المزدوج</li><li><strong>Amarex:</strong> مضخات الصرف الصحي</li><li><strong>Movitec:</strong> مضخات متعددة المراحل</li></ul><h3>لماذا تختارنا؟</h3><p>فريقنا مدرب على أيدي خبراء KSB، ونستخدم قطع غيار أصلية 100% لضمان أداء مثالي.</p>",
       "features": [
         {
-          "title": "قطع غيار أصلية 100%",
-          "description": "نستخدم فقط قطع الغيار الأصلية من الشركات المصنعة",
+          "title": "قطع غيار أصلية",
+          "description": "نستخدم فقط قطع الغيار الأصلية من KSB",
           "icon": "certificate"
         },
         {
           "title": "فنيين معتمدين",
-          "description": "فريق مدرب ومعتمد من KSB وGrundfos",
+          "description": "فريق مدرب ومعتمد من KSB",
           "icon": "user-check"
         },
         {
@@ -86,7 +81,7 @@
           "icon": "clock"
         },
         {
-          "title": "تغطية جميع المناطق",
+          "title": "تغطية شاملة",
           "description": "خدماتنا تشمل الرياض وجميع مناطق المملكة",
           "icon": "map-marker"
         }
@@ -98,22 +93,282 @@
         },
         {
           "question": "هل تقدمون عقود صيانة سنوية؟",
-          "answer": "نعم، نقدم عقود صيانة سنوية تشمل زيارات دورية وأولوية في الطوارئ وخصومات على قطع الغيار."
+          "answer": "نعم، نقدم عقود صيانة سنوية تشمل زيارات دورية وأولوية في الطوارئ."
         },
         {
           "question": "كم تستغرق الاستجابة للطوارئ؟",
-          "answer": "نصل إليك خلال 2-4 ساعات داخل الرياض، وخلال 24 ساعة لباقي المناطق."
+          "answer": "نصل إليك خلال 2-4 ساعات داخل الرياض."
         }
-      ],
-      "related_articles": [
-        "blog/صيانة-مضخات-جراندفوس.php",
-        "blog/ksb-pump-maintenance.php",
-        "blog/pump-maintenance-riyadh.php"
       ],
       "gallery": [
         "mechanical/p9_img4.webp",
         "mechanical/p10_img4.webp",
-        "mechanical/p11_img4.webp"
+        "services/صيانة-مضخات-KSB-_1_.webp"
+      ]
+    },
+    {
+      "id": "electrical-works",
+      "slug": "electrical-works",
+      "title": "أعمال كهربائية",
+      "meta_title": "أعمال كهربائية صناعية | تنفيذ مشاريع الكهرباء - روائع الكريستال",
+      "meta_description": "تنفيذ أعمال كهربائية صناعية للمصانع والمباني التجارية. تمديدات كهربائية، تركيب لوحات، صيانة أنظمة. خبرة +15 عام. اتصل 0550698111",
+      "keywords": "أعمال كهربائية, مقاول كهرباء, تمديدات كهربائية, أعمال كهرباء صناعية, مقاول كهرباء الرياض",
+      "hero_image": "services/أفضل-مؤسسة-تنفيذ-أعمال-كهرباء-في-المملكة.webp",
+      "icon": "bolt",
+      "short_description": "تنفيذ أعمال كهربائية متكاملة للمصانع والمباني التجارية والسكنية.",
+      "content": "<p>نقدم <strong>خدمات الأعمال الكهربائية المتكاملة</strong> للمشاريع الصناعية والتجارية في جميع أنحاء المملكة.</p><h3>خدماتنا الكهربائية</h3><ul><li>تمديدات كهربائية للمصانع والمباني</li><li>تركيب لوحات التوزيع والتحكم</li><li>تركيب أنظمة الإنارة الصناعية</li><li>تركيب أنظمة التأريض والحماية</li><li>صيانة الأنظمة الكهربائية</li><li>فحص واختبار الأنظمة</li></ul><h3>مجالات عملنا</h3><ul><li><strong>المصانع:</strong> تأسيس كهربائي كامل للمصانع الجديدة</li><li><strong>المباني التجارية:</strong> أبراج، مراكز تسوق، فنادق</li><li><strong>المستشفيات:</strong> أنظمة كهربائية طبية</li><li><strong>محطات المياه:</strong> غرف التحكم والقوى</li></ul>",
+      "features": [
+        {
+          "title": "فريق هندسي متخصص",
+          "description": "مهندسون وفنيون ذوو خبرة عالية",
+          "icon": "users"
+        },
+        {
+          "title": "التزام بالمواعيد",
+          "description": "تنفيذ المشاريع في الوقت المحدد",
+          "icon": "calendar-check"
+        },
+        {
+          "title": "معايير السلامة",
+          "description": "التزام تام بمعايير السلامة السعودية",
+          "icon": "shield-alt"
+        },
+        {
+          "title": "ضمان الجودة",
+          "description": "ضمان شامل على جميع الأعمال",
+          "icon": "certificate"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "ما هي أنواع المشاريع التي تنفذونها؟",
+          "answer": "ننفذ جميع أنواع المشاريع الكهربائية من المصانع الكبيرة إلى المباني التجارية والسكنية."
+        },
+        {
+          "question": "هل تقدمون عقود صيانة دورية؟",
+          "answer": "نعم، نقدم عقود صيانة شهرية وسنوية حسب احتياجات العميل."
+        },
+        {
+          "question": "هل لديكم رخصة مقاول كهرباء؟",
+          "answer": "نعم، نحن مرخصون من وزارة الطاقة وجميع الجهات المختصة."
+        }
+      ],
+      "gallery": [
+        "electrical/p17_img4.webp",
+        "electrical/p21_img4.webp",
+        "services/أفضل-مؤسسة-تنفيذ-أعمال-كهرباء-في-المملكة.webp"
+      ]
+    },
+    {
+      "id": "plc-control-panels",
+      "slug": "plc-control-panels",
+      "title": "لوحات تحكم PLC",
+      "meta_title": "لوحات تحكم PLC | برمجة وتصنيع أنظمة التحكم الآلي - روائع الكريستال",
+      "meta_description": "تصنيع وبرمجة لوحات تحكم PLC للمصانع والمنشآت الصناعية. أتمتة صناعية، SCADA، HMI. خبراء Siemens وAllen-Bradley. اتصل 0550698111",
+      "keywords": "لوحات تحكم PLC, برمجة PLC, أتمتة صناعية, Siemens PLC, Allen-Bradley, لوحات تحكم آلي الرياض",
+      "hero_image": "services/تجميع-لوحات-التحكم.webp",
+      "icon": "microchip",
+      "short_description": "تصنيع وبرمجة لوحات التحكم الآلي PLC للمصانع والمنشآت الصناعية.",
+      "content": "<p>نقدم حلولاً متكاملة في <strong>تصنيع وبرمجة لوحات التحكم الآلي PLC</strong> (Programmable Logic Controller) للتطبيقات الصناعية.</p><h3>خدماتنا في أنظمة PLC</h3><ul><li>تصميم وتصنيع لوحات PLC</li><li>برمجة وحدات التحكم (Siemens, Allen-Bradley, Omron)</li><li>تصميم شاشات التشغيل HMI</li><li>تطوير أنظمة SCADA</li><li>تحديث الأنظمة القديمة</li><li>صيانة ودعم فني</li></ul><h3>تطبيقات أنظمتنا</h3><ul><li><strong>خطوط الإنتاج:</strong> أتمتة كاملة للمصانع</li><li><strong>محطات المياه:</strong> تحكم في المضخات والمحابس</li><li><strong>أنظمة HVAC:</strong> تحكم التكييف المركزي</li><li><strong>المستودعات:</strong> أنظمة الفرز والنقل</li></ul>",
+      "features": [
+        {
+          "title": "برمجة متقدمة",
+          "description": "خبراء في Siemens وAllen-Bradley وOmron",
+          "icon": "code"
+        },
+        {
+          "title": "شاشات HMI",
+          "description": "واجهات تشغيل سهلة ومتطورة",
+          "icon": "desktop"
+        },
+        {
+          "title": "أنظمة SCADA",
+          "description": "مراقبة وتحكم عن بعد",
+          "icon": "wifi"
+        },
+        {
+          "title": "دعم فني متواصل",
+          "description": "صيانة وتحديثات برمجية",
+          "icon": "headset"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "ما هي أنظمة PLC التي تعملون عليها؟",
+          "answer": "نعمل على Siemens S7-300/400/1200/1500، Allen-Bradley، Omron، Schneider، وغيرها."
+        },
+        {
+          "question": "هل يمكن تحديث نظام PLC قديم؟",
+          "answer": "نعم، نقوم بتحديث الأنظمة القديمة مع الحفاظ على البرنامج الأصلي إن أمكن."
+        },
+        {
+          "question": "هل تقدمون تدريب للمشغلين؟",
+          "answer": "نعم، نقدم تدريب شامل للمشغلين والفنيين على النظام الجديد."
+        }
+      ],
+      "gallery": [
+        "electrical/p23_img4.webp",
+        "electrical/p18_img4.webp",
+        "services/تجميع-لوحات-التحكم.webp"
+      ]
+    },
+    {
+      "id": "motor-winding",
+      "slug": "motor-winding",
+      "title": "لف المحركات الكهربائية",
+      "meta_title": "لف المحركات الكهربائية | إعادة لف وصيانة المحركات - روائع الكريستال",
+      "meta_description": "خدمات لف وإصلاح المحركات الكهربائية الصناعية. محركات AC/DC، محركات مضخات، مراوح صناعية. ورشة متخصصة بالرياض. اتصل 0550698111",
+      "keywords": "لف المحركات الكهربائية, إعادة لف محركات, صيانة محركات, إصلاح محركات كهربائية, لف محركات الرياض",
+      "hero_image": "services/لف-المحركات-الكهربائية.webp",
+      "icon": "sync-alt",
+      "short_description": "إعادة لف وصيانة المحركات الكهربائية الصناعية بجميع أحجامها وأنواعها.",
+      "content": "<p>نمتلك <strong>ورشة متخصصة لإعادة لف وإصلاح المحركات الكهربائية</strong> بأحدث المعدات والتقنيات.</p><h3>خدماتنا للمحركات</h3><ul><li>إعادة لف الملفات (Rewinding)</li><li>استبدال الرولمانات (Bearings)</li><li>موازنة الروتر (Balancing)</li><li>إصلاح الأعمدة والهياكل</li><li>فحص واختبار المحركات</li><li>صيانة وقائية دورية</li></ul><h3>أنواع المحركات التي نخدمها</h3><ul><li><strong>محركات AC:</strong> أحادية وثلاثية الفاز</li><li><strong>محركات DC:</strong> جميع الأحجام</li><li><strong>محركات المضخات:</strong> KSB, Grundfos, Lowara</li><li><strong>مراوح صناعية:</strong> AHU, Exhaust Fans</li><li><strong>ضواغط:</strong> Compressors</li></ul><h3>ضماناتنا</h3><p>نقدم ضمان 6 أشهر على أعمال اللف، ونستخدم أسلاك نحاسية أصلية ومواد عزل عالية الجودة.</p>",
+      "features": [
+        {
+          "title": "أسلاك نحاسية أصلية",
+          "description": "نستخدم فقط الأسلاك عالية الجودة",
+          "icon": "certificate"
+        },
+        {
+          "title": "عزل متطور",
+          "description": "مواد عزل من Class F وH",
+          "icon": "shield-alt"
+        },
+        {
+          "title": "فحص واختبار",
+          "description": "اختبار كامل قبل التسليم",
+          "icon": "check-double"
+        },
+        {
+          "title": "ضمان 6 أشهر",
+          "description": "ضمان شامل على جميع الأعمال",
+          "icon": "calendar-check"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "كم تستغرق عملية إعادة اللف؟",
+          "answer": "تتراوح المدة بين 2-5 أيام حسب حجم المحرك ونوع العطل."
+        },
+        {
+          "question": "ما هي أكبر قدرة محرك يمكنكم التعامل معها؟",
+          "answer": "نتعامل مع محركات حتى 500 كيلو واط."
+        },
+        {
+          "question": "هل تقدمون خدمة نقل المحركات؟",
+          "answer": "نعم، لدينا خدمة نقل للمحركات من وإلى موقع العميل."
+        }
+      ],
+      "gallery": [
+        "winding/p1_img4.webp",
+        "winding/p2_img4.webp",
+        "services/لف-المحركات-الكهربائية.webp"
+      ]
+    },
+    {
+      "id": "fire-pumps",
+      "slug": "fire-pumps",
+      "title": "مضخات حريق UL/FM",
+      "meta_title": "صيانة مضخات الحريق UL/FM | خبراء أنظمة الإطفاء - روائع الكريستال",
+      "meta_description": "صيانة وتركيب مضخات الحريق المعتمدة UL/FM. مضخات رئيسية، جوكي، ديزل. صيانة دورية وطوارئ 24/7. اتصل 0550698111",
+      "keywords": "مضخات حريق, صيانة مضخات حريق, UL FM pumps, مضخات إطفاء, صيانة مضخات حريق الرياض",
+      "hero_image": "services/صيانة-مضخات-الحريق.webp",
+      "icon": "fire-extinguisher",
+      "short_description": "صيانة وتركيب مضخات الحريق المعتمدة UL/FM للمباني والمنشآت.",
+      "content": "<p>نقدم خدمات متخصصة في <strong>صيانة وتركيب مضخات الحريق</strong> المعتمدة وفق معايير UL وFM العالمية.</p><h3>خدماتنا لمضخات الحريق</h3><ul><li>صيانة دورية وفق NFPA 25</li><li>تركيب مضخات جديدة</li><li>إصلاح الأعطال الطارئة</li><li>اختبار الأداء والضغط</li><li>تجهيز لفحوصات الدفاع المدني</li></ul><h3>أنواع المضخات التي نخدمها</h3><ul><li><strong>المضخة الرئيسية:</strong> Fire Main Pump</li><li><strong>مضخة الجوكي:</strong> Jockey Pump</li><li><strong>مضخة الديزل:</strong> Diesel Fire Pump</li><li><strong>لوحات التحكم:</strong> Fire Pump Controllers</li></ul><h3>الماركات المدعومة</h3><p>نخدم جميع الماركات العالمية: KSB, Grundfos, Peerless, Aurora, Armstrong.</p>",
+      "features": [
+        {
+          "title": "معايير NFPA",
+          "description": "صيانة وفق معايير NFPA 25 الدولية",
+          "icon": "certificate"
+        },
+        {
+          "title": "اختبارات معتمدة",
+          "description": "نقدم تقارير اختبار للدفاع المدني",
+          "icon": "file-alt"
+        },
+        {
+          "title": "طوارئ 24/7",
+          "description": "فريق متخصص متاح على مدار الساعة",
+          "icon": "clock"
+        },
+        {
+          "title": "قطع غيار أصلية",
+          "description": "نستخدم قطع غيار UL/FM Listed فقط",
+          "icon": "check-circle"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "كم مرة يجب صيانة مضخات الحريق؟",
+          "answer": "حسب NFPA 25، يجب إجراء فحص أسبوعي، اختبار شهري، واختبار سنوي شامل."
+        },
+        {
+          "question": "هل تقدمون تقارير للدفاع المدني؟",
+          "answer": "نعم، نقدم تقارير فحص واختبار معتمدة تصلح لتقديمها للدفاع المدني."
+        },
+        {
+          "question": "ما هي أوقات الاستجابة للطوارئ؟",
+          "answer": "نصل خلال ساعتين كحد أقصى داخل الرياض."
+        }
+      ],
+      "gallery": [
+        "mechanical/p5_img4.webp",
+        "mechanical/p6_img4.webp",
+        "services/صيانة-مضخات-الحريق.webp"
+      ]
+    },
+    {
+      "id": "grundfos-pumps",
+      "slug": "grundfos-pumps",
+      "title": "مضخات جراندفوس",
+      "meta_title": "صيانة مضخات جراندفوس | وكيل صيانة معتمد - روائع الكريستال",
+      "meta_description": "صيانة وتركيب مضخات Grundfos الدنماركية. CR, CM, SP, SEG. قطع غيار أصلية، فنيين معتمدين. مركز خدمة الرياض. اتصل 0550698111",
+      "keywords": "صيانة مضخات جراندفوس, Grundfos pump maintenance, مضخات جراندفوس, قطع غيار جراندفوس, صيانة مضخات الرياض",
+      "hero_image": "services/صيانة-مضخات-جراندفوس.webp",
+      "icon": "tint",
+      "short_description": "صيانة وتركيب مضخات Grundfos الدنماركية بجميع أنواعها للتطبيقات المختلفة.",
+      "content": "<p>نحن <strong>متخصصون في صيانة وتركيب مضخات Grundfos الدنماركية</strong>، الشركة الرائدة عالمياً في تقنيات المضخات.</p><h3>خدماتنا لمضخات Grundfos</h3><ul><li>صيانة دورية ووقائية</li><li>إصلاح جميع أنواع الأعطال</li><li>توريد وتركيب مضخات جديدة</li><li>قطع غيار أصلية 100%</li><li>برمجة المضخات الذكية</li></ul><h3>موديلات Grundfos التي نخدمها</h3><ul><li><strong>CR:</strong> مضخات رأسية متعددة المراحل</li><li><strong>CM:</strong> مضخات أفقية</li><li><strong>SP:</strong> مضخات غاطسة للآبار</li><li><strong>SEG:</strong> مضخات الصرف الصحي</li><li><strong>UPS/Magna:</strong> مضخات التدوير</li><li><strong>Hydro MPC:</strong> أنظمة الضخ المتكاملة</li></ul>",
+      "features": [
+        {
+          "title": "قطع غيار أصلية",
+          "description": "نستخدم فقط قطع Grundfos الأصلية",
+          "icon": "certificate"
+        },
+        {
+          "title": "فنيين معتمدين",
+          "description": "فريق مدرب من Grundfos",
+          "icon": "user-check"
+        },
+        {
+          "title": "برمجة ذكية",
+          "description": "برمجة المضخات الذكية والـ VFD",
+          "icon": "microchip"
+        },
+        {
+          "title": "تغطية شاملة",
+          "description": "خدمة في جميع مناطق المملكة",
+          "icon": "map-marker"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "هل أنتم وكلاء معتمدين لـ Grundfos؟",
+          "answer": "نحن مركز خدمة متخصص نستخدم قطع غيار أصلية ونتبع معايير الشركة المصنعة."
+        },
+        {
+          "question": "هل يمكنكم برمجة مضخات Grundfos الذكية؟",
+          "answer": "نعم، نقوم ببرمجة وإعداد جميع مضخات Grundfos بما فيها الموديلات الذكية."
+        },
+        {
+          "question": "ما هي مناطق تغطيتكم؟",
+          "answer": "نغطي الرياض والمنطقة الوسطى، مع إمكانية الخدمة في جميع مناطق المملكة."
+        }
+      ],
+      "gallery": [
+        "mechanical/p11_img4.webp",
+        "mechanical/p12_img4.webp",
+        "services/صيانة-مضخات-جراندفوس.webp"
       ]
     },
     {
@@ -162,11 +417,6 @@
           "question": "ما هي مدة تصنيع لوحة HVAC؟",
           "answer": "تتراوح المدة بين 3-6 أسابيع حسب حجم اللوحة والمواصفات المطلوبة."
         }
-      ],
-      "related_articles": [
-        "blog/hvac-control-panels.php",
-        "blog/hvac-panel-manufacturing.php",
-        "blog/vfd-programming-pumps.php"
       ],
       "gallery": [
         "electrical/p23_img4.webp",
