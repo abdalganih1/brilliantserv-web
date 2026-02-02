@@ -1,0 +1,178 @@
+{
+  "services": [
+    {
+      "id": "mdb-control-panels",
+      "slug": "mdb-control-panels",
+      "title": "لوحات تحكم MDB",
+      "meta_title": "لوحات تحكم MDB | تصنيع وتوريد لوحات التحكم الكهربائية - روائع الكريستال",
+      "meta_description": "تصنيع وتوريد لوحات التحكم الكهربائية MDB وPLC بأعلى معايير الجودة الصناعية. خبرة +15 عام في السعودية. ضمان شامل وقطع غيار أصلية. اتصل 0550698111",
+      "keywords": "لوحات تحكم MDB, لوحات توزيع رئيسية, Main Distribution Board, لوحات كهرباء صناعية, تصنيع لوحات تحكم الرياض",
+      "hero_image": "services/تصنيع-وتوريد-لوحات-MDB.webp",
+      "icon": "bolt",
+      "short_description": "تصنيع وتوريد لوحات التحكم الكهربائية MDB و PLC بأعلى معايير الجودة الصناعية.",
+      "content": "<p>نقدم في مؤسسة روائع الكريستال خدمات متكاملة في <strong>تصنيع وتوريد لوحات التحكم الكهربائية MDB</strong> (Main Distribution Board) بأعلى معايير الجودة العالمية.</p><h3>ما هي لوحة MDB؟</h3><p>لوحة التوزيع الرئيسية (MDB) هي القلب النابض لأي نظام كهربائي، حيث تستقبل الطاقة من المحول الرئيسي وتوزعها على اللوحات الفرعية والأحمال المختلفة في المنشأة.</p><h3>خدماتنا في لوحات MDB</h3><ul><li>تصميم لوحات MDB حسب المواصفات الهندسية</li><li>تصنيع محلي بمكونات عالمية (Schneider, ABB, Siemens)</li><li>تركيب وتشغيل في الموقع</li><li>صيانة دورية وطارئة</li><li>توريد قطع غيار أصلية</li></ul><h3>لماذا روائع الكريستال؟</h3><p>مع خبرة تتجاوز 15 عاماً في السوق السعودي، نضمن لك:</p><ul><li>جودة تصنيع وفق المعايير السعودية والعالمية</li><li>ضمان شامل على جميع الأعمال</li><li>فريق هندسي متخصص</li><li>أسعار تنافسية</li></ul>",
+      "features": [
+        {
+          "title": "مكونات أوروبية أصلية",
+          "description": "نستخدم مكونات Schneider وABB وSiemens الأصلية فقط",
+          "icon": "check-circle"
+        },
+        {
+          "title": "تصميم هندسي معتمد",
+          "description": "تصاميم مدروسة وفق الكودات السعودية والعالمية",
+          "icon": "drafting-compass"
+        },
+        {
+          "title": "ضمان شامل",
+          "description": "ضمان سنة كاملة على التصنيع والتركيب",
+          "icon": "shield-check"
+        },
+        {
+          "title": "خدمة ما بعد البيع",
+          "description": "دعم فني وصيانة دورية متاحة 24/7",
+          "icon": "headset"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "ما الفرق بين لوحة MDB ولوحة SMDB؟",
+          "answer": "لوحة MDB (Main Distribution Board) هي اللوحة الرئيسية التي تستقبل الطاقة مباشرة من المحول، بينما SMDB (Sub-Main Distribution Board) هي لوحة فرعية تستقبل الطاقة من اللوحة الرئيسية وتوزعها على منطقة معينة."
+        },
+        {
+          "question": "كم يستغرق تصنيع لوحة MDB؟",
+          "answer": "يعتمد على حجم اللوحة والمواصفات، لكن عادةً تتراوح المدة بين 2-4 أسابيع من تاريخ اعتماد التصميم."
+        },
+        {
+          "question": "هل تقدمون خدمة التركيب في الموقع؟",
+          "answer": "نعم، نقدم خدمة التركيب والتشغيل الكاملة في موقع العميل مع فريق هندسي متخصص."
+        }
+      ],
+      "related_articles": [
+        "blog/mcc-panels.php",
+        "blog/schneider-control-panels.php",
+        "blog/control-panel-prices-2026.php"
+      ],
+      "gallery": [
+        "electrical/p17_img4.webp",
+        "electrical/p18_img4.webp",
+        "electrical/p21_img4.webp"
+      ]
+    },
+    {
+      "id": "ksb-grundfos-pumps",
+      "slug": "ksb-grundfos-pumps",
+      "title": "مضخات KSB و جراندفوس",
+      "meta_title": "صيانة مضخات KSB وجراندفوس | خبراء المضخات الصناعية - روائع الكريستال",
+      "meta_description": "صيانة وتركيب مضخات المياه والحريق والصرف الصحي من KSB وGrundfos. قطع غيار أصلية، فنيين معتمدين، خدمة 24/7 في الرياض والسعودية. اتصل 0550698111",
+      "keywords": "صيانة مضخات KSB, صيانة مضخات جراندفوس, Grundfos pump maintenance, KSB pump repair, مضخات صناعية الرياض",
+      "hero_image": "services/صيانة-مضخات-KSB-_1_.webp",
+      "icon": "cog",
+      "short_description": "صيانة وتركيب مضخات المياه والحريق والصرف الصحي من كبرى الماركات العالمية.",
+      "content": "<p>نحن في مؤسسة روائع الكريستال متخصصون في <strong>صيانة وتركيب مضخات KSB الألمانية ومضخات Grundfos الدنماركية</strong>، وهي من أفضل الماركات العالمية في مجال المضخات الصناعية.</p><h3>خدماتنا للمضخات</h3><ul><li>صيانة دورية ووقائية</li><li>إصلاح الأعطال الطارئة</li><li>توريد وتركيب مضخات جديدة</li><li>تبديل قطع الغيار الأصلية</li><li>محاذاة بالليزر (Laser Alignment)</li><li>عقود صيانة سنوية</li></ul><h3>أنواع المضخات التي نخدمها</h3><ul><li><strong>مضخات المياه:</strong> Grundfos CR, CM, SP</li><li><strong>مضخات الحريق:</strong> KSB Etanorm, UL/FM Listed</li><li><strong>مضخات الصرف:</strong> Grundfos SEG, KSB Amarex</li><li><strong>مضخات التكييف:</strong> Grundfos UPS, Magna</li></ul><h3>لماذا تختارنا؟</h3><p>فريقنا مدرب على أيدي خبراء من الشركات المصنعة، ونستخدم قطع غيار أصلية 100% لضمان أداء مثالي وعمر افتراضي طويل للمضخات.</p>",
+      "features": [
+        {
+          "title": "قطع غيار أصلية 100%",
+          "description": "نستخدم فقط قطع الغيار الأصلية من الشركات المصنعة",
+          "icon": "certificate"
+        },
+        {
+          "title": "فنيين معتمدين",
+          "description": "فريق مدرب ومعتمد من KSB وGrundfos",
+          "icon": "user-check"
+        },
+        {
+          "title": "خدمة طوارئ 24/7",
+          "description": "نصلك في أي وقت لحل المشاكل الطارئة",
+          "icon": "clock"
+        },
+        {
+          "title": "تغطية جميع المناطق",
+          "description": "خدماتنا تشمل الرياض وجميع مناطق المملكة",
+          "icon": "map-marker"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "ما هي مدة ضمان الصيانة؟",
+          "answer": "نقدم ضمان 3 أشهر على أعمال الصيانة وسنة كاملة على قطع الغيار الأصلية."
+        },
+        {
+          "question": "هل تقدمون عقود صيانة سنوية؟",
+          "answer": "نعم، نقدم عقود صيانة سنوية تشمل زيارات دورية وأولوية في الطوارئ وخصومات على قطع الغيار."
+        },
+        {
+          "question": "كم تستغرق الاستجابة للطوارئ؟",
+          "answer": "نصل إليك خلال 2-4 ساعات داخل الرياض، وخلال 24 ساعة لباقي المناطق."
+        }
+      ],
+      "related_articles": [
+        "blog/صيانة-مضخات-جراندفوس.php",
+        "blog/ksb-pump-maintenance.php",
+        "blog/pump-maintenance-riyadh.php"
+      ],
+      "gallery": [
+        "mechanical/p9_img4.webp",
+        "mechanical/p10_img4.webp",
+        "mechanical/p11_img4.webp"
+      ]
+    },
+    {
+      "id": "hvac-control-panels",
+      "slug": "hvac-control-panels",
+      "title": "لوحات تحكم التكييف",
+      "meta_title": "لوحات تحكم التكييف المركزي | تصميم وتجميع HVAC - روائع الكريستال",
+      "meta_description": "تصميم وتجميع لوحات التحكم الكهربائية لأنظمة التكييف المركزي والمضخات الصناعية. Chillers, AHU, FCU. مكونات Schneider وABB. اتصل 0550698111",
+      "keywords": "لوحات تحكم التكييف, HVAC control panels, لوحات تشيلر, لوحات AHU, تحكم التكييف المركزي الرياض",
+      "hero_image": "services/تجميع-لوحات-التحكم.webp",
+      "icon": "snowflake",
+      "short_description": "تصميم وتجميع لوحات التحكم الكهربائية لأنظمة التكييف المركزي والمضخات الصناعية.",
+      "content": "<p>نقدم حلولاً متكاملة في <strong>تصميم وتصنيع لوحات تحكم أنظمة التكييف والتبريد (HVAC)</strong> للمشاريع التجارية والصناعية.</p><h3>أنظمة التكييف التي نخدمها</h3><ul><li><strong>Chillers:</strong> لوحات تحكم المبردات المركزية</li><li><strong>AHU:</strong> وحدات مناولة الهواء</li><li><strong>FCU:</strong> وحدات الفان كويل</li><li><strong>Cooling Towers:</strong> أبراج التبريد</li><li><strong>Pumping Stations:</strong> محطات الضخ للتكييف</li></ul><h3>مميزات لوحاتنا</h3><ul><li>تصميم حسب المواصفات الهندسية للمشروع</li><li>مكونات Schneider وABB الأصلية</li><li>أنظمة VFD للتحكم في السرعة وتوفير الطاقة</li><li>حماية شاملة ضد الأعطال</li><li>واجهة تحكم سهلة الاستخدام (HMI)</li></ul><h3>التكامل مع أنظمة BMS</h3><p>لوحاتنا مصممة للتكامل مع أنظمة إدارة المباني (BMS) عبر بروتوكولات Modbus وBACnet لتحقيق أعلى كفاءة في إدارة الطاقة.</p>",
+      "features": [
+        {
+          "title": "توفير الطاقة",
+          "description": "أنظمة VFD تخفض استهلاك الطاقة حتى 40%",
+          "icon": "leaf"
+        },
+        {
+          "title": "تكامل BMS",
+          "description": "دعم كامل لبروتوكولات Modbus وBACnet",
+          "icon": "network-wired"
+        },
+        {
+          "title": "حماية متقدمة",
+          "description": "حماية من الحرارة الزائدة والتيار العالي",
+          "icon": "shield-alt"
+        },
+        {
+          "title": "صيانة سهلة",
+          "description": "تصميم يسهل الوصول للمكونات والصيانة",
+          "icon": "tools"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "ما الفرق بين لوحة تحكم VFD ولوحة Direct Online؟",
+          "answer": "لوحة VFD تتيح التحكم في سرعة المحرك مما يوفر الطاقة ويطيل عمر المعدات، بينما لوحة Direct Online تشغل المحرك بسرعة ثابتة فقط."
+        },
+        {
+          "question": "هل يمكن ربط اللوحة بنظام BMS موجود؟",
+          "answer": "نعم، نصمم لوحاتنا مع دعم كامل لبروتوكولات الاتصال الشائعة مثل Modbus RTU/TCP وBACnet."
+        },
+        {
+          "question": "ما هي مدة تصنيع لوحة HVAC؟",
+          "answer": "تتراوح المدة بين 3-6 أسابيع حسب حجم اللوحة والمواصفات المطلوبة."
+        }
+      ],
+      "related_articles": [
+        "blog/hvac-control-panels.php",
+        "blog/hvac-panel-manufacturing.php",
+        "blog/vfd-programming-pumps.php"
+      ],
+      "gallery": [
+        "electrical/p23_img4.webp",
+        "electrical/p18_img4.webp",
+        "services/تجميع-لوحات-التحكم.webp"
+      ]
+    }
+  ]
+}

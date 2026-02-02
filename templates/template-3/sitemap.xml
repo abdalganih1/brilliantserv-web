@@ -44,6 +44,26 @@
     <priority>0.8</priority>
   </url>
   
+  <!-- Service Detail Pages -->
+  <url>
+    <loc>https://brilliantserv.com/services/mdb-control-panels</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/services/ksb-grundfos-pumps</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://brilliantserv.com/services/hvac-control-panels</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
   <!-- Blog Articles -->
   <url>
     <loc>https://brilliantserv.com/blog/%D9%84%D9%81-%D8%A7%D9%84%D9%85%D8%AD%D8%B1%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A6%D9%8A%D8%A9.php</loc>

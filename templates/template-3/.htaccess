@@ -6,6 +6,11 @@ RewriteEngine On
 RewriteBase /
 
 # =====================================================
+# Service Detail Pages - Clean URLs
+# =====================================================
+RewriteRule ^services/([a-z0-9-]+)/?$ service-detail.php?service=$1 [L,QSA]
+
+# =====================================================
 # Custom Error Pages
 # =====================================================
 ErrorDocument 403 /403.php
