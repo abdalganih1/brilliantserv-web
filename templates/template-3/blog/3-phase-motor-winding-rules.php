@@ -129,16 +129,16 @@ include '../includes/config.php';
                     </div>
 
                     <!-- Back Link -->
-                    <div class="article-back">
-                        <a href="../blog.php" class="back-link">← العودة للمدونة</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </article>
-
-    <?php include '../includes/footer.php'; ?>
-    <script src="../js/main.js"></script>
-</body>
-
-</html>
+                    
+                    <?php 
+                    // Article data for CTA
+                    $article = ['title' => $page_title];
+                    
+                    // Related articles
+                    $related_articles = [
+                        'لف-المحركات-الكهربائية.php' => 'لف المحركات الكهربائية',
+                        'سرعة-المحركات-الكهربائية.php' => 'سرعة المحركات الكهربائية'
+                    ];
+                    
+                    include '../includes/blog-article-footer.php';
+                    ?>

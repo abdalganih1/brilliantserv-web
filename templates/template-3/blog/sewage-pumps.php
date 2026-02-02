@@ -176,16 +176,17 @@ include '../includes/config.php';
                         </ul>
                     </div>
 
-                    <div class="article-back">
-                        <a href="../blog.php" class="back-link">← العودة للمدونة</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </article>
-
-    <?php include '../includes/footer.php'; ?>
-    <script src="../js/main.min.js"></script>
-</body>
-
-</html>
+                    
+                    <?php 
+                    // Article data for CTA
+                    $article = ['title' => $page_title];
+                    
+                    // Related articles
+                    $related_articles = [
+                        'sewage-pump-panels.php' => 'لوحات صرف صحي',
+                        'ebara-pumps.php' => 'مضخات Ebara',
+                        'pump-maintenance-riyadh.php' => 'صيانة مضخات'
+                    ];
+                    
+                    include '../includes/blog-article-footer.php';
+                    ?>

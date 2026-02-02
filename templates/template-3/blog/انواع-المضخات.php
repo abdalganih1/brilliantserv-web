@@ -209,30 +209,16 @@ include '../includes/config.php';
                     </div>
 
                     
-                    <div class="related-articles">
-                        <h3>مقالات ذات صلة</h3>
-                        <ul>
-                            <li><a href="صيانة-مضخات-جراندفوس.php">صيانة مضخات جراندفوس</a></li>
-                            <li><a href="booster-pump-repair.php">صيانة مضخات التعزيز</a></li>
-                        </ul>
-                    </div>
-<div class="article-cta">
-                        <h3>تحتاج مساعدة في اختيار المضخة؟</h3>
-                        <p>فريقنا الفني جاهز لمساعدتك في اختيار وتركيب المضخة المناسبة.</p>
-                        <a href="tel:0550698111" class="btn btn-primary">اتصل الآن 0550698111</a>
-                        <a href="https://wa.me/966550698111" class="btn btn-secondary">واتساب</a>
-                    </div>
-
-                    <div class="article-back">
-                        <a href="../blog.php" class="back-link">← العودة للمدونة</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </article>
-
-    <?php include '../includes/footer.php'; ?>
-    <script src="../js/main.js"></script>
-</body>
-
-</html>
+                    
+                    <?php 
+                    // Article data for CTA
+                    $article = ['title' => $page_title];
+                    
+                    // Related articles
+                    $related_articles = [
+                        'صيانة-مضخات-جراندفوس.php' => 'صيانة مضخات جراندفوس',
+                        'booster-pump-repair.php' => 'صيانة مضخات التعزيز'
+                    ];
+                    
+                    include '../includes/blog-article-footer.php';
+                    ?>

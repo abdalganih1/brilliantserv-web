@@ -289,16 +289,18 @@ include '../includes/config.php';
                         </ul>
                     </div>
 
-                    <div class="article-back">
-                        <a href="../blog.php" class="back-link">← العودة للمدونة</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </article>
-
-    <?php include '../includes/footer.php'; ?>
-    <script src="../js/main.min.js"></script>
-</body>
-
-</html>
+                    
+                    <?php 
+                    // Article data for CTA
+                    $article = ['title' => $page_title];
+                    
+                    // Related articles
+                    $related_articles = [
+                        'horizontal-pumps.php' => 'مضخات Split Case الأفقية',
+                        'multistage-pumps.php' => 'المضخات متعددة المراحل',
+                        'centrifugal-pumps.php' => 'مضخات الطرد المركزي',
+                        'pump-control-panels.php' => 'لوحات تحكم المضخات'
+                    ];
+                    
+                    include '../includes/blog-article-footer.php';
+                    ?>

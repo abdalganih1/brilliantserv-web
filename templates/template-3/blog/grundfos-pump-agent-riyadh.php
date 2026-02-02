@@ -116,16 +116,17 @@ include '../includes/config.php';
                         <a href="tel:0550698111" class="btn btn-primary">صيانة فورية 0550698111</a>
                     </div>
 
-                    <div class="article-back">
-                        <a href="../blog.php" class="back-link">← العودة للمدونة</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </article>
-
-    <?php include '../includes/footer.php'; ?>
-    <script src="../js/main.min.js"></script>
-</body>
-
-</html>
+                    
+                    <?php 
+                    // Article data for CTA
+                    $article = ['title' => $page_title];
+                    
+                    // Related articles
+                    $related_articles = [
+                        'انواع-المضخات.php' => 'أنواع المضخات',
+                        'صيانة-مضخات-جراندفوس.php' => 'صيانة مضخات جراندفوس',
+                        'booster-pump-repair.php' => 'صيانة مضخات التعزيز'
+                    ];
+                    
+                    include '../includes/blog-article-footer.php';
+                    ?>

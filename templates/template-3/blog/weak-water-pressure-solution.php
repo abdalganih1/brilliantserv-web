@@ -105,16 +105,17 @@ include '../includes/config.php';
                         <p>نقوم بتركيب أفضل مضخات الضغط مع ضمان شامل.</p>
                         <a href="tel:0550698111" class="btn btn-primary">احجز موعد كشف 0550698111</a>
                     </div>
-                    <div class="article-back">
-                        <a href="../blog.php" class="back-link">← العودة للمدونة</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </article>
-
-    <?php include '../includes/footer.php'; ?>
-    <script src="../js/main.min.js"></script>
-</body>
-
-</html>
+                    
+                    <?php 
+                    // Article data for CTA
+                    $article = ['title' => $page_title];
+                    
+                    // Related articles
+                    $related_articles = [
+                        'انواع-المضخات.php' => 'أنواع المضخات',
+                        'لف-المحركات-الكهربائية.php' => 'لف المحركات الكهربائية',
+                        'صيانة-البوردات-الالكترونية.php' => 'صيانة البوردات الإلكترونية'
+                    ];
+                    
+                    include '../includes/blog-article-footer.php';
+                    ?>

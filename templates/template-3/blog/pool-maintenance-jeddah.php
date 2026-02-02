@@ -111,19 +111,17 @@ include '../includes/config.php';
                     <h3>استمتع بمسبحك دون عناء</h3>
                     <p>سجل معنا في عقود الصيانة الدورية اليوم واحصل على زيارة مجانية.</p>
                     <a href="tel:0550698111" class="btn btn-primary">اتصل بنا 0550698111</a>
-                </div>
-
-                <!-- Back Link -->
-                <div class="article-back">
-                    <a href="../blog.php" class="back-link">← العودة للمدونة</a>
-                </div>
-            </div>
-        </div>
-    </article>
-
-    <?php include '../includes/footer.php'; ?>
-
-    <script src="../js/main.min.js"></script>
-</body>
-
-</html>
+                
+                    <?php 
+                    // Article data for CTA
+                    $article = ['title' => $page_title];
+                    
+                    // Related articles
+                    $related_articles = [
+                        'انواع-المضخات.php' => 'أنواع المضخات',
+                        'لف-المحركات-الكهربائية.php' => 'لف المحركات الكهربائية',
+                        'صيانة-البوردات-الالكترونية.php' => 'صيانة البوردات الإلكترونية'
+                    ];
+                    
+                    include '../includes/blog-article-footer.php';
+                    ?>

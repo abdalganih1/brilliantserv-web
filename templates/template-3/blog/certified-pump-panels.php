@@ -175,16 +175,17 @@ include '../includes/config.php';
                         </ul>
                     </div>
 
-                    <div class="article-back">
-                        <a href="../blog.php" class="back-link">← العودة للمدونة</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </article>
-
-    <?php include '../includes/footer.php'; ?>
-    <script src="../js/main.min.js"></script>
-</body>
-
-</html>
+                    
+                    <?php 
+                    // Article data for CTA
+                    $article = ['title' => $page_title];
+                    
+                    // Related articles
+                    $related_articles = [
+                        'civil-defense-approved-companies.php' => 'شركات معتمدة الدفاع المدني',
+                        'fire-pump-control-panels.php' => 'لوحات حريق',
+                        'pump-control-panels.php' => 'لوحات تحكم مضخات'
+                    ];
+                    
+                    include '../includes/blog-article-footer.php';
+                    ?>

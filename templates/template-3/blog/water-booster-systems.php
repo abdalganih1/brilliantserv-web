@@ -241,16 +241,18 @@ include '../includes/config.php';
                         </ul>
                     </div>
 
-                    <div class="article-back">
-                        <a href="../blog.php" class="back-link">← العودة للمدونة</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </article>
-
-    <?php include '../includes/footer.php'; ?>
-    <script src="../js/main.min.js"></script>
-</body>
-
-</html>
+                    
+                    <?php 
+                    // Article data for CTA
+                    $article = ['title' => $page_title];
+                    
+                    // Related articles
+                    $related_articles = [
+                        'multistage-pumps.php' => 'المضخات متعددة المراحل',
+                        'booster-pump-repair.php' => 'صيانة مضخات Booster',
+                        'building-water-pumps.php' => 'مضخات المباني',
+                        'pressure-control-panels.php' => 'لوحات تحكم الضغط'
+                    ];
+                    
+                    include '../includes/blog-article-footer.php';
+                    ?>

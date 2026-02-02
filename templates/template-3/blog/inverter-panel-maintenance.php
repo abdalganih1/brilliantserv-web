@@ -159,16 +159,17 @@ include '../includes/config.php';
                         </ul>
                     </div>
 
-                    <div class="article-back">
-                        <a href="../blog.php" class="back-link">← العودة للمدونة</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </article>
-
-    <?php include '../includes/footer.php'; ?>
-    <script src="../js/main.min.js"></script>
-</body>
-
-</html>
+                    
+                    <?php 
+                    // Article data for CTA
+                    $article = ['title' => $page_title];
+                    
+                    // Related articles
+                    $related_articles = [
+                        'automatic-control-panels.php' => 'لوحات أوتوماتيك',
+                        'pump-control-panels.php' => 'لوحات تحكم مضخات',
+                        'electric-motor-winding.php' => 'لف المحركات'
+                    ];
+                    
+                    include '../includes/blog-article-footer.php';
+                    ?>

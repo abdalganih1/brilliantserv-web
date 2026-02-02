@@ -159,16 +159,17 @@ include '../includes/config.php';
                         </ul>
                     </div>
 
-                    <div class="article-back">
-                        <a href="../blog.php" class="back-link">← العودة للمدونة</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </article>
-
-    <?php include '../includes/footer.php'; ?>
-    <script src="../js/main.min.js"></script>
-</body>
-
-</html>
+                    
+                    <?php 
+                    // Article data for CTA
+                    $article = ['title' => $page_title];
+                    
+                    // Related articles
+                    $related_articles = [
+                        'pressure-control-panels.php' => 'لوحات تحكم ضغط',
+                        'water-booster-systems.php' => 'أنظمة Booster',
+                        'pump-humming-sound.php' => 'صوت طنين المضخة'
+                    ];
+                    
+                    include '../includes/blog-article-footer.php';
+                    ?>

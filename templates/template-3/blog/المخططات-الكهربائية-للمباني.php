@@ -168,30 +168,17 @@ include '../includes/config.php';
                     </div>
 
                     
-                    <div class="related-articles">
-                        <h3>مقالات ذات صلة</h3>
-                        <ul>
-                            <li><a href="انواع-المضخات.php">أنواع المضخات</a></li>
-                            <li><a href="لف-المحركات-الكهربائية.php">لف المحركات الكهربائية</a></li>
-                            <li><a href="صيانة-البوردات-الالكترونية.php">صيانة البوردات الإلكترونية</a></li>
-                        </ul>
-                    </div>
-<div class="article-cta">
-                        <h3>تحتاج مخططات كهربائية؟</h3>
-                        <p>أرسل لنا المخطط المعماري وسنقدم لك عرض سعر مجاني.</p>
-                        <a href="tel:0550698111" class="btn btn-primary">اتصل الآن 0550698111</a>
-                    </div>
-
-                    <div class="article-back">
-                        <a href="../blog.php" class="back-link">← العودة للمدونة</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </article>
-
-    <?php include '../includes/footer.php'; ?>
-    <script src="../js/main.js"></script>
-</body>
-
-</html>
+                    
+                    <?php 
+                    // Article data for CTA
+                    $article = ['title' => $page_title];
+                    
+                    // Related articles
+                    $related_articles = [
+                        'انواع-المضخات.php' => 'أنواع المضخات',
+                        'لف-المحركات-الكهربائية.php' => 'لف المحركات الكهربائية',
+                        'صيانة-البوردات-الالكترونية.php' => 'صيانة البوردات الإلكترونية'
+                    ];
+                    
+                    include '../includes/blog-article-footer.php';
+                    ?>

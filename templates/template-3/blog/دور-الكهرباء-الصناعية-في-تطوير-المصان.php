@@ -392,16 +392,13 @@ include '../includes/config.php';
                         <a href="tel:0550698111" class="btn btn-primary">اتصل الآن: 0550698111</a>
                     </div>
 
-                    <div class="article-back">
-                        <a href="../blog.php" class="back-link">← العودة للمدونة</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </article>
-
-    <?php include '../includes/footer.php'; ?>
-    <script src="../js/main.js"></script>
-</body>
-
-</html>
+                    
+                    <?php 
+                    // Article data for CTA
+                    $article = ['title' => $page_title];
+                    
+                    // Related articles (add manually if needed)
+                    $related_articles = [];
+                    
+                    include '../includes/blog-article-footer.php';
+                    ?>
