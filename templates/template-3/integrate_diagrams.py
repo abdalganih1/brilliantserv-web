@@ -84,7 +84,8 @@ def main():
             except Exception as e:
                 print(f"Error renaming {old_name}: {e}")
         elif os.path.exists(new_path):
-             print(f"Already renamed: {old_name} -> {new_name}")
+             # print(f"Already renamed: {old_name} -> {new_name}")
+             pass
 
     # 2. Iterate and Inject
     files = os.listdir(DIAGRAMS_DIR)
@@ -93,19 +94,25 @@ def main():
         if not svg_file.endswith('.svg'):
             continue
             
+        svg_path_full = os.path.join(DIAGRAMS_DIR, svg_file)
+        
+        # FIX: Remove PlantUML header if present
+        try:
+            with open(svg_path_full, 'r', encoding='utf-8') as f:
+                content = f.read()
+            
+            if '<?plantuml' in content:
+                content = re.sub(r'<\?plantuml.*?\?>', '', content)
+                with open(svg_path_full, 'w', encoding='utf-8') as f:
+                    f.write(content)
+                print(f"Sanitized SVG: {svg_file}")
+        except Exception as e:
+            print(f"Error sanitizing {svg_file}: {e}")
+
         # Determine PHP file
-        # Special case for Arabic Renames: map back to the original PHP file?
-        # No, the PHP files are Arabic or English?
-        
-        # PHP filenames:
-        # لف-المحركات-الكهربائية.php (Arabic)
-        # electric-motor-winding.php (English)
-        
-        # We need to map the new SVG name to the specific PHP file.
-        # Reverse map for our renamed files:
         php_filename = normalize_filename(svg_file)
         
-        # Check specific mappings for the ones we just renamed
+        # Check specific mappings
         if svg_file == "types-of-pumps-ar.svg": php_filename = "انواع-المضخات.php"
         elif svg_file == "industrial-electricity-role.svg": php_filename = "دور-الكهرباء-الصناعية-في-تطوير-المصان.php"
         elif svg_file == "electric-motor-speed.svg": php_filename = "سرعة-المحركات-الكهربائية.php"
@@ -119,7 +126,8 @@ def main():
                 print(f"Injected diagram into {php_filename}")
                 count += 1
         else:
-            print(f"Skipping {svg_file}: Corresponding PHP file {php_filename} not found.")
+            # print(f"Skipping {svg_file}: Corresponding PHP file {php_filename} not found.")
+            pass
 
     print(f"Total injections: {count}")
 
