@@ -13,6 +13,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
 
 <!-- Stylesheets -->
-<link rel="stylesheet" href="<?= $base_path ?>css/style.min.css">
-<link rel="stylesheet" href="<?= $base_path ?>css/pages.min.css">
-<link rel="stylesheet" href="<?= $base_path ?>css/blog-premium.css">
+<link rel="stylesheet" href="<?= $base_path ?>css/style.min.css?v=2.3">
+<link rel="stylesheet" href="<?= $base_path ?>css/pages.min.css?v=2.3">
+<link rel="stylesheet" href="<?= $base_path ?>css/blog-premium.css?v=2.3">
