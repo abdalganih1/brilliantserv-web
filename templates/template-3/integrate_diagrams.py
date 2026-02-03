@@ -9,7 +9,8 @@ ARABIC_MAP = {
     "انواع-المضخات.svg": "types-of-pumps-ar.svg",
     "دور-الكهرباء-الصناعية-في-تطوير-المصان.svg": "industrial-electricity-role.svg",
     "سرعة-المحركات-الكهربائية.svg": "electric-motor-speed.svg",
-    "صيانة-مضخات-جراندفوس.svg": "grundfos-maintenance.svg"
+    "صيانة-مضخات-جراندفوس.svg": "grundfos-maintenance.svg",
+    "لف-المحركات-الكهربائية.svg": "motor-winding-diagram.svg"
 }
 
 def normalize_filename(name):
