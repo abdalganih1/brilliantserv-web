@@ -355,6 +355,73 @@ include 'includes/config.php';
                     const resultsCount = document.getElementById('searchResultsCount');
                     const blogCards = document.querySelectorAll('.blog-card');
 
+                    // Arabic Stemming & Fuzzy Matching
+                    function arabicStem(word) {
+                        if (!word) return word;
+                        // Remove common Arabic prefixes
+                        word = word.replace(/^(ال|وال|بال|كال|فال|لل)/, '');
+                        // Create multiple forms for matching
+                        return word;
+                    }
+
+                    function generateWordVariants(word) {
+                        let variants = [word];
+                        const stem = arabicStem(word);
+                        variants.push(stem);
+
+                        // Common Arabic plural patterns
+                        // لوحة -> لوحات (Sound feminine plural: ة -> ات)
+                        if (word.endsWith('ة')) {
+                            variants.push(word.slice(0, -1) + 'ات');
+                        }
+                        // لوحات -> لوحة (Reverse: ات -> ة)
+                        if (word.endsWith('ات')) {
+                            variants.push(word.slice(0, -2) + 'ة');
+                        }
+                        // مضخة -> مضخات
+                        if (stem.endsWith('ة')) {
+                            variants.push(stem.slice(0, -1) + 'ات');
+                        }
+                        if (stem.endsWith('ات')) {
+                            variants.push(stem.slice(0, -2) + 'ة');
+                        }
+                        // Sound masculine plural: ون/ين
+                        if (word.endsWith('ون') || word.endsWith('ين')) {
+                            variants.push(word.slice(0, -2));
+                        }
+                        // Broken plurals (common patterns)
+                        // فعل -> أفعال (e.g., عمل -> أعمال)
+                        // Can't cover all, but let's add common ones
+
+                        return [...new Set(variants)]; // Remove duplicates
+                    }
+
+                    function matchesQuery(text, query) {
+                        if (!query || !text) return !query;
+
+                        // Direct match first
+                        if (text.includes(query)) return true;
+
+                        // Split query into words and check each
+                        const queryWords = query.split(/\s+/).filter(w => w.length > 0);
+
+                        for (const queryWord of queryWords) {
+                            const variants = generateWordVariants(queryWord);
+                            let found = false;
+
+                            for (const variant of variants) {
+                                if (variant.length > 1 && text.includes(variant)) {
+                                    found = true;
+                                    break;
+                                }
+                            }
+
+                            if (!found) return false;
+                        }
+
+                        return queryWords.length > 0;
+                    }
+
                     searchInput.addEventListener('input', function () {
                         const query = this.value.trim().toLowerCase();
                         let visibleCount = 0;
@@ -364,8 +431,9 @@ include 'includes/config.php';
                         blogCards.forEach(card => {
                             const title = card.querySelector('h3')?.textContent.toLowerCase() || '';
                             const desc = card.querySelector('p')?.textContent.toLowerCase() || '';
+                            const content = title + ' ' + desc;
 
-                            if (query === '' || title.includes(query) || desc.includes(query)) {
+                            if (query === '' || matchesQuery(content, query)) {
                                 card.classList.remove('hidden');
                                 visibleCount++;
                             } else {
