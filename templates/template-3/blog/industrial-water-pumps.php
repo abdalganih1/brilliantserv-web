@@ -231,7 +231,7 @@ include '../includes/config.php';
                             <li><a href="#section-3">3. التطبيقات الصناعية</a></li>
                             <li><a href="#section-4">4. العلامات التجارية الصناعية</a></li>
                             <li><a href="#section-5">5. الأسعار التقريبية 2026</a></li>
-                            <li><a href="#section-6">6. الأسئلة الشائعة</a></li>
+                            
                             <li><a href="#section-7">7. خدماتنا الصناعية</a></li>
                         </ol>
                     </div>

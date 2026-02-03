@@ -220,7 +220,7 @@ include '../includes/config.php';
                             <li><a href="#section-2">2. مقارنة أنواع المضخات المنزلية</a></li>
                             <li><a href="#section-3">3. نصيحة الخبير</a></li>
                             <li><a href="#section-4">4. الماركات المنزلية</a></li>
-                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -290,13 +290,6 @@ include '../includes/config.php';
                         <li>🇨🇳 LEO - جيدة للميزانية المحدودة</li>
                     </ul>
 
-                    <h2 id="section-5">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>نصف حصان أم واحد حصان؟</h3>
-                            <p>شقة: نصف حصان كافي. فيلا دورين: واحد حصان. فيلا 3 أدوار: 1.5-2 حصان.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

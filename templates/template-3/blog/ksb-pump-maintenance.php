@@ -224,7 +224,7 @@ include '../includes/config.php';
                             <li><a href="#section-2">2. موديلات KSB</a></li>
                             <li><a href="#section-3">3. خدمات الصيانة</a></li>
                             <li><a href="#section-4">4. لماذا تختارنا لصيانة KSB؟</a></li>
-                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -295,13 +295,6 @@ include '../includes/config.php';
                         <li>خدمة طوارئ للمصانع</li>
                     </ul>
 
-                    <h2 id="section-5">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>كم تكلفة صيانة KSB؟</h3>
-                            <p>فحص: 300-500 ريال. تبديل Seal: 800-2000 ريال. Overhaul كامل: 3000+ ريال.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

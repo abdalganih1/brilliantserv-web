@@ -303,7 +303,7 @@ include '../includes/config.php';
                             <li><a href="#section-4">4. مكونات محطة الضخ النموذجية</a></li>
                             <li><a href="#section-5">5. العلامات التجارية المعتمدة</a></li>
                             <li><a href="#section-6">6. لماذا الحلول المتكاملة؟</a></li>
-                            <li><a href="#section-7">7. الأسئلة الشائعة</a></li>
+                            
                             <li><a href="#section-8">8. خبرتنا</a></li>
                         </ol>
                     </div>

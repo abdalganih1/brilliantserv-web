@@ -228,7 +228,7 @@ include '../includes/config.php';
                             <li><a href="#section-2">2. موديلات Lowara</a></li>
                             <li><a href="#section-3">3. مميزات Lowara</a></li>
                             <li><a href="#section-4">4. خدماتنا لمضخات Lowara</a></li>
-                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -295,17 +295,6 @@ include '../includes/config.php';
                         <li><a href="pump-control-panels.php">لوحات تحكم</a></li>
                     </ul>
 
-                    <h2 id="section-5">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>Lowara أم Grundfos؟</h3>
-                            <p>Lowara أفضل من ناحية التصميم والسعر. Grundfos أشمل في التطبيقات. كلاهما ممتاز.</p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>كم أسعار Lowara؟</h3>
-                            <p>e-SV: 2,000-10,000 ريال. طرد مركزي: 800-3,000 ريال. حسب القدرة.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

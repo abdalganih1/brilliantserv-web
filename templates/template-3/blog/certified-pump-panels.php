@@ -544,7 +544,7 @@ include '../includes/config.php';
                             <li><a href="#section-2">2. الشهادات والاعتمادات</a></li>
                             <li><a href="#section-3">3. مميزات لوحاتنا المعتمدة</a></li>
                             <li><a href="#section-4">4. أنواع اللوحات المعتمدة</a></li>
-                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -605,13 +605,6 @@ include '../includes/config.php';
                         <li><a href="automatic-control-panels.php">لوحات أوتوماتيك</a></li>
                     </ul>
 
-                    <h2 id="section-5">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>كم مدة استخراج شهادة الدفاع المدني؟</h3>
-                            <p>نساعدكم في تجهيز الملف. المدة تعتمد على الدفاع المدني (عادة 2-4 أسابيع).</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

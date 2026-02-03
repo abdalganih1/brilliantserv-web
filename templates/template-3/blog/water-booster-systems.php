@@ -240,7 +240,7 @@ include '../includes/config.php';
                             <li><a href="#section-4">4. الماركات المعتمدة</a></li>
                             <li><a href="#section-5">5. مميزات أنظمة VFD Booster</a></li>
                             <li><a href="#section-6">6. خدماتنا</a></li>
-                            <li><a href="#section-7">7. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -347,22 +347,6 @@ include '../includes/config.php';
                         <li>✅ قطع غيار أصلية</li>
                     </ul>
 
-                    <h2 id="section-7">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>كم مضخة أحتاج؟</h3>
-                            <p>فلة: 1 مضخة. عمارة 4-6 أدوار: 2 مضخات. عمارة 10+ أدوار: 3+ مضخات. نحسب لك المطلوب مجاناً!
-                            </p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>VFD أم ستار دلتا؟</h3>
-                            <p>VFD أفضل: ضغط ثابت، توفير طاقة. ستار دلتا أرخص لكن بدون تحكم بالسرعة.</p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>كم عمر نظام Booster؟</h3>
-                            <p>15-20 سنة مع الصيانة الدورية. المضخات نفسها 8-12 سنة والـ VFD 10-15 سنة.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

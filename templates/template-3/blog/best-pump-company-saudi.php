@@ -279,7 +279,7 @@ include '../includes/config.php';
                             <li><a href="#section-3">3. لماذا روائع الكريستال؟</a></li>
                             <li><a href="#section-4">4. خدماتنا المتكاملة</a></li>
                             <li><a href="#section-5">5. الماركات المعتمدة</a></li>
-                            <li><a href="#section-6">6. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -383,21 +383,6 @@ include '../includes/config.php';
                         </tbody>
                     </table></div>
 
-                    <h2 id="section-6">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>هل تخدمون خارج الرياض؟</h3>
-                            <p>نعم، نخدم جميع مناطق المملكة للمشاريع الكبرى. خدمة سريعة في الرياض والمنطقة الوسطى.</p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>ما هي مدة الضمان؟</h3>
-                            <p>سنة على أعمال التركيب والصيانة. ضمان المصنع على المضخات (2-5 سنوات حسب الماركة).</p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>هل تقدمون عقود صيانة؟</h3>
-                            <p>نعم، عقود صيانة سنوية شاملة بأسعار تنافسية. زيارات دورية + طوارئ.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

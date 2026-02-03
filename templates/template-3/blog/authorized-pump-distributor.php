@@ -251,7 +251,7 @@ include '../includes/config.php';
                             <li><a href="#section-2">2. وكالاتنا المعتمدة</a></li>
                             <li><a href="#section-3">3. لماذا الشراء من موزع معتمد؟</a></li>
                             <li><a href="#section-4">4. خدماتنا</a></li>
-                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -350,17 +350,6 @@ include '../includes/config.php';
                         <li>✅ قطع غيار أصلية</li>
                     </ul>
 
-                    <h2 id="section-5">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>كيف أتأكد أنكم موزع معتمد؟</h3>
-                            <p>يمكنك التحقق من قائمة الموزعين على موقع الشركة المصنعة، أو طلب شهادة التوزيع منا.</p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>هل أسعاركم أعلى من السوق؟</h3>
-                            <p>أسعارنا تنافسية. الفرق هو الجودة المضمونة والضمان الرسمي. المقلد أرخص لكن بدون ضمان.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

@@ -268,7 +268,7 @@ include '../includes/config.php';
                             <li><a href="#section-2">2. خدماتنا</a></li>
                             <li><a href="#section-3">3. أسباب التسريب الشائعة</a></li>
                             <li><a href="#section-4">4. الوقاية</a></li>
-                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -330,13 +330,6 @@ include '../includes/config.php';
                         <li>✅ <a href="pump-maintenance-contracts.php">عقود صيانة</a></li>
                     </ul>
 
-                    <h2 id="section-5">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>متى أحتاج تبديل المواسير كلياً؟</h3>
-                            <p>عند الصدأ الشديد، تكرار التسريب، أو بعد 20-30 سنة من الاستخدام.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

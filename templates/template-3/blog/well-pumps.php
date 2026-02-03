@@ -273,7 +273,7 @@ include '../includes/config.php';
                             <li><a href="#section-5">5. كيف تختار مضخة البئر؟</a></li>
                             <li><a href="#section-6">6. العلامات التجارية المتوفرة</a></li>
                             <li><a href="#section-7">7. الأسعار في السعودية 2026</a></li>
-                            <li><a href="#section-8">8. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 

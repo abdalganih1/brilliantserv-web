@@ -376,7 +376,7 @@ include '../includes/config.php';
                             <li><a href="#section-1">1. لوحات تحكم مضخات في الرياض</a></li>
                             <li><a href="#section-2">2. أنواع اللوحات</a></li>
                             <li><a href="#section-3">3. خدماتنا في الرياض</a></li>
-                            <li><a href="#section-4">4. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -429,13 +429,6 @@ include '../includes/config.php';
                         <li>✅ <a href="pump-maintenance-contracts.php">عقود صيانة</a></li>
                     </ul>
 
-                    <h2 id="section-4">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>هل تقدمون ضمان؟</h3>
-                            <p>نعم! سنة على التصنيع + ضمان المكونات من الشركات المصنعة.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

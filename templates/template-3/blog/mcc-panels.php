@@ -240,7 +240,7 @@ include '../includes/config.php';
                             <li><a href="#section-4">4. المواصفات والمعايير</a></li>
                             <li><a href="#section-5">5. الماركات المستخدمة</a></li>
                             <li><a href="#section-6">6. خدماتنا</a></li>
-                            <li><a href="#section-7">7. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -342,18 +342,6 @@ include '../includes/config.php';
                         <li>✅ صيانة وترقية</li>
                     </ul>
 
-                    <h2 id="section-7">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>ما الفرق بين MCC وPCC؟</h3>
-                            <p>MCC للتحكم بالمحركات، PCC (Power Control Center) للتوزيع الرئيسي. غالباً يكون PCC يغذي
-                                MCC.</p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>كم سعر لوحة MCC؟</h3>
-                            <p>من 50,000 ريال للصغيرة إلى 500,000+ للكبيرة. نقدم عرض سعر مفصل بعد دراسة المتطلبات.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

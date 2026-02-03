@@ -219,7 +219,7 @@ include '../includes/config.php';
                             <li><a href="#section-1">1. خدمات متكاملة للمضخات</a></li>
                             <li><a href="#section-2">2. خدماتنا</a></li>
                             <li><a href="#section-3">3. لماذا تختارنا؟</a></li>
-                            <li><a href="#section-4">4. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -272,18 +272,6 @@ include '../includes/config.php';
                         <li>✅ أسعار تنافسية</li>
                     </ul>
 
-                    <h2 id="section-4">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>كيف أحصل على عرض سعر؟</h3>
-                            <p>تواصل معنا بالهاتف أو واتساب. سنرسل فني للمعاينة (مجاناً للمشاريع الكبيرة) ونقدم عرض سعر
-                                مفصل.</p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>هل تقدمون عقود صيانة؟</h3>
-                            <p>نعم! <a href="pump-maintenance-contracts.php">عقود صيانة</a> سنوية بخصومات.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

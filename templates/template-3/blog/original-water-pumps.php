@@ -160,7 +160,7 @@ include '../includes/config.php';
                             <li><a href="#section-2">2. كيف تميز الأصلية من المقلدة؟</a></li>
                             <li><a href="#section-3">3. نصائح الشراء الآمن</a></li>
                             <li><a href="#section-4">4. الماركات التي نوفرها أصلية 100%</a></li>
-                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -227,17 +227,6 @@ include '../includes/config.php';
                         <li><strong>Ebara:</strong> <a href="ebara-pumps.php">مضخات إبارا</a></li>
                     </ul>
 
-                    <h2 id="section-5">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>هل مضخاتكم أصلية؟</h3>
-                            <p>نعم، 100% أصلية مع شهادات المنشأ وضمان المصنع. لا نتعامل مع المقلدة إطلاقاً.</p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>كيف أتأكد من الأصالة؟</h3>
-                            <p>نوفر الرقم التسلسلي وشهادة المنشأ. يمكنك التحقق على موقع الشركة المصنعة.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

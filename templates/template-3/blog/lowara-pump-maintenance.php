@@ -156,7 +156,7 @@ include '../includes/config.php';
                             <li><a href="#section-3">3. خدمات الصيانة</a></li>
                             <li><a href="#section-4">4. قطع الغيار الأصلية</a></li>
                             <li><a href="#section-5">5. مشاكل شائعة وحلولها</a></li>
-                            <li><a href="#section-6">6. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -294,23 +294,6 @@ include '../includes/config.php';
                         </tbody>
                     </table></div>
 
-                    <h2 id="section-6">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>أين أجد قطع غيار لووارا؟</h3>
-                            <p>نوفر قطع غيار أصلية في الرياض. الأجزاء الشائعة متوفرة بالمخزون، والنادرة نطلبها من
-                                إيطاليا.</p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>كم تكلفة صيانة مضخة لووارا؟</h3>
-                            <p>صيانة دورية: 300-800 ريال. صيانة شاملة: 1,000-3,000 ريال. إصلاح كبير: 2,000-8,000 ريال.
-                            </p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>هل تقدمون خدمة طوارئ؟</h3>
-                            <p>نعم، متوفرون 24/7 للطوارئ في الرياض والمنطقة الوسطى.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

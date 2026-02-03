@@ -264,7 +264,7 @@ include '../includes/config.php';
                             <li><a href="#section-2">2. مميزات لوحاتنا</a></li>
                             <li><a href="#section-3">3. استخدامات اللوحات</a></li>
                             <li><a href="#section-4">4. أنواع المضخات المتوافقة</a></li>
-                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -324,17 +324,6 @@ include '../includes/config.php';
                         <li>✅ Grundfos SEG/SEV</li>
                     </ul>
 
-                    <h2 id="section-5">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>كم سعر لوحة صرف صحي؟</h3>
-                            <p>مضخة واحدة: 2,000-4,000 ريال. مضختين: 4,000-8,000 ريال. VFD: 8,000+ ريال.</p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>هل تصنعون لوحات حسب الطلب؟</h3>
-                            <p>نعم! نصنع لوحات حسب مواصفاتك الخاصة.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

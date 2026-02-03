@@ -254,7 +254,7 @@ include '../includes/config.php';
                             <li><a href="#section-1">1. لوحات تحكم التكييف والتبريد</a></li>
                             <li><a href="#section-2">2. أنواع لوحات HVAC</a></li>
                             <li><a href="#section-3">3. مميزات لوحاتنا</a></li>
-                            <li><a href="#section-4">4. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -307,17 +307,6 @@ include '../includes/config.php';
                         <li>✅ <a href="plc-control-panels.php">تحكم PLC</a> للأنظمة المعقدة</li>
                     </ul>
 
-                    <h2 id="section-4">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>كم مدة التصنيع؟</h3>
-                            <p>لوحة بسيطة: 3-5 أيام. لوحة VFD: أسبوع. مشاريع كبرى: 2-4 أسابيع.</p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>هل تقدمون ضمان؟</h3>
-                            <p>نعم، سنة كاملة على التصنيع + ضمان المكونات من الشركات المصنعة.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

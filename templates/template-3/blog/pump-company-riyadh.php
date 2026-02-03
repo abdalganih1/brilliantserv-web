@@ -270,7 +270,7 @@ include '../includes/config.php';
                             <li><a href="#section-2">2. خدماتنا في الرياض</a></li>
                             <li><a href="#section-3">3. مناطق الخدمة في الرياض</a></li>
                             <li><a href="#section-4">4. لماذا نحن؟</a></li>
-                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -341,17 +341,6 @@ include '../includes/config.php';
                         <li>✅ <strong>أسعار تنافسية</strong></li>
                     </ul>
 
-                    <h2 id="section-5">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>هل تقدمون خدمة طوارئ؟</h3>
-                            <p>نعم، متوفرون 24/7 للطوارئ في الرياض. وقت الوصول 2-4 ساعات.</p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>هل تقدمون عقود صيانة؟</h3>
-                            <p>نعم، عقود صيانة سنوية بأسعار مخفضة تشمل زيارات دورية + طوارئ مجانية.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

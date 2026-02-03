@@ -341,7 +341,7 @@ include '../includes/config.php';
                             <li><a href="#section-2">2. موديلات Ebara</a></li>
                             <li><a href="#section-3">3. مميزات Ebara</a></li>
                             <li><a href="#section-4">4. خدماتنا لمضخات Ebara</a></li>
-                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -408,17 +408,6 @@ include '../includes/config.php';
                         <li>قطع غيار أصلية</li>
                     </ul>
 
-                    <h2 id="section-5">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>Ebara أم Grundfos؟</h3>
-                            <p>Ebara أفضل للصرف الصحي. Grundfos أشمل في التطبيقات. كلاهما ممتاز.</p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>كم أسعار Ebara؟</h3>
-                            <p>صرف صحي: 1,500-8,000 ريال. طرد مركزي: 1,000-5,000 ريال. حسب القدرة.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

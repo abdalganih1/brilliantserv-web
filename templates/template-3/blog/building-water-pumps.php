@@ -547,7 +547,7 @@ include '../includes/config.php';
                             <li><a href="#section-2">2. أنظمة ضخ المباني</a></li>
                             <li><a href="#section-3">3. اختيار المضخات حسب المبنى</a></li>
                             <li><a href="#section-4">4. خدماتنا</a></li>
-                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -630,17 +630,6 @@ include '../includes/config.php';
                         <li>✅ خدمة طوارئ 24/7</li>
                     </ul>
 
-                    <h2 id="section-5">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>كم تكلفة نظام ضخ للعمارة؟</h3>
-                            <p>4-6 أدوار: 15,000-30,000 ريال. 7-15 دور: 30,000-80,000 ريال. أكثر: حسب المواصفات.</p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>كم عمر النظام؟</h3>
-                            <p>15-20 سنة مع الصيانة الدورية. المضخات 8-12 سنة.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

@@ -216,7 +216,7 @@ include '../includes/config.php';
                             <li><a href="#section-2">2. ماركات PLC المدعومة</a></li>
                             <li><a href="#section-3">3. تطبيقات PLC في المضخات</a></li>
                             <li><a href="#section-4">4. خدماتنا</a></li>
-                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -286,19 +286,6 @@ include '../includes/config.php';
                         <li>✅ صيانة وتطوير</li>
                     </ul>
 
-                    <h2 id="section-5">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>متى أحتاج PLC بدلاً من VFD؟</h3>
-                            <p>PLC للتحكم المتقدم: عدة مضخات، شروط معقدة، مراقبة عن بعد. VFD كافي للتحكم البسيط بالسرعة.
-                            </p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>كم سعر لوحة PLC؟</h3>
-                            <p>من 15,000 ريال (بسيطة) إلى 100,000+ ريال (معقدة). يعتمد على الماركة وعدد المداخل/المخارج.
-                            </p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

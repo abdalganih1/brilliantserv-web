@@ -242,7 +242,7 @@ include '../includes/config.php';
                             <li><a href="#section-2">2. مناطق التوصيل</a></li>
                             <li><a href="#section-3">3. الماركات المتوفرة</a></li>
                             <li><a href="#section-4">4. خدماتنا</a></li>
-                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -308,17 +308,6 @@ include '../includes/config.php';
                         <li>✅ <a href="pump-control-panels.php">لوحات تحكم</a></li>
                     </ul>
 
-                    <h2 id="section-5">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>كيف أطلب؟</h3>
-                            <p>تواصل معنا بالهاتف أو واتساب. حدد نوع المضخة والمنطقة. نرسل عرض سعر شامل الشحن.</p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>هل الشحن مجاني؟</h3>
-                            <p>الرياض: مجاني للطلبات أكثر من 5000 ريال. المناطق الأخرى: حسب الوزن والمسافة.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

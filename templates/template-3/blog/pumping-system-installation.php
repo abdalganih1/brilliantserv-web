@@ -240,7 +240,7 @@ include '../includes/config.php';
                             <li><a href="#section-2">2. ماذا يشمل التركيب؟</a></li>
                             <li><a href="#section-3">3. مراحل التركيب</a></li>
                             <li><a href="#section-4">4. لماذا نحن؟</a></li>
-                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -298,17 +298,6 @@ include '../includes/config.php';
                         <li>✅ التزام بالمواعيد</li>
                     </ul>
 
-                    <h2 id="section-5">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>هل تركبون جميع الماركات؟</h3>
-                            <p>نعم، نركب جميع ماركات المضخات: Grundfos، Lowara، KSB، Ebara، وغيرها.</p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>هل تقدمون ضمان على التركيب؟</h3>
-                            <p>نعم، ضمان سنة كاملة على أعمال التركيب. بالإضافة لضمان المصنع على المضخات.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

@@ -266,7 +266,7 @@ include '../includes/config.php';
                             <li><a href="#section-3">3. مكونات النظام</a></li>
                             <li><a href="#section-4">4. فوائد التحكم الأوتوماتيكي</a></li>
                             <li><a href="#section-5">5. التطبيقات</a></li>
-                            <li><a href="#section-6">6. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -341,17 +341,6 @@ include '../includes/config.php';
                         <li>أنظمة الري</li>
                     </ul>
 
-                    <h2 id="section-6">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>كم توفر من الطاقة؟</h3>
-                            <p>مع VFD، توفر 30-50% من استهلاك الطاقة. العائد على الاستثمار 1-2 سنة.</p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>هل تحتاج صيانة دورية؟</h3>
-                            <p>نعم، فحص سنوي للحساسات ومعايرة النظام. الصيانة بسيطة مقارنة بالأنظمة الميكانيكية.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

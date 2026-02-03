@@ -151,7 +151,7 @@ include '../includes/config.php';
                             <li><a href="#section-3">3. متطلبات NFPA 20</a></li>
                             <li><a href="#section-4">4. الشهادات المطلوبة</a></li>
                             <li><a href="#section-5">5. مميزات لوحاتنا</a></li>
-                            <li><a href="#section-6">6. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -223,17 +223,6 @@ include '../includes/config.php';
                         <li>✅ دعم فني 24/7</li>
                     </ul>
 
-                    <h2 id="section-6">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>هل لوحات الحريق تحتاج اعتماد؟</h3>
-                            <p>نعم، يجب أن تكون معتمدة من الدفاع المدني السعودي. نوفر اللوحات والشهادات المطلوبة.</p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>لماذا لوحة الديزل أغلى؟</h3>
-                            <p>تحتوي على نظام شحن البطارية، تسخين المحرك، مراقبة الوقود، وإنذارات إضافية.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

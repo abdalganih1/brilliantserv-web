@@ -243,7 +243,7 @@ include '../includes/config.php';
                             <li><a href="#section-2">2. أنواع مضخات الصرف</a></li>
                             <li><a href="#section-3">3. الماركات المتوفرة</a></li>
                             <li><a href="#section-4">4. خدماتنا</a></li>
-                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -297,14 +297,6 @@ include '../includes/config.php';
                         <li>✅ صيانة وقطع غيار</li>
                     </ul>
 
-                    <h2 id="section-5">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>كم مضخة أحتاج للبيارة؟</h3>
-                            <p>الأفضل 2 مضخات مع <a href="sewage-pump-panels.php">لوحة تبديل</a> (Alternation) لضمان
-                                الاستمرارية.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

@@ -255,7 +255,7 @@ include '../includes/config.php';
                             <li><a href="#section-2">2. خدمات الصيانة</a></li>
                             <li><a href="#section-3">3. مناطق الخدمة</a></li>
                             <li><a href="#section-4">4. الماركات المدعومة</a></li>
-                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -322,18 +322,6 @@ include '../includes/config.php';
                         <li>✅ <a href="ebara-pumps.php">Ebara (إبارا)</a></li>
                     </ul>
 
-                    <h2 id="section-5">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>هل تقدمون عقود صيانة؟</h3>
-                            <p>نعم! <a href="pump-maintenance-contracts.php">عقود صيانة</a> سنوية بأسعار مخفضة تشمل
-                                زيارات دورية + طوارئ مجانية.</p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>هل قطع الغيار أصلية؟</h3>
-                            <p>نعم، <a href="original-water-pumps.php">قطع غيار أصلية</a> 100% بضمان.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

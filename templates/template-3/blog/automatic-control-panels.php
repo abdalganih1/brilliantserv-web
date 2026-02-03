@@ -254,7 +254,7 @@ include '../includes/config.php';
                             <li><a href="#section-3">3. مميزات التحكم الأوتوماتيكي</a></li>
                             <li><a href="#section-4">4. مكونات اللوحة الأوتوماتيكية</a></li>
                             <li><a href="#section-5">5. خدماتنا</a></li>
-                            <li><a href="#section-6">6. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
@@ -328,17 +328,6 @@ include '../includes/config.php';
                         <li>✅ صيانة دورية</li>
                     </ul>
 
-                    <h2 id="section-6">الأسئلة الشائعة</h2>
-                    <div class="faq-section">
-                        <div class="faq-item">
-                            <h3>كم سعر لوحة أوتوماتيكية؟</h3>
-                            <p>من 2,000 ريال للبسيطة (عوامة) إلى 15,000+ ريال للمتقدمة (VFD+حساسات).</p>
-                        </div>
-                        <div class="faq-item">
-                            <h3>هل يمكن ترقية لوحتي الحالية؟</h3>
-                            <p>نعم، نضيف وحدة تحكم وحساسات للوحات اليدوية لتصبح أوتوماتيكية.</p>
-                        </div>
-                    </div>
                     <!-- AI-Generated FAQ Section -->
                     <section class="faq-section">
                         <h2>❓ الأسئلة الشائعة</h2>

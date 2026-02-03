@@ -318,7 +318,7 @@ include '../includes/config.php';
                             <li><a href="#section-4">4. أخطاء شائعة في لف المحركات</a></li>
                             <li><a href="#section-5">5. متى تحتاج لخدمة لف المحركات؟</a></li>
                             <li><a href="#section-6">6. لماذا تختار روائع الكريستال؟</a></li>
-                            <li><a href="#section-7">7. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 

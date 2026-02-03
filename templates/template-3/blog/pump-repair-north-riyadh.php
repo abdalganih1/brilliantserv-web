@@ -231,7 +231,7 @@ include '../includes/config.php';
                             <li><a href="#section-3">3. جدول أسعار تصليح المضخات 2026</a></li>
                             <li><a href="#section-4">4. العلامات التجارية التي نخدمها</a></li>
                             <li><a href="#section-5">5. مناطق تغطيتنا في شمال الرياض</a></li>
-                            <li><a href="#section-6">6. الأسئلة الشائعة</a></li>
+                            
                         </ol>
                     </div>
 
