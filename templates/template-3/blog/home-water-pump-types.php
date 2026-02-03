@@ -28,7 +28,7 @@ include '../includes/config.php';
     <meta property="og:title" content="<?= $page_title ?>">
     <meta property="og:description" content="دليل أنواع مضخات المياه المنزلية.">
     <meta property="og:url" content="https://brilliantserv.com/blog/home-water-pump-types.html">
-    <meta property="og:image" content="https://brilliantserv.com/media/blog/home-water-pump-types.webp">
+    <meta property="og:image" content="https://brilliantserv.com/media/blog/12-pump-types-guide-featured.webp">
 
     <!-- JSON-LD Article Schema -->
     <script type="application/ld+json">

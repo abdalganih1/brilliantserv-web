@@ -26,7 +26,7 @@ include '../includes/config.php';
 
     <meta property="og:type" content="article">
     <meta property="og:title" content="وكيل مضخات Grundfos الرياض - صيانة وقطع غيار أصلية">
-    <meta property="og:image" content="https://brilliantserv.com/media/blog/grundfos-pump-agent.webp">
+    <meta property="og:image" content="https://brilliantserv.com/media/blog/grundfos-showroom-riyadh-featured.webp">
 
         <!-- Schema.org Structured Data -->
     <script type="application/ld+json">

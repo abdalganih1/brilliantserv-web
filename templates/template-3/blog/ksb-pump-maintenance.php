@@ -28,7 +28,7 @@ include '../includes/config.php';
     <meta property="og:title" content="<?= $page_title ?>">
     <meta property="og:description" content="صيانة مضخات KSB الألمانية.">
     <meta property="og:url" content="https://brilliantserv.com/blog/ksb-pump-maintenance.html">
-    <meta property="og:image" content="https://brilliantserv.com/media/blog/ksb-pump-maintenance.webp">
+    <meta property="og:image" content="https://brilliantserv.com/media/blog/ksb-pump-service-featured.webp">
 
     <!-- JSON-LD Article Schema -->
     <script type="application/ld+json">

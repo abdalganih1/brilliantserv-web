@@ -32,7 +32,7 @@ include '../includes/config.php';
     <meta property="og:type" content="article">
     <meta property="og:title" content="تعبئة شبكة الحريق واختبار الضغط - روائع الكريستال">
     <meta property="og:description" content="مقالة شاملة عن تعبئة شبكة الحريق واختبار الضغط. نقدم أفضل خدمات تعبئة شبكة الحريق في الرياض وجدة. اتصل بنا 0550698111.">
-    <meta property="og:image" content="https://brilliantserv.com/media/blog/fire-network.webp">
+    <meta property="og:image" content="https://brilliantserv.com/media/blog/fire-network-testing-featured.webp">
     <meta property="og:url" content="https://brilliantserv.com/blog/fire-network-filling.php">
     <meta property="og:site_name" content="روائع الكريستال">
     <meta property="article:published_time" content="2026-01-31T14:19:23.741488">

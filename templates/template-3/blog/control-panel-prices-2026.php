@@ -34,7 +34,7 @@ include '../includes/config.php';
     <meta property="og:title" content="أسعار لوحات التحكم الكهربائية 2026 في السعودية - روائع الكريستال">
     <meta property="og:description"
         content="مقالة شاملة عن أسعار لوحات التحكم الكهربائية 2026 في السعودية. نقدم أفضل خدمات أسعار لوحات التحكم في الرياض وجدة. اتصل بنا 0550698111.">
-    <meta property="og:image" content="https://brilliantserv.com/media/blog/control-panel-prices.webp">
+    <meta property="og:image" content="https://brilliantserv.com/media/blog/control-panel-prices-2026-featured.webp">
     <meta property="og:url" content="https://brilliantserv.com/blog/control-panel-prices-2026.php">
     <meta property="og:site_name" content="روائع الكريستال">
     <meta property="article:published_time" content="2026-01-31T14:19:23.729457">

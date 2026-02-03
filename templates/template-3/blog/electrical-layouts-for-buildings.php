@@ -32,7 +32,7 @@ include '../includes/config.php';
     <meta property="og:type" content="article">
     <meta property="og:title" content="قراءة وتصميم المخططات الكهربائية للمباني السكنية - روائع الكريستال">
     <meta property="og:description" content="دليل شامل لفهم المخططات الكهربائية للمباني. رموز الكهرباء، توزيع الأحمال، وكيفية تأسيس كهرباء منزل بطريقة هندسية صحيحة. اتصل 0550698111">
-    <meta property="og:image" content="https://brilliantserv.com/media/blog/electrical-drawing.webp">
+    <meta property="og:image" content="https://brilliantserv.com/media/blog/building-electrical-design-featured.webp">
     <meta property="og:url" content="https://brilliantserv.com/blog/electrical-layouts-for-buildings.php">
     <meta property="og:site_name" content="روائع الكريستال">
     <meta property="article:published_time" content="2026-01-31T14:19:23.702801">

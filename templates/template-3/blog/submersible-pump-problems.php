@@ -34,7 +34,7 @@ include '../includes/config.php';
     <meta property="og:title" content="مشاكل الغطاسات وحلها: دليل شامل - روائع الكريستال">
     <meta property="og:description"
         content="دليل حل مشاكل الغطاسات: أسباب نزول القاطع، ضعف الضخ، واحتراق المحرك. خدمة سحب وصيانة الغطاسات في الرياض مع الضمان. اتصل 0550698111">
-    <meta property="og:image" content="https://brilliantserv.com/media/blog/submersible-pump-problems-featured.png">
+    <meta property="og:image" content="https://brilliantserv.com/media/blog/submersible-pump-troubleshooting-featured.webp">
     <meta property="og:url" content="https://brilliantserv.com/blog/submersible-pump-problems.php">
     <meta property="og:site_name" content="روائع الكريستال">
     <meta property="article:published_time" content="2026-01-31T14:19:23.718230">

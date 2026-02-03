@@ -34,7 +34,7 @@ include '../includes/config.php';
   <meta property="og:title" content="شرح قوانين لف المحركات الكهربائية 3 فاز - روائع الكريستال">
   <meta property="og:description"
     content="شرح مبسط وعملي لقوانين لف المحركات الكهربائية 3 فاز. حساب عدد اللفات، قطر السلك، وطرق التوصيل.">
-  <meta property="og:image" content="https://brilliantserv.com/media/blog/motor-winding-diagram.webp">
+  <meta property="og:image" content="https://brilliantserv.com/media/blog/3-phase-winding-guide-featured.webp">
   <meta property="og:url" content="https://brilliantserv.com/blog/3-phase-motor-winding-rules.php">
   <meta property="og:site_name" content="روائع الكريستال">
   <meta property="article:published_time" content="2026-01-31T14:19:23.757480">

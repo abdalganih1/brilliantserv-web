@@ -1,0 +1,27 @@
+{
+  "success": [
+    "سرعة-المحركات-الكهربائية.php",
+    "home-water-pump-types.php",
+    "electrical-layouts-for-buildings.php",
+    "3-phase-motor-winding-rules.php",
+    "booster-pump-repair.php",
+    "civil-defense-approved-companies.php",
+    "control-panel-prices-2026.php",
+    "fire-network-filling.php",
+    "grundfos-pump-agent-riyadh.php",
+    "ksb-pump-maintenance.php",
+    "submersible-pump-problems.php"
+  ],
+  "failed": [],
+  "skipped": [
+    "pump-humming-sound-causes.php",
+    "pump-room-components.php",
+    "sewage-pump-maintenance.php",
+    "vfd-programming-guide.php",
+    "water-leak-detection.php",
+    "weak-water-pressure-solutions.php",
+    "well-pump-installation.php",
+    "صيانة-بساتم-الهيدروليك.php",
+    "صيانة-بلوف-الهيدروليك.php"
+  ]
+}
