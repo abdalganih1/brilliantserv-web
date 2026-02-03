@@ -1,8 +1,28 @@
 {
   "success": [
-    "pump-repair-north-riyadh.php",
-    "دور-الكهرباء-الصناعية-في-تطوير-المصان.php",
-    "لف-المحركات-الكهربائية.php"
+    "pump-handover.php",
+    "pump-maintenance-contracts.php",
+    "pump-maintenance-riyadh.php",
+    "pump-operation-panels.php",
+    "pump-panel-assembly.php",
+    "pump-piping-maintenance.php",
+    "pump-pressure-calibration.php",
+    "pump-pressure-sensor.php",
+    "pump-room-maintenance.php",
+    "pump-services-riyadh.php",
+    "pump-supplier-saudi.php",
+    "pump-testing.php",
+    "pumping-system-installation.php",
+    "pumping-system-maintenance.php",
+    "schneider-control-panels.php",
+    "sewage-pump-panels.php",
+    "soft-starter-panels.php",
+    "submersible-pump-problems.php",
+    "water-pumping-solutions.php",
+    "water-pumps-saudi.php"
   ],
-  "failed": []
+  "failed": [],
+  "skipped": [
+    "pump-installation-east-riyadh.php"
+  ]
 }
