@@ -170,8 +170,7 @@ include '../includes/config.php';
             <div class="article-wrapper">
                 <!-- Featured Image -->
                 <div class="article-image">
-                    <img src="../media/blog/motor-winding-workshop.webp" alt="لف المحركات الكهربائية"
-                        loading="lazy">
+                    <img src="../media/blog/motor-winding-workshop.webp" alt="لف المحركات الكهربائية" loading="lazy">
                 </div>
 
                 <!-- Article Body -->
@@ -181,9 +180,6 @@ include '../includes/config.php';
                         احترافي.</p>
                     <!-- AI-Enhanced Content -->
                     <div class="ai-enhanced-content">
-                        بالتأكيد، إليك المحتوى المطلوب بصيغة HTML جاهزة للنسخ، مع مراعاة جميع المتطلبات المذكورة للسوق
-                        السعودي.
-
                         <h2>احترف لف المحركات الكهربائية: دليلك الشامل من مؤسسة روائع الكريستال</h2>
 
                         <h3>1. فقرة افتتاحية: عندما يتوقف قلب مشروعك النابض</h3>
@@ -549,24 +545,16 @@ include '../includes/config.php';
                         </div>
                     </section>
 
-                    <!-- Call to Action -->
-                    <div class="article-cta">
-                        <h3>محركك محتاج لف؟</h3>
-                        <p>فريقنا المتخصص جاهز لخدمتك. نوفر خدمة سحب مجانية من موقعك في الرياض.</p>
-                        <a href="tel:0550698111" class="btn btn-primary">اتصل الآن 0550698111</a>
-                        <a href="https://wa.me/966550698111" class="btn btn-secondary">واتساب</a>
-                    </div>
-
                     <?php
                     // Article data for CTA
                     $article = ['title' => $page_title];
 
-                    // Related articles (add manually if needed)
-                    $related_articles = [];
+                    // Related articles 
+                    $related_articles = [
+                        'سرعة-المحركات-الكهربائية.php' => 'كيف تحسب سرعة المحرك الكهربائي؟ المعادلة + جدول السرعات 2026',
+                        '3-phase-motor-winding-rules.php' => 'قوانين لف المحركات الكهربائية 3 فاز: دليل الفني المحترف',
+                        'electric-motor-winding.php' => 'لف محركات كهربائية: إعادة الحياة لمحركك'
+                    ];
 
                     include '../includes/blog-article-footer.php';
                     ?>
-                    <script src="../js/blog-interactions.js"></script>
-</body>
-
-</html>
