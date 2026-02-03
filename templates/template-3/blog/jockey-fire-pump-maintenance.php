@@ -32,7 +32,7 @@ include '../includes/config.php';
     <meta property="og:type" content="article">
     <meta property="og:title" content="صيانة مضخات الحريق جوكي (Jockey Pump) - روائع الكريستال">
     <meta property="og:description" content="مقالة شاملة عن صيانة مضخات الحريق جوكي (Jockey Pump). نقدم أفضل خدمات صيانة مضخات الحريق في الرياض وجدة. اتصل بنا 0550698111.">
-    <meta property="og:image" content="https://brilliantserv.com/media/blog/fire-pump-maintenance.webp">
+    <meta property="og:image" content="https://brilliantserv.com/media/blog/jockey-fire-pump-featured.webp">
     <meta property="og:url" content="https://brilliantserv.com/blog/jockey-fire-pump-maintenance.php">
     <meta property="og:site_name" content="روائع الكريستال">
     <meta property="article:published_time" content="2026-01-31T14:19:23.739909">
@@ -41,14 +41,14 @@ include '../includes/config.php';
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="صيانة مضخات الحريق جوكي (Jockey Pump) - روائع الكريستال">
     <meta property="twitter:description" content="مقالة شاملة عن صيانة مضخات الحريق جوكي (Jockey Pump). نقدم أفضل خدمات صيانة مضخات الحريق في الرياض وجدة. اتصل بنا 0550698111.">
-    <meta property="twitter:image" content="https://brilliantserv.com/media/blog/fire-pump-maintenance.webp">
+    <meta property="twitter:image" content="https://brilliantserv.com/media/blog/jockey-fire-pump-featured.webp">
 
     <!-- JSON-LD Schema -->
     <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "صيانة مضخات الحريق جوكي (Jockey Pump) - روائع الكريستال",
-    "image": "https://brilliantserv.com/media/blog/fire-pump-maintenance.webp",
+    "image": "https://brilliantserv.com/media/blog/jockey-fire-pump-featured.webp",
     "datePublished": "2026-01-31",
     "author": {
         "@type": "Organization",
@@ -124,7 +124,7 @@ include '../includes/config.php';
             <div class="article-wrapper">
                 <!-- Featured Image -->
                 <div class="article-image">
-                    <img src="../media/blog/fire-pump-maintenance.webp" alt="صيانة مضخات الحريق جوكي (Jockey Pump)" loading="lazy">
+                    <img src="../media/blog/jockey-fire-pump-featured.webp" alt="صيانة مضخات الحريق جوكي (Jockey Pump)" loading="lazy">
                 </div>
 
                 <!-- Article Body -->

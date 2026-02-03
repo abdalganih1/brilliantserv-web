@@ -1,0 +1,15 @@
+{
+  "success": [
+    "electric-motor-winding.php",
+    "jockey-fire-pump-maintenance.php",
+    "صيانة-مضخات-جراندفوس.php",
+    "pump-installation-east-riyadh.php"
+  ],
+  "failed": [],
+  "skipped": [
+    "centrifugal-pump-types-uses.php",
+    "fire-pump-types-maintenance.php",
+    "mcc-panels-guide.php",
+    "vfd-pump-control-panels.php"
+  ]
+}

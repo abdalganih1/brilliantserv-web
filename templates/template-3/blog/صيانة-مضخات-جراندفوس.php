@@ -256,7 +256,7 @@ include '../includes/config.php';
                     <!-- Article Image -->
                     <div class="article-image"
                         style="margin-top: 2rem; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-                        <img src="../media/services/grundfos-maintenance.png" alt="صيانة مضخات جراندفوس"
+                        <img src="../media/blog/grundfos-pump-maintenance-featured.webp" alt="صيانة مضخات جراندفوس"
                             style="width: 100%; height: auto; object-fit: cover;">
                     </div>
 

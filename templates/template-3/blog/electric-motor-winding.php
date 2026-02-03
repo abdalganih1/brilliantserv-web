@@ -32,7 +32,7 @@ include '../includes/config.php';
     <meta property="og:type" content="article">
     <meta property="og:title" content="لف محركات كهربائية في الرياض والسعودية - روائع الكريستال">
     <meta property="og:description" content="خدمات احترافية في لف المحركات الكهربائية الصناعية حتى 500 حصان. ضمان على العزل وجودة الأسلاك.">
-    <meta property="og:image" content="https://brilliantserv.com/media/blog/motor-winding.webp">
+    <meta property="og:image" content="https://brilliantserv.com/media/blog/electric-motor-winding-featured.webp">
     <meta property="og:url" content="https://brilliantserv.com/blog/electric-motor-winding.php">
     <meta property="og:site_name" content="روائع الكريستال">
     <meta property="article:published_time" content="2026-01-31T14:19:23.748076">
@@ -41,14 +41,14 @@ include '../includes/config.php';
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="لف محركات كهربائية في الرياض والسعودية - روائع الكريستال">
     <meta property="twitter:description" content="خدمات احترافية في لف المحركات الكهربائية الصناعية حتى 500 حصان. ضمان على العزل وجودة الأسلاك.">
-    <meta property="twitter:image" content="https://brilliantserv.com/media/blog/motor-winding.webp">
+    <meta property="twitter:image" content="https://brilliantserv.com/media/blog/electric-motor-winding-featured.webp">
 
     <!-- JSON-LD Schema -->
     <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "لف محركات كهربائية في الرياض والسعودية - روائع الكريستال",
-    "image": "https://brilliantserv.com/media/blog/motor-winding.webp",
+    "image": "https://brilliantserv.com/media/blog/electric-motor-winding-featured.webp",
     "datePublished": "2026-01-31",
     "author": {
         "@type": "Organization",
@@ -116,7 +116,7 @@ include '../includes/config.php';
             <div class="article-wrapper">
                 <!-- Featured Image -->
                 <div class="article-image">
-                    <img src="../media/blog/motor-winding.webp" alt="لف محركات كهربائية" loading="lazy">
+                    <img src="../media/blog/electric-motor-winding-featured.webp" alt="لف محركات كهربائية" loading="lazy">
                 </div>
 
                 <!-- Article Body -->

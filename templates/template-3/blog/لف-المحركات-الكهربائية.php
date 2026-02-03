@@ -37,7 +37,7 @@ include '../includes/config.php';
     <meta property="og:title" content="احترف لف المحركات الكهربائية: 5 خطوات عملية 2026">
     <meta property="og:description"
         content="تعلم لف المحركات من الصفر للاحتراف. وفر 50-70% من تكلفة المحرك الجديد + ضمان سنة">
-    <meta property="og:image" content="https://brilliantserv.com/media/services/لف-المحركات-الكهربائية.webp">
+    <meta property="og:image" content="https://brilliantserv.com/media/blog/motor-winding-workshop.webp">
     <meta property="og:url" content="https://brilliantserv.com/لف-المحركات-الكهربائية/">
     <meta property="og:site_name" content="روائع الكريستال">
     <meta property="article:published_time" content="2024-06-01T10:00:00+03:00">
@@ -47,14 +47,14 @@ include '../includes/config.php';
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="لف المحركات الكهربائية - دليل شامل">
     <meta property="twitter:description" content="دليل مفصل لتعلم لف المحركات الكهربائية من الصفر للاحتراف.">
-    <meta property="twitter:image" content="https://brilliantserv.com/media/services/لف-المحركات-الكهربائية.webp">
+    <meta property="twitter:image" content="https://brilliantserv.com/media/blog/motor-winding-workshop.webp">
 
     <!-- JSON-LD Schema -->
     <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "لف المحركات الكهربائية - دليل شامل للفني والمهندس",
-    "image": "https://brilliantserv.com/media/services/لف-المحركات-الكهربائية.webp",
+    "image": "https://brilliantserv.com/media/blog/motor-winding-workshop.webp",
     "datePublished": "2024-06-01",
     "dateModified": "2026-02-01",
     "author": {
@@ -170,7 +170,7 @@ include '../includes/config.php';
             <div class="article-wrapper">
                 <!-- Featured Image -->
                 <div class="article-image">
-                    <img src="../media/services/لف-المحركات-الكهربائية.webp" alt="لف المحركات الكهربائية"
+                    <img src="../media/blog/motor-winding-workshop.webp" alt="لف المحركات الكهربائية"
                         loading="lazy">
                 </div>
 

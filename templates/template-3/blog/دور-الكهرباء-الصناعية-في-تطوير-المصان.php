@@ -35,7 +35,7 @@ include '../includes/config.php';
     <meta property="og:image" content="https://brilliantserv.com/media/blog/دور-الكهرباء-الصناعية-featured.webp">
 
     <!-- Preload LCP Image for Performance -->
-    <link rel="preload" as="image" href="../media/blog/hero-electrical-work.webp" fetchpriority="high">
+    <link rel="preload" as="image" href="../media/blog/industrial-electricity-factory.webp" fetchpriority="high">
 
     <!-- JSON-LD Schemas -->
     <script type="application/ld+json">{
@@ -111,7 +111,7 @@ include '../includes/config.php';
         <div class="container">
             <div class="article-wrapper">
                 <div class="article-image">
-                    <img src="../media/blog/hero-electrical-work.webp" alt="أعمال كهرباء صناعية في مصنع سعودي"
+                    <img src="../media/blog/industrial-electricity-factory.webp" alt="أعمال كهرباء صناعية في مصنع سعودي"
                         fetchpriority="high" loading="eager" width="800" height="450">
                 </div>
                 <div class="article-body">
