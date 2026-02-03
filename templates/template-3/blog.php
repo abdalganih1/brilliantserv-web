@@ -121,6 +121,20 @@ include 'includes/config.php';
     <!-- Blog Grid Section -->
     <section class="blog-section">
         <div class="container">
+            <!-- شريط البحث -->
+            <div class="blog-search-wrapper">
+                <div class="blog-search">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.3-4.3"></path>
+                    </svg>
+                    <input type="text" id="blogSearch" placeholder="ابحث في المقالات..." autocomplete="off">
+                    <button type="button" id="clearSearch" class="clear-btn" style="display:none;">✕</button>
+                </div>
+                <p class="search-results-count" id="searchResultsCount" style="display:none;"></p>
+            </div>
+
             <div class="blog-main-grid">
                 <?php
                 // 1. Load Blog Index
@@ -265,7 +279,115 @@ include 'includes/config.php';
                 .page-link.next {
                     font-weight: bold;
                 }
+
+                /* Search Bar Styles */
+                .blog-search-wrapper {
+                    margin-bottom: 2rem;
+                    text-align: center;
+                }
+
+                .blog-search {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    max-width: 500px;
+                    margin: 0 auto;
+                    padding: 12px 20px;
+                    background: #fff;
+                    border: 2px solid #e0e0e0;
+                    border-radius: 50px;
+                    transition: all 0.3s ease;
+                    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+                }
+
+                .blog-search:focus-within {
+                    border-color: #2b5c9b;
+                    box-shadow: 0 4px 20px rgba(43, 92, 155, 0.15);
+                }
+
+                .blog-search svg {
+                    color: #888;
+                    flex-shrink: 0;
+                }
+
+                .blog-search input {
+                    flex: 1;
+                    border: none;
+                    outline: none;
+                    font-size: 1rem;
+                    font-family: inherit;
+                    background: transparent;
+                    text-align: right;
+                }
+
+                .blog-search input::placeholder {
+                    color: #999;
+                }
+
+                .blog-search .clear-btn {
+                    background: none;
+                    border: none;
+                    color: #888;
+                    cursor: pointer;
+                    font-size: 1.1rem;
+                    padding: 0 5px;
+                }
+
+                .blog-search .clear-btn:hover {
+                    color: #333;
+                }
+
+                .search-results-count {
+                    margin-top: 0.75rem;
+                    color: #666;
+                    font-size: 0.9rem;
+                }
+
+                .blog-card.hidden {
+                    display: none !important;
+                }
             </style>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    const searchInput = document.getElementById('blogSearch');
+                    const clearBtn = document.getElementById('clearSearch');
+                    const resultsCount = document.getElementById('searchResultsCount');
+                    const blogCards = document.querySelectorAll('.blog-card');
+
+                    searchInput.addEventListener('input', function () {
+                        const query = this.value.trim().toLowerCase();
+                        let visibleCount = 0;
+
+                        clearBtn.style.display = query ? 'block' : 'none';
+
+                        blogCards.forEach(card => {
+                            const title = card.querySelector('h3')?.textContent.toLowerCase() || '';
+                            const desc = card.querySelector('p')?.textContent.toLowerCase() || '';
+
+                            if (query === '' || title.includes(query) || desc.includes(query)) {
+                                card.classList.remove('hidden');
+                                visibleCount++;
+                            } else {
+                                card.classList.add('hidden');
+                            }
+                        });
+
+                        if (query) {
+                            resultsCount.textContent = `تم العثور على ${visibleCount} مقال`;
+                            resultsCount.style.display = 'block';
+                        } else {
+                            resultsCount.style.display = 'none';
+                        }
+                    });
+
+                    clearBtn.addEventListener('click', function () {
+                        searchInput.value = '';
+                        searchInput.dispatchEvent(new Event('input'));
+                        searchInput.focus();
+                    });
+                });
+            </script>
 
         </div>
         </div>

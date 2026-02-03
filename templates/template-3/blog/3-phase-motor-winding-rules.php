@@ -104,7 +104,7 @@ include '../includes/config.php';
       <div class="article-wrapper">
         <!-- Featured Image -->
         <div class="article-image">
-          <img src="../media/blog/motor-winding-diagram.webp" alt="مخطط لف محرك 3 فاز" loading="lazy">
+          <img src="../media/blog/3-phase-motor-winding-featured.webp" alt="مخطط لف محرك 3 فاز" loading="lazy">
         </div>
 
         <!-- Article Body -->
@@ -405,13 +405,13 @@ include '../includes/config.php';
 
           include '../includes/blog-article-footer.php';
           ?>
-                </div><!-- /.article-body -->
-            </div><!-- /.article-wrapper -->
-        </div><!-- /.container -->
-    </article>
+        </div><!-- /.article-body -->
+      </div><!-- /.article-wrapper -->
+    </div><!-- /.container -->
+  </article>
 
-    <?php include '../includes/footer.php'; ?>
-    <script src="../js/blog-interactions.js"></script>
+  <?php include '../includes/footer.php'; ?>
+  <script src="../js/blog-interactions.js"></script>
 </body>
 
 </html>

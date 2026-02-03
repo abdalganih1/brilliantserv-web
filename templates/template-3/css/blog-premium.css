@@ -414,11 +414,7 @@
     color: #1e3a5f;
 }
 
-.faq-item p {
-    color: #4b5563;
-    line-height: 1.7;
-    margin: 0;
-}
+/* Removed duplicate .faq-item p rule - using .faq-section .faq-item p above */
 
 /* ============================================
    MOBILE RESPONSIVENESS
