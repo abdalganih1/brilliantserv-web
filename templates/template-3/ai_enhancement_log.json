@@ -1,0 +1,804 @@
+{
+  "timestamp": "2026-02-03T23:52:27.145181",
+  "total_processed": 74,
+  "success": 74,
+  "failed": 0,
+  "results": [
+    {
+      "filename": "building-water-pumps.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "centrifugal-pumps.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "certified-pump-panels.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "civil-defense-approved-companies.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "control-panel-installation.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "control-panel-prices-2026.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "control-panels-riyadh.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "ebara-pumps.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "electric-motor-winding.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "electrical-layouts-for-buildings.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "fire-network-filling.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "fire-pump-control-panels.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "fire-pump-installation.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "fire-pump-specialist.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "fire-pumps.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "grundfos-pump-agent-riyadh.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "grundfos-pump-assembly.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "home-water-pump-types.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "horizontal-pumps.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "hvac-control-panels.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "hvac-panel-manufacturing.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "industrial-water-pumps.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "inverter-panel-maintenance.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "jockey-fire-pump-maintenance.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "ksb-pump-maintenance.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "lowara-pump-maintenance.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "lowara-pumps.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "mcc-panels.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "multistage-pumps.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "original-water-pumps.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "plc-control-panels.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pool-maintenance-jeddah.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pressure-control-panels.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pump-commissioning.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pump-company-riyadh.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pump-control-panels.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pump-handover.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pump-humming-sound.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pump-installation-east-riyadh.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pump-maintenance-contracts.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pump-maintenance-riyadh.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pump-operation-panels.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pump-panel-assembly.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pump-piping-maintenance.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pump-pressure-calibration.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pump-pressure-sensor.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pump-repair-north-riyadh.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pump-room-construction.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pump-room-maintenance.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pump-services-riyadh.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pump-supplier-saudi.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pump-testing.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pumping-system-installation.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "pumping-system-maintenance.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "schneider-control-panels.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "sewage-pump-panels.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "sewage-pumps.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "soft-starter-panels.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "star-delta-panel-manufacturing.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "submersible-pump-problems.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "types-of-water-pumps.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "vertical-pumps.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "vfd-programming-pumps.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "water-booster-systems.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "water-pumping-solutions.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "water-pumps-saudi.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "weak-water-pressure-solution.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "well-pumps.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "المخططات-الكهربائية-للمباني.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "انواع-المضخات.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "دور-الكهرباء-الصناعية-في-تطوير-المصان.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "سرعة-المحركات-الكهربائية.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "صيانة-مضخات-جراندفوس.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    },
+    {
+      "filename": "لف-المحركات-الكهربائية.php",
+      "status": "success",
+      "changes": [
+        "content_enhanced",
+        "faq_generated",
+        "diagram_created",
+        "file_updated"
+      ],
+      "error": null
+    }
+  ]
+}

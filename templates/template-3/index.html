@@ -586,7 +586,7 @@
             <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
                 <!-- Blog Card 1 -->
                 <article class="service-card" style="text-align: right; padding: 0; overflow: hidden;">
-                    <img src="../../media/hero-mechanic-pumps.webp" alt="كشف تسربات"
+                    <img src="media/blog/leak-detection.webp" alt="كشف تسربات المياه"
                         style="width: 100%; height: 200px; object-fit: cover;">
                     <div style="padding: 1.5rem;">
                         <span
@@ -603,7 +603,7 @@
 
                 <!-- Blog Card 2 -->
                 <article class="service-card" style="text-align: right; padding: 0; overflow: hidden;">
-                    <img src="../../media/mechanic-project.webp" alt="عزل خزانات"
+                    <img src="media/blog/cold-room.webp" alt="عزل خزانات المياه"
                         style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
                     <div style="padding: 1.5rem;">
                         <span
@@ -620,14 +620,14 @@
 
                 <!-- Blog Card 3 -->
                 <article class="service-card" style="text-align: right; padding: 0; overflow: hidden;">
-                    <img src="../../media/about-team-work.webp" alt="عزل اسطح"
+                    <img src="media/blog/water-pump-types.webp" alt="أنواع المضخات"
                         style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
                     <div style="padding: 1.5rem;">
                         <span
                             style="font-size: 0.9rem; color: var(--color-primary); display: block; margin-bottom: 0.5rem;">22
                             يناير 2026</span>
-                        <h3 style="margin-bottom: 1rem;">عزل اسطح بالطائف</h3>
-                        <a href="blog/roof-insulation-taif.html" class="service-link">اقرأ المزيد <svg
+                        <h3 style="margin-bottom: 1rem;">أفضل أنواع مضخات المياه</h3>
+                        <a href="blog/types-of-water-pumps.php" class="service-link">اقرأ المزيد <svg
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" width="16" height="16">
                                 <path d="M5 12h14M12 5l7 7-7 7" />
@@ -758,12 +758,31 @@
             autoplay: {
                 delay: 0,
                 disableOnInteraction: false,
+                pauseOnMouseEnter: true,
             },
             speed: 5000,
             slidesPerView: 'auto',
             spaceBetween: 32,
-            allowTouchMove: false,
-            freeMode: true,
+            allowTouchMove: true, // Enable touch swipe on mobile
+            freeMode: {
+                enabled: true,
+                sticky: false,
+            },
+            grabCursor: true,
+            touchRatio: 1,
+            touchReleaseOnEdges: true,
+            // Responsive breakpoints
+            breakpoints: {
+                // On mobile, slower speed for better touch experience
+                0: {
+                    speed: 3000,
+                    spaceBetween: 16,
+                },
+                768: {
+                    speed: 5000,
+                    spaceBetween: 32,
+                },
+            },
         };
         new Swiper('.references-swiper', swiperOptions);
         new Swiper('.clients-swiper', swiperOptions);

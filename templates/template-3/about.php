@@ -117,6 +117,8 @@ include 'includes/config.php';
     }
     </script>
     <?php include 'includes/head.php'; ?>
+    <!-- Swiper.js CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -417,7 +419,7 @@ include 'includes/config.php';
         </div>
     </section>
 
-    <!-- Client Logos Marquee -->
+    <!-- Client Logos Swiper -->
     <section class="clients-section">
         <div class="container">
             <div class="section-header">
@@ -425,26 +427,41 @@ include 'includes/config.php';
                 <h2>شركاء نفخر بثقتهم</h2>
             </div>
         </div>
-        <div class="clients-marquee">
-            <div class="clients-track">
-                <div class="client-logo"><img src="media/clients/1.png" alt="عميل 1" loading="lazy"></div>
-                <div class="client-logo"><img src="media/clients/2.png" alt="عميل 2" loading="lazy"></div>
-                <div class="client-logo"><img src="media/clients/3.png" alt="عميل 3" loading="lazy"></div>
-                <div class="client-logo"><img src="media/clients/4.png" alt="عميل 4" loading="lazy"></div>
-                <div class="client-logo"><img src="media/clients/5.png" alt="عميل 5" loading="lazy"></div>
-                <div class="client-logo"><img src="media/clients/6.png" alt="عميل 6" loading="lazy"></div>
-                <div class="client-logo"><img src="media/clients/7.png" alt="عميل 7" loading="lazy"></div>
-                <div class="client-logo"><img src="media/clients/8.png" alt="عميل 8" loading="lazy"></div>
-                <div class="client-logo"><img src="media/clients/9.png" alt="عميل 9" loading="lazy"></div>
-                <div class="client-logo"><img src="media/clients/10.png" alt="عميل 10" loading="lazy"></div>
-                <div class="client-logo"><img src="media/clients/11.png" alt="عميل 11" loading="lazy"></div>
-                <!-- Duplicate for seamless loop -->
-                <div class="client-logo"><img src="media/clients/1.png" alt="عميل 1" loading="lazy"></div>
-                <div class="client-logo"><img src="media/clients/2.png" alt="عميل 2" loading="lazy"></div>
-                <div class="client-logo"><img src="media/clients/3.png" alt="عميل 3" loading="lazy"></div>
-                <div class="client-logo"><img src="media/clients/4.png" alt="عميل 4" loading="lazy"></div>
-                <div class="client-logo"><img src="media/clients/5.png" alt="عميل 5" loading="lazy"></div>
-                <div class="client-logo"><img src="media/clients/6.png" alt="عميل 6" loading="lazy"></div>
+        <div class="swiper clients-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="client-logo"><img src="media/clients/1.png" alt="عميل 1" loading="lazy"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-logo"><img src="media/clients/2.png" alt="عميل 2" loading="lazy"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-logo"><img src="media/clients/3.png" alt="عميل 3" loading="lazy"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-logo"><img src="media/clients/4.png" alt="عميل 4" loading="lazy"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-logo"><img src="media/clients/5.png" alt="عميل 5" loading="lazy"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-logo"><img src="media/clients/6.png" alt="عميل 6" loading="lazy"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-logo"><img src="media/clients/7.png" alt="عميل 7" loading="lazy"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-logo"><img src="media/clients/8.png" alt="عميل 8" loading="lazy"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-logo"><img src="media/clients/9.png" alt="عميل 9" loading="lazy"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-logo"><img src="media/clients/10.png" alt="عميل 10" loading="lazy"></div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client-logo"><img src="media/clients/11.png" alt="عميل 11" loading="lazy"></div>
+                </div>
             </div>
         </div>
     </section>
@@ -504,7 +521,43 @@ include 'includes/config.php';
 
     <?php include 'includes/footer.php'; ?>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/main.min.js"></script>
+    <script>
+        // Initialize Swiper with touch-enabled configuration
+        const swiperOptions = {
+            loop: true,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+            },
+            speed: 5000,
+            slidesPerView: 'auto',
+            spaceBetween: 32,
+            allowTouchMove: true, // Enable touch swipe on mobile
+            freeMode: {
+                enabled: true,
+                sticky: false,
+            },
+            grabCursor: true,
+            touchRatio: 1,
+            touchReleaseOnEdges: true,
+            // Responsive breakpoints
+            breakpoints: {
+                // On mobile, slower speed for better touch experience
+                0: {
+                    speed: 3000,
+                    spaceBetween: 16,
+                },
+                768: {
+                    speed: 5000,
+                    spaceBetween: 32,
+                },
+            },
+        };
+        new Swiper('.clients-swiper', swiperOptions);
+    </script>
 </body>
 
 </html>
