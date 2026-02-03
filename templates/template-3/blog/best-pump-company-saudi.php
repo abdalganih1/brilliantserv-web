@@ -245,7 +245,7 @@ include '../includes/config.php';
                             <span class="author-name">فريق روائع الكريستال الهندسي</span>
                             <div class="meta-details">
                                 <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
-                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                                <span class="reading-time">⏱️ وقت القراءة: <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق</span>
                             </div>
                         </div>
                     </div>
@@ -285,7 +285,7 @@ include '../includes/config.php';
 
 
                     <h2 id="section-2">معايير اختيار شركة المضخات</h2>
-                    <table class="comparison-table">
+                    <div class="table-responsive-wrapper"><table class="comparison-table">
                         <thead>
                             <tr>
                                 <th>المعيار</th>
@@ -320,7 +320,7 @@ include '../includes/config.php';
                                 <td>✅ متوفر</td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table></div>
 
                     <h2 id="section-3">لماذا روائع الكريستال؟</h2>
                     <ul>
@@ -344,7 +344,7 @@ include '../includes/config.php';
                     </ul>
 
                     <h2 id="section-5">الماركات المعتمدة</h2>
-                    <table class="comparison-table">
+                    <div class="table-responsive-wrapper"><table class="comparison-table">
                         <thead>
                             <tr>
                                 <th>الماركة</th>
@@ -374,7 +374,7 @@ include '../includes/config.php';
                                 <td>صرف صحي</td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table></div>
 
                     <h2 id="section-6">الأسئلة الشائعة</h2>
                     <div class="faq-section">

@@ -230,7 +230,7 @@ include '../includes/config.php';
                             <span class="author-name">فريق روائع الكريستال الهندسي</span>
                             <div class="meta-details">
                                 <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
-                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                                <span class="reading-time">⏱️ وقت القراءة: <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق</span>
                             </div>
                         </div>
                     </div>
@@ -286,7 +286,7 @@ include '../includes/config.php';
                     <h2 id="section-3">أنواع المضخات متعددة المراحل</h2>
 
                     <h3>حسب وضعية التركيب</h3>
-                    <table class="comparison-table">
+                    <div class="table-responsive-wrapper"><table class="comparison-table">
                         <thead>
                             <tr>
                                 <th>النوع</th>
@@ -311,7 +311,7 @@ include '../includes/config.php';
                                 <td><a href="well-pumps.php">الآبار</a></td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table></div>
 
                     <h3>حسب مادة التصنيع</h3>
                     <ul>
@@ -321,7 +321,7 @@ include '../includes/config.php';
                     </ul>
 
                     <h2 id="section-4">مقارنة مع أحادية المرحلة</h2>
-                    <table class="comparison-table">
+                    <div class="table-responsive-wrapper"><table class="comparison-table">
                         <thead>
                             <tr>
                                 <th>المعيار</th>
@@ -351,7 +351,7 @@ include '../includes/config.php';
                                 <td>✅ بسيطة</td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table></div>
 
                     <h2 id="section-5">التطبيقات الرئيسية</h2>
 
@@ -381,7 +381,7 @@ include '../includes/config.php';
                     </ul>
 
                     <h2 id="section-6">اختيار عدد المراحل</h2>
-                    <table class="comparison-table">
+                    <div class="table-responsive-wrapper"><table class="comparison-table">
                         <thead>
                             <tr>
                                 <th>التطبيق</th>
@@ -411,10 +411,10 @@ include '../includes/config.php';
                                 <td>12-15</td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table></div>
 
                     <h2 id="section-7">العلامات التجارية المتوفرة</h2>
-                    <table class="comparison-table">
+                    <div class="table-responsive-wrapper"><table class="comparison-table">
                         <thead>
                             <tr>
                                 <th>العلامة</th>
@@ -444,10 +444,10 @@ include '../includes/config.php';
                                 <td>تحكم ذكي</td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table></div>
 
                     <h2 id="section-8">الأسعار في السعودية 2026</h2>
-                    <table class="comparison-table">
+                    <div class="table-responsive-wrapper"><table class="comparison-table">
                         <thead>
                             <tr>
                                 <th>الفئة</th>
@@ -477,7 +477,7 @@ include '../includes/config.php';
                                 <td>40,000 - 100,000+</td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table></div>
 
                     <h2 id="section-9">الأسئلة الشائعة</h2>
                     <div class="faq-section">

@@ -209,7 +209,7 @@ include '../includes/config.php';
                             <span class="author-name">فريق روائع الكريستال الهندسي</span>
                             <div class="meta-details">
                                 <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
-                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                                <span class="reading-time">⏱️ وقت القراءة: <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق</span>
                             </div>
                         </div>
                     </div>
@@ -256,7 +256,7 @@ include '../includes/config.php';
                     <h2 id="section-2">أنواع مضخات الحريق</h2>
 
                     <h3>1. حسب مصدر الطاقة</h3>
-                    <table class="comparison-table">
+                    <div class="table-responsive-wrapper"><table class="comparison-table">
                         <thead>
                             <tr>
                                 <th>النوع</th>
@@ -281,7 +281,7 @@ include '../includes/config.php';
                                 <td>ضبط الضغط المستمر</td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table></div>
 
                     <h3>2. حسب تصميم المضخة</h3>
                     <ul>
@@ -303,7 +303,7 @@ include '../includes/config.php';
                     </ol>
 
                     <h2 id="section-4">الشهادات والاعتمادات المطلوبة</h2>
-                    <table class="comparison-table">
+                    <div class="table-responsive-wrapper"><table class="comparison-table">
                         <thead>
                             <tr>
                                 <th>الشهادة</th>
@@ -333,7 +333,7 @@ include '../includes/config.php';
                                 <td>معيار التصميم والتركيب</td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table></div>
 
                     <h2 id="section-5">مواصفات مضخات الحريق</h2>
                     <p>المواصفات الأساسية حسب NFPA 20:</p>
@@ -346,7 +346,7 @@ include '../includes/config.php';
                     </ul>
 
                     <h2 id="section-6">العلامات التجارية المعتمدة</h2>
-                    <table class="comparison-table">
+                    <div class="table-responsive-wrapper"><table class="comparison-table">
                         <thead>
                             <tr>
                                 <th>العلامة</th>
@@ -376,10 +376,10 @@ include '../includes/config.php';
                                 <td>AEF, 8196</td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table></div>
 
                     <h2 id="section-7">أسعار مضخات الحريق في السعودية 2026</h2>
-                    <table class="comparison-table">
+                    <div class="table-responsive-wrapper"><table class="comparison-table">
                         <thead>
                             <tr>
                                 <th>المكون</th>
@@ -414,7 +414,7 @@ include '../includes/config.php';
                                 <td>80,000 - 300,000+</td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table></div>
 
                     <h2 id="section-8">خدماتنا في مضخات الحريق</h2>
                     <ul>

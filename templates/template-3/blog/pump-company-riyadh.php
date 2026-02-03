@@ -225,6 +225,7 @@ include '../includes/config.php';
     <h2 id="contact-cta">لضمان استمرارية إمدادك المائي بكفاءة، تواصل معنا اليوم</h2>
     <p>لا تدع أعطال المضخات تسبب لك الخسائر أو الإزعاج. <strong>مؤسسة روائع الكريستال</strong> جاهزة لتقديم استشارة هندسية مجانية لتقييم نظامك الحالي أو لتقديم عرض سعر شامل لتركيب نظام جديد. اتصل بنا الآن لتكون على ثقة بأن شريان المياه لديك يعمل بأعلى مستويات الموثوقية والأداء في الرياض.</p>
 
+    <script src="../js/blog-interactions.js"></script>
 </body>
 </html>
                     </div>
@@ -236,7 +237,7 @@ include '../includes/config.php';
                             <span class="author-name">فريق روائع الكريستال الهندسي</span>
                             <div class="meta-details">
                                 <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
-                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                                <span class="reading-time">⏱️ وقت القراءة: <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق</span>
                             </div>
                         </div>
                     </div>
@@ -282,7 +283,7 @@ include '../includes/config.php';
                     </ul>
 
                     <h2 id="section-2">خدماتنا في الرياض</h2>
-                    <table class="comparison-table">
+                    <div class="table-responsive-wrapper"><table class="comparison-table">
                         <thead>
                             <tr>
                                 <th>الخدمة</th>
@@ -312,7 +313,7 @@ include '../includes/config.php';
                                 <td>2-4 ساعات</td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table></div>
 
                     <h2 id="section-3">مناطق الخدمة في الرياض</h2>
                     <p>نخدم جميع أحياء الرياض:</p>

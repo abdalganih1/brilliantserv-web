@@ -29,6 +29,7 @@ if (isset($related_articles) && !empty($related_articles)) {
 </article>
 
 <?php include __DIR__ . '/footer.php'; ?>
+<script src="../js/blog-interactions.js"></script>
 <script src="../js/main.min.js"></script>
 </body>
 

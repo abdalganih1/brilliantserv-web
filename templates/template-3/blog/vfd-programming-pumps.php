@@ -245,6 +245,7 @@ include '../includes/config.php';
 
     <p><strong>لا تدع مضخاتك تستنزف ميزانيتك. تواصل اليوم مع مؤسسة روائع الكريستال لجدولة استشارة مجانية حول تحديث وتحسين كفاءة أنظمة الضخ لديك عبر برمجة VFD المتقدمة.</strong></p>
 
+    <script src="../js/blog-interactions.js"></script>
 </body>
 </html>
                     </div>
@@ -256,7 +257,7 @@ include '../includes/config.php';
                             <span class="author-name">فريق روائع الكريستال الهندسي</span>
                             <div class="meta-details">
                                 <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
-                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                                <span class="reading-time">⏱️ وقت القراءة: <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق</span>
                             </div>
                         </div>
                     </div>

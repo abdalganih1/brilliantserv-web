@@ -200,7 +200,7 @@ include '../includes/config.php';
                             <span class="author-name">فريق روائع الكريستال الهندسي</span>
                             <div class="meta-details">
                                 <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
-                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                                <span class="reading-time">⏱️ وقت القراءة: <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق</span>
                             </div>
                         </div>
                     </div>
@@ -261,7 +261,7 @@ include '../includes/config.php';
                     <p>تتنوع مضخات الطرد المركزي حسب التصميم والتطبيق:</p>
 
                     <h3>1. حسب وضعية العمود</h3>
-                    <table class="comparison-table">
+                    <div class="table-responsive-wrapper"><table class="comparison-table">
                         <thead>
                             <tr>
                                 <th>النوع</th>
@@ -281,7 +281,7 @@ include '../includes/config.php';
                                 <td>الآبار، الخزانات</td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table></div>
 
                     <h3>2. حسب عدد المراحل</h3>
                     <ul>
@@ -341,7 +341,7 @@ include '../includes/config.php';
 
                     <h2 id="section-6">العلامات التجارية المتوفرة لدينا</h2>
                     <p>نوفر مضخات الطرد المركزي من أفضل العلامات التجارية العالمية:</p>
-                    <table class="comparison-table">
+                    <div class="table-responsive-wrapper"><table class="comparison-table">
                         <thead>
                             <tr>
                                 <th>العلامة</th>
@@ -376,7 +376,7 @@ include '../includes/config.php';
                                 <td>حلول اقتصادية عالية الجودة</td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table></div>
 
                     <h2 id="section-7">خدمات صيانة مضخات الطرد المركزي</h2>
                     <p>نقدم في مؤسسة روائع الكريستال خدمات صيانة شاملة:</p>
@@ -402,7 +402,7 @@ include '../includes/config.php';
 
                     <!-- أسعار تقريبية -->
                     <h2 id="section-9">أسعار مضخات الطرد المركزي في السعودية 2026</h2>
-                    <table class="comparison-table">
+                    <div class="table-responsive-wrapper"><table class="comparison-table">
                         <thead>
                             <tr>
                                 <th>النوع</th>
@@ -437,7 +437,7 @@ include '../includes/config.php';
                                 <td>50,000+</td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table></div>
                     <p><em>* الأسعار تقريبية وتختلف حسب العلامة التجارية والمواصفات</em></p>
 
                     <!-- FAQ Section -->

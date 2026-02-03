@@ -295,9 +295,123 @@
     gap: 0.5rem;
 }
 
-.faq-item h3::before {
-    content: '❓';
-    font-size: 1.2rem;
+/* ============================================
+   RESPONSIVE TABLES & RTL FIXES
+   ============================================ */
+
+.table-responsive-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+}
+
+.comparison-table,
+.blog-article table {
+    width: 100%;
+    min-width: 600px;
+    /* Ensure table doesn't collapse too much */
+    border-collapse: separate;
+    /* Changed from collapse for border-radius */
+    border-spacing: 0;
+    margin: 0;
+    /* Margin handled by wrapper */
+}
+
+/* ============================================
+   INTERACTIVE FAQ ACCORDION
+   ============================================ */
+
+.faq-section .faq-item {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0;
+    /* Reset padding for accordion */
+    overflow: hidden;
+}
+
+.faq-section .faq-item h3 {
+    padding: 1.5rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    user-select: none;
+}
+
+/* Chevron Icon */
+.faq-section .faq-item h3::after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-right: 2px solid #1e3a5f;
+    border-bottom: 2px solid #1e3a5f;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+    margin-right: auto;
+    /* Push to left in RTL */
+    margin-left: 1rem;
+}
+
+/* Active State (Open) */
+.faq-section .faq-item.active {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+    border-color: #2563eb;
+}
+
+.faq-section .faq-item.active h3 {
+    background: #f8fafc;
+    color: #2563eb;
+}
+
+.faq-section .faq-item.active h3::after {
+    transform: rotate(225deg);
+    border-color: #2563eb;
+}
+
+.faq-section .faq-item p {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    margin: 0;
+    display: none;
+    /* Hidden by default */
+    color: #4b5563;
+    line-height: 1.7;
+    border-top: 1px solid transparent;
+}
+
+.faq-section .faq-item.active p {
+    display: block;
+    animation: slideDown 0.3s ease-out;
+    border-top-color: rgba(0, 0, 0, 0.05);
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Rich Content in FAQ (Lists, Bold) */
+.faq-item p ul,
+.faq-item p ol {
+    margin: 1rem 1.5rem 0 0;
+    padding-right: 1.5rem;
+}
+
+.faq-item p li {
+    margin-bottom: 0.5rem;
+}
+
+.faq-item p strong {
+    color: #1e3a5f;
 }
 
 .faq-item p {

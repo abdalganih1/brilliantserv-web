@@ -219,6 +219,7 @@ include '../includes/config.php';
 
 <p><strong>هل تحتاج إلى استشارة فنية أو خدمة فحص لمضخات مشروعك؟ لا تتردد في التواصل مع فريق مؤسسة روائع الكريستال اليوم، لنضمن لك تدفقاً آمناً ومستداماً للمياه.</strong></p>
 
+    <script src="../js/blog-interactions.js"></script>
 </body>
 </html>
                     </div>
@@ -230,7 +231,7 @@ include '../includes/config.php';
                             <span class="author-name">فريق روائع الكريستال الهندسي</span>
                             <div class="meta-details">
                                 <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
-                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                                <span class="reading-time">⏱️ وقت القراءة: <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق</span>
                             </div>
                         </div>
                     </div>
@@ -267,7 +268,7 @@ include '../includes/config.php';
 
 
                     <h2 id="section-2">اختبارات الـ Commissioning</h2>
-                    <table class="comparison-table">
+                    <div class="table-responsive-wrapper"><table class="comparison-table">
                         <thead>
                             <tr>
                                 <th>الاختبار</th>
@@ -298,7 +299,7 @@ include '../includes/config.php';
                                     < 4.5 mm/s</td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table></div>
 
                     <h2 id="section-3">خطوات Commissioning</h2>
                     <ol>

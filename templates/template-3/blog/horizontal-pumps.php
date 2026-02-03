@@ -146,7 +146,7 @@ include '../includes/config.php';
                             <span class="author-name">فريق روائع الكريستال الهندسي</span>
                             <div class="meta-details">
                                 <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
-                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                                <span class="reading-time">⏱️ وقت القراءة: <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق</span>
                             </div>
                         </div>
                     </div>
@@ -202,7 +202,7 @@ include '../includes/config.php';
                     <h2 id="section-3">أنواع المضخات الأفقية</h2>
                     
                     <h3>1. حسب طريقة التقسيم (Split Case)</h3>
-                    <table class="comparison-table">
+                    <div class="table-responsive-wrapper"><table class="comparison-table">
                         <thead>
                             <tr>
                                 <th>النوع</th>
@@ -227,7 +227,7 @@ include '../includes/config.php';
                                 <td>التطبيقات العامة، المباني</td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table></div>
 
                     <h3>2. حسب عدد المراحل</h3>
                     <ul>
@@ -244,7 +244,7 @@ include '../includes/config.php';
                     <img src="../media/blog/horizontal-pump-types.webp" alt="أنواع المضخات الأفقية - رسم توضيحي" loading="lazy" class="article-inline-image">
 
                     <h2 id="section-4">مقارنة: المضخات الأفقية vs العمودية</h2>
-                    <table class="comparison-table">
+                    <div class="table-responsive-wrapper"><table class="comparison-table">
                         <thead>
                             <tr>
                                 <th>المعيار</th>
@@ -279,7 +279,7 @@ include '../includes/config.php';
                                 <td>⚠️ أكثر عرضة</td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table></div>
 
                     <h2 id="section-5">تطبيقات المضخات الأفقية في السعودية</h2>
                     
@@ -366,7 +366,7 @@ include '../includes/config.php';
                     </ul>
 
                     <h2 id="section-9">العلامات التجارية المتوفرة</h2>
-                    <table class="comparison-table">
+                    <div class="table-responsive-wrapper"><table class="comparison-table">
                         <thead>
                             <tr>
                                 <th>العلامة</th>
@@ -407,10 +407,10 @@ include '../includes/config.php';
                                 <td>منخفض - متوسط</td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table></div>
 
                     <h2 id="section-10">أسعار المضخات الأفقية في السعودية 2026</h2>
-                    <table class="comparison-table">
+                    <div class="table-responsive-wrapper"><table class="comparison-table">
                         <thead>
                             <tr>
                                 <th>الفئة</th>
@@ -440,7 +440,7 @@ include '../includes/config.php';
                                 <td>100,000+</td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table></div>
 
                     <!-- FAQ Section -->
                     <h2 id="section-11">الأسئلة الشائعة عن المضخات الأفقية</h2>

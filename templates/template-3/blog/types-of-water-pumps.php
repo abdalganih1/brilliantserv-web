@@ -191,7 +191,7 @@ include '../includes/config.php';
                             <div class="author-name">فريق روائع الكريستال الهندسي</div>
                             <div class="article-date">آخر تحديث: 3 فبراير 2026</div>
                         </div>
-                        <span class="reading-time">⏱️ 8 دقائق قراءة</span>
+                        <span class="reading-time">⏱️ وقت القراءة: <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق</span>
                     </div>
 
                     <!-- Lead Paragraph -->
@@ -441,7 +441,7 @@ include '../includes/config.php';
                     <!-- Section 6: Comparison Table -->
                     <h2 id="comparison">جدول مقارنة أنواع المضخات</h2>
 
-                    <table class="comparison-table">
+                    <div class="table-responsive-wrapper"><table class="comparison-table">
                         <thead>
                             <tr>
                                 <th>النوع</th>
@@ -488,7 +488,7 @@ include '../includes/config.php';
                                 <td>5,000 - 50,000</td>
                             </tr>
                         </tbody>
-                    </table>
+                    </table></div>
                     <p><em>* الأسعار تقريبية وتختلف حسب العلامة التجارية والمواصفات - فبراير 2026</em></p>
 
                     <!-- Section 7: How to Choose -->
