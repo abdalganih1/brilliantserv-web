@@ -53,6 +53,13 @@ if [ -d "$TEMPLATE_DIR/blog" ]; then
     rm -f "$SITE_ROOT/blog/"*.html
     cp "$TEMPLATE_DIR/blog/"*.php "$SITE_ROOT/blog/" 2>/dev/null || true
     echo "  ✅ Copied: blog/*.php"
+
+    # Copy diagrams folder
+    if [ -d "$TEMPLATE_DIR/blog/diagrams" ]; then
+        mkdir -p "$SITE_ROOT/blog/diagrams"
+        cp -r "$TEMPLATE_DIR/blog/diagrams/"* "$SITE_ROOT/blog/diagrams/"
+        echo "  ✅ Copied: blog/diagrams/"
+    fi
 fi
 
 # Copy CSS, JS, and media if they exist
