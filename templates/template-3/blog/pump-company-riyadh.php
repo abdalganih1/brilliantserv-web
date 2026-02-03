@@ -431,13 +431,4 @@ include '../includes/config.php';
                     
                     include '../includes/blog-article-footer.php';
                     ?>
-                </div><!-- /.article-body -->
-            </div><!-- /.article-wrapper -->
-        </div><!-- /.container -->
-    </article>
-
-    <?php include '../includes/footer.php'; ?>
-    <script src="../js/blog-interactions.js"></script>
-</body>
-
-</html>
+                
