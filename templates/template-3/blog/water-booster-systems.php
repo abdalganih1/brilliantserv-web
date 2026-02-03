@@ -247,6 +247,13 @@ include '../includes/config.php';
 
                     <p>يُستخدم في المباني العالية، المناطق ضعيفة الضغط، والمشاريع التي تحتاج ضغطاً مستقراً.</p>
 
+                    
+                    <!-- Technical Diagram Injection -->
+                    <div class="technical-diagram" style="margin: 2rem 0; text-align: center;">
+                        <img src="diagrams/water-booster-systems.svg" alt="Technical Diagram" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                        <p class="caption" style="font-size: 0.9rem; color: #666; margin-top: 0.5rem;">شكل توضيحي: مخطط تفصيلي</p>
+                    </div>
+
                     <h2 id="section-2">مكونات نظام Booster</h2>
                     <ol>
                         <li><strong>المضخات:</strong> 2-6 <a href="multistage-pumps.php">مضخات متعددة المراحل</a></li>

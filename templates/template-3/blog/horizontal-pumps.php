@@ -189,6 +189,13 @@ include '../includes/config.php';
                     
                     <p>في المملكة العربية السعودية، تُستخدم المضخات الأفقية على نطاق واسع في محطات المياه، المصانع، محطات تحلية المياه، وأنظمة التكييف المركزي للمباني الكبيرة.</p>
 
+                    
+                    <!-- Technical Diagram Injection -->
+                    <div class="technical-diagram" style="margin: 2rem 0; text-align: center;">
+                        <img src="diagrams/horizontal-pumps.svg" alt="Technical Diagram" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                        <p class="caption" style="font-size: 0.9rem; color: #666; margin-top: 0.5rem;">شكل توضيحي: مخطط تفصيلي</p>
+                    </div>
+
                     <h2 id="section-2">مبدأ عمل المضخة الأفقية</h2>
                     <p>تعمل المضخة الأفقية بنفس مبدأ <a href="centrifugal-pumps.php">الطرد المركزي</a>:</p>
                     <ol>

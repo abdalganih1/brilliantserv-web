@@ -184,6 +184,13 @@ include '../includes/config.php';
                         <li><strong>كشف تسربات المسابح:</strong> معالجة نقص المياه المستمر بدون تكسير.</li>
                     </ul>
 
+                    
+                    <!-- Technical Diagram Injection -->
+                    <div class="technical-diagram" style="margin: 2rem 0; text-align: center;">
+                        <img src="diagrams/pool-maintenance-jeddah.svg" alt="Technical Diagram" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                        <p class="caption" style="font-size: 0.9rem; color: #666; margin-top: 0.5rem;">شكل توضيحي: مخطط تفصيلي</p>
+                    </div>
+
                     <h2 id="section-2">عقود صيانة دورية</h2>
                     <p>نوفر عقود صيانة شهرية وسنوية للفلل، الفنادق، والمنتجعات في جدة. زيارات منتظمة تضمن لك راحة البال
                         ومسبحاً جاهزاً دائماً.</p>

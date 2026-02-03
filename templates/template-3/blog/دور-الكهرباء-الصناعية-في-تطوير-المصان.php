@@ -305,6 +305,13 @@ include '../includes/config.php';
                         <li><strong>أحمال التحكم:</strong> 5-10% (PLC، أنظمة SCADA، أجهزة قياس)</li>
                     </ul>
 
+                    
+                    <!-- Technical Diagram Injection -->
+                    <div class="technical-diagram" style="margin: 2rem 0; text-align: center;">
+                        <img src="diagrams/industrial-electricity-role.svg" alt="Technical Diagram" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                        <p class="caption" style="font-size: 0.9rem; color: #666; margin-top: 0.5rem;">شكل توضيحي: مخطط تفصيلي</p>
+                    </div>
+
                     <h2 id="section-2">تصميم النظام الكهربائي للمصنع - خطوة بخطوة</h2>
                     <p>التصميم الصحيح يوفر 30% من تكاليف التشغيل ويمنع 90% من الأعطال المستقبلية.</p>
 

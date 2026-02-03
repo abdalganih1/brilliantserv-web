@@ -240,6 +240,13 @@ include '../includes/config.php';
                     <p>في السعودية، تُستخدم في المصانع، محطات التحلية، منشآت البترول، محطات معالجة المياه، والمشاريع
                         الكبرى.</p>
 
+                    
+                    <!-- Technical Diagram Injection -->
+                    <div class="technical-diagram" style="margin: 2rem 0; text-align: center;">
+                        <img src="diagrams/industrial-water-pumps.svg" alt="Technical Diagram" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                        <p class="caption" style="font-size: 0.9rem; color: #666; margin-top: 0.5rem;">شكل توضيحي: مخطط تفصيلي</p>
+                    </div>
+
                     <h2 id="section-2">أنواع المضخات الصناعية</h2>
 
                     <h3>حسب التطبيق</h3>

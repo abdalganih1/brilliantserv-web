@@ -405,7 +405,14 @@ include '../includes/config.php';
 </p>
 <h2 id="section-1">أهمية المخططات الكهربائية</h2>
 <ul><li><strong>توزيع الأحمال المتوازن:</strong> لمنع انقطاع القاطع الرئيسي بشكل مستمر.</li><li><strong>تحديد مواقع الأفياش والمفاتيح:</strong> بدقة لتتناسب مع توزيع الأثاث.</li><li><strong>حساب مقاطع الأسلاك:</strong> اختيار القطر المناسب لكل مكيف وسخان لتجنب الحرارة.</li></ul>
-<h2 id="section-2">رموز مهمة في المخطط الكهربائي</h2>
+
+                    <!-- Technical Diagram Injection -->
+                    <div class="technical-diagram" style="margin: 2rem 0; text-align: center;">
+                        <img src="diagrams/electrical-layouts-for-buildings.svg" alt="Technical Diagram" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                        <p class="caption" style="font-size: 0.9rem; color: #666; margin-top: 0.5rem;">شكل توضيحي: مخطط تفصيلي</p>
+                    </div>
+
+                    <h2 id="section-2">رموز مهمة في المخطط الكهربائي</h2>
 <p>يجب على كل مالك منزل معرفة الرموز الأساسية مثل: (S) للمفتاح الفردي، (Socket) للأفياش، و (DB) للوحة التوزيع الفرعية.</p>
 <h2 id="section-3">خدماتنا في التصميم والتأسيس</h2>
 <p>في روائع الكريستال، نقدم خدمات تصميم مخططات الاوتوكاد (AutoCAD) وتنفيذ أعمال التأسيس والتشطيب بأيدي فنيين مهرة وتحت إشراف هندسي.</p>

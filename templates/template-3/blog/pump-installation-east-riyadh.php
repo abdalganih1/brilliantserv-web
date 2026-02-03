@@ -218,7 +218,14 @@ include '../includes/config.php';
 </p>
 <h2 id="section-1">أخطاء شائعة عند تركيب المضخات</h2>
 <ul><li>تركيب المضخة بدون 'رداد' (Check Valve) مما يرجع الماء للخزان.</li><li>عدم تثبيت المضخة جيداً مما يسبب اهتزازات وصوت مزعج.</li><li>استخدام مواسير بقطر أصغر من مخرج المضخة مما يخنق المحرك.</li></ul>
-<h2 id="section-2">خدماتنا في شرق الرياض</h2>
+
+                    <!-- Technical Diagram Injection -->
+                    <div class="technical-diagram" style="margin: 2rem 0; text-align: center;">
+                        <img src="diagrams/pump-installation-east-riyadh.svg" alt="Technical Diagram" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                        <p class="caption" style="font-size: 0.9rem; color: #666; margin-top: 0.5rem;">شكل توضيحي: مخطط تفصيلي</p>
+                    </div>
+
+                    <h2 id="section-2">خدماتنا في شرق الرياض</h2>
 <p>نغطي جميع أحياء شرق الرياض ونوفر خدمة الفك والتركيب والبرمجة لمضخات الضغط الذكية.</p>
 
 

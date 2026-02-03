@@ -376,7 +376,14 @@ include '../includes/config.php';
 </p>
 <h2 id="section-1">خدماتنا المعتمدة</h2>
 <ul><li>اصدار شهادات سلامة.</li><li>تركيب وصيانة شبكات الإنذار والإطفاء.</li><li>عقود صيانة سنوية معتمدة.</li></ul>
-<h2 id="section-2">لماذا تختارنا؟</h2>
+
+                    <!-- Technical Diagram Injection -->
+                    <div class="technical-diagram" style="margin: 2rem 0; text-align: center;">
+                        <img src="diagrams/civil-defense-approved-companies.svg" alt="Technical Diagram" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                        <p class="caption" style="font-size: 0.9rem; color: #666; margin-top: 0.5rem;">شكل توضيحي: مخطط تفصيلي</p>
+                    </div>
+
+                    <h2 id="section-2">لماذا تختارنا؟</h2>
 <p>سرعة في الإنجاز ودقة في التنفيذ مع ضمان قبول المعاملات لدى الدفاع المدني.</p>
 
 

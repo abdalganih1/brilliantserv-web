@@ -247,6 +247,13 @@ include '../includes/config.php';
                         <li><strong>خدمة 24/7:</strong> فريق طوارئ جاهز لخدمتك في أي وقت.</li>
                     </ul>
 
+                    
+                    <!-- Technical Diagram Injection -->
+                    <div class="technical-diagram" style="margin: 2rem 0; text-align: center;">
+                        <img src="diagrams/pump-repair-north-riyadh.svg" alt="Technical Diagram" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                        <p class="caption" style="font-size: 0.9rem; color: #666; margin-top: 0.5rem;">شكل توضيحي: مخطط تفصيلي</p>
+                    </div>
+
                     <h2 id="section-2">أعطال المضخات الشائعة التي نعالجها</h2>
                     <p>نتعامل يومياً مع مختلف أنواع الأعطال في شمال الرياض:</p>
                     <ul>
