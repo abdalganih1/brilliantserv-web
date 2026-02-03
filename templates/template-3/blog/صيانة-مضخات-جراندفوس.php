@@ -296,46 +296,50 @@ include '../includes/config.php';
                     <h3>مضخات UPS/MAGNA</h3>
                     <p>مضخات التدوير للتدفئة والتبريد مع تقنية السرعة المتغيرة.</p>
 
-                    
+
                     <!-- Technical Diagram Injection -->
                     <div class="technical-diagram" style="margin: 2rem 0; text-align: center;">
-                        <img src="/blog/diagrams/grundfos-maintenance.svg" alt="Technical Diagram" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-                        <p class="caption" style="font-size: 0.9rem; color: #666; margin-top: 0.5rem;">شكل توضيحي: مخطط تفصيلي</p>
+                        <img src="/blog/diagrams/grundfos-maintenance.svg" alt="Technical Diagram"
+                            style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                        <p class="caption" style="font-size: 0.9rem; color: #666; margin-top: 0.5rem;">شكل توضيحي: مخطط
+                            تفصيلي</p>
                     </div>
 
                     <h2 id="section-2">الأعطال الشائعة وحلولها</h2>
 
-                    <div class="table-responsive-wrapper"><table class="comparison-table">
-                        <thead>
-                            <tr>
-                                <th>العطل</th>
-                                <th>السبب المحتمل</th>
-                                <th>الحل</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>تسريب من المحور</td>
-                                <td>تلف Mechanical Seal</td>
-                                <td>استبدال الجلد الميكانيكي</td>
-                            </tr>
-                            <tr>
-                                <td>ضوضاء عالية</td>
-                                <td>تلف البلي (Bearings)</td>
-                                <td>استبدال الرولمان البلي</td>
-                            </tr>
-                            <tr>
-                                <td>ضعف الضخ</td>
-                                <td>تآكل المراوح</td>
-                                <td>استبدال Impeller</td>
-                            </tr>
-                            <tr>
-                                <td>لا تعمل</td>
-                                <td>تلف الملفات</td>
-                                <td>إعادة لف المحرك</td>
-                            </tr>
-                        </tbody>
-                    </table></div>
+                    <div class="table-responsive-wrapper">
+                        <table class="comparison-table">
+                            <thead>
+                                <tr>
+                                    <th>العطل</th>
+                                    <th>السبب المحتمل</th>
+                                    <th>الحل</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>تسريب من المحور</td>
+                                    <td>تلف Mechanical Seal</td>
+                                    <td>استبدال الجلد الميكانيكي</td>
+                                </tr>
+                                <tr>
+                                    <td>ضوضاء عالية</td>
+                                    <td>تلف البلي (Bearings)</td>
+                                    <td>استبدال الرولمان البلي</td>
+                                </tr>
+                                <tr>
+                                    <td>ضعف الضخ</td>
+                                    <td>تآكل المراوح</td>
+                                    <td>استبدال Impeller</td>
+                                </tr>
+                                <tr>
+                                    <td>لا تعمل</td>
+                                    <td>تلف الملفات</td>
+                                    <td>إعادة لف المحرك</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
 
                     <h2 id="section-3">خدماتنا لمضخات جراندفوس</h2>
 
@@ -490,7 +494,12 @@ include '../includes/config.php';
 
                     include '../includes/blog-article-footer.php';
                     ?>
-                    <script src="../js/blog-interactions.js"></script>
+                </div><!-- /.article-wrapper -->
+            </div><!-- /.container -->
+    </article>
+
+    <?php include '../includes/footer.php'; ?>
+    <script src="../js/blog-interactions.js"></script>
 </body>
 
 </html>
