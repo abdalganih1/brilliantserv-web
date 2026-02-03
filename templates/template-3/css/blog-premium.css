@@ -27,7 +27,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, transparent 50%);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
     pointer-events: none;
 }
 
@@ -311,13 +311,14 @@
    ============================================ */
 
 @media (max-width: 768px) {
+
     .comparison-table,
     .blog-article table {
         display: block;
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
     }
-    
+
     .comparison-table th,
     .comparison-table td,
     .blog-article table th,
@@ -326,19 +327,19 @@
         font-size: 0.875rem;
         white-space: nowrap;
     }
-    
+
     .article-cta {
         padding: 2rem 1.5rem !important;
     }
-    
+
     .article-cta h3 {
         font-size: 1.4rem !important;
     }
-    
+
     .article-cta .cta-buttons {
         flex-direction: column !important;
     }
-    
+
     .article-cta .cta-buttons a {
         width: 100%;
         justify-content: center;
@@ -350,8 +351,15 @@
    ============================================ */
 
 @keyframes subtlePulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.85; }
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.85;
+    }
 }
 
 .article-cta .cta-buttons a:first-child {
@@ -360,4 +368,456 @@
 
 .article-cta .cta-buttons a:first-child:hover {
     animation: none;
+}
+
+/* ============================================
+   TABLE OF CONTENTS
+   ============================================ */
+
+.article-toc {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border: 1px solid #e2e8f0;
+    border-radius: 1rem;
+    padding: 1.5rem 2rem;
+    margin: 2rem 0;
+    position: relative;
+}
+
+.article-toc::before {
+    content: '📋';
+    position: absolute;
+    top: -12px;
+    right: 20px;
+    background: #fff;
+    padding: 0 0.5rem;
+    font-size: 1.5rem;
+}
+
+.article-toc h4 {
+    color: #1e3a5f;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.article-toc ol {
+    list-style: none;
+    counter-reset: toc;
+    padding: 0;
+    margin: 0;
+}
+
+.article-toc li {
+    counter-increment: toc;
+    margin-bottom: 0.5rem;
+}
+
+.article-toc li::before {
+    content: counter(toc) ".";
+    color: #10b981;
+    font-weight: 700;
+    margin-left: 0.5rem;
+}
+
+.article-toc a {
+    color: #475569;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.article-toc a:hover {
+    color: #10b981;
+    padding-right: 5px;
+}
+
+/* ============================================
+   HIGHLIGHT BOX / STATS BOX
+   ============================================ */
+
+.article-highlight-box {
+    background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+    border: 2px solid #10b981;
+    border-radius: 1rem;
+    padding: 1.5rem 2rem;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.article-highlight-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    height: 100%;
+    background: linear-gradient(90deg, transparent 0%, rgba(16, 185, 129, 0.1) 100%);
+}
+
+.article-highlight-box .highlight-icon {
+    font-size: 3rem;
+    flex-shrink: 0;
+}
+
+.article-highlight-box .highlight-content {
+    flex: 1;
+}
+
+.article-highlight-box .highlight-number {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #059669;
+    line-height: 1;
+    margin-bottom: 0.25rem;
+}
+
+.article-highlight-box .highlight-text {
+    color: #065f46;
+    font-weight: 500;
+}
+
+/* Multiple stats grid */
+.article-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.article-stats-grid .stat-card {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border: 1px solid #bae6fd;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.article-stats-grid .stat-card:hover {
+    transform: translateY(-3px);
+}
+
+.article-stats-grid .stat-number {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #0369a1;
+    display: block;
+}
+
+.article-stats-grid .stat-label {
+    color: #0c4a6e;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* ============================================
+   STEP-BY-STEP GUIDE
+   ============================================ */
+
+.article-steps {
+    margin: 2rem 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: steps;
+}
+
+.article-steps .step-item {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    border: 1px solid #e2e8f0;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.article-steps .step-item:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transform: translateX(-5px);
+}
+
+.article-steps .step-item::before {
+    counter-increment: steps;
+    content: counter(steps);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: white;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.article-steps .step-content {
+    flex: 1;
+}
+
+.article-steps .step-content h4 {
+    color: #1e293b;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.article-steps .step-content p {
+    color: #64748b;
+    margin: 0;
+    line-height: 1.7;
+}
+
+/* ============================================
+   DIAGRAM CONTAINER
+   ============================================ */
+
+.article-diagram {
+    background: #fff;
+    border: 2px solid #e2e8f0;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.article-diagram img,
+.article-diagram svg {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.article-diagram figcaption {
+    color: #64748b;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+/* Inline article images */
+.article-inline-image {
+    width: 100%;
+    border-radius: 1rem;
+    margin: 2rem 0;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* ============================================
+   ORDERED LISTS ENHANCEMENT
+   ============================================ */
+
+.article-body ol {
+    counter-reset: list;
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+}
+
+.article-body ol li {
+    counter-increment: list;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem 1.25rem;
+    background: #f8fafc;
+    border-radius: 0.75rem;
+    border-right: 4px solid #10b981;
+}
+
+.article-body ol li::before {
+    content: counter(list);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    background: #10b981;
+    color: white;
+    border-radius: 50%;
+    font-size: 0.85rem;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+/* ============================================
+   CALLOUT BOXES
+   ============================================ */
+
+.article-callout {
+    border-radius: 1rem;
+    padding: 1.5rem 2rem;
+    margin: 2rem 0;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.article-callout.info {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border: 1px solid #93c5fd;
+}
+
+.article-callout.info::before {
+    content: 'ℹ️';
+    font-size: 1.5rem;
+}
+
+.article-callout.warning {
+    background: linear-gradient(135deg, #fefce8 0%, #fef9c3 100%);
+    border: 1px solid #fde047;
+}
+
+.article-callout.warning::before {
+    content: '⚠️';
+    font-size: 1.5rem;
+}
+
+.article-callout.tip {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    border: 1px solid #86efac;
+}
+
+.article-callout.tip::before {
+    content: '💡';
+    font-size: 1.5rem;
+}
+
+.article-callout.important {
+    background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+    border: 1px solid #fca5a5;
+}
+
+.article-callout.important::before {
+    content: '🔴';
+    font-size: 1.5rem;
+}
+
+.article-callout p {
+    margin: 0 !important;
+    color: #334155;
+}
+
+/* ============================================
+   AUTHOR & UPDATE INFO
+   ============================================ */
+
+.article-meta {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background: #f8fafc;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.article-meta .author-avatar {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.article-meta .author-info {
+    flex: 1;
+}
+
+.article-meta .author-name {
+    font-weight: 700;
+    color: #1e293b;
+    font-size: 1.1rem;
+}
+
+.article-meta .article-date {
+    color: #64748b;
+    font-size: 0.9rem;
+}
+
+.article-meta .reading-time {
+    background: #e0f2fe;
+    color: #0369a1;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+/* ============================================
+   CHECKLIST STYLE
+   ============================================ */
+
+.article-checklist {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+}
+
+.article-checklist li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: #f8fafc;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+.article-checklist li:hover {
+    background: #f0fdf4;
+}
+
+.article-checklist li::before {
+    content: '✅';
+    font-size: 1.1rem;
+}
+
+/* ============================================
+   MOBILE RESPONSIVENESS FOR NEW COMPONENTS
+   ============================================ */
+
+@media (max-width: 768px) {
+    .article-highlight-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .article-steps .step-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .article-steps .step-item::before {
+        margin: 0 auto 1rem;
+    }
+
+    .article-meta {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .article-stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .article-callout {
+        flex-direction: column;
+        text-align: center;
+    }
 }
