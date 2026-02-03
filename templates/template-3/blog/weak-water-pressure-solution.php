@@ -78,8 +78,40 @@ include '../includes/config.php';
                 <div class="article-body">
                     <p class="lead">لا شيء أسوأ من الاستحمام تحت "قطرات" مياه ضعيفة. ضعف ضغط الماء مشكلة شائعة في
                         الرياض، ولكن الخبر الجيد أن معظم أسبابها قابلة للحل.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
 
-                    <h2>الأسباب الرئيسية لضعف الضغط</h2>
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+
+                    <h2 id="section-1">الأسباب الرئيسية لضعف الضغط</h2>
                     <ul>
                         <li><strong>انسداد الفلاتر (Aerators):</strong> تراكم الأملاح في رأس الحنفية هو السبب رقم 1.
                         </li>

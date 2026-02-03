@@ -97,14 +97,59 @@ include '../includes/config.php';
                         loading="lazy">
                 </div>
                 <div class="article-body">
-                    <h2>ما هي لوحات تحكم الضغط؟</h2>
+                    <h2 id="section-1">ما هي لوحات تحكم الضغط؟</h2>
                     <p>لوحات تحكم الضغط هي <strong>أنظمة أوتوماتيكية</strong> تتحكم في تشغيل وسرعة المضخات للحفاظ على
                         ضغط ثابت في شبكة المياه. تستخدم حساسات ضغط دقيقة ومحولات تردد (VFD) للتحكم السلس.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. ما هي لوحات تحكم الضغط؟</a></li>
+                            <li><a href="#section-2">2. أنواع التحكم بالضغط</a></li>
+                            <li><a href="#section-3">3. مكونات النظام</a></li>
+                            <li><a href="#section-4">4. فوائد التحكم الأوتوماتيكي</a></li>
+                            <li><a href="#section-5">5. التطبيقات</a></li>
+                            <li><a href="#section-6">6. الأسئلة الشائعة</a></li>
+                        </ol>
+                    </div>
+
 
                     <p>تُستخدم في <a href="water-booster-systems.php">أنظمة Booster</a>، المباني السكنية، التجارية،
                         والصناعية.</p>
 
-                    <h2>أنواع التحكم بالضغط</h2>
+                    <h2 id="section-2">أنواع التحكم بالضغط</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -137,7 +182,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>مكونات النظام</h2>
+                    <h2 id="section-3">مكونات النظام</h2>
                     <ol>
                         <li><strong>حساس الضغط:</strong> 4-20mA أو 0-10V</li>
                         <li><strong>المتحكم:</strong> PID controller أو PLC</li>
@@ -146,7 +191,7 @@ include '../includes/config.php';
                         <li><strong>إنذارات:</strong> ضغط عالي/منخفض</li>
                     </ol>
 
-                    <h2>فوائد التحكم الأوتوماتيكي</h2>
+                    <h2 id="section-4">فوائد التحكم الأوتوماتيكي</h2>
                     <ul>
                         <li>✅ <strong>ضغط ثابت:</strong> لا تذبذب في الضغط</li>
                         <li>✅ <strong>توفير طاقة:</strong> 30-50% مع VFD</li>
@@ -155,7 +200,7 @@ include '../includes/config.php';
                         <li>✅ <strong>تقليل الصيانة:</strong> بدء ناعم</li>
                     </ul>
 
-                    <h2>التطبيقات</h2>
+                    <h2 id="section-5">التطبيقات</h2>
                     <ul>
                         <li><a href="water-booster-systems.php">أنظمة تعزيز الضغط</a></li>
                         <li>مباني سكنية وتجارية</li>
@@ -164,7 +209,7 @@ include '../includes/config.php';
                         <li>أنظمة الري</li>
                     </ul>
 
-                    <h2>الأسئلة الشائعة</h2>
+                    <h2 id="section-6">الأسئلة الشائعة</h2>
                     <div class="faq-section">
                         <div class="faq-item">
                             <h3>كم توفر من الطاقة؟</h3>

@@ -97,10 +97,54 @@ include '../includes/config.php';
                         alt="مضخات مياه السعودية" loading="lazy">
                 </div>
                 <div class="article-body">
-                    <h2>مضخات مياه لجميع مناطق السعودية</h2>
+                    <h2 id="section-1">مضخات مياه لجميع مناطق السعودية</h2>
                     <p><strong>روائع الكريستال</strong> توفر مضخات مياه في جميع مناطق المملكة العربية السعودية. مقرنا الرئيسي في <strong>الرياض</strong> ونوصل لجميع المناطق.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
 
-                    <h2>مناطق التوصيل</h2>
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. مضخات مياه لجميع مناطق السعودية</a></li>
+                            <li><a href="#section-2">2. مناطق التوصيل</a></li>
+                            <li><a href="#section-3">3. الماركات المتوفرة</a></li>
+                            <li><a href="#section-4">4. خدماتنا</a></li>
+                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                        </ol>
+                    </div>
+
+
+                    <h2 id="section-2">مناطق التوصيل</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -138,7 +182,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>الماركات المتوفرة</h2>
+                    <h2 id="section-3">الماركات المتوفرة</h2>
                     <ul>
                         <li>🇩🇰 <a href="grundfos-pump-agent-riyadh.php">Grundfos</a> - مضخات دنماركية</li>
                         <li>🇮🇹 <a href="lowara-pumps.php">Lowara</a> - مضخات إيطالية</li>
@@ -146,7 +190,7 @@ include '../includes/config.php';
                         <li>🇯🇵 <a href="ebara-pumps.php">Ebara</a> - مضخات يابانية</li>
                     </ul>
 
-                    <h2>خدماتنا</h2>
+                    <h2 id="section-4">خدماتنا</h2>
                     <ul>
                         <li>✅ توريد <a href="original-water-pumps.php">مضخات أصلية</a></li>
                         <li>✅ <a href="pumping-system-installation.php">تركيب احترافي</a></li>
@@ -154,7 +198,7 @@ include '../includes/config.php';
                         <li>✅ <a href="pump-control-panels.php">لوحات تحكم</a></li>
                     </ul>
 
-                    <h2>الأسئلة الشائعة</h2>
+                    <h2 id="section-5">الأسئلة الشائعة</h2>
                     <div class="faq-section">
                         <div class="faq-item">
                             <h3>كيف أطلب؟</h3>

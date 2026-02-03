@@ -123,12 +123,59 @@ include '../includes/config.php';
                 </div>
                 <div class="article-body">
                     <!-- المحتوى الرئيسي -->
-                    <h2>ما هي مضخات الطرد المركزي؟</h2>
+                    <h2 id="section-1">ما هي مضخات الطرد المركزي؟</h2>
                     <p>مضخات الطرد المركزي هي الأكثر استخداماً في العالم، حيث تستحوذ على أكثر من <strong>70% من سوق المضخات العالمي</strong>. تعتمد هذه المضخات على مبدأ فيزيائي بسيط لكنه فعّال للغاية: تحويل الطاقة الحركية الدورانية إلى طاقة ضغط هيدروليكية.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. ما هي مضخات الطرد المركزي؟</a></li>
+                            <li><a href="#section-2">2. كيف تعمل مضخة الطرد المركزي؟</a></li>
+                            <li><a href="#section-3">3. أنواع مضخات الطرد المركزي</a></li>
+                            <li><a href="#section-4">4. تطبيقات مضخات الطرد المركزي في السعودية</a></li>
+                            <li><a href="#section-5">5. مميزات مضخات الطرد المركزي</a></li>
+                            <li><a href="#section-6">6. العلامات التجارية المتوفرة لدينا</a></li>
+                            <li><a href="#section-7">7. خدمات صيانة مضخات الطرد المركزي</a></li>
+                            <li><a href="#section-8">8. كيف تختار مضخة الطرد المركزي المناسبة؟</a></li>
+                        </ol>
+                    </div>
+
                     
                     <p>تتميز مضخات الطرد المركزي بتصميم بسيط يجعلها مثالية للاستخدامات المنزلية والصناعية على حد سواء. وفي المملكة العربية السعودية، تُعتبر هذه المضخات العمود الفقري لأنظمة ضخ المياه في المباني السكنية، المصانع، المزارع، ومحطات تحلية المياه.</p>
 
-                    <h2>كيف تعمل مضخة الطرد المركزي؟</h2>
+                    <h2 id="section-2">كيف تعمل مضخة الطرد المركزي؟</h2>
                     <p>تتكون مضخة الطرد المركزي من عناصر أساسية تعمل معاً بتناغم:</p>
                     <ul>
                         <li><strong>المروحة (Impeller):</strong> القلب النابض للمضخة، تدور بسرعات عالية تصل إلى 3000 دورة/دقيقة</li>
@@ -142,7 +189,7 @@ include '../includes/config.php';
 
                     <img src="../media/blog/centrifugal-pump-diagram.webp" alt="مكونات مضخة الطرد المركزي - رسم توضيحي" loading="lazy" class="article-inline-image">
 
-                    <h2>أنواع مضخات الطرد المركزي</h2>
+                    <h2 id="section-3">أنواع مضخات الطرد المركزي</h2>
                     <p>تتنوع مضخات الطرد المركزي حسب التصميم والتطبيق:</p>
 
                     <h3>1. حسب وضعية العمود</h3>
@@ -181,7 +228,7 @@ include '../includes/config.php';
                         <li><strong>مروحة مفتوحة (Open):</strong> للسوائل ذات الشوائب الكثيفة</li>
                     </ul>
 
-                    <h2>تطبيقات مضخات الطرد المركزي في السعودية</h2>
+                    <h2 id="section-4">تطبيقات مضخات الطرد المركزي في السعودية</h2>
                     <p>تستخدم مضخات الطرد المركزي في مجالات متعددة بالمملكة:</p>
                     
                     <h3>القطاع السكني والتجاري</h3>
@@ -214,7 +261,7 @@ include '../includes/config.php';
                         <li>خراطيم الإطفاء الداخلية</li>
                     </ul>
 
-                    <h2>مميزات مضخات الطرد المركزي</h2>
+                    <h2 id="section-5">مميزات مضخات الطرد المركزي</h2>
                     <ul>
                         <li><strong>كفاءة عالية:</strong> تصل إلى 85% في الموديلات الحديثة</li>
                         <li><strong>تصميم بسيط:</strong> أجزاء متحركة قليلة تعني صيانة أقل</li>
@@ -224,7 +271,7 @@ include '../includes/config.php';
                         <li><strong>توافر قطع الغيار:</strong> الأكثر انتشاراً في السوق السعودي</li>
                     </ul>
 
-                    <h2>العلامات التجارية المتوفرة لدينا</h2>
+                    <h2 id="section-6">العلامات التجارية المتوفرة لدينا</h2>
                     <p>نوفر مضخات الطرد المركزي من أفضل العلامات التجارية العالمية:</p>
                     <table class="comparison-table">
                         <thead>
@@ -263,7 +310,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>خدمات صيانة مضخات الطرد المركزي</h2>
+                    <h2 id="section-7">خدمات صيانة مضخات الطرد المركزي</h2>
                     <p>نقدم في مؤسسة روائع الكريستال خدمات صيانة شاملة:</p>
                     <ul>
                         <li><strong>الصيانة الوقائية:</strong> فحص دوري كل 3-6 أشهر لمنع الأعطال</li>
@@ -274,7 +321,7 @@ include '../includes/config.php';
                         <li><strong><a href="صيانة-البوردات-الالكترونية.php">صيانة لوحات التحكم</a></strong></li>
                     </ul>
 
-                    <h2>كيف تختار مضخة الطرد المركزي المناسبة؟</h2>
+                    <h2 id="section-8">كيف تختار مضخة الطرد المركزي المناسبة؟</h2>
                     <p>لاختيار المضخة الصحيحة، يجب تحديد:</p>
                     <ol>
                         <li><strong>معدل التدفق (Q):</strong> كمية المياه المطلوبة بالمتر المكعب/ساعة</li>
@@ -286,7 +333,7 @@ include '../includes/config.php';
                     <p>فريقنا الفني يساعدك في حساب المواصفات الدقيقة مجاناً!</p>
 
                     <!-- أسعار تقريبية -->
-                    <h2>أسعار مضخات الطرد المركزي في السعودية 2026</h2>
+                    <h2 id="section-9">أسعار مضخات الطرد المركزي في السعودية 2026</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -326,7 +373,7 @@ include '../includes/config.php';
                     <p><em>* الأسعار تقريبية وتختلف حسب العلامة التجارية والمواصفات</em></p>
 
                     <!-- FAQ Section -->
-                    <h2>الأسئلة الشائعة عن مضخات الطرد المركزي</h2>
+                    <h2 id="section-10">الأسئلة الشائعة عن مضخات الطرد المركزي</h2>
                     <div class="faq-section">
                         <div class="faq-item">
                             <h3>ما هي مضخة الطرد المركزي وكيف تعمل؟</h3>
@@ -350,7 +397,7 @@ include '../includes/config.php';
                         </div>
                     </div>
 
-                    <h2>مميزات خدماتنا</h2>
+                    <h2 id="section-11">مميزات خدماتنا</h2>
                     <ul>
                         <li>✅ قطع غيار أصلية من الشركات المصنعة</li>
                         <li>✅ ضمان شامل يصل 12 شهر على جميع الأعمال</li>

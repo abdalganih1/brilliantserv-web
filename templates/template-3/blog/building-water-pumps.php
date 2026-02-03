@@ -96,9 +96,53 @@ include '../includes/config.php';
                     <img src="../media/blog/building-water-pumps-featured.webp" alt="مضخات مياه للمباني" loading="lazy">
                 </div>
                 <div class="article-body">
-                    <h2>مضخات المباني السكنية والتجارية</h2>
+                    <h2 id="section-1">مضخات المباني السكنية والتجارية</h2>
                     <p>توفير المياه بضغط مناسب لجميع طوابق المبنى يتطلب <strong>نظام ضخ متكامل</strong>. نوفر حلولاً
                         لجميع أنواع المباني:</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. مضخات المباني السكنية والتجارية</a></li>
+                            <li><a href="#section-2">2. أنظمة ضخ المباني</a></li>
+                            <li><a href="#section-3">3. اختيار المضخات حسب المبنى</a></li>
+                            <li><a href="#section-4">4. خدماتنا</a></li>
+                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                        </ol>
+                    </div>
+
                     <ul>
                         <li>عمارات سكنية (4-15 طابق)</li>
                         <li>أبراج تجارية (15+ طابق)</li>
@@ -106,7 +150,7 @@ include '../includes/config.php';
                         <li>مجمعات سكنية</li>
                     </ul>
 
-                    <h2>أنظمة ضخ المباني</h2>
+                    <h2 id="section-2">أنظمة ضخ المباني</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -134,7 +178,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>اختيار المضخات حسب المبنى</h2>
+                    <h2 id="section-3">اختيار المضخات حسب المبنى</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -162,7 +206,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>خدماتنا</h2>
+                    <h2 id="section-4">خدماتنا</h2>
                     <ul>
                         <li>✅ دراسة وتصميم النظام</li>
                         <li>✅ توريد المضخات و<a href="pump-control-panels.php">لوحات التحكم</a></li>
@@ -171,7 +215,7 @@ include '../includes/config.php';
                         <li>✅ خدمة طوارئ 24/7</li>
                     </ul>
 
-                    <h2>الأسئلة الشائعة</h2>
+                    <h2 id="section-5">الأسئلة الشائعة</h2>
                     <div class="faq-section">
                         <div class="faq-item">
                             <h3>كم تكلفة نظام ضخ للعمارة؟</h3>

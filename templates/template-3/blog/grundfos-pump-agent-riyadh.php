@@ -82,8 +82,40 @@ include '../includes/config.php';
                 <div class="article-body">
                     <p class="lead">تعتبر مضخات **Grundfos (جراندفوس)** القمة في تكنولوجيا ضخ المياه عالمياً. في روائع
                         الكريستال، نفخر بتقديم خدمات الصيانة المتكاملة وفق معايير الوكيل المعتمد في الرياض.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
 
-                    <h2>لماذا تختار جراندفوس؟</h2>
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+
+                    <h2 id="section-1">لماذا تختار جراندفوس؟</h2>
                     <p>تتميز مضخات جراندفوس بالكفاءة العالية في استهلاك الطاقة والمتانة الشديدة. ولكن للحفاظ على هذا
                         الأداء، تحتاج إلى صيانة دورية من قبل فنيين مدربين.</p>
 
@@ -94,7 +126,7 @@ include '../includes/config.php';
                         <li><strong>قطع الغيار:</strong> توفير الميكانيكال سيل (Mechanical Seals) والمراوح الأصلية.</li>
                     </ul>
 
-                    <h2>أشهر موديلات Grundfos التي نصينها</h2>
+                    <h2 id="section-2">أشهر موديلات Grundfos التي نصينها</h2>
                     <ul>
                         <li><strong>Scala2:</strong> مضخة الضغط الذكية للمنازل.</li>
                         <li><strong>CR Series:</strong> المضخات الرأسية للمباني الشاهقة.</li>

@@ -95,11 +95,54 @@ include '../includes/config.php';
                     <img src="../media/blog/pump-services-riyadh-featured.webp" alt="خدمات مضخات الرياض" loading="lazy">
                 </div>
                 <div class="article-body">
-                    <h2>خدمات متكاملة للمضخات</h2>
+                    <h2 id="section-1">خدمات متكاملة للمضخات</h2>
                     <p><strong>روائع الكريستال</strong> تقدم جميع خدمات المضخات في <strong>الرياض</strong> والمنطقة
                         الوسطى. خبرة 15+ سنة في المجال.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
 
-                    <h2>خدماتنا</h2>
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. خدمات متكاملة للمضخات</a></li>
+                            <li><a href="#section-2">2. خدماتنا</a></li>
+                            <li><a href="#section-3">3. لماذا تختارنا؟</a></li>
+                            <li><a href="#section-4">4. الأسئلة الشائعة</a></li>
+                        </ol>
+                    </div>
+
+
+                    <h2 id="section-2">خدماتنا</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -137,7 +180,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>لماذا تختارنا؟</h2>
+                    <h2 id="section-3">لماذا تختارنا؟</h2>
                     <ul>
                         <li>✅ خبرة 15+ سنة</li>
                         <li>✅ فريق مهندسين وفنيين</li>
@@ -147,7 +190,7 @@ include '../includes/config.php';
                         <li>✅ أسعار تنافسية</li>
                     </ul>
 
-                    <h2>الأسئلة الشائعة</h2>
+                    <h2 id="section-4">الأسئلة الشائعة</h2>
                     <div class="faq-section">
                         <div class="faq-item">
                             <h3>كيف أحصل على عرض سعر؟</h3>

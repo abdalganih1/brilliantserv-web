@@ -129,11 +129,43 @@ include '../includes/config.php';
 
                 <!-- Article Body -->
                 <div class="article-body">
-                    <p><p class='lead'>لوحات ستار دلتا (Star-Delta) هي الحل الأمثل لتشغيل المحركات الكبيرة (فوق 15 حصان) لحمايتها من تيار البدء العالي. نحن في روائع الكريستال نصمم ونجمع أفضل اللوحات الصناعية.</p></p>
-<h2>مكونات لوحة الستار دلتا القياسية</h2>
+                    <p><p class='lead'>لوحات ستار دلتا (Star-Delta) هي الحل الأمثل لتشغيل المحركات الكبيرة (فوق 15 حصان) لحمايتها من تيار البدء العالي. نحن في روائع الكريستال نصمم ونجمع أفضل اللوحات الصناعية.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+</p>
+<h2 id="section-1">مكونات لوحة الستار دلتا القياسية</h2>
 <p>نحرص على استخدام مكونات أوروبية (Schneider, ABB) لضمان الاستدامة:</p>
 <ul><li><strong>3 كونتاكتورات رئيسية:</strong> (Main, Delta, Star) تتحمل الحمل الكامل.</li><li><strong>مؤقت زمني (Timer):</strong> للتحويل الدقيق من ستار إلى دلتا.</li><li><strong>قواطع حماية (Overload Relay):</strong> لحماية المحرك من الحمل الزائد.</li><li><strong>فاز فيلير (Phase Sequence):</strong> لمنع تشغيل المحرك في حال نقص أو قلب الفازات.</li></ul>
-<h2>لماذا تختار لوحاتنا؟</h2>
+<h2 id="section-2">لماذا تختار لوحاتنا؟</h2>
 <p>نقدم تصميم هندسي يراعي التهوية الجيدة للوحة، وترتيب الأسلاك (Cable Management)، مع مخطط كهربائي (Diagram) ملصق على الباب لسهولة الصيانة مستقبلاً. لوحاتنا مناسبة للمزارع، المصانع، ومضخات الحريق.</p>
 
 

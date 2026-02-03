@@ -112,14 +112,61 @@ include '../includes/config.php';
                     <img src="../media/blog/well-pumps-featured.webp" alt="مضخات الآبار الغاطسة" loading="lazy">
                 </div>
                 <div class="article-body">
-                    <h2>ما هي مضخات الآبار؟</h2>
+                    <h2 id="section-1">ما هي مضخات الآبار؟</h2>
                     <p>مضخات الآبار هي مضخات متخصصة لاستخراج المياه من الآبار الارتوازية والخزانات الأرضية. في السعودية،
                         تُعتبر أساسية للمزارع والاستراحات والمشاريع التي تعتمد على المياه الجوفية.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. ما هي مضخات الآبار؟</a></li>
+                            <li><a href="#section-2">2. أنواع مضخات الآبار</a></li>
+                            <li><a href="#section-3">3. مقارنة: الغاطسة vs التوربينية</a></li>
+                            <li><a href="#section-4">4. تطبيقات مضخات الآبار</a></li>
+                            <li><a href="#section-5">5. كيف تختار مضخة البئر؟</a></li>
+                            <li><a href="#section-6">6. العلامات التجارية المتوفرة</a></li>
+                            <li><a href="#section-7">7. الأسعار في السعودية 2026</a></li>
+                            <li><a href="#section-8">8. الأسئلة الشائعة</a></li>
+                        </ol>
+                    </div>
+
 
                     <p>تنقسم لنوعين رئيسيين: <strong>المضخات الغاطسة</strong> التي تكون بالكامل داخل البئر، و<strong><a
                                 href="vertical-pumps.php">المضخات التوربينية</a></strong> ذات المحرك فوق السطح.</p>
 
-                    <h2>أنواع مضخات الآبار</h2>
+                    <h2 id="section-2">أنواع مضخات الآبار</h2>
 
                     <h3>1. المضخات الغاطسة (Submersible)</h3>
                     <p>المحرك والمضخة مغمورتان بالكامل في الماء:</p>
@@ -141,7 +188,7 @@ include '../includes/config.php';
                         <li>⚠️ تحتاج قطر بئر أكبر</li>
                     </ul>
 
-                    <h2>مقارنة: الغاطسة vs التوربينية</h2>
+                    <h2 id="section-3">مقارنة: الغاطسة vs التوربينية</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -179,7 +226,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>تطبيقات مضخات الآبار</h2>
+                    <h2 id="section-4">تطبيقات مضخات الآبار</h2>
                     <ul>
                         <li><strong>الزراعة:</strong> ري المزارع والحقول</li>
                         <li><strong>المنازل:</strong> إمداد الفلل والاستراحات</li>
@@ -188,7 +235,7 @@ include '../includes/config.php';
                         <li><strong><a href="fire-pumps.php">مضخات الحريق</a>:</strong> السحب من خزانات تحت الأرض</li>
                     </ul>
 
-                    <h2>كيف تختار مضخة البئر؟</h2>
+                    <h2 id="section-5">كيف تختار مضخة البئر؟</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -221,7 +268,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>العلامات التجارية المتوفرة</h2>
+                    <h2 id="section-6">العلامات التجارية المتوفرة</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -254,7 +301,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>الأسعار في السعودية 2026</h2>
+                    <h2 id="section-7">الأسعار في السعودية 2026</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -287,7 +334,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>الأسئلة الشائعة</h2>
+                    <h2 id="section-8">الأسئلة الشائعة</h2>
                     <div class="faq-section">
                         <div class="faq-item">
                             <h3>ما الفرق بين الغاطسة والتوربينية؟</h3>
@@ -310,7 +357,7 @@ include '../includes/config.php';
                         </div>
                     </div>
 
-                    <h2>خدماتنا</h2>
+                    <h2 id="section-9">خدماتنا</h2>
                     <ul>
                         <li>✅ توريد مضخات أصلية</li>
                         <li>✅ تركيب وتنزيل</li>

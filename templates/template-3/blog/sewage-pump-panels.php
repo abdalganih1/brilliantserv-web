@@ -96,11 +96,55 @@ include '../includes/config.php';
                     <img src="../media/blog/sewage-pump-panels-featured.webp" alt="لوحات صرف صحي" loading="lazy">
                 </div>
                 <div class="article-body">
-                    <h2>لوحات تحكم الصرف الصحي</h2>
+                    <h2 id="section-1">لوحات تحكم الصرف الصحي</h2>
                     <p><strong>لوحات مضخات الصرف</strong> تتحكم في مضخات تصريف المياه العادمة. تحتاج حماية خاصة ونظام
                         تشغيل آلي لضمان عدم فيضان البيارة.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
 
-                    <h2>مميزات لوحاتنا</h2>
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. لوحات تحكم الصرف الصحي</a></li>
+                            <li><a href="#section-2">2. مميزات لوحاتنا</a></li>
+                            <li><a href="#section-3">3. استخدامات اللوحات</a></li>
+                            <li><a href="#section-4">4. أنواع المضخات المتوافقة</a></li>
+                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                        </ol>
+                    </div>
+
+
+                    <h2 id="section-2">مميزات لوحاتنا</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -132,7 +176,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>استخدامات اللوحات</h2>
+                    <h2 id="section-3">استخدامات اللوحات</h2>
                     <ul>
                         <li>غرف تجميع صرف صحي (بيارات)</li>
                         <li>محطات رفع صرف</li>
@@ -140,7 +184,7 @@ include '../includes/config.php';
                         <li>مجمعات صناعية</li>
                     </ul>
 
-                    <h2>أنواع المضخات المتوافقة</h2>
+                    <h2 id="section-4">أنواع المضخات المتوافقة</h2>
                     <ul>
                         <li>✅ <a href="sewage-pumps.php">مضخات Submersible</a></li>
                         <li>✅ مضخات Grinder (غرايندر)</li>
@@ -148,7 +192,7 @@ include '../includes/config.php';
                         <li>✅ Grundfos SEG/SEV</li>
                     </ul>
 
-                    <h2>الأسئلة الشائعة</h2>
+                    <h2 id="section-5">الأسئلة الشائعة</h2>
                     <div class="faq-section">
                         <div class="faq-item">
                             <h3>كم سعر لوحة صرف صحي؟</h3>

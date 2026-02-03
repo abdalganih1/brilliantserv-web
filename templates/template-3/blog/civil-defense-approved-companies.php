@@ -121,10 +121,42 @@ include '../includes/config.php';
 
                 <!-- Article Body -->
                 <div class="article-body">
-                    <p><p class='lead'>تعتبر تراخيص الدفاع المدني ضرورية لكل منشأة. نحن في روائع الكريستال نوفر جميع متطلبات السلامة وفق أحدث الكود السعودي.</p></p>
-<h2>خدماتنا المعتمدة</h2>
+                    <p><p class='lead'>تعتبر تراخيص الدفاع المدني ضرورية لكل منشأة. نحن في روائع الكريستال نوفر جميع متطلبات السلامة وفق أحدث الكود السعودي.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+</p>
+<h2 id="section-1">خدماتنا المعتمدة</h2>
 <ul><li>اصدار شهادات سلامة.</li><li>تركيب وصيانة شبكات الإنذار والإطفاء.</li><li>عقود صيانة سنوية معتمدة.</li></ul>
-<h2>لماذا تختارنا؟</h2>
+<h2 id="section-2">لماذا تختارنا؟</h2>
 <p>سرعة في الإنجاز ودقة في التنفيذ مع ضمان قبول المعاملات لدى الدفاع المدني.</p>
 
 

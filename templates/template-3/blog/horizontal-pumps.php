@@ -123,12 +123,59 @@ include '../includes/config.php';
                 </div>
                 <div class="article-body">
                     <!-- المحتوى الرئيسي -->
-                    <h2>ما هي المضخات الأفقية؟</h2>
+                    <h2 id="section-1">ما هي المضخات الأفقية؟</h2>
                     <p>المضخات الأفقية هي نوع شائع من <a href="centrifugal-pumps.php">مضخات الطرد المركزي</a> يتميز بترتيب عمود الدوران بشكل موازٍ للأرض (أفقي). تُعد هذه المضخات الخيار الأمثل للتطبيقات التي تتطلب <strong>تدفقات عالية</strong> وسهولة في الصيانة، حيث يمكن الوصول لجميع الأجزاء دون الحاجة لرفع المضخة أو تفكيكها بالكامل.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. ما هي المضخات الأفقية؟</a></li>
+                            <li><a href="#section-2">2. مبدأ عمل المضخة الأفقية</a></li>
+                            <li><a href="#section-3">3. أنواع المضخات الأفقية</a></li>
+                            <li><a href="#section-4">4. مقارنة: المضخات الأفقية vs العمودية</a></li>
+                            <li><a href="#section-5">5. تطبيقات المضخات الأفقية في السعودية</a></li>
+                            <li><a href="#section-6">6. مميزات المضخات الأفقية</a></li>
+                            <li><a href="#section-7">7. متطلبات تركيب المضخات الأفقية</a></li>
+                            <li><a href="#section-8">8. صيانة المضخات الأفقية</a></li>
+                        </ol>
+                    </div>
+
                     
                     <p>في المملكة العربية السعودية، تُستخدم المضخات الأفقية على نطاق واسع في محطات المياه، المصانع، محطات تحلية المياه، وأنظمة التكييف المركزي للمباني الكبيرة.</p>
 
-                    <h2>مبدأ عمل المضخة الأفقية</h2>
+                    <h2 id="section-2">مبدأ عمل المضخة الأفقية</h2>
                     <p>تعمل المضخة الأفقية بنفس مبدأ <a href="centrifugal-pumps.php">الطرد المركزي</a>:</p>
                     <ol>
                         <li><strong>دخول المياه:</strong> تدخل المياه من فتحة السحب المحورية (في مركز المروحة)</li>
@@ -138,7 +185,7 @@ include '../includes/config.php';
                         <li><strong>الخروج:</strong> المياه تخرج من فتحة الطرد بضغط عالٍ</li>
                     </ol>
 
-                    <h2>أنواع المضخات الأفقية</h2>
+                    <h2 id="section-3">أنواع المضخات الأفقية</h2>
                     
                     <h3>1. حسب طريقة التقسيم (Split Case)</h3>
                     <table class="comparison-table">
@@ -182,7 +229,7 @@ include '../includes/config.php';
 
                     <img src="../media/blog/horizontal-pump-types.webp" alt="أنواع المضخات الأفقية - رسم توضيحي" loading="lazy" class="article-inline-image">
 
-                    <h2>مقارنة: المضخات الأفقية vs العمودية</h2>
+                    <h2 id="section-4">مقارنة: المضخات الأفقية vs العمودية</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -220,7 +267,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>تطبيقات المضخات الأفقية في السعودية</h2>
+                    <h2 id="section-5">تطبيقات المضخات الأفقية في السعودية</h2>
                     
                     <h3>1. محطات ضخ المياه</h3>
                     <ul>
@@ -250,7 +297,7 @@ include '../includes/config.php';
                         <li>مضخات Jockey للحفاظ على الضغط</li>
                     </ul>
 
-                    <h2>مميزات المضخات الأفقية</h2>
+                    <h2 id="section-6">مميزات المضخات الأفقية</h2>
                     <ul>
                         <li><strong>سهولة الصيانة:</strong> الوصول لجميع الأجزاء دون رفع المضخة</li>
                         <li><strong>موثوقية عالية:</strong> تصميم مُثبت عبر عقود من الاستخدام</li>
@@ -260,7 +307,7 @@ include '../includes/config.php';
                         <li><strong>تكلفة معقولة:</strong> أرخص من نظيراتها العمودية عموماً</li>
                     </ul>
 
-                    <h2>متطلبات تركيب المضخات الأفقية</h2>
+                    <h2 id="section-7">متطلبات تركيب المضخات الأفقية</h2>
                     <p>لضمان أداء مثالي وعمر طويل:</p>
                     
                     <h3>1. القاعدة الخرسانية</h3>
@@ -284,7 +331,7 @@ include '../includes/config.php';
                         <li>مانع اهتزاز مرن (Flexible Connector)</li>
                     </ul>
 
-                    <h2>صيانة المضخات الأفقية</h2>
+                    <h2 id="section-8">صيانة المضخات الأفقية</h2>
                     <p>نقدم في مؤسسة روائع الكريستال برامج صيانة متكاملة:</p>
                     
                     <h3>الصيانة الدورية (كل 3 أشهر)</h3>
@@ -304,7 +351,7 @@ include '../includes/config.php';
                         <li><a href="لف-المحركات-الكهربائية.php">فحص المحرك الكهربائي</a></li>
                     </ul>
 
-                    <h2>العلامات التجارية المتوفرة</h2>
+                    <h2 id="section-9">العلامات التجارية المتوفرة</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -348,7 +395,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>أسعار المضخات الأفقية في السعودية 2026</h2>
+                    <h2 id="section-10">أسعار المضخات الأفقية في السعودية 2026</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -382,7 +429,7 @@ include '../includes/config.php';
                     </table>
 
                     <!-- FAQ Section -->
-                    <h2>الأسئلة الشائعة عن المضخات الأفقية</h2>
+                    <h2 id="section-11">الأسئلة الشائعة عن المضخات الأفقية</h2>
                     <div class="faq-section">
                         <div class="faq-item">
                             <h3>ما الفرق بين المضخات الأفقية والعمودية؟</h3>
@@ -406,7 +453,7 @@ include '../includes/config.php';
                         </div>
                     </div>
 
-                    <h2>لماذا تختار روائع الكريستال؟</h2>
+                    <h2 id="section-12">لماذا تختار روائع الكريستال؟</h2>
                     <ul>
                         <li>✅ خبرة +15 سنة في المضخات الأفقية</li>
                         <li>✅ فريق فني معتمد من Grundfos وKSB</li>

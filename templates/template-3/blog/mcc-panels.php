@@ -96,14 +96,60 @@ include '../includes/config.php';
                     <img src="../media/blog/mcc-panels-featured.webp" alt="لوحات MCC مراكز التحكم" loading="lazy">
                 </div>
                 <div class="article-body">
-                    <h2>ما هي لوحات MCC؟</h2>
+                    <h2 id="section-1">ما هي لوحات MCC؟</h2>
                     <p>لوحات <strong>MCC (Motor Control Center)</strong> هي مراكز تحكم متكاملة للمحركات الكهربائية. تجمع
                         في وحدة واحدة: <strong>التحكم، الحماية، والتوزيع</strong> لمجموعات المحركات.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. ما هي لوحات MCC؟</a></li>
+                            <li><a href="#section-2">2. مكونات لوحة MCC</a></li>
+                            <li><a href="#section-3">3. أنواع وحدات MCC</a></li>
+                            <li><a href="#section-4">4. المواصفات والمعايير</a></li>
+                            <li><a href="#section-5">5. الماركات المستخدمة</a></li>
+                            <li><a href="#section-6">6. خدماتنا</a></li>
+                            <li><a href="#section-7">7. الأسئلة الشائعة</a></li>
+                        </ol>
+                    </div>
+
 
                     <p>تُستخدم في المصانع، محطات المعالجة، منشآت البترول، والمشاريع الكبرى التي تحتوي على عدد كبير من
                         المحركات.</p>
 
-                    <h2>مكونات لوحة MCC</h2>
+                    <h2 id="section-2">مكونات لوحة MCC</h2>
                     <ol>
                         <li><strong>حجرة التغذية:</strong> قاطع رئيسي، قضبان التوزيع</li>
                         <li><strong>وحدات المحركات:</strong> Starters لكل محرك</li>
@@ -112,7 +158,7 @@ include '../includes/config.php';
                         <li><strong>قياس:</strong> عدادات تيار وجهد</li>
                     </ol>
 
-                    <h2>أنواع وحدات MCC</h2>
+                    <h2 id="section-3">أنواع وحدات MCC</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -145,7 +191,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>المواصفات والمعايير</h2>
+                    <h2 id="section-4">المواصفات والمعايير</h2>
                     <ul>
                         <li><strong>IEC 61439:</strong> معيار اللوحات الكهربائية</li>
                         <li><strong>SEC:</strong> مواصفات الشركة السعودية للكهرباء</li>
@@ -153,7 +199,7 @@ include '../includes/config.php';
                         <li><strong>Form:</strong> Form 2b/3b/4 حسب المتطلبات</li>
                     </ul>
 
-                    <h2>الماركات المستخدمة</h2>
+                    <h2 id="section-5">الماركات المستخدمة</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -181,7 +227,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>خدماتنا</h2>
+                    <h2 id="section-6">خدماتنا</h2>
                     <ul>
                         <li>✅ تصميم وتصنيع لوحات MCC</li>
                         <li>✅ توريد لوحات جاهزة</li>
@@ -190,7 +236,7 @@ include '../includes/config.php';
                         <li>✅ صيانة وترقية</li>
                     </ul>
 
-                    <h2>الأسئلة الشائعة</h2>
+                    <h2 id="section-7">الأسئلة الشائعة</h2>
                     <div class="faq-section">
                         <div class="faq-item">
                             <h3>ما الفرق بين MCC وPCC؟</h3>

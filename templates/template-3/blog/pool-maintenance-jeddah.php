@@ -80,8 +80,40 @@ include '../includes/config.php';
 
                     <p class="lead">المسبح هو واحة الاسترخاء في منزلك، لكن إهمال صيانته قد يحوله لمصدر للأمراض. نحن في
                         روائع الكريستال نضمن لك مسبحاً نظيفاً وآمناً طوال العام.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
 
-                    <h2>خدمات صيانة المسابح التي نقدمها</h2>
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+
+                    <h2 id="section-1">خدمات صيانة المسابح التي نقدمها</h2>
                     <ul>
                         <li><strong>كنس وتنظيف المسبح:</strong> إزالة الشوائب والأتربة من القاع والجدران.</li>
                         <li><strong>وزن الكيمياء (PH & Chlorine):</strong> ضبط مستويات الكلور والرقم الهيدروجيني لضمان
@@ -91,7 +123,7 @@ include '../includes/config.php';
                         <li><strong>كشف تسربات المسابح:</strong> معالجة نقص المياه المستمر بدون تكسير.</li>
                     </ul>
 
-                    <h2>عقود صيانة دورية</h2>
+                    <h2 id="section-2">عقود صيانة دورية</h2>
                     <p>نوفر عقود صيانة شهرية وسنوية للفلل، الفنادق، والمنتجعات في جدة. زيارات منتظمة تضمن لك راحة البال
                         ومسبحاً جاهزاً دائماً.</p>
 

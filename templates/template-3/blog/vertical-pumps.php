@@ -123,15 +123,62 @@ include '../includes/config.php';
                 </div>
                 <div class="article-body">
                     <!-- المحتوى الرئيسي -->
-                    <h2>ما هي المضخات العمودية؟</h2>
+                    <h2 id="section-1">ما هي المضخات العمودية؟</h2>
                     <p>المضخات العمودية (الرأسية) هي نوع متخصص من <a href="centrifugal-pumps.php">مضخات الطرد
                             المركزي</a> يتميز بترتيب عمود الدوران بشكل عمودي على الأرض. تم تصميمها خصيصاً للتطبيقات التي
                         تتطلب <strong>مساحة أرضية محدودة</strong> مع الحاجة لضغوط عالية.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. ما هي المضخات العمودية؟</a></li>
+                            <li><a href="#section-2">2. أنواع المضخات العمودية</a></li>
+                            <li><a href="#section-3">3. مقارنة: المضخات العمودية vs الأفقية</a></li>
+                            <li><a href="#section-4">4. تطبيقات المضخات العمودية في السعودية</a></li>
+                            <li><a href="#section-5">5. مميزات المضخات العمودية</a></li>
+                            <li><a href="#section-6">6. اختيار المضخة العمودية المناسبة</a></li>
+                            <li><a href="#section-7">7. متطلبات التركيب</a></li>
+                            <li><a href="#section-8">8. صيانة المضخات العمودية</a></li>
+                        </ol>
+                    </div>
+
 
                     <p>في المملكة العربية السعودية، تُستخدم المضخات العمودية على نطاق واسع في الأبراج السكنية والتجارية،
                         محطات تعزيز الضغط، <a href="well-pumps.php">الآبار العميقة</a>، ومحطات تحلية المياه.</p>
 
-                    <h2>أنواع المضخات العمودية</h2>
+                    <h2 id="section-2">أنواع المضخات العمودية</h2>
 
                     <h3>1. المضخات العمودية متعددة المراحل (VMS)</h3>
                     <p>تُعرف أيضاً باسم CR Pumps (من Grundfos) أو مضخات <a href="multistage-pumps.php">Multistage</a>:
@@ -163,7 +210,7 @@ include '../includes/config.php';
                     <img src="../media/blog/vertical-pump-types.webp" alt="أنواع المضخات العمودية - رسم توضيحي"
                         loading="lazy" class="article-inline-image">
 
-                    <h2>مقارنة: المضخات العمودية vs الأفقية</h2>
+                    <h2 id="section-3">مقارنة: المضخات العمودية vs الأفقية</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -206,7 +253,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>تطبيقات المضخات العمودية في السعودية</h2>
+                    <h2 id="section-4">تطبيقات المضخات العمودية في السعودية</h2>
 
                     <h3>1. أنظمة تعزيز الضغط للمباني</h3>
                     <ul>
@@ -235,7 +282,7 @@ include '../includes/config.php';
                         <li>السحب من خزانات تحت الأرض</li>
                     </ul>
 
-                    <h2>مميزات المضخات العمودية</h2>
+                    <h2 id="section-5">مميزات المضخات العمودية</h2>
                     <ul>
                         <li><strong>توفير المساحة:</strong> مساحة أرضية أقل بـ 60% من الأفقية</li>
                         <li><strong>ضغط عالٍ:</strong> مثالية للمباني الشاهقة (+100 طابق)</li>
@@ -245,7 +292,7 @@ include '../includes/config.php';
                         <li><strong>كفاءة عالية:</strong> تصل 88% في التصميمات الحديثة</li>
                     </ul>
 
-                    <h2>اختيار المضخة العمودية المناسبة</h2>
+                    <h2 id="section-6">اختيار المضخة العمودية المناسبة</h2>
                     <p>العوامل الأساسية لاختيار المضخة:</p>
 
                     <table class="comparison-table">
@@ -280,7 +327,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>متطلبات التركيب</h2>
+                    <h2 id="section-7">متطلبات التركيب</h2>
 
                     <h3>للمضخات متعددة المراحل (CR/VMS)</h3>
                     <ul>
@@ -298,7 +345,7 @@ include '../includes/config.php';
                         <li>تهوية كافية للمحرك</li>
                     </ul>
 
-                    <h2>صيانة المضخات العمودية</h2>
+                    <h2 id="section-8">صيانة المضخات العمودية</h2>
                     <p>نقدم في روائع الكريستال برامج صيانة متخصصة:</p>
 
                     <h3>الصيانة الوقائية (شهرية)</h3>
@@ -317,7 +364,7 @@ include '../includes/config.php';
                         <li><a href="لف-المحركات-الكهربائية.php">فحص المحرك الكهربائي</a></li>
                     </ul>
 
-                    <h2>العلامات التجارية المتوفرة</h2>
+                    <h2 id="section-9">العلامات التجارية المتوفرة</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -355,7 +402,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>أسعار المضخات العمودية في السعودية 2026</h2>
+                    <h2 id="section-10">أسعار المضخات العمودية في السعودية 2026</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -389,7 +436,7 @@ include '../includes/config.php';
                     </table>
 
                     <!-- FAQ Section -->
-                    <h2>الأسئلة الشائعة عن المضخات العمودية</h2>
+                    <h2 id="section-11">الأسئلة الشائعة عن المضخات العمودية</h2>
                     <div class="faq-section">
                         <div class="faq-item">
                             <h3>ما هي المضخات العمودية ومتى تُستخدم؟</h3>
@@ -424,7 +471,7 @@ include '../includes/config.php';
                         </div>
                     </div>
 
-                    <h2>لماذا تختار روائع الكريستال؟</h2>
+                    <h2 id="section-12">لماذا تختار روائع الكريستال؟</h2>
                     <ul>
                         <li>✅ وكيل معتمد لـ Grundfos وLowara</li>
                         <li>✅ فريق متخصص في المضخات العمودية</li>

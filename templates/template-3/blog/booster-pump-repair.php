@@ -137,8 +137,40 @@ include '../includes/config.php';
                     <p class='lead'>مضخات الدفع (Booster Pumps) هي عصب شبكة المياه في المباني الشاهقة والفنادق. تعطلها
                         يعني انقطاع المياه عن الأدوار العليا. في روائع الكريستال، نقدم خدمة تصليح فورية لضمان استمرار
                         تدفق المياه.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
                     </p>
-                    <h2>أشهر أعطال مضخات البوستر</h2>
+                    <h2 id="section-1">أشهر أعطال مضخات البوستر</h2>
                     <p>من خلال خبرتنا الميدانية، تواجه هذه المضخات مشاكل متكررة مثل:</p>
                     <ul>
                         <li><strong>تلف البالونات (Pressure Tanks):</strong> يؤدي إلى تشغيل المضخة وإيقافها بشكل متكرر
@@ -147,7 +179,7 @@ include '../includes/config.php';
                         <li><strong>مشاكل لوحة التحكم:</strong> عدم التبديل بين المضخات (Alternation) مما يستهلك مضخة
                             واحدة ويترك الأخرى.</li>
                     </ul>
-                    <h2>لماذا يجب صيانة البوستر فوراً؟</h2>
+                    <h2 id="section-2">لماذا يجب صيانة البوستر فوراً؟</h2>
                     <p>إهمال صيانة نظام البوستر لا يؤدي فقط لانقطاع المياه، بل قد يسبب انفجار في المواسير القديمة بسبب
                         اختلال الضغط (Water Hammer). صيانتنا تشمل فحص ضغط البالونات، ضبط مفاتيح الضغط (Pressure
                         Switches)، وفحص الامبيرات.</p>

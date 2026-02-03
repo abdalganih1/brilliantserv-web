@@ -113,15 +113,62 @@ include '../includes/config.php';
                     <img src="../media/blog/fire-pumps-featured.webp" alt="مضخات الحريق المعتمدة UL FM" loading="lazy">
                 </div>
                 <div class="article-body">
-                    <h2>ما هي مضخات الحريق؟</h2>
+                    <h2 id="section-1">ما هي مضخات الحريق؟</h2>
                     <p>مضخات الحريق هي مضخات متخصصة مصممة لتوفير <strong>ضغط وتدفق عاليين</strong> لأنظمة مكافحة الحريق.
                         يجب أن تكون معتمدة من جهات دولية مثل <strong>UL</strong> (أمريكا) و<strong>FM</strong> (عالمية)
                         ومعتمدة من <strong>الدفاع المدني السعودي</strong>.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. ما هي مضخات الحريق؟</a></li>
+                            <li><a href="#section-2">2. أنواع مضخات الحريق</a></li>
+                            <li><a href="#section-3">3. مكونات منظومة مضخات الحريق</a></li>
+                            <li><a href="#section-4">4. الشهادات والاعتمادات المطلوبة</a></li>
+                            <li><a href="#section-5">5. مواصفات مضخات الحريق</a></li>
+                            <li><a href="#section-6">6. العلامات التجارية المعتمدة</a></li>
+                            <li><a href="#section-7">7. أسعار مضخات الحريق في السعودية 2026</a></li>
+                            <li><a href="#section-8">8. خدماتنا في مضخات الحريق</a></li>
+                        </ol>
+                    </div>
+
 
                     <p>في المملكة العربية السعودية، تُعتبر مضخات الحريق إلزامية في المباني التجارية، الصناعية،
                         المستشفيات، المدارس، والمجمعات السكنية الكبيرة.</p>
 
-                    <h2>أنواع مضخات الحريق</h2>
+                    <h2 id="section-2">أنواع مضخات الحريق</h2>
 
                     <h3>1. حسب مصدر الطاقة</h3>
                     <table class="comparison-table">
@@ -160,7 +207,7 @@ include '../includes/config.php';
                         <li><strong>مضخات In-Line:</strong> للمساحات الضيقة</li>
                     </ul>
 
-                    <h2>مكونات منظومة مضخات الحريق</h2>
+                    <h2 id="section-3">مكونات منظومة مضخات الحريق</h2>
                     <ol>
                         <li><strong>المضخة الكهربائية الرئيسية:</strong> التشغيل الأول</li>
                         <li><strong>المضخة الديزل الاحتياطية:</strong> عند فشل الكهربائية</li>
@@ -170,7 +217,7 @@ include '../includes/config.php';
                         <li><strong>صمامات الاختبار والفحص</strong></li>
                     </ol>
 
-                    <h2>الشهادات والاعتمادات المطلوبة</h2>
+                    <h2 id="section-4">الشهادات والاعتمادات المطلوبة</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -203,7 +250,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>مواصفات مضخات الحريق</h2>
+                    <h2 id="section-5">مواصفات مضخات الحريق</h2>
                     <p>المواصفات الأساسية حسب NFPA 20:</p>
                     <ul>
                         <li><strong>التدفق:</strong> من 500 إلى 5000+ جالون/دقيقة</li>
@@ -213,7 +260,7 @@ include '../includes/config.php';
                         <li><strong>مدة التشغيل:</strong> 30 دقيقة على الأقل بدون توقف</li>
                     </ul>
 
-                    <h2>العلامات التجارية المعتمدة</h2>
+                    <h2 id="section-6">العلامات التجارية المعتمدة</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -246,7 +293,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>أسعار مضخات الحريق في السعودية 2026</h2>
+                    <h2 id="section-7">أسعار مضخات الحريق في السعودية 2026</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -284,7 +331,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>خدماتنا في مضخات الحريق</h2>
+                    <h2 id="section-8">خدماتنا في مضخات الحريق</h2>
                     <ul>
                         <li>✅ توريد مضخات معتمدة UL/FM</li>
                         <li>✅ تركيب وفق NFPA 20</li>
@@ -294,7 +341,7 @@ include '../includes/config.php';
                         <li>✅ إصدار شهادة الدفاع المدني</li>
                     </ul>
 
-                    <h2>الأسئلة الشائعة</h2>
+                    <h2 id="section-9">الأسئلة الشائعة</h2>
                     <div class="faq-section">
                         <div class="faq-item">
                             <h3>ما هي مضخات الحريق المعتمدة؟</h3>

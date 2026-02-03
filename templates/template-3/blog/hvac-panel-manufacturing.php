@@ -97,10 +97,52 @@ include '../includes/config.php';
                         loading="lazy">
                 </div>
                 <div class="article-body">
-                    <h2>تصنيع لوحات HVAC</h2>
+                    <h2 id="section-1">تصنيع لوحات HVAC</h2>
                     <p>نصنع لوحات HVAC للتكييف المركزي بمواصفات عالية تلائم جميع أنظمة التكييف.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
 
-                    <h2>أنواع لوحات HVAC</h2>
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. تصنيع لوحات HVAC</a></li>
+                            <li><a href="#section-2">2. أنواع لوحات HVAC</a></li>
+                            <li><a href="#section-3">3. المواصفات</a></li>
+                        </ol>
+                    </div>
+
+
+                    <h2 id="section-2">أنواع لوحات HVAC</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -133,7 +175,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>المواصفات</h2>
+                    <h2 id="section-3">المواصفات</h2>
                     <ul>
                         <li>✅ مكونات Schneider / ABB أصلية</li>
                         <li>✅ تحكم VFD لتوفير الطاقة</li>

@@ -85,8 +85,51 @@ include '../includes/config.php';
                 <div class="article-body">
                     <p class="lead">جراندفوس (Grundfos) هي الشركة الدنماركية الرائدة عالمياً في صناعة المضخات. نحن
                         متخصصون في صيانة جميع موديلات جراندفوس مع قطع غيار أصلية وفنيين مدربين.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
 
-                    <h2>موديلات جراندفوس التي نصلحها</h2>
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. موديلات جراندفوس التي نصلحها</a></li>
+                            <li><a href="#section-2">2. الأعطال الشائعة وحلولها</a></li>
+                            <li><a href="#section-3">3. خدماتنا لمضخات جراندفوس</a></li>
+                            <li><a href="#section-4">4. لماذا نحن؟</a></li>
+                        </ol>
+                    </div>
+
+
+                    <h2 id="section-1">موديلات جراندفوس التي نصلحها</h2>
 
                     <h3>مضخات CR (Multistage)</h3>
                     <p>المضخات متعددة المراحل للضغط العالي، تستخدم في:</p>
@@ -110,7 +153,7 @@ include '../includes/config.php';
                     <h3>مضخات UPS/MAGNA</h3>
                     <p>مضخات التدوير للتدفئة والتبريد مع تقنية السرعة المتغيرة.</p>
 
-                    <h2>الأعطال الشائعة وحلولها</h2>
+                    <h2 id="section-2">الأعطال الشائعة وحلولها</h2>
 
                     <table class="comparison-table">
                         <thead>
@@ -144,7 +187,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>خدماتنا لمضخات جراندفوس</h2>
+                    <h2 id="section-3">خدماتنا لمضخات جراندفوس</h2>
                     <div class="features-grid">
                         <div class="feature-item">
                             <span class="feature-icon">🔧</span>
@@ -168,7 +211,7 @@ include '../includes/config.php';
                         </div>
                     </div>
 
-                    <h2>لماذا نحن؟</h2>
+                    <h2 id="section-4">لماذا نحن؟</h2>
                     <ul>
                         <li>✅ خبرة 15+ سنة في مضخات جراندفوس</li>
                         <li>✅ فنيين مدربين ومعتمدين</li>

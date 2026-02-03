@@ -129,10 +129,42 @@ include '../includes/config.php';
 
                 <!-- Article Body -->
                 <div class="article-body">
-                    <p><p class='lead'>تعتبر تعبئة شبكة الحريق من الخدمات الأساسية التي نقدمها في مؤسسة روائع الكريستال. في هذا المقال، سنناقش أهم الجوانب التقنية.</p></p>
-<h2>لماذا تختار خدماتنا؟</h2>
+                    <p><p class='lead'>تعتبر تعبئة شبكة الحريق من الخدمات الأساسية التي نقدمها في مؤسسة روائع الكريستال. في هذا المقال، سنناقش أهم الجوانب التقنية.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">نظام حريق</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">معتمد</span>
+                            <span class="stat-label">الدفاع المدني</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">استجابة</span>
+                        </div>
+                    </div>
+</p>
+<h2 id="section-1">لماذا تختار خدماتنا؟</h2>
 <ul><li>فريق فني متخصص ومدرب.</li><li>استخدام قطع غيار أصلية.</li><li>ضمان على العمل والتنفيذ.</li></ul>
-<h2>تفاصيل الخدمة</h2>
+<h2 id="section-2">تفاصيل الخدمة</h2>
 <p>نحن نضمن لك جودة عالية وسرعة في الإنجاز. تواصل معنا اليوم لمعرفة المزيد.</p>
 
 

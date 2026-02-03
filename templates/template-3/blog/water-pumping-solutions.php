@@ -105,14 +105,61 @@ include '../includes/config.php';
                         loading="lazy">
                 </div>
                 <div class="article-body">
-                    <h2>ما هي حلول ضخ المياه المتكاملة؟</h2>
+                    <h2 id="section-1">ما هي حلول ضخ المياه المتكاملة؟</h2>
                     <p>نقدم في روائع الكريستال <strong>حلولاً شاملة</strong> لأنظمة ضخ المياه تغطي كامل دورة حياة
                         المشروع: من التصميم الهندسي، اختيار المعدات، التوريد، التركيب، البرمجة، وحتى الصيانة والدعم
                         الفني.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. ما هي حلول ضخ المياه المتكاملة؟</a></li>
+                            <li><a href="#section-2">2. خدماتنا المتكاملة</a></li>
+                            <li><a href="#section-3">3. حلول حسب نوع المشروع</a></li>
+                            <li><a href="#section-4">4. مكونات محطة الضخ النموذجية</a></li>
+                            <li><a href="#section-5">5. العلامات التجارية المعتمدة</a></li>
+                            <li><a href="#section-6">6. لماذا الحلول المتكاملة؟</a></li>
+                            <li><a href="#section-7">7. الأسئلة الشائعة</a></li>
+                            <li><a href="#section-8">8. خبرتنا</a></li>
+                        </ol>
+                    </div>
+
 
                     <p>نخدم جميع القطاعات: السكني، التجاري، الصناعي، والزراعي في الرياض والمملكة العربية السعودية.</p>
 
-                    <h2>خدماتنا المتكاملة</h2>
+                    <h2 id="section-2">خدماتنا المتكاملة</h2>
 
                     <h3>1. التصميم الهندسي</h3>
                     <ul>
@@ -149,7 +196,7 @@ include '../includes/config.php';
                         <li><a href="لف-المحركات-الكهربائية.php">إصلاح المحركات</a></li>
                     </ul>
 
-                    <h2>حلول حسب نوع المشروع</h2>
+                    <h2 id="section-3">حلول حسب نوع المشروع</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -187,7 +234,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>مكونات محطة الضخ النموذجية</h2>
+                    <h2 id="section-4">مكونات محطة الضخ النموذجية</h2>
                     <ol>
                         <li><strong>المضخات:</strong> رئيسية واحتياطية</li>
                         <li><strong>لوحة التحكم:</strong> VFD أو Star-Delta</li>
@@ -197,7 +244,7 @@ include '../includes/config.php';
                         <li><strong>الحساسات:</strong> ضغط، تدفق، مستوى</li>
                     </ol>
 
-                    <h2>العلامات التجارية المعتمدة</h2>
+                    <h2 id="section-5">العلامات التجارية المعتمدة</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -230,7 +277,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>لماذا الحلول المتكاملة؟</h2>
+                    <h2 id="section-6">لماذا الحلول المتكاملة؟</h2>
                     <ul>
                         <li>✅ <strong>مسؤولية واحدة:</strong> مورد واحد لكل شيء</li>
                         <li>✅ <strong>توافق مضمون:</strong> جميع المكونات متناسقة</li>
@@ -239,7 +286,7 @@ include '../includes/config.php';
                         <li>✅ <strong>صيانة مبسطة:</strong> فريق واحد يعرف النظام</li>
                     </ul>
 
-                    <h2>الأسئلة الشائعة</h2>
+                    <h2 id="section-7">الأسئلة الشائعة</h2>
                     <div class="faq-section">
                         <div class="faq-item">
                             <h3>ما هي حلول ضخ المياه المتكاملة؟</h3>
@@ -261,7 +308,7 @@ include '../includes/config.php';
                         </div>
                     </div>
 
-                    <h2>خبرتنا</h2>
+                    <h2 id="section-8">خبرتنا</h2>
                     <ul>
                         <li>✅ +15 سنة خبرة في السوق السعودي</li>
                         <li>✅ +500 مشروع منجز</li>

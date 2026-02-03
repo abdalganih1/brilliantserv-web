@@ -114,15 +114,62 @@ include '../includes/config.php';
                         loading="lazy">
                 </div>
                 <div class="article-body">
-                    <h2>ما هي المضخات متعددة المراحل؟</h2>
+                    <h2 id="section-1">ما هي المضخات متعددة المراحل؟</h2>
                     <p>المضخات متعددة المراحل هي نوع متطور من <a href="centrifugal-pumps.php">مضخات الطرد المركزي</a>
                         تحتوي على أكثر من مروحة (Impeller) مرتبة بالتتابع على نفس العمود. كل مرحلة تزيد ضغط الماء، مما
                         يسمح بتحقيق <strong>ضغوط عالية جداً</strong> تصل إلى 500 متر وأكثر.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. ما هي المضخات متعددة المراحل؟</a></li>
+                            <li><a href="#section-2">2. مبدأ العمل</a></li>
+                            <li><a href="#section-3">3. أنواع المضخات متعددة المراحل</a></li>
+                            <li><a href="#section-4">4. مقارنة مع أحادية المرحلة</a></li>
+                            <li><a href="#section-5">5. التطبيقات الرئيسية</a></li>
+                            <li><a href="#section-6">6. اختيار عدد المراحل</a></li>
+                            <li><a href="#section-7">7. العلامات التجارية المتوفرة</a></li>
+                            <li><a href="#section-8">8. الأسعار في السعودية 2026</a></li>
+                        </ol>
+                    </div>
+
 
                     <p>في السعودية، تُعتبر هذه المضخات الحل الأمثل للأبراج السكنية، أنظمة <a
                             href="water-booster-systems.php">تعزيز الضغط</a>، محطات تحلية المياه، وأنظمة الري.</p>
 
-                    <h2>مبدأ العمل</h2>
+                    <h2 id="section-2">مبدأ العمل</h2>
                     <p>تعمل بترتيب عدة مروحات على التوالي:</p>
                     <ol>
                         <li><strong>المرحلة الأولى:</strong> تستقبل المياه وترفع ضغطها</li>
@@ -131,7 +178,7 @@ include '../includes/config.php';
                         <li><strong>الضغط الكلي:</strong> = مجموع ضغوط جميع المراحل</li>
                     </ol>
 
-                    <h2>أنواع المضخات متعددة المراحل</h2>
+                    <h2 id="section-3">أنواع المضخات متعددة المراحل</h2>
 
                     <h3>حسب وضعية التركيب</h3>
                     <table class="comparison-table">
@@ -168,7 +215,7 @@ include '../includes/config.php';
                         <li><strong>ستانلس 316:</strong> لمياه البحر والكيماويات</li>
                     </ul>
 
-                    <h2>مقارنة مع أحادية المرحلة</h2>
+                    <h2 id="section-4">مقارنة مع أحادية المرحلة</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -201,7 +248,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>التطبيقات الرئيسية</h2>
+                    <h2 id="section-5">التطبيقات الرئيسية</h2>
 
                     <h3>1. أنظمة تعزيز الضغط</h3>
                     <ul>
@@ -228,7 +275,7 @@ include '../includes/config.php';
                         <li>مضخات Jockey</li>
                     </ul>
 
-                    <h2>اختيار عدد المراحل</h2>
+                    <h2 id="section-6">اختيار عدد المراحل</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -261,7 +308,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>العلامات التجارية المتوفرة</h2>
+                    <h2 id="section-7">العلامات التجارية المتوفرة</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -294,7 +341,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>الأسعار في السعودية 2026</h2>
+                    <h2 id="section-8">الأسعار في السعودية 2026</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -327,7 +374,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>الأسئلة الشائعة</h2>
+                    <h2 id="section-9">الأسئلة الشائعة</h2>
                     <div class="faq-section">
                         <div class="faq-item">
                             <h3>ما هي المضخات متعددة المراحل؟</h3>
@@ -349,7 +396,7 @@ include '../includes/config.php';
                         </div>
                     </div>
 
-                    <h2>لماذا روائع الكريستال؟</h2>
+                    <h2 id="section-10">لماذا روائع الكريستال؟</h2>
                     <ul>
                         <li>✅ وكيل معتمد Grundfos وLowara</li>
                         <li>✅ خبرة +15 سنة</li>

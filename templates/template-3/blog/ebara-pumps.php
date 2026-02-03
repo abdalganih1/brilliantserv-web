@@ -96,11 +96,55 @@ include '../includes/config.php';
                     <img src="../media/blog/ebara-pumps-featured.webp" alt="مضخات Ebara" loading="lazy">
                 </div>
                 <div class="article-body">
-                    <h2>مضخات Ebara اليابانية</h2>
+                    <h2 id="section-1">مضخات Ebara اليابانية</h2>
                     <p><strong>Ebara</strong> شركة يابانية تأسست عام 1912، رائدة عالمياً في صناعة المضخات. تتميز بالجودة
                         اليابانية الفائقة والتخصص في مضخات الصرف الصحي.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
 
-                    <h2>موديلات Ebara</h2>
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. مضخات Ebara اليابانية</a></li>
+                            <li><a href="#section-2">2. موديلات Ebara</a></li>
+                            <li><a href="#section-3">3. مميزات Ebara</a></li>
+                            <li><a href="#section-4">4. خدماتنا لمضخات Ebara</a></li>
+                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                        </ol>
+                    </div>
+
+
+                    <h2 id="section-2">موديلات Ebara</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -138,7 +182,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>مميزات Ebara</h2>
+                    <h2 id="section-3">مميزات Ebara</h2>
                     <ul>
                         <li>✅ جودة يابانية عريقة (100+ سنة)</li>
                         <li>✅ كفاءة عالية في استهلاك الطاقة</li>
@@ -147,7 +191,7 @@ include '../includes/config.php';
                         <li>✅ قطع غيار متوفرة</li>
                     </ul>
 
-                    <h2>خدماتنا لمضخات Ebara</h2>
+                    <h2 id="section-4">خدماتنا لمضخات Ebara</h2>
                     <ul>
                         <li>توريد <a href="original-water-pumps.php">أصلي 100%</a></li>
                         <li><a href="pumping-system-installation.php">تركيب احترافي</a></li>
@@ -155,7 +199,7 @@ include '../includes/config.php';
                         <li>قطع غيار أصلية</li>
                     </ul>
 
-                    <h2>الأسئلة الشائعة</h2>
+                    <h2 id="section-5">الأسئلة الشائعة</h2>
                     <div class="faq-section">
                         <div class="faq-item">
                             <h3>Ebara أم Grundfos؟</h3>

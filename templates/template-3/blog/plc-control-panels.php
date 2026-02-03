@@ -96,9 +96,53 @@ include '../includes/config.php';
                     <img src="../media/blog/plc-control-panels-featured.webp" alt="لوحات PLC Siemens" loading="lazy">
                 </div>
                 <div class="article-body">
-                    <h2>ما هي لوحات PLC؟</h2>
+                    <h2 id="section-1">ما هي لوحات PLC؟</h2>
                     <p><strong>PLC (Programmable Logic Controller)</strong> هو متحكم منطقي قابل للبرمجة يُستخدم لأتمتة
                         العمليات الصناعية. في مجال المضخات، يتحكم PLC في:</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. ما هي لوحات PLC؟</a></li>
+                            <li><a href="#section-2">2. ماركات PLC المدعومة</a></li>
+                            <li><a href="#section-3">3. تطبيقات PLC في المضخات</a></li>
+                            <li><a href="#section-4">4. خدماتنا</a></li>
+                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                        </ol>
+                    </div>
+
                     <ul>
                         <li>تشغيل/إيقاف تلقائي حسب الشروط</li>
                         <li>تبديل المضخات (Lead/Lag)</li>
@@ -106,7 +150,7 @@ include '../includes/config.php';
                         <li>اتصال SCADA للمراقبة عن بعد</li>
                     </ul>
 
-                    <h2>ماركات PLC المدعومة</h2>
+                    <h2 id="section-2">ماركات PLC المدعومة</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -139,7 +183,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>تطبيقات PLC في المضخات</h2>
+                    <h2 id="section-3">تطبيقات PLC في المضخات</h2>
                     <ul>
                         <li><a href="water-pumping-solutions.php">محطات ضخ متعددة المضخات</a></li>
                         <li><a href="water-booster-systems.php">أنظمة Booster</a> متقدمة</li>
@@ -148,7 +192,7 @@ include '../includes/config.php';
                         <li><a href="mcc-panels.php">لوحات MCC</a> الذكية</li>
                     </ul>
 
-                    <h2>خدماتنا</h2>
+                    <h2 id="section-4">خدماتنا</h2>
                     <ul>
                         <li>✅ تصميم وتصنيع لوحات PLC</li>
                         <li>✅ برمجة Siemens TIA Portal</li>
@@ -158,7 +202,7 @@ include '../includes/config.php';
                         <li>✅ صيانة وتطوير</li>
                     </ul>
 
-                    <h2>الأسئلة الشائعة</h2>
+                    <h2 id="section-5">الأسئلة الشائعة</h2>
                     <div class="faq-section">
                         <div class="faq-item">
                             <h3>متى أحتاج PLC بدلاً من VFD؟</h3>

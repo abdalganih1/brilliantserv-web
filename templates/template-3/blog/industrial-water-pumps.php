@@ -105,14 +105,60 @@ include '../includes/config.php';
                         loading="lazy">
                 </div>
                 <div class="article-body">
-                    <h2>ما هي المضخات الصناعية؟</h2>
+                    <h2 id="section-1">ما هي المضخات الصناعية؟</h2>
                     <p>المضخات الصناعية هي مضخات عالية الأداء مصممة للعمل المستمر في <strong>ظروف صناعية قاسية</strong>:
                         درجات حرارة عالية، سوائل كيميائية، ضغوط مرتفعة، وتشغيل 24/7.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. ما هي المضخات الصناعية؟</a></li>
+                            <li><a href="#section-2">2. أنواع المضخات الصناعية</a></li>
+                            <li><a href="#section-3">3. التطبيقات الصناعية</a></li>
+                            <li><a href="#section-4">4. العلامات التجارية الصناعية</a></li>
+                            <li><a href="#section-5">5. الأسعار التقريبية 2026</a></li>
+                            <li><a href="#section-6">6. الأسئلة الشائعة</a></li>
+                            <li><a href="#section-7">7. خدماتنا الصناعية</a></li>
+                        </ol>
+                    </div>
+
 
                     <p>في السعودية، تُستخدم في المصانع، محطات التحلية، منشآت البترول، محطات معالجة المياه، والمشاريع
                         الكبرى.</p>
 
-                    <h2>أنواع المضخات الصناعية</h2>
+                    <h2 id="section-2">أنواع المضخات الصناعية</h2>
 
                     <h3>حسب التطبيق</h3>
                     <table class="comparison-table">
@@ -155,7 +201,7 @@ include '../includes/config.php';
                         <li><strong>التيتانيوم:</strong> للكيماويات العدوانية</li>
                     </ul>
 
-                    <h2>التطبيقات الصناعية</h2>
+                    <h2 id="section-3">التطبيقات الصناعية</h2>
 
                     <h3>1. محطات تحلية المياه</h3>
                     <ul>
@@ -178,7 +224,7 @@ include '../includes/config.php';
                         <li><a href="fire-pumps.php">أنظمة الحريق الصناعية</a></li>
                     </ul>
 
-                    <h2>العلامات التجارية الصناعية</h2>
+                    <h2 id="section-4">العلامات التجارية الصناعية</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -211,7 +257,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>الأسعار التقريبية 2026</h2>
+                    <h2 id="section-5">الأسعار التقريبية 2026</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -244,7 +290,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>الأسئلة الشائعة</h2>
+                    <h2 id="section-6">الأسئلة الشائعة</h2>
                     <div class="faq-section">
                         <div class="faq-item">
                             <h3>ما أفضل ماركة مضخات صناعية؟</h3>
@@ -261,7 +307,7 @@ include '../includes/config.php';
                         </div>
                     </div>
 
-                    <h2>خدماتنا الصناعية</h2>
+                    <h2 id="section-7">خدماتنا الصناعية</h2>
                     <ul>
                         <li>✅ توريد مضخات صناعية أصلية</li>
                         <li>✅ تركيب ومحاذاة دقيقة</li>

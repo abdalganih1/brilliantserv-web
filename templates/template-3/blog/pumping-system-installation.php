@@ -97,10 +97,54 @@ include '../includes/config.php';
                         alt="تركيب أنظمة ضخ المياه" loading="lazy">
                 </div>
                 <div class="article-body">
-                    <h2>خدمات تركيب أنظمة الضخ</h2>
+                    <h2 id="section-1">خدمات تركيب أنظمة الضخ</h2>
                     <p>نقدم خدمات <strong>تركيب احترافية</strong> لجميع أنظمة ضخ المياه وفق المعايير الهندسية والفنية. التركيب الصحيح يضمن أداء مثالي وعمر طويل للنظام.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
 
-                    <h2>ماذا يشمل التركيب؟</h2>
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. خدمات تركيب أنظمة الضخ</a></li>
+                            <li><a href="#section-2">2. ماذا يشمل التركيب؟</a></li>
+                            <li><a href="#section-3">3. مراحل التركيب</a></li>
+                            <li><a href="#section-4">4. لماذا نحن؟</a></li>
+                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                        </ol>
+                    </div>
+
+
+                    <h2 id="section-2">ماذا يشمل التركيب؟</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -132,7 +176,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>مراحل التركيب</h2>
+                    <h2 id="section-3">مراحل التركيب</h2>
                     <ol>
                         <li><strong>المعاينة:</strong> زيارة الموقع ودراسة المتطلبات</li>
                         <li><strong>التصميم:</strong> إعداد المخططات والمواصفات</li>
@@ -142,7 +186,7 @@ include '../includes/config.php';
                         <li><strong>التسليم:</strong> تدريب العميل وتسليم الضمان</li>
                     </ol>
 
-                    <h2>لماذا نحن؟</h2>
+                    <h2 id="section-4">لماذا نحن؟</h2>
                     <ul>
                         <li>✅ فريق مهندسين وفنيين متخصصين</li>
                         <li>✅ خبرة 15+ سنة في التركيب</li>
@@ -151,7 +195,7 @@ include '../includes/config.php';
                         <li>✅ التزام بالمواعيد</li>
                     </ul>
 
-                    <h2>الأسئلة الشائعة</h2>
+                    <h2 id="section-5">الأسئلة الشائعة</h2>
                     <div class="faq-section">
                         <div class="faq-item">
                             <h3>هل تركبون جميع الماركات؟</h3>

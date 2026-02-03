@@ -97,13 +97,58 @@ include '../includes/config.php';
                         loading="lazy">
                 </div>
                 <div class="article-body">
-                    <h2>لوحات تحكم مضخات الحريق</h2>
+                    <h2 id="section-1">لوحات تحكم مضخات الحريق</h2>
                     <p>لوحات تحكم <a href="fire-pumps.php">مضخات الحريق</a> هي أنظمة متخصصة يجب أن تكون <strong>معتمدة
                             من الدفاع المدني</strong> وتتوافق مع معايير <strong>NFPA 20</strong> الدولية.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. لوحات تحكم مضخات الحريق</a></li>
+                            <li><a href="#section-2">2. أنواع لوحات مضخات الحريق</a></li>
+                            <li><a href="#section-3">3. متطلبات NFPA 20</a></li>
+                            <li><a href="#section-4">4. الشهادات المطلوبة</a></li>
+                            <li><a href="#section-5">5. مميزات لوحاتنا</a></li>
+                            <li><a href="#section-6">6. الأسئلة الشائعة</a></li>
+                        </ol>
+                    </div>
+
 
                     <p>تضمن التشغيل التلقائي السريع للمضخات عند حدوث حريق وتوفر الحماية اللازمة.</p>
 
-                    <h2>أنواع لوحات مضخات الحريق</h2>
+                    <h2 id="section-2">أنواع لوحات مضخات الحريق</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -131,7 +176,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>متطلبات NFPA 20</h2>
+                    <h2 id="section-3">متطلبات NFPA 20</h2>
                     <ul>
                         <li>✅ تشغيل أوتوماتيكي عند انخفاض الضغط</li>
                         <li>✅ عدم توقف تلقائي (Manual stop only)</li>
@@ -141,14 +186,14 @@ include '../includes/config.php';
                         <li>✅ اختبار أسبوعي مبرمج</li>
                     </ul>
 
-                    <h2>الشهادات المطلوبة</h2>
+                    <h2 id="section-4">الشهادات المطلوبة</h2>
                     <ul>
                         <li><strong>UL 218:</strong> لوحات مضخات الحريق</li>
                         <li><strong>FM Approved:</strong> اعتماد التأمين</li>
                         <li><strong>الدفاع المدني:</strong> اعتماد محلي</li>
                     </ul>
 
-                    <h2>مميزات لوحاتنا</h2>
+                    <h2 id="section-5">مميزات لوحاتنا</h2>
                     <ul>
                         <li>✅ معتمدة من الدفاع المدني</li>
                         <li>✅ مكونات Schneider وABB</li>
@@ -157,7 +202,7 @@ include '../includes/config.php';
                         <li>✅ دعم فني 24/7</li>
                     </ul>
 
-                    <h2>الأسئلة الشائعة</h2>
+                    <h2 id="section-6">الأسئلة الشائعة</h2>
                     <div class="faq-section">
                         <div class="faq-item">
                             <h3>هل لوحات الحريق تحتاج اعتماد؟</h3>

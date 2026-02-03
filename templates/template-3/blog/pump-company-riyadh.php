@@ -97,9 +97,53 @@ include '../includes/config.php';
                     <img src="../media/blog/pump-company-riyadh-featured.webp" alt="شركة مضخات الرياض" loading="lazy">
                 </div>
                 <div class="article-body">
-                    <h2>شركة مضخات الرياض</h2>
+                    <h2 id="section-1">شركة مضخات الرياض</h2>
                     <p><strong>روائع الكريستال</strong> شركة متخصصة في مجال المضخات ولوحات التحكم في
                         <strong>الرياض</strong> منذ أكثر من 15 عاماً. نقدم خدمات متكاملة تشمل:</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. شركة مضخات الرياض</a></li>
+                            <li><a href="#section-2">2. خدماتنا في الرياض</a></li>
+                            <li><a href="#section-3">3. مناطق الخدمة في الرياض</a></li>
+                            <li><a href="#section-4">4. لماذا نحن؟</a></li>
+                            <li><a href="#section-5">5. الأسئلة الشائعة</a></li>
+                        </ol>
+                    </div>
+
                     <ul>
                         <li>✅ توريد مضخات أصلية</li>
                         <li>✅ تركيب احترافي</li>
@@ -108,7 +152,7 @@ include '../includes/config.php';
                         <li>✅ <a href="pump-control-panels.php">تصنيع لوحات تحكم</a></li>
                     </ul>
 
-                    <h2>خدماتنا في الرياض</h2>
+                    <h2 id="section-2">خدماتنا في الرياض</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -141,7 +185,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>مناطق الخدمة في الرياض</h2>
+                    <h2 id="section-3">مناطق الخدمة في الرياض</h2>
                     <p>نخدم جميع أحياء الرياض:</p>
                     <ul>
                         <li>شمال الرياض: النخيل، الياسمين، الملقا</li>
@@ -151,7 +195,7 @@ include '../includes/config.php';
                         <li>وسط الرياض: العليا، السليمانية</li>
                     </ul>
 
-                    <h2>لماذا نحن؟</h2>
+                    <h2 id="section-4">لماذا نحن؟</h2>
                     <ul>
                         <li>✅ <strong>خبرة 15+ سنة</strong> في الرياض</li>
                         <li>✅ <strong>فريق فني متخصص</strong></li>
@@ -160,7 +204,7 @@ include '../includes/config.php';
                         <li>✅ <strong>أسعار تنافسية</strong></li>
                     </ul>
 
-                    <h2>الأسئلة الشائعة</h2>
+                    <h2 id="section-5">الأسئلة الشائعة</h2>
                     <div class="faq-section">
                         <div class="faq-item">
                             <h3>هل تقدمون خدمة طوارئ؟</h3>

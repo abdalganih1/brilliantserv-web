@@ -185,8 +185,53 @@ include '../includes/config.php';
                     <p class="lead">هل توقفت مضخة المياه فجأة؟ أو لاحظت ضعفاً في ضغط الماء؟ في مؤسسة روائع الكريستال،
                         نقدم خدمة <strong>تصليح مضخات مياه شمال الرياض</strong> بأيدي فنيين متخصصين وخبرة تفوق 15 عاماً
                         في صيانة جميع أنواع المضخات.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
 
-                    <h2>لماذا تختار روائع الكريستال لتصليح المضخات؟</h2>
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. لماذا تختار روائع الكريستال لتصليح المضخات؟</a></li>
+                            <li><a href="#section-2">2. أعطال المضخات الشائعة التي نعالجها</a></li>
+                            <li><a href="#section-3">3. جدول أسعار تصليح المضخات 2026</a></li>
+                            <li><a href="#section-4">4. العلامات التجارية التي نخدمها</a></li>
+                            <li><a href="#section-5">5. مناطق تغطيتنا في شمال الرياض</a></li>
+                            <li><a href="#section-6">6. الأسئلة الشائعة</a></li>
+                        </ol>
+                    </div>
+
+
+                    <h2 id="section-1">لماذا تختار روائع الكريستال لتصليح المضخات؟</h2>
                     <p>نحن لسنا مجرد فنيين، بل مهندسون متخصصون في الأنظمة الهيدروليكية:</p>
                     <ul>
                         <li><strong>تشخيص دقيق:</strong> نستخدم أجهزة قياس الضغط والتدفق لتحديد العطل بدقة قبل أي عملية
@@ -197,7 +242,7 @@ include '../includes/config.php';
                         <li><strong>خدمة 24/7:</strong> فريق طوارئ جاهز لخدمتك في أي وقت.</li>
                     </ul>
 
-                    <h2>أعطال المضخات الشائعة التي نعالجها</h2>
+                    <h2 id="section-2">أعطال المضخات الشائعة التي نعالجها</h2>
                     <p>نتعامل يومياً مع مختلف أنواع الأعطال في شمال الرياض:</p>
                     <ul>
                         <li><strong>ضعف ضغط الماء:</strong> قد يكون بسبب تآكل المروحة (Impeller) أو انسداد في خط السحب.
@@ -212,7 +257,7 @@ include '../includes/config.php';
                         </li>
                     </ul>
 
-                    <h2>جدول أسعار تصليح المضخات 2026</h2>
+                    <h2 id="section-3">جدول أسعار تصليح المضخات 2026</h2>
                     <table class="price-table">
                         <thead>
                             <tr>
@@ -249,7 +294,7 @@ include '../includes/config.php';
                     </table>
                     <p><em>* الأسعار تقريبية وتختلف حسب ماركة المضخة وحجمها.</em></p>
 
-                    <h2>العلامات التجارية التي نخدمها</h2>
+                    <h2 id="section-4">العلامات التجارية التي نخدمها</h2>
                     <p>فريقنا مدرب على صيانة وتصليح أشهر الماركات العالمية:</p>
                     <ul>
                         <li><strong>Grundfos (جراندفوس):</strong> الماركة الدنماركية الأشهر عالمياً.</li>
@@ -259,7 +304,7 @@ include '../includes/config.php';
                         <li><strong>Pentax (بنتاكس):</strong> الاعتمادية الإيطالية.</li>
                     </ul>
 
-                    <h2>مناطق تغطيتنا في شمال الرياض</h2>
+                    <h2 id="section-5">مناطق تغطيتنا في شمال الرياض</h2>
                     <p>نصل إليك أينما كنت في أحياء شمال الرياض:</p>
                     <ul>
                         <li>حي النرجس - حي الياسمين - حي الملقا</li>
@@ -268,7 +313,7 @@ include '../includes/config.php';
                         <li>حي القيروان - حي بنبان - طريق الملك سلمان</li>
                     </ul>
 
-                    <h2>الأسئلة الشائعة</h2>
+                    <h2 id="section-6">الأسئلة الشائعة</h2>
 
                     <div class="faq-item">
                         <h3>س: كم يستغرق تصليح المضخة؟</h3>

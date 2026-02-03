@@ -105,14 +105,60 @@ include '../includes/config.php';
                         loading="lazy">
                 </div>
                 <div class="article-body">
-                    <h2>ما هو نظام Booster؟</h2>
+                    <h2 id="section-1">ما هو نظام Booster؟</h2>
                     <p>نظام <strong>Booster</strong> هو محطة ضخ متكاملة تعمل على <strong>تعزيز ضغط المياه</strong> في
                         شبكة التوزيع. يتكون من عدة مضخات تعمل بالتناوب أو معاً للحفاظ على ضغط ثابت مهما تغير الاستهلاك.
                     </p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. ما هو نظام Booster؟</a></li>
+                            <li><a href="#section-2">2. مكونات نظام Booster</a></li>
+                            <li><a href="#section-3">3. أنواع أنظمة Booster</a></li>
+                            <li><a href="#section-4">4. الماركات المعتمدة</a></li>
+                            <li><a href="#section-5">5. مميزات أنظمة VFD Booster</a></li>
+                            <li><a href="#section-6">6. خدماتنا</a></li>
+                            <li><a href="#section-7">7. الأسئلة الشائعة</a></li>
+                        </ol>
+                    </div>
+
 
                     <p>يُستخدم في المباني العالية، المناطق ضعيفة الضغط، والمشاريع التي تحتاج ضغطاً مستقراً.</p>
 
-                    <h2>مكونات نظام Booster</h2>
+                    <h2 id="section-2">مكونات نظام Booster</h2>
                     <ol>
                         <li><strong>المضخات:</strong> 2-6 <a href="multistage-pumps.php">مضخات متعددة المراحل</a></li>
                         <li><strong>لوحة التحكم:</strong> <a href="pump-control-panels.php">VFD</a> أو ستار دلتا</li>
@@ -121,7 +167,7 @@ include '../includes/config.php';
                         <li><strong>الهيكل:</strong> قاعدة معدنية مجمعة</li>
                     </ol>
 
-                    <h2>أنواع أنظمة Booster</h2>
+                    <h2 id="section-3">أنواع أنظمة Booster</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -154,7 +200,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>الماركات المعتمدة</h2>
+                    <h2 id="section-4">الماركات المعتمدة</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -187,7 +233,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>مميزات أنظمة VFD Booster</h2>
+                    <h2 id="section-5">مميزات أنظمة VFD Booster</h2>
                     <ul>
                         <li>✅ <strong>ضغط ثابت:</strong> لا تذبذب مهما تغير الاستهلاك</li>
                         <li>✅ <strong>توفير طاقة:</strong> 30-50% أقل من التقليدي</li>
@@ -196,7 +242,7 @@ include '../includes/config.php';
                         <li>✅ <strong>حماية شاملة:</strong> جفاف، ضغط زائد</li>
                     </ul>
 
-                    <h2>خدماتنا</h2>
+                    <h2 id="section-6">خدماتنا</h2>
                     <ul>
                         <li>✅ توريد أنظمة Booster جاهزة</li>
                         <li>✅ <a href="water-pumping-solutions.php">تجميع أنظمة حسب الطلب</a></li>
@@ -205,7 +251,7 @@ include '../includes/config.php';
                         <li>✅ قطع غيار أصلية</li>
                     </ul>
 
-                    <h2>الأسئلة الشائعة</h2>
+                    <h2 id="section-7">الأسئلة الشائعة</h2>
                     <div class="faq-section">
                         <div class="faq-item">
                             <h3>كم مضخة أحتاج؟</h3>

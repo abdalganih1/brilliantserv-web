@@ -80,8 +80,52 @@ include '../includes/config.php';
                 <div class="article-body">
                     <p class="lead">فهم سرعة المحركات الكهربائية وكيفية التحكم بها أمر أساسي لكل فني ومهندس. هذا الدليل
                         يشرح المفاهيم الأساسية وطرق التحكم.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
 
-                    <h2>معادلة حساب السرعة</h2>
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">1000+</span>
+                            <span class="stat-label">محرك تم صيانته</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">نوع محرك</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. معادلة حساب السرعة</a></li>
+                            <li><a href="#section-2">2. السرعات القياسية للمحركات</a></li>
+                            <li><a href="#section-3">3. ما هو الانزلاق (Slip)؟</a></li>
+                            <li><a href="#section-4">4. طرق التحكم في السرعة</a></li>
+                            <li><a href="#section-5">5. تأثير تغيير السرعة على الأداء</a></li>
+                        </ol>
+                    </div>
+
+
+                    <h2 id="section-1">معادلة حساب السرعة</h2>
 
                     <div class="info-box">
                         <h4>📐 المعادلة الأساسية</h4>
@@ -94,7 +138,7 @@ include '../includes/config.php';
                         </ul>
                     </div>
 
-                    <h2>السرعات القياسية للمحركات</h2>
+                    <h2 id="section-2">السرعات القياسية للمحركات</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -132,7 +176,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>ما هو الانزلاق (Slip)؟</h2>
+                    <h2 id="section-3">ما هو الانزلاق (Slip)؟</h2>
                     <p>الانزلاق هو الفرق بين السرعة التزامنية (النظرية) والسرعة الفعلية للمحرك. المحركات الحثية تحتاج
                         لهذا الفرق لتولد العزم.</p>
 
@@ -142,7 +186,7 @@ include '../includes/config.php';
                         <p>الانزلاق الطبيعي: 2-5%</p>
                     </div>
 
-                    <h2>طرق التحكم في السرعة</h2>
+                    <h2 id="section-4">طرق التحكم في السرعة</h2>
 
                     <h3>1. الانفرتر (VFD)</h3>
                     <p><strong>الطريقة الأفضل والأكثر كفاءة:</strong></p>
@@ -167,7 +211,7 @@ include '../includes/config.php';
                         <li>يُستخدم في المعدات القديمة</li>
                     </ul>
 
-                    <h2>تأثير تغيير السرعة على الأداء</h2>
+                    <h2 id="section-5">تأثير تغيير السرعة على الأداء</h2>
                     <ul>
                         <li>📊 <strong>التدفق (Flow)</strong>: يتناسب طردياً مع السرعة</li>
                         <li>📊 <strong>الضغط (Head)</strong>: يتناسب مع مربع السرعة</li>

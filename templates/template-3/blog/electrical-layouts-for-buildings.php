@@ -129,12 +129,54 @@ include '../includes/config.php';
 
                 <!-- Article Body -->
                 <div class="article-body">
-                    <p><p class='lead'>يعتبر المخطط الكهربائي هو الخريطة التي تضمن سلامة وكفاءة منزلك. الأخطاء في التأسيس قد تكلفك آلاف الريالات لاحقاً وتسبب مخاطر التماس الكهربائي.</p></p>
-<h2>أهمية المخططات الكهربائية</h2>
+                    <p><p class='lead'>يعتبر المخطط الكهربائي هو الخريطة التي تضمن سلامة وكفاءة منزلك. الأخطاء في التأسيس قد تكلفك آلاف الريالات لاحقاً وتسبب مخاطر التماس الكهربائي.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. أهمية المخططات الكهربائية</a></li>
+                            <li><a href="#section-2">2. رموز مهمة في المخطط الكهربائي</a></li>
+                            <li><a href="#section-3">3. خدماتنا في التصميم والتأسيس</a></li>
+                        </ol>
+                    </div>
+</p>
+<h2 id="section-1">أهمية المخططات الكهربائية</h2>
 <ul><li><strong>توزيع الأحمال المتوازن:</strong> لمنع انقطاع القاطع الرئيسي بشكل مستمر.</li><li><strong>تحديد مواقع الأفياش والمفاتيح:</strong> بدقة لتتناسب مع توزيع الأثاث.</li><li><strong>حساب مقاطع الأسلاك:</strong> اختيار القطر المناسب لكل مكيف وسخان لتجنب الحرارة.</li></ul>
-<h2>رموز مهمة في المخطط الكهربائي</h2>
+<h2 id="section-2">رموز مهمة في المخطط الكهربائي</h2>
 <p>يجب على كل مالك منزل معرفة الرموز الأساسية مثل: (S) للمفتاح الفردي، (Socket) للأفياش، و (DB) للوحة التوزيع الفرعية.</p>
-<h2>خدماتنا في التصميم والتأسيس</h2>
+<h2 id="section-3">خدماتنا في التصميم والتأسيس</h2>
 <p>في روائع الكريستال، نقدم خدمات تصميم مخططات الاوتوكاد (AutoCAD) وتنفيذ أعمال التأسيس والتشطيب بأيدي فنيين مهرة وتحت إشراف هندسي.</p>
 
 

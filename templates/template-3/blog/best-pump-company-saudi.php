@@ -97,10 +97,55 @@ include '../includes/config.php';
                         alt="أفضل شركة مضخات في السعودية" loading="lazy">
                 </div>
                 <div class="article-body">
-                    <h2>كيف تختار أفضل شركة مضخات؟</h2>
+                    <h2 id="section-1">كيف تختار أفضل شركة مضخات؟</h2>
                     <p>اختيار شركة المضخات الصحيحة يوفر عليك المال والوقت على المدى البعيد. إليك <strong>المعايير الأساسية</strong> لاختيار أفضل شركة مضخات في السعودية:</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
 
-                    <h2>معايير اختيار شركة المضخات</h2>
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. كيف تختار أفضل شركة مضخات؟</a></li>
+                            <li><a href="#section-2">2. معايير اختيار شركة المضخات</a></li>
+                            <li><a href="#section-3">3. لماذا روائع الكريستال؟</a></li>
+                            <li><a href="#section-4">4. خدماتنا المتكاملة</a></li>
+                            <li><a href="#section-5">5. الماركات المعتمدة</a></li>
+                            <li><a href="#section-6">6. الأسئلة الشائعة</a></li>
+                        </ol>
+                    </div>
+
+
+                    <h2 id="section-2">معايير اختيار شركة المضخات</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -138,7 +183,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>لماذا روائع الكريستال؟</h2>
+                    <h2 id="section-3">لماذا روائع الكريستال؟</h2>
                     <ul>
                         <li>✅ <strong>خبرة 15+ سنة:</strong> في السوق السعودي</li>
                         <li>✅ <strong>وكيل معتمد:</strong> Grundfos، Lowara، KSB</li>
@@ -148,7 +193,7 @@ include '../includes/config.php';
                         <li>✅ <strong>خدمة 24/7:</strong> في الرياض والمنطقة الوسطى</li>
                     </ul>
 
-                    <h2>خدماتنا المتكاملة</h2>
+                    <h2 id="section-4">خدماتنا المتكاملة</h2>
                     <ul>
                         <li><a href="centrifugal-pumps.php">مضخات الطرد المركزي</a></li>
                         <li><a href="multistage-pumps.php">المضخات متعددة المراحل</a></li>
@@ -159,7 +204,7 @@ include '../includes/config.php';
                         <li><a href="لف-المحركات-الكهربائية.php">لف المحركات</a></li>
                     </ul>
 
-                    <h2>الماركات المعتمدة</h2>
+                    <h2 id="section-5">الماركات المعتمدة</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -192,7 +237,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>الأسئلة الشائعة</h2>
+                    <h2 id="section-6">الأسئلة الشائعة</h2>
                     <div class="faq-section">
                         <div class="faq-item">
                             <h3>هل تخدمون خارج الرياض؟</h3>

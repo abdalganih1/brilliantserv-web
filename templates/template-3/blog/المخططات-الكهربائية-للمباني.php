@@ -73,8 +73,51 @@ include '../includes/config.php';
                 <div class="article-body">
                     <p class="lead">المخططات الكهربائية هي الخريطة التي يستخدمها الفنيون لتنفيذ التمديدات الكهربائية في
                         المباني. فهمها صحيحاً يضمن تنفيذاً آمناً وفعالاً.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
 
-                    <h2>أنواع المخططات الكهربائية</h2>
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. أنواع المخططات الكهربائية</a></li>
+                            <li><a href="#section-2">2. الرموز الكهربائية الأساسية</a></li>
+                            <li><a href="#section-3">3. معايير التصميم في السعودية</a></li>
+                            <li><a href="#section-4">4. خدماتنا في التصميم الكهربائي</a></li>
+                        </ol>
+                    </div>
+
+
+                    <h2 id="section-1">أنواع المخططات الكهربائية</h2>
 
                     <h3>1. مخطط الخط الواحد (Single Line Diagram)</h3>
                     <p>يوضح المسار الرئيسي للتيار من المحول إلى لوحات التوزيع الفرعية. يشمل:</p>
@@ -102,7 +145,7 @@ include '../includes/config.php';
                         <li>التوازن بين الفازات</li>
                     </ul>
 
-                    <h2>الرموز الكهربائية الأساسية</h2>
+                    <h2 id="section-2">الرموز الكهربائية الأساسية</h2>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -135,7 +178,7 @@ include '../includes/config.php';
                         </tbody>
                     </table>
 
-                    <h2>معايير التصميم في السعودية</h2>
+                    <h2 id="section-3">معايير التصميم في السعودية</h2>
                     <ul>
                         <li>✅ كود البناء السعودي SBC</li>
                         <li>✅ معايير شركة الكهرباء SEC</li>
@@ -143,7 +186,7 @@ include '../includes/config.php';
                         <li>✅ معايير IEC الدولية</li>
                     </ul>
 
-                    <h2>خدماتنا في التصميم الكهربائي</h2>
+                    <h2 id="section-4">خدماتنا في التصميم الكهربائي</h2>
                     <div class="features-grid">
                         <div class="feature-item">
                             <span class="feature-icon">📐</span>

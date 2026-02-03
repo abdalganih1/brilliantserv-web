@@ -73,11 +73,53 @@ include '../includes/config.php';
                 </div>
                 <div class="article-body">
                     <!-- المحتوى الرئيسي -->
-                    <h2>ما هي خدمة تجميع مضخات GRUNDFOS؟</h2>
+                    <h2 id="section-1">ما هي خدمة تجميع مضخات GRUNDFOS؟</h2>
                     <p>نقدم خدمات تجميع وتركيب مضخات جراندفوس الأصلية. يشمل التجميع أنظمة البوستر، المحطات المتكاملة،
                         والمضخات متعددة المراحل. جميع الأعمال تتم وفقاً لمعايير المصنع مع ضمان كامل.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
 
-                    <h2>مميزات خدماتنا</h2>
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+
+                    <!-- Table of Contents -->
+                    <div class="article-toc">
+                        <h4>📋 محتويات المقال</h4>
+                        <ol>
+                            <li><a href="#section-1">1. ما هي خدمة تجميع مضخات GRUNDFOS؟</a></li>
+                            <li><a href="#section-2">2. مميزات خدماتنا</a></li>
+                            <li><a href="#section-3">3. العلامات التجارية المدعومة</a></li>
+                        </ol>
+                    </div>
+
+
+                    <h2 id="section-2">مميزات خدماتنا</h2>
                     <ul>
                         <li>قطع غيار أصلية من الشركات المصنعة</li>
                         <li>ضمان شامل على جميع الأعمال</li>
@@ -85,7 +127,7 @@ include '../includes/config.php';
                         <li>خدمة سريعة في الرياض والمنطقة الوسطى</li>
                     </ul>
 
-                    <h2>العلامات التجارية المدعومة</h2>
+                    <h2 id="section-3">العلامات التجارية المدعومة</h2>
                     <ul>
                         <li>Grundfos (جراندفوس)</li>
                         <li>Lowara (لووارا)</li>

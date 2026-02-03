@@ -129,10 +129,42 @@ include '../includes/config.php';
 
                 <!-- Article Body -->
                 <div class="article-body">
-                    <p><p class='lead'>الغطاسات (Submersible Pumps) تعمل في ظروف قاسية تحت الماء، مما يجعل صيانتها تحدياً خاصاً. هل توقف الغطاس فجأة؟ أو أصبح صوته عالياً؟ إليك الدليل الشامل لتشخيص المشكلة.</p></p>
-<h2>5 علامات تدل على قرب احتراق الغطاس</h2>
+                    <p><p class='lead'>الغطاسات (Submersible Pumps) تعمل في ظروف قاسية تحت الماء، مما يجعل صيانتها تحدياً خاصاً. هل توقف الغطاس فجأة؟ أو أصبح صوته عالياً؟ إليك الدليل الشامل لتشخيص المشكلة.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+</p>
+<h2 id="section-1">5 علامات تدل على قرب احتراق الغطاس</h2>
 <ul><li><strong>نزول القاطع الكهربائي (Ttrip):</strong> بمجرد تشغيل الغطاس يفصل الكهرباء، وهذا يعني وجود تماس داخلي (Short Circuit).</li><li><strong>ضعف ضخ المياه:</strong> قد يكون بسبب انسداد مصفاة السحب بالأتربة أو تآكل الريش (Impellers).</li><li><strong>حرارة زائدة في الكابل:</strong> تدل على سحب تيار عالي (High Ampere) نتيجة حمل زائد أو مشكلة ميكانيكية.</li><li><strong>وجود زيت في الخزان:</strong> يعني تلف غرفة الزيت وتسرب زيت التبريد إلى مياه الشرب.</li></ul>
-<h2>كيف نحمي الغطاس من التلف؟</h2>
+<h2 id="section-2">كيف نحمي الغطاس من التلف؟</h2>
 <p>ننصح دائماً بتركيب <strong>لوحة حماية</strong> تحتوي على (Overload) و (Phase Failure) لحماية الغطاس من نقص الكهرباء أو سقوط إحدى الفازات. كما يجب تنظيف الخزان دورياً لمنع تراكم الطين الذي يخنق الغطاس.</p>
 <p>فريقنا مختص في سحب الغطاسات وفحصها ولف المحركات المحروقة مع الضمان.</p>
 

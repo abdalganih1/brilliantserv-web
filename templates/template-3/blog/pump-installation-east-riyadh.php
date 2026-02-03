@@ -129,10 +129,42 @@ include '../includes/config.php';
 
                 <!-- Article Body -->
                 <div class="article-body">
-                    <p><p class='lead'>سكان شرق الرياض (النسيم، الخليج، اليرموك) يعانون غالباً من ضعف المياه في الأدوار العليا. الحل يبدأ بتركيب مضخة مناسبة وبطريقة هندسية صحيحة.</p></p>
-<h2>أخطاء شائعة عند تركيب المضخات</h2>
+                    <p><p class='lead'>سكان شرق الرياض (النسيم، الخليج، اليرموك) يعانون غالباً من ضعف المياه في الأدوار العليا. الحل يبدأ بتركيب مضخة مناسبة وبطريقة هندسية صحيحة.</p>
+                    <!-- Article Meta -->
+                    <div class="article-meta">
+                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar" onerror="this.style.display='none'">
+                        <div class="meta-info">
+                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
+                            <div class="meta-details">
+                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                                <span class="reading-time">⏱️ <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق قراءة</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="article-stats-grid">
+                        <div class="stat-card">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">أنواع مضخات</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">مشروع منجز</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">سنة خبرة</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">دعم فني</span>
+                        </div>
+                    </div>
+</p>
+<h2 id="section-1">أخطاء شائعة عند تركيب المضخات</h2>
 <ul><li>تركيب المضخة بدون 'رداد' (Check Valve) مما يرجع الماء للخزان.</li><li>عدم تثبيت المضخة جيداً مما يسبب اهتزازات وصوت مزعج.</li><li>استخدام مواسير بقطر أصغر من مخرج المضخة مما يخنق المحرك.</li></ul>
-<h2>خدماتنا في شرق الرياض</h2>
+<h2 id="section-2">خدماتنا في شرق الرياض</h2>
 <p>نغطي جميع أحياء شرق الرياض ونوفر خدمة الفك والتركيب والبرمجة لمضخات الضغط الذكية.</p>
 
 
