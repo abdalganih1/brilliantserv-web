@@ -244,36 +244,38 @@ include '../includes/config.php';
                         </ol>
 
                         <h3>4. جدول مقارنة لأنواع لف المحركات الشائعة</h3>
-                        <table border="1" style="width:100%; border-collapse: collapse; text-align: center;">
-                            <thead>
-                                <tr>
-                                    <th style="padding: 8px;">النوع</th>
-                                    <th style="padding: 8px;">المميزات</th>
-                                    <th style="padding: 8px;">الاستخدام الشائع في السعودية</th>
-                                    <th style="padding: 8px;">السعر التقريبي للف (ريال سعودي)</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td style="padding: 8px;"><strong>محرك ثلاثي الأطوار (3-Phase)</strong></td>
-                                    <td style="padding: 8px;">كفاءة عالية، عزم دوران قوي، موثوقية تشغيلية.</td>
-                                    <td style="padding: 8px;">المصانع، أنظمة التكييف المركزي (Chillers)، المصاعد،
-                                        المضخات الكبيرة.</td>
-                                    <td style="padding: 8px;">900 - 5,000 (يعتمد على القدرة)</td>
-                                </tr>
-                                <tr>
-                                    <td style="padding: 8px;"><strong>محرك أحادي الطور (1-Phase)</strong></td>
-                                    <td style="padding: 8px;">بسيط التركيب، مناسب للأحمال الصغيرة والمتوسطة.</td>
-                                    <td style="padding: 8px;">مضخات المياه المنزلية، وحدات التكييف الصغيرة (Split)،
-                                        المراوح الصناعية.</td>
-                                    <td style="padding: 8px;">450 - 1,800</td>
-                                </tr>
-                                <tr>
-                                    <td style="padding: 8px;"><strong>محرك مضخة غاطسة</strong></td>
-                                    <td style="padding: 8px;">مصمم للعمل مغموراً بالماء، عزل فائق، مقاوم للصدأ.</td>
-                                    <td style="padding: 8px;">مضخات الآبار، أنظمة الصرف الصحي، نوافير المشاريع السكنية.
-                                    </td>
-                                    <td style="padding: 8px;">1,200 - 7,000
+                        <div class="table-responsive-wrapper">
+                            <table class="comparison-table">
+                                <thead>
+                                    <tr>
+                                        <th>النوع</th>
+                                        <th>المميزات</th>
+                                        <th>الاستخدام الشائع في السعودية</th>
+                                        <th>السعر التقريبي للف (ريال سعودي)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>محرك ثلاثي الأطوار (3-Phase)</strong></td>
+                                        <td>كفاءة عالية، عزم دوران قوي، موثوقية تشغيلية.</td>
+                                        <td>المصانع، أنظمة التكييف المركزي (Chillers)، المصاعد، المضخات الكبيرة.</td>
+                                        <td>900 - 5,000 (يعتمد على القدرة)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>محرك أحادي الطور (1-Phase)</strong></td>
+                                        <td>بسيط التركيب، مناسب للأحمال الصغيرة والمتوسطة.</td>
+                                        <td>مضخات المياه المنزلية، وحدات التكييف الصغيرة (Split)، المراوح الصناعية.</td>
+                                        <td>450 - 1,800</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>محرك مضخة غاطسة</strong></td>
+                                        <td>مصمم للعمل مغموراً بالماء، عزل فائق، مقاوم للصدأ.</td>
+                                        <td>مضخات الآبار، أنظمة الصرف الصحي، نوافير المشاريع السكنية.</td>
+                                        <td>1,200 - 7,000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
 
                     <!-- Article Meta -->
@@ -343,36 +345,38 @@ include '../includes/config.php';
                     </div>
 
                     <h3>1. فهم أنواع المحركات</h3>
-                    <div class="table-responsive-wrapper"><table class="comparison-table">
-                        <thead>
-                            <tr>
-                                <th>النوع</th>
-                                <th>عدد الأطوار</th>
-                                <th>الاستخدام</th>
-                                <th>صعوبة اللف</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>محرك أحادي الطور</td>
-                                <td>1 فاز</td>
-                                <td>الأجهزة المنزلية، المضخات الصغيرة</td>
-                                <td>متوسطة</td>
-                            </tr>
-                            <tr>
-                                <td>محرك ثلاثي الطور</td>
-                                <td>3 فاز</td>
-                                <td>المصانع، المعدات الثقيلة</td>
-                                <td>تحتاج خبرة</td>
-                            </tr>
-                            <tr>
-                                <td>محرك DC</td>
-                                <td>تيار مستمر</td>
-                                <td>السيارات الكهربائية، الرافعات</td>
-                                <td>متقدمة</td>
-                            </tr>
-                        </tbody>
-                    </table></div>
+                    <div class="table-responsive-wrapper">
+                        <table class="comparison-table">
+                            <thead>
+                                <tr>
+                                    <th>النوع</th>
+                                    <th>عدد الأطوار</th>
+                                    <th>الاستخدام</th>
+                                    <th>صعوبة اللف</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>محرك أحادي الطور</td>
+                                    <td>1 فاز</td>
+                                    <td>الأجهزة المنزلية، المضخات الصغيرة</td>
+                                    <td>متوسطة</td>
+                                </tr>
+                                <tr>
+                                    <td>محرك ثلاثي الطور</td>
+                                    <td>3 فاز</td>
+                                    <td>المصانع، المعدات الثقيلة</td>
+                                    <td>تحتاج خبرة</td>
+                                </tr>
+                                <tr>
+                                    <td>محرك DC</td>
+                                    <td>تيار مستمر</td>
+                                    <td>السيارات الكهربائية، الرافعات</td>
+                                    <td>متقدمة</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
 
                     <h3>2. الأدوات المطلوبة للف المحركات</h3>
                     <ul>

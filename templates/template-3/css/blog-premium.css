@@ -437,9 +437,11 @@
     .comparison-table td,
     .blog-article table th,
     .blog-article table td {
-        padding: 1rem;
+        padding: 0.75rem;
         font-size: 0.875rem;
-        white-space: nowrap;
+        white-space: normal;
+        min-width: 120px;
+        /* Ensure columns don't get too squeezed */
     }
 
     .article-cta {
