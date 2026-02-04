@@ -119,30 +119,42 @@
     background: #fff;
 }
 
+/* Robust Table Header Styling */
 .comparison-table thead,
-.blog-article table thead {
-    background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 100%);
+.blog-article table thead,
+.blog-article table tr:first-child {
+    background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 100%) !important;
+    color: #ffffff !important;
 }
 
 .comparison-table th,
-.blog-article table th {
+.blog-article table th,
+.blog-article table tr:first-child td,
+.blog-article table tr:first-child th {
     padding: 1.25rem 1.5rem;
     text-align: right;
-    color: #ffffff;
+    color: #ffffff !important;
     font-weight: 600;
     font-size: 0.95rem;
     letter-spacing: 0.02em;
     text-transform: none;
     border: none;
+    background-color: transparent !important;
+    /* Let row background show through */
 }
 
-.comparison-table th:first-child,
-.blog-article table th:first-child {
+/* Corner radius for header */
+.comparison-table thead th:first-child,
+.blog-article table thead th:first-child,
+.blog-article table tr:first-child th:first-child,
+.blog-article table tr:first-child td:first-child {
     border-radius: 0 1rem 0 0;
 }
 
-.comparison-table th:last-child,
-.blog-article table th:last-child {
+.comparison-table thead th:last-child,
+.blog-article table thead th:last-child,
+.blog-article table tr:first-child th:last-child,
+.blog-article table tr:first-child td:last-child {
     border-radius: 1rem 0 0 0;
 }
 

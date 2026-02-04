@@ -6,3 +6,8 @@ terminal.md
 SEO.md
 /ملفات المستخدم
 .gemini_api_key
+generate_missing_19_images.py
+deploy.sh
+
+*.py
+*.sh
