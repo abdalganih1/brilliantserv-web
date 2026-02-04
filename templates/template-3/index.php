@@ -398,12 +398,13 @@ include 'includes/config.php';
                     </div>
                 </div>
                 <div class="project-card"
-                    onclick="openProjectModal('media/mechanical/وحدة-مضخات-معزز-ضغط-2.jpeg', 'وحدة ضخ معززة جاهزة', 'وحدة ضخ جاهزة للتسليم والتشغيل مع لوحة تحكم ذكية')"
+                    onclick="openProjectModal('media/mechanical/واجهة-ورشة-روائع-الكريستال.jpeg', 'ورشة روائع الكريستال', 'واجهة ورشة الصيانة الرئيسية بالرياض - معتمدة من الدفاع المدني')"
                     style="cursor: pointer;">
-                    <img src="media/mechanical/وحدة-مضخات-معزز-ضغط-2.jpeg" alt="وحدة ضخ معززة جاهزة" loading="lazy">
+                    <img src="media/mechanical/واجهة-ورشة-روائع-الكريستال.jpeg" alt="ورشة روائع الكريستال"
+                        loading="lazy">
                     <div class="project-overlay">
-                        <h4>وحدة ضخ معززة جاهزة</h4>
-                        <span>جاهزة للتسليم</span>
+                        <h4>ورشة روائع الكريستال</h4>
+                        <span>الورشة الرئيسية</span>
                     </div>
                 </div>
                 <div class="project-card"
