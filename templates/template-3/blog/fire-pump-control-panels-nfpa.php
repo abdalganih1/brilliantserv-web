@@ -190,10 +190,7 @@ include '../includes/config.php';
       "name": "ما هو دور معيار NFPA 20 في تصميم
 
                     
-                </div> <!-- article-body -->
-            </div> <!-- article-wrapper -->
-        </div> <!-- container -->
-    </article>
+                
     
 <?php
                     $article = ['title' => $page_title];

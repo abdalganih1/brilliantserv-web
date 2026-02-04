@@ -193,10 +193,7 @@ include '../includes/config.php';
         "text": "في عام 2026 وما بعده، تزداد أهمية لوحات التحكم الذكية لمضخات المياه بشكل كبير. فهي توفر مزايا مثل توفير الطاقة بفضل التحكم في السرعة المتغيرة (VFD)، الحماية المتقدمة للمضخة
 
                     
-                </div> <!-- article-body -->
-            </div> <!-- article-wrapper -->
-        </div> <!-- container -->
-    </article>
+                
     
 <?php
                     $article = ['title' => $page_title];

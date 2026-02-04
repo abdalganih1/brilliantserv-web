@@ -174,10 +174,7 @@ include '../includes/config.php';
 <script type="application/ld
 
                     
-                </div> <!-- article-body -->
-            </div> <!-- article-wrapper -->
-        </div> <!-- container -->
-    </article>
+                
     
 <?php
                     $article = ['title' => $page_title];

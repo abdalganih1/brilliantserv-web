@@ -199,10 +199,7 @@ include '../includes/config.php';
         "text": "تعتبر لوحات التحكم الصناعية حاسمة لأنها تمثل
 
                     
-                </div> <!-- article-body -->
-            </div> <!-- article-wrapper -->
-        </div> <!-- container -->
-    </article>
+                
     
 <?php
                     $article = ['title' => $page_title];

@@ -203,10 +203,7 @@ include '../includes/config.php';
         "text": "نعم، نحن متخصصون في تصميم وتصنيع لوحات التحكم
 
                     
-                </div> <!-- article-body -->
-            </div> <!-- article-wrapper -->
-        </div> <!-- container -->
-    </article>
+                
     
 <?php
                     $article = ['title' => $page_title];

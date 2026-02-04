@@ -133,10 +133,7 @@ include '../includes/config.php';
                     <section class="faq
 
                     
-                </div> <!-- article-body -->
-            </div> <!-- article-wrapper -->
-        </div> <!-- container -->
-    </article>
+                
     
 <?php
                     $article = ['title' => $page_title];

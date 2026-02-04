@@ -195,10 +195,7 @@ include '../includes/config.php';
         "text": "يعمل النظام عبر ثلاث خطوات رئيسية: 1) تركيب حساسات ذكية على المضخة لقياس المتغيرات التشغيلية. 2) تقوم هذه الحساسات بإرسال البيانات لاسلكيًا عبر بوابة إنترنت الأشياء (IoT Gateway)
 
                     
-                </div> <!-- article-body -->
-            </div> <!-- article-wrapper -->
-        </div> <!-- container -->
-    </article>
+                
     
 <?php
                     $article = ['title' => $page_title];

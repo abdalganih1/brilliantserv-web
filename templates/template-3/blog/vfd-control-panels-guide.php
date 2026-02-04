@@ -171,10 +171,7 @@ include '../includes/config.php';
             <h3>هل يمكن استخدام لوحات تحكم VFD مع جميع أنواع محركات المضخ
 
                     
-                </div> <!-- article-body -->
-            </div> <!-- article-wrapper -->
-        </div> <!-- container -->
-    </article>
+                
     
 <?php
                     $article = ['title' => $page_title];

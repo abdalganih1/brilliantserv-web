@@ -150,10 +150,7 @@ include '../includes/config.php';
             <h3>هل يشمل سعر توريد لو
 
                     
-                </div> <!-- article-body -->
-            </div> <!-- article-wrapper -->
-        </div> <!-- container -->
-    </article>
+                
     
 <?php
                     $article = ['title' => $page_title];

@@ -188,10 +188,7 @@ include '../includes/config.php';
         "text": "عادةً ما تحتوي لوحة سيمنس PLC على المكونات الرئيسية التالية: وحدة المعالجة المركزية (CPU
 
                     
-                </div> <!-- article-body -->
-            </div> <!-- article-wrapper -->
-        </div> <!-- container -->
-    </article>
+                
     
 <?php
                     $article = ['title' => $page_title];
