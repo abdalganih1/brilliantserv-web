@@ -573,7 +573,7 @@ include 'includes/config.php';
         </div>
     </section>
 
-    <!-- Latest Articles (New Section) -->
+    <!-- Latest Articles (Dynamic Section) -->
     <section class="latest-blog" style="padding: 4rem 0; background: var(--color-bg);">
         <div class="container">
             <div class="section-header">
@@ -582,56 +582,47 @@ include 'includes/config.php';
                 <p>نصائح وإرشادات للحفاظ على منزلك ومنشأتك</p>
             </div>
             <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
-                <!-- Blog Card 1 -->
-                <article class="service-card" style="text-align: right; padding: 0; overflow: hidden;">
-                    <img src="media/blog/leak-detection.webp" alt="كشف تسربات المياه"
-                        style="width: 100%; height: 200px; object-fit: cover;">
-                    <div style="padding: 1.5rem;">
-                        <span
-                            style="font-size: 0.9rem; color: var(--color-primary); display: block; margin-bottom: 0.5rem;">24
-                            يناير 2026</span>
-                        <h3 style="margin-bottom: 1rem;">كشف تسربات المياه بجدة</h3>
-                        <a href="blog/leak-detection-jeddah.html" class="service-link">اقرأ المزيد <svg
-                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2" width="16" height="16">
-                                <path d="M5 12h14M12 5l7 7-7 7" />
-                            </svg></a>
-                    </div>
-                </article>
+                <?php
+                // Load blog index and get latest 3 articles
+                $blogIndexPath = __DIR__ . '/media/blog_index.json';
+                $latestArticles = [];
 
-                <!-- Blog Card 2 -->
-                <article class="service-card" style="text-align: right; padding: 0; overflow: hidden;">
-                    <img src="media/blog/cold-room.webp" alt="عزل خزانات المياه"
-                        style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
-                    <div style="padding: 1.5rem;">
-                        <span
-                            style="font-size: 0.9rem; color: var(--color-primary); display: block; margin-bottom: 0.5rem;">23
-                            يناير 2026</span>
-                        <h3 style="margin-bottom: 1rem;">عزل خزانات بمكة المكرمة</h3>
-                        <a href="blog/tank-insulation-makkah.html" class="service-link">اقرأ المزيد <svg
-                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2" width="16" height="16">
-                                <path d="M5 12h14M12 5l7 7-7 7" />
-                            </svg></a>
-                    </div>
-                </article>
+                if (file_exists($blogIndexPath)) {
+                    $blogData = json_decode(file_get_contents($blogIndexPath), true);
+                    if ($blogData) {
+                        // Sort by date descending (newest first)
+                        usort($blogData, function ($a, $b) {
+                            $dateA = isset($a['date']) ? strtotime(str_replace(['يناير', 'فبراير', 'مارس', 'أبريل', 'مايو', 'يونيو', 'يوليو', 'أغسطس', 'سبتمبر', 'أكتوبر', 'نوفمبر', 'ديسمبر'], ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'], $a['date'])) : 0;
+                            $dateB = isset($b['date']) ? strtotime(str_replace(['يناير', 'فبراير', 'مارس', 'أبريل', 'مايو', 'يونيو', 'يوليو', 'أغسطس', 'سبتمبر', 'أكتوبر', 'نوفمبر', 'ديسمبر'], ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'], $b['date'])) : 0;
+                            return $dateB - $dateA;
+                        });
+                        $latestArticles = array_slice($blogData, 0, 3);
+                    }
+                }
 
-                <!-- Blog Card 3 -->
-                <article class="service-card" style="text-align: right; padding: 0; overflow: hidden;">
-                    <img src="media/blog/water-pump-types.webp" alt="أنواع المضخات"
-                        style="width: 100%; height: 200px; object-fit: cover;" loading="lazy">
-                    <div style="padding: 1.5rem;">
-                        <span
-                            style="font-size: 0.9rem; color: var(--color-primary); display: block; margin-bottom: 0.5rem;">28
-                            يناير 2026</span>
-                        <h3 style="margin-bottom: 1rem;">أفضل أنواع مضخات المياه</h3>
-                        <a href="blog/types-of-water-pumps.php" class="service-link">اقرأ المزيد <svg
-                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2" width="16" height="16">
-                                <path d="M5 12h14M12 5l7 7-7 7" />
-                            </svg></a>
-                    </div>
-                </article>
+                foreach ($latestArticles as $article):
+                    $title = htmlspecialchars($article['title'] ?? 'مقالة');
+                    $desc = htmlspecialchars($article['desc'] ?? '');
+                    $link = $article['link'] ?? '#';
+                    $image = 'media/blog/' . ($article['image'] ?? 'default-article.webp');
+                    $date = $article['date'] ?? '';
+                    ?>
+                    <!-- Blog Card -->
+                    <article class="service-card" style="text-align: right; padding: 0; overflow: hidden;">
+                        <img src="<?= $image ?>" alt="<?= $title ?>" style="width: 100%; height: 200px; object-fit: cover;"
+                            loading="lazy">
+                        <div style="padding: 1.5rem;">
+                            <span
+                                style="font-size: 0.9rem; color: var(--color-primary); display: block; margin-bottom: 0.5rem;"><?= $date ?></span>
+                            <h3 style="margin-bottom: 1rem; font-size: 1.1rem; line-height: 1.6;"><?= $title ?></h3>
+                            <a href="<?= $link ?>" class="service-link">اقرأ المزيد <svg xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16"
+                                    height="16">
+                                    <path d="M5 12h14M12 5l7 7-7 7" />
+                                </svg></a>
+                        </div>
+                    </article>
+                <?php endforeach; ?>
             </div>
             <!-- View All Articles Button -->
             <div class="section-footer" style="margin-top: 2.5rem;">

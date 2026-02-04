@@ -14,8 +14,8 @@ $site_year = "2026";
 $phone_primary = "0550698111";
 $phone_secondary = "0501870643";
 $phone_landline = "0114160614";
-$email = "info@brilliantcrystal.sa";
-$whatsapp = "966550698111";
+$email = "info@brilliantserv.com";
+$whatsapp = "966501870643";
 
 // العنوان
 $address = "الرياض - حي المصفاة، طريق الخرج، المملكة العربية السعودية";
