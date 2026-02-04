@@ -217,24 +217,11 @@ include '../includes/config.php';
     </div>
 </section>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "ما الذي يجعل لوحات ABB تتمتع بجودة أوروبية فائقة؟",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "تلتزم لوحات ABB بأعلى معايير الجودة الأوروبية والعالمية (مثل IEC)، حيث يتم تصنيعها من مواد عالية الجودة وتخضع لاختبارات صارمة لضمان أقصى درجات الأمان والموثوقية والعمر التشغيلي الطويل، مما يعكس الخبرة الهندسية الأوروبية العريقة."
-      
-
-                    
-                
-    
 <?php
                     $article = ['title' => $page_title];
-                    $related_articles = [];
+                    $related_articles = [
+                                'لف-المحركات-الكهربائية.php' => 'لف المحركات الكهربائية',
+                                'سرعة-المحركات-الكهربائية.php' => 'سرعة المحركات الكهربائية'
+                            ];
                     include '../includes/blog-article-footer.php';
                     ?>

@@ -198,6 +198,9 @@ include '../includes/config.php';
     
 <?php
                     $article = ['title' => $page_title];
-                    $related_articles = [];
+                    $related_articles = [
+                                'لف-المحركات-الكهربائية.php' => 'لف المحركات الكهربائية',
+                                'سرعة-المحركات-الكهربائية.php' => 'سرعة المحركات الكهربائية'
+                            ];
                     include '../includes/blog-article-footer.php';
                     ?>

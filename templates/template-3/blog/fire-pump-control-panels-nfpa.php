@@ -216,28 +216,11 @@ include '../includes/config.php';
     </div>
 </section>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "ما هي لوحة تحكم مضخة الحريق وما أهميتها؟",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "لوحة تحكم مضخة الحريق هي المكون الكهربائي الذي يبدأ ويتحكم في تشغيل مضخة الحريق، سواء كانت كهربائية أو تعمل بالديزل. تكمن أهميتها القصوى في ضمان التشغيل الموثوق به للمضخة في حالات الطوارئ لإمداد نظام إطفاء الحريق بالمياه اللازمة، وهي عنصر حيوي لسلامة الأرواح والممتلكات."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "ما هو دور معيار NFPA 20 في تصميم
-
-                    
-                
-    
 <?php
                     $article = ['title' => $page_title];
-                    $related_articles = [];
+                    $related_articles = [
+                                'لف-المحركات-الكهربائية.php' => 'لف المحركات الكهربائية',
+                                'سرعة-المحركات-الكهربائية.php' => 'سرعة المحركات الكهربائية'
+                            ];
                     include '../includes/blog-article-footer.php';
                     ?>
