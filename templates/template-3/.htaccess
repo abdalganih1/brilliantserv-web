@@ -89,6 +89,15 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^blog/(.+)\.html$ blog/$1.php [L,R=301]
 
 # =====================================================
+# Force Download for /downloads/ folder (PDF files)
+# =====================================================
+<IfModule mod_headers.c>
+    <FilesMatch "downloads/.*\.pdf$">
+        Header set Content-Disposition "attachment"
+    </FilesMatch>
+</IfModule>
+
+# =====================================================
 # General Settings
 # =====================================================
 

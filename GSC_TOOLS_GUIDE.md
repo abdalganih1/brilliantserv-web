@@ -10,12 +10,63 @@
 |--------|--------|---------|
 | `gsc_analyzer.py` | الجذر | تحليل شامل + مقارنة فترات |
 | `gsc_extractor.py` | الجذر | استخراج بيانات خام |
-| `seo_comprehensive_audit.py` | `tools/` | **جديد** - تحليل SEO شامل + تغطية الكلمات المفتاحية |
-| `gsc_indexing.py` | `tools/` | **جديد** - طلب فهرسة الصفحات الجديدة من Google |
+| `seo_comprehensive_audit.py` | `tools/` | تحليل SEO شامل + تغطية الكلمات المفتاحية |
+| `gsc_indexing.py` | `tools/` | طلب فهرسة الصفحات الجديدة من Google |
+| `gsc_performance.py` | `tools/` | **جديد** - فحص ترتيب الكلمات المفتاحية وأداء الصفحات |
 
 ---
 
-## 🆕 أداة التحليل الشامل (4 فبراير 2026)
+## 🆕 أداة فحص الترتيب (4 فبراير 2026)
+
+### gsc_performance.py
+
+أداة لفحص ترتيب الكلمات المفتاحية وأداء الصفحات من Google Search Console.
+
+**المميزات:**
+- ✅ فحص ترتيب كلمة مفتاحية معينة
+- ✅ فحص أداء صفحة معينة
+- ✅ عرض أفضل الكلمات المفتاحية للموقع
+- ✅ عرض Clicks, Impressions, CTR, Position
+- ✅ تصدير النتائج إلى JSON
+
+**الاستخدام:**
+```bash
+# فحص ترتيب كلمة مفتاحية
+python tools/gsc_performance.py --keyword "لوحات التحكم الكهربائية"
+
+# فحص أداء صفحة معينة
+python tools/gsc_performance.py --url "https://brilliantserv.com/لوحات-التحكم-الكهربائية/"
+
+# عرض أفضل 20 كلمة للموقع
+python tools/gsc_performance.py --top 20
+
+# عرض أفضل كلمات لصفحة معينة
+python tools/gsc_performance.py --url "https://brilliantserv.com/blog/" --top 10
+
+# تحديد عدد الأيام (افتراضي: 28)
+python tools/gsc_performance.py --keyword "لوحات التحكم" --days 7
+```
+
+**مثال على المخرجات:**
+```
+📊 GSC Performance Report - Keyword Analysis
+🔍 Keyword: لوحات التحكم الكهربائية
+📅 Period: 2026-01-07 to 2026-02-04 (28 days)
+
+Query                                              Position   Clicks     Impr      CTR
+------------------------------------------------------------------------------------------
+لوحات التحكم الكهربائية                            🟡   15.2       12      450     2.7%
+لوحات التحكم الكهربائية في الرياض                   🔴   28.5        3      120     2.5%
+------------------------------------------------------------------------------------------
+TOTAL                                                    -       15      570
+```
+
+> [!NOTE]
+> Legend: 🟢 Top 10 | 🟡 Top 20 | 🔴 Below 20
+
+---
+
+## 📊 أداة التحليل الشامل (4 فبراير 2026)
 
 ### seo_comprehensive_audit.py
 
