@@ -387,6 +387,44 @@ include 'includes/config.php';
                 <p>نماذج من أعمالنا التي تعكس التزامنا بالجودة والاتقان</p>
             </div>
             <div class="projects-grid" style="grid-template-columns: repeat(4, 1fr);">
+                <!-- صور جديدة - فبراير 2026 -->
+                <div class="project-card"
+                    onclick="openProjectModal('media/mechanical/وحدة-مضخات-معزز-ضغط-1.jpeg', 'وحدة مضخات معزز ضغط', 'تجميع وحدات Booster لرفع ضغط المياه - تصنيع محلي بمكونات أوروبية')"
+                    style="cursor: pointer;">
+                    <img src="media/mechanical/وحدة-مضخات-معزز-ضغط-1.jpeg" alt="وحدة مضخات معزز ضغط" loading="lazy">
+                    <div class="project-overlay">
+                        <h4>وحدة مضخات معزز ضغط</h4>
+                        <span>تجميع وحدات Booster</span>
+                    </div>
+                </div>
+                <div class="project-card"
+                    onclick="openProjectModal('media/mechanical/وحدة-مضخات-معزز-ضغط-2.jpeg', 'وحدة ضخ معززة جاهزة', 'وحدة ضخ جاهزة للتسليم والتشغيل مع لوحة تحكم ذكية')"
+                    style="cursor: pointer;">
+                    <img src="media/mechanical/وحدة-مضخات-معزز-ضغط-2.jpeg" alt="وحدة ضخ معززة جاهزة" loading="lazy">
+                    <div class="project-overlay">
+                        <h4>وحدة ضخ معززة جاهزة</h4>
+                        <span>جاهزة للتسليم</span>
+                    </div>
+                </div>
+                <div class="project-card"
+                    onclick="openProjectModal('media/mechanical/ورشة-تجميع-المضخات.jpeg', 'ورشة تجميع المضخات', 'ورشتنا المتخصصة في تجميع وصيانة المضخات بأحدث الأدوات')"
+                    style="cursor: pointer;">
+                    <img src="media/mechanical/ورشة-تجميع-المضخات.jpeg" alt="ورشة تجميع المضخات" loading="lazy">
+                    <div class="project-overlay">
+                        <h4>ورشة تجميع المضخات</h4>
+                        <span>ورشة الصيانة</span>
+                    </div>
+                </div>
+                <div class="project-card"
+                    onclick="openProjectModal('media/mechanical/مبنى-ورشة-الصيانة.jpeg', 'مبنى ورشة الصيانة', 'ورشة روائع الكريستال - الرياض - مجهزة بالكامل لخدمة المضخات والمحركات')"
+                    style="cursor: pointer;">
+                    <img src="media/mechanical/مبنى-ورشة-الصيانة.jpeg" alt="مبنى ورشة الصيانة" loading="lazy">
+                    <div class="project-overlay">
+                        <h4>مبنى ورشة الصيانة</h4>
+                        <span>مقر الورشة - الرياض</span>
+                    </div>
+                </div>
+                <!-- الصور الأصلية -->
                 <div class="project-card"
                     onclick="openProjectModal('media/electrical/p17_img4.webp', 'لوحات توزيع كهربائية', 'تصنيع وتركيب لوحات التوزيع الكهربائية الرئيسية والفرعية بمكونات شنايدر وABB الأصلية')"
                     style="cursor: pointer;">
