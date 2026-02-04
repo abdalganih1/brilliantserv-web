@@ -424,6 +424,43 @@ include 'includes/config.php';
                         <span>مشروع بنية تحتية</span>
                     </div>
                 </div>
+                <!-- صور جديدة - فبراير 2026 -->
+                <div class="project-card" data-category="mechanical">
+                    <img src="media/mechanical/واجهة-ورشة-روائع-الكريستال.jpeg" alt="واجهة ورشة روائع الكريستال"
+                        loading="lazy">
+                    <div class="project-overlay">
+                        <h4>ورشة روائع الكريستال</h4>
+                        <span>ورشة الصيانة الرئيسية - الرياض</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="mechanical">
+                    <img src="media/mechanical/مبنى-ورشة-الصيانة.jpeg" alt="مبنى ورشة الصيانة" loading="lazy">
+                    <div class="project-overlay">
+                        <h4>مبنى ورشة الصيانة</h4>
+                        <span>الواجهة الخارجية للورشة</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="mechanical">
+                    <img src="media/mechanical/ورشة-تجميع-المضخات.jpeg" alt="ورشة تجميع المضخات" loading="lazy">
+                    <div class="project-overlay">
+                        <h4>ورشة تجميع المضخات</h4>
+                        <span>تجميع وحدات المضخات</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="mechanical">
+                    <img src="media/mechanical/وحدة-مضخات-معزز-ضغط-1.jpeg" alt="وحدة مضخات معزز ضغط" loading="lazy">
+                    <div class="project-overlay">
+                        <h4>وحدة مضخات معزز ضغط</h4>
+                        <span>تجميع وحدات Booster</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="mechanical">
+                    <img src="media/mechanical/وحدة-مضخات-معزز-ضغط-2.jpeg" alt="وحدة ضخ معززة جاهزة" loading="lazy">
+                    <div class="project-overlay">
+                        <h4>وحدة ضخ معززة جاهزة</h4>
+                        <span>جاهزة للتسليم والتشغيل</span>
+                    </div>
+                </div>
                 <div class="project-card" data-category="winding">
                     <img src="media/winding/لف-مواتير-1.webp?v=1769376863" alt="إعادة لف محرك 50 حصان" loading="lazy">
                     <div class="project-overlay">
