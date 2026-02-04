@@ -269,8 +269,9 @@ include 'includes/config.php';
                 <h2>ترغب في مناقشة مشروعك؟</h2>
                 <p>فريقنا جاهز لتقديم أفضل الحلول الهندسية لمشروعك</p>
                 <div class="cta-actions">
-                    <a href="contact.html" class="btn btn-light">تواصل معنا الآن</a>
-                    <a href="https://wa.me/966550698111" class="btn btn-outline-light">واتساب مباشر</a>
+                    <a href="contact.php" class="btn btn-light">تواصل معنا الآن</a>
+                    <a href="https://wa.me/966501870643?text=مرحباً، أود الاستفسار عن خدماتكم" target="_blank"
+                        class="btn btn-outline-light">واتساب مباشر</a>
                 </div>
             </div>
         </div>

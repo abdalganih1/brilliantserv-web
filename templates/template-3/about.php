@@ -334,7 +334,7 @@ include 'includes/config.php';
                     <img src="../../ملفات المستخدم/شهادات/شهادة تسليم.png" alt="شهادة تسليم" loading="lazy">
                 </div>
                 <div class="cert-card">
-                    <img src="../../ملفات المستخدم/شهادات/شهادة تسليم 2.webp" alt="شهادة تسليم مشروع" loading="lazy">
+                    <img src="../../ملفات المستخدم/شهادات/شهادة تسليم 2.png" alt="شهادة تسليم مشروع" loading="lazy">
                 </div>
                 <div class="cert-card">
                     <img src="../../ملفات المستخدم/شهادات/شهادة تسليم مخططات سلامة.png" alt="شهادة تسليم مخططات سلامة"
@@ -352,7 +352,7 @@ include 'includes/config.php';
                     <img src="../../ملفات المستخدم/شهادات/شهادة.png" alt="شهادة" loading="lazy">
                 </div>
                 <div class="cert-card">
-                    <img src="../../ملفات المستخدم/شهادات/شهادة 2.webp" alt="شهادة 2" loading="lazy">
+                    <img src="../../ملفات المستخدم/شهادات/شهادة 2.png" alt="شهادة 2" loading="lazy">
                 </div>
                 <div class="cert-card">
                     <img src="../../ملفات المستخدم/شهادات/قائمة الفروع.png" alt="قائمة الفروع" loading="lazy">
@@ -513,7 +513,8 @@ include 'includes/config.php';
                         </svg>
                         0550698111
                     </a>
-                    <a href="contact.html" class="btn btn-outline-light">أرسل استفسارك</a>
+                    <a href="https://wa.me/966501870643?text=مرحباً، أود الاستفسار عن خدماتكم" target="_blank"
+                        class="btn btn-outline-light">واتساب مباشر</a>
                 </div>
             </div>
         </div>

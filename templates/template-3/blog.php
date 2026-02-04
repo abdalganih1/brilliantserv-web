@@ -476,7 +476,8 @@ include 'includes/config.php';
                         </svg>
                         0550698111
                     </a>
-                    <a href="contact.html" class="btn btn-outline-light">أرسل استفسارك</a>
+                    <a href="https://wa.me/966501870643?text=مرحباً، أود الاستفسار عن خدماتكم" target="_blank"
+                        class="btn btn-outline-light">واتساب مباشر</a>
                 </div>
             </div>
         </div>
