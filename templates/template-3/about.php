@@ -313,49 +313,77 @@ include 'includes/config.php';
             <div class="section-header">
                 <span class="section-badge">شهاداتنا</span>
                 <h2>اعتمادات وشهادات الجودة</h2>
+                <p>نعتز بثقة عملائنا وشركائنا</p>
             </div>
             <div class="certs-grid certs-grid-expanded">
+                <!-- الشهادات الرسمية -->
                 <div class="cert-card">
-                    <img src="../../ملفات المستخدم/شهادات/شهادة السجل التجاري.png" alt="شهادة السجل التجاري"
+                    <img src="media/certificates/شهادة السجل التجاري.png" alt="شهادة السجل التجاري" loading="lazy">
+                </div>
+                <div class="cert-card">
+                    <img src="media/certificates/رخصة نشاط تجاري.png" alt="رخصة نشاط تجاري" loading="lazy">
+                </div>
+                <div class="cert-card">
+                    <img src="media/certificates/ترخيص الدفاع المدني.png" alt="ترخيص الدفاع المدني" loading="lazy">
+                </div>
+                <div class="cert-card">
+                    <img src="media/certificates/شهادة تسجيل فرع مؤسسة فردية.png" alt="شهادة تسجيل فرع مؤسسة فردية"
                         loading="lazy">
                 </div>
                 <div class="cert-card">
-                    <img src="../../ملفات المستخدم/شهادات/رخصة نشاط تجاري.png" alt="رخصة نشاط تجاري" loading="lazy">
+                    <img src="media/certificates/قائمة الفروع.png" alt="قائمة الفروع" loading="lazy">
+                </div>
+
+                <!-- شهادات التسليم -->
+                <div class="cert-card">
+                    <img src="media/certificates/شهادة تسليم.png" alt="شهادة تسليم" loading="lazy">
                 </div>
                 <div class="cert-card">
-                    <img src="../../ملفات المستخدم/شهادات/ترخيص الدفاع المدني.png" alt="ترخيص الدفاع المدني"
+                    <img src="media/certificates/شهادة تسليم 2.png" alt="شهادة تسليم مشروع" loading="lazy">
+                </div>
+                <div class="cert-card">
+                    <img src="media/certificates/شهادة تسليم مخططات سلامة.png" alt="شهادة تسليم مخططات سلامة"
                         loading="lazy">
                 </div>
                 <div class="cert-card">
-                    <img src="../../ملفات المستخدم/شهادات/شهادة تسجيل فرع مؤسسة فردية.png"
-                        alt="شهادة تسجيل فرع مؤسسة فردية" loading="lazy">
-                </div>
-                <div class="cert-card">
-                    <img src="../../ملفات المستخدم/شهادات/شهادة تسليم.png" alt="شهادة تسليم" loading="lazy">
-                </div>
-                <div class="cert-card">
-                    <img src="../../ملفات المستخدم/شهادات/شهادة تسليم 2.png" alt="شهادة تسليم مشروع" loading="lazy">
-                </div>
-                <div class="cert-card">
-                    <img src="../../ملفات المستخدم/شهادات/شهادة تسليم مخططات سلامة.png" alt="شهادة تسليم مخططات سلامة"
-                        loading="lazy">
-                </div>
-                <div class="cert-card">
-                    <img src="../../ملفات المستخدم/شهادات/شهادة تسليم مشروع برمجة كريسترون الخاصة بالقصر.png"
+                    <img src="media/certificates/شهادة تسليم مشروع برمجة كريسترون الخاصة بالقصر.png"
                         alt="شهادة تسليم مشروع برمجة كريسترون" loading="lazy">
                 </div>
+
+                <!-- شهادات وخطابات اعتماد -->
                 <div class="cert-card">
-                    <img src="../../ملفات المستخدم/شهادات/خطاب اعتماد وتوصية.png" alt="خطاب اعتماد وتوصية"
-                        loading="lazy">
+                    <img src="media/certificates/شهادة.png" alt="شهادة إنجاز" loading="lazy">
                 </div>
                 <div class="cert-card">
-                    <img src="../../ملفات المستخدم/شهادات/شهادة.png" alt="شهادة" loading="lazy">
+                    <img src="media/certificates/شهادة 2.png" alt="شهادة تقدير" loading="lazy">
                 </div>
                 <div class="cert-card">
-                    <img src="../../ملفات المستخدم/شهادات/شهادة 2.png" alt="شهادة 2" loading="lazy">
+                    <img src="media/certificates/شهادات.png" alt="شهادات متعددة" loading="lazy">
                 </div>
                 <div class="cert-card">
-                    <img src="../../ملفات المستخدم/شهادات/قائمة الفروع.png" alt="قائمة الفروع" loading="lazy">
+                    <img src="media/certificates/خطاب اعتماد وتوصية.png" alt="خطاب اعتماد وتوصية" loading="lazy">
+                </div>
+
+                <!-- أوامر الشراء والتفاصيل -->
+                <div class="cert-card">
+                    <img src="media/certificates/امر شراء.png" alt="أمر شراء" loading="lazy">
+                </div>
+                <div class="cert-card">
+                    <img src="media/certificates/تفاصيل تسجيل.png" alt="تفاصيل تسجيل" loading="lazy">
+                </div>
+                <div class="cert-card">
+                    <img src="media/certificates/DASH.png" alt="لوحة معلومات DASH" loading="lazy">
+                </div>
+
+                <!-- عملاء وشركاء -->
+                <div class="cert-card">
+                    <img src="media/certificates/رايات التقنية.png" alt="شركة رايات التقنية" loading="lazy">
+                </div>
+                <div class="cert-card">
+                    <img src="media/certificates/زهرة الصحراء.png" alt="شركة زهرة الصحراء" loading="lazy">
+                </div>
+                <div class="cert-card">
+                    <img src="media/certificates/مركز التميز للتوحد.png" alt="مركز التميز للتوحد" loading="lazy">
                 </div>
             </div>
         </div>
