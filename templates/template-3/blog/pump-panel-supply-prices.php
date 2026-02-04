@@ -108,10 +108,10 @@ include '../includes/config.php';
         <table border="1" style="width: 100%; border-collapse: collapse;">
             <thead>
                 <tr>
-                    <th style="padding: 8px; background-color: #f2f2f2;">النوع</th>
-                    <th style="padding: 8px; background-color: #f2f2f2;">المزايا الرئيسية</th>
-                    <th style="padding: 8px; background-color: #f2f2f2;">التكلفة التقديرية (2026)</th>
-                    <th style="padding: 8px; background-color: #f2f2f2;">التطبيق الأمثل</th>
+                    <th style="padding: 8px; background-color: #1e3c72; color: #ffffff;">النوع</th>
+                    <th style="padding: 8px; background-color: #1e3c72; color: #ffffff;">المزايا الرئيسية</th>
+                    <th style="padding: 8px; background-color: #1e3c72; color: #ffffff;">التكلفة التقديرية (2026)</th>
+                    <th style="padding: 8px; background-color: #1e3c72; color: #ffffff;">التطبيق الأمثل</th>
                 </tr>
             </thead>
             <tbody>

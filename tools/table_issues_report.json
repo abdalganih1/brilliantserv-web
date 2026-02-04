@@ -1,0 +1,635 @@
+{
+  "scan_date": "2026-02-04T05:32:06.488594",
+  "total_articles": 101,
+  "articles_with_issues": 70,
+  "issues_by_type": {
+    "truncated_table": [
+      {
+        "file": "civil-defense-approved-companies.php",
+        "details": "إطفاء الحريق الشائعة</h2>\\n                        <table style=\"width:100%; border-collapse: collapse; text-align: center;\">\\n                            <thead style=\"background-color:#f2f2f2;\">\\n  "
+      },
+      {
+        "file": "civil-defense-approved-companies.php",
+        "details": "إطفاء الحريق الشائعة</h3>\\n                        <table style=\"width:100%; border-collapse: collapse; text-align: center;\">\\n                            <thead>\\n                                <tr "
+      },
+      {
+        "file": "civil-defense-approved-companies.php",
+        "details": "<td> غير مغلقة تحتوي على </div>: <td style=\"border: 1px solid #ddd; padding: 8px;\">غرف الخوادم (Data Centers)، مراكز\n                                        البيانات،\n                "
+      },
+      {
+        "file": "control-panel-installation.php",
+        "details": "                     </p>\\n                        <table style=\"width: 100%; border-collapse: collapse; margin-top: 1em; font-size: 1.1em;\">\\n                            <thead>\\n                    "
+      },
+      {
+        "file": "control-panel-installation.php",
+        "details": "<td> غير مغلقة تحتوي على </div>: <td style=\"border: 1px solid #ddd; padding: 10px;\">5,000\n                    </div>"
+      },
+      {
+        "file": "fire-network-filling.php",
+        "details": " مواسير شبكات الحريق</h2>\\n                        <table style=\"width:100%; border-collapse: collapse; text-align: center;\">\\n                            <thead>\\n                                <tr "
+      },
+      {
+        "file": "fire-network-filling.php",
+        "details": "<td> غير مغلقة تحتوي على </div>: <td style=\"border: 1px solid #ddd; padding: 8px;\">الأنظمة السكن\n                    </div>"
+      },
+      {
+        "file": "home-water-pump-types.php",
+        "details": "اع المضخات المنزلية</h2>\\n\\n                        <table style=\"width:100%; border-collapse: collapse; text-align: center;\">\\n                            <thead style=\"background-color:#f2f2f2;\">\\n "
+      },
+      {
+        "file": "home-water-pump-types.php",
+        "details": "<td> غير مغلقة تحتوي على </div>: <td style=\"border: 1px solid #ddd; padding: 8px;\">رفع المياه من الخزان الأرضي\n                    </div>"
+      },
+      {
+        "file": "ksb-pump-maintenance.php",
+        "details": "خات KSB واستخداماتها</h2>\\n                        <table style=\"width:100%; border-collapse: collapse; text-align: center;\">\\n                            <thead style=\"background-color:#f2f2f2;\">\\n  "
+      },
+      {
+        "file": "ksb-pump-maintenance.php",
+        "details": "<td> غير مغلقة تحتوي على </div>: <td style=\"border: 1px solid #ddd; padding: 8px;\">أنظمة التكييف المركزي (HV\n                    </div>"
+      },
+      {
+        "file": "pool-maintenance-jeddah.php",
+        "details": "عقيم المسابح الشائعة</h3>\\n                        <table border=\"1\" style=\"width:100%; border-collapse: collapse; text-align: center;\">\\n                            <thead>\\n                         "
+      },
+      {
+        "file": "pool-maintenance-jeddah.php",
+        "details": "<td> غير مغلقة تحتوي على </div>: <td style=\"padding: 8px;\">الم\n                    </div>"
+      },
+      {
+        "file": "pump-installation-east-riyadh.php",
+        "details": "نواع المضخات الشائعة</h3>\\n                        <table style=\"width:100%; border-collapse: collapse; text-align: center;\">\\n                            <thead style=\"background-color: #f2f2f2;\">\\n "
+      },
+      {
+        "file": "pump-installation-east-riyadh.php",
+        "details": "<td> غير مغلقة تحتوي على </div>: <td style=\"border: 1px solid #ddd; padding: 8px;\">سهولة الصيانة، قدرة دفع ق\n                    </div>"
+      },
+      {
+        "file": "pump-pressure-sensor.php",
+        "details": "ع حساسات ضغط المضخات</h2>\\n                        <table style=\"width:100%; border-collapse: collapse; text-align: center;\">\\n                            <thead style=\"background-color:#f2f2f2;\">\\n  "
+      },
+      {
+        "file": "pump-pressure-sensor.php",
+        "details": "<td> غير مغلقة تحتوي على </div>: <td style=\"border: 1px solid #ddd; padding: 8px;\">الفلل، المب\n                    </div>"
+      },
+      {
+        "file": "pumping-system-installation.php",
+        "details": "ضخات المياه الشائعة</h2>\\n\\n                        <table style=\"width:100%; border-collapse: collapse; text-align: center;\">\\n                            <thead style=\"background-color:#f2f2f2;\">\\n "
+      },
+      {
+        "file": "weak-water-pressure-solution.php",
+        "details": "تقوية ضغط الماء للمنازل والمنشآت</h2>\\n            <table style=\"width:100%; border-collapse: collapse; text-align: center;\">\\n              <thead style=\"background-color:#f2f2f2;\">\\n                "
+      }
+    ],
+    "duplicate_faq": [
+      {
+        "file": "authorized-pump-distributor.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "automatic-control-panels.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "best-pump-company-saudi.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "booster-pump-repair.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "building-water-pumps.php",
+        "details": "تكرار قسم الأسئلة الشائعة 4 مرات"
+      },
+      {
+        "file": "building-water-pumps.php",
+        "details": "تكرار FAQPage Schema 5 مرات"
+      },
+      {
+        "file": "certified-pump-panels.php",
+        "details": "تكرار قسم الأسئلة الشائعة 4 مرات"
+      },
+      {
+        "file": "certified-pump-panels.php",
+        "details": "تكرار FAQPage Schema 5 مرات"
+      },
+      {
+        "file": "civil-defense-approved-companies.php",
+        "details": "تكرار قسم الأسئلة الشائعة 3 مرات"
+      },
+      {
+        "file": "civil-defense-approved-companies.php",
+        "details": "تكرار FAQPage Schema 4 مرات"
+      },
+      {
+        "file": "control-panel-installation.php",
+        "details": "تكرار قسم الأسئلة الشائعة 3 مرات"
+      },
+      {
+        "file": "control-panel-installation.php",
+        "details": "تكرار FAQPage Schema 3 مرات"
+      },
+      {
+        "file": "control-panel-prices-2026.php",
+        "details": "تكرار قسم الأسئلة الشائعة 2 مرات"
+      },
+      {
+        "file": "control-panel-prices-2026.php",
+        "details": "تكرار FAQPage Schema 4 مرات"
+      },
+      {
+        "file": "control-panels-riyadh.php",
+        "details": "تكرار قسم الأسئلة الشائعة 2 مرات"
+      },
+      {
+        "file": "control-panels-riyadh.php",
+        "details": "تكرار FAQPage Schema 3 مرات"
+      },
+      {
+        "file": "ebara-pumps.php",
+        "details": "تكرار قسم الأسئلة الشائعة 2 مرات"
+      },
+      {
+        "file": "ebara-pumps.php",
+        "details": "تكرار FAQPage Schema 3 مرات"
+      },
+      {
+        "file": "electric-motor-winding.php",
+        "details": "تكرار قسم الأسئلة الشائعة 2 مرات"
+      },
+      {
+        "file": "electric-motor-winding.php",
+        "details": "تكرار FAQPage Schema 3 مرات"
+      },
+      {
+        "file": "electrical-layouts-for-buildings.php",
+        "details": "تكرار قسم الأسئلة الشائعة 3 مرات"
+      },
+      {
+        "file": "electrical-layouts-for-buildings.php",
+        "details": "تكرار FAQPage Schema 3 مرات"
+      },
+      {
+        "file": "fire-network-filling.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "fire-pump-control-panels.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "fire-pump-installation.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "fire-pump-specialist.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "fire-pumps.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "home-water-pump-types.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "horizontal-pumps.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "hvac-control-panels.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "hvac-panel-manufacturing.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "industrial-water-pumps.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "inverter-panel-maintenance.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "jockey-fire-pump-maintenance.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "ksb-pump-maintenance.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "lowara-pump-maintenance.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "lowara-pumps.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "mcc-panels.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "multistage-pumps.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "original-water-pumps.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "plc-control-panels.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "pressure-control-panels.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "pump-commissioning.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "pump-company-riyadh.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "pump-control-panels.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "pump-handover.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "pump-humming-sound.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "pump-installation-east-riyadh.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "pump-maintenance-contracts.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "pump-maintenance-riyadh.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "pump-operation-panels.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "pump-panel-assembly.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "pump-piping-maintenance.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "pump-pressure-calibration.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "pump-repair-north-riyadh.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "pump-services-riyadh.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "pumping-system-installation.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "sewage-pump-panels.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "sewage-pumps.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "star-delta-panel-manufacturing.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "submersible-pump-problems.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "types-of-water-pumps.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "vertical-pumps.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "vfd-programming-pumps.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "water-booster-systems.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "water-pumping-solutions.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "water-pumps-saudi.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "well-pumps.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "المخططات-الكهربائية-للمباني.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "انواع-المضخات.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "دور-الكهرباء-الصناعية-في-تطوير-المصان.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      },
+      {
+        "file": "سرعة-المحركات-الكهربائية.php",
+        "details": "تكرار FAQPage Schema 3 مرات"
+      },
+      {
+        "file": "صيانة-مضخات-جراندفوس.php",
+        "details": "تكرار FAQPage Schema 2 مرات"
+      }
+    ],
+    "low_contrast": [
+      {
+        "file": "building-water-pumps.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "building-water-pumps.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "civil-defense-approved-companies.php",
+        "details": "خلفية ترويسة بلون #f2f2f2 قد تسبب مشكلة تباين"
+      },
+      {
+        "file": "civil-defense-approved-companies.php",
+        "details": "خلفية ترويسة بلون #f2f2f2 قد تسبب مشكلة تباين"
+      },
+      {
+        "file": "civil-defense-approved-companies.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "control-panel-installation.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "control-panel-prices-2026.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "ebara-pumps.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "fire-network-filling.php",
+        "details": "خلفية ترويسة بلون #f2f2f2 قد تسبب مشكلة تباين"
+      },
+      {
+        "file": "fire-network-filling.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "fire-pump-installation.php",
+        "details": "خلفية ترويسة بلون #f2f2f2 قد تسبب مشكلة تباين"
+      },
+      {
+        "file": "fire-pump-installation.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "fire-pumps.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "grundfos-pump-agent-riyadh.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "home-water-pump-types.php",
+        "details": "خلفية ترويسة بلون #f2f2f2 قد تسبب مشكلة تباين"
+      },
+      {
+        "file": "hvac-panel-manufacturing.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "industrial-water-pumps.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "ksb-pump-maintenance.php",
+        "details": "خلفية ترويسة بلون #f2f2f2 قد تسبب مشكلة تباين"
+      },
+      {
+        "file": "lowara-pumps.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "multistage-pumps.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "pool-maintenance-jeddah.php",
+        "details": "خلفية ترويسة بلون #f2f2f2 قد تسبب مشكلة تباين"
+      },
+      {
+        "file": "pool-maintenance-jeddah.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "pump-commissioning.php",
+        "details": "خلفية ترويسة بلون #f2f2f2 قد تسبب مشكلة تباين"
+      },
+      {
+        "file": "pump-commissioning.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "pump-control-panels.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "pump-handover.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "pump-panel-assembly.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "pump-pressure-sensor.php",
+        "details": "خلفية ترويسة بلون #f2f2f2 قد تسبب مشكلة تباين"
+      },
+      {
+        "file": "pump-room-construction.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "pump-services-riyadh.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "pumping-system-installation.php",
+        "details": "خلفية ترويسة بلون #f2f2f2 قد تسبب مشكلة تباين"
+      },
+      {
+        "file": "schneider-control-panels.php",
+        "details": "خلفية ترويسة بلون #f2f2f2 قد تسبب مشكلة تباين"
+      },
+      {
+        "file": "schneider-control-panels.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "sewage-pump-panels.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "sewage-pumps.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "submersible-pump-problems.php",
+        "details": "خلفية ترويسة بلون #f2f2f2 قد تسبب مشكلة تباين"
+      },
+      {
+        "file": "submersible-pump-problems.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "types-of-water-pumps.php",
+        "details": "خلفية ترويسة بلون #f2f2f2 قد تسبب مشكلة تباين"
+      },
+      {
+        "file": "vertical-pumps.php",
+        "details": "خلفية ترويسة بلون #f2f2f2 قد تسبب مشكلة تباين"
+      },
+      {
+        "file": "vertical-pumps.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "water-booster-systems.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "water-pumping-solutions.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "weak-water-pressure-solution.php",
+        "details": "خلفية ترويسة بلون #f2f2f2 قد تسبب مشكلة تباين"
+      },
+      {
+        "file": "well-pumps.php",
+        "details": "خلفية ترويسة بلون #f2f2f2 قد تسبب مشكلة تباين"
+      },
+      {
+        "file": "well-pumps.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "المخططات-الكهربائية-للمباني.php",
+        "details": "خلفية ترويسة بلون #f2f2f2 قد تسبب مشكلة تباين"
+      },
+      {
+        "file": "المخططات-الكهربائية-للمباني.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      },
+      {
+        "file": "دور-الكهرباء-الصناعية-في-تطوير-المصان.php",
+        "details": "صف بخلفية #f2f2f2 قد يكون غير واضح"
+      }
+    ],
+    "narrative_in_table": [
+      {
+        "file": "civil-defense-approved-companies.php",
+        "details": "خلية جدول تحتوي على عنوان <h2> أو <h3>: <td style=\"border: 1px solid #ddd; padding: 8px;\">غرف الخوادم (Data Centers)، مراكز\n                                        البيانات،\n                ..."
+      },
+      {
+        "file": "civil-defense-approved-companies.php",
+        "details": "خلية جدول طويلة جداً (4874 حرف): غرف الخوادم (Data Centers)، مراكز\n                                        البيانات،..."
+      },
+      {
+        "file": "control-panel-installation.php",
+        "details": "خلية جدول تحتوي على عنوان <h2> أو <h3>: <td style=\"border: 1px solid #ddd; padding: 10px;\">5,000\n                    </div>\n\n                    <!-- AI-Enhanced Content -->\n                ..."
+      },
+      {
+        "file": "control-panel-installation.php",
+        "details": "خلية جدول طويلة جداً (5218 حرف): 5,000\n                    </div>\n\n                    <!-- AI-Enhanced Content -->..."
+      },
+      {
+        "file": "fire-network-filling.php",
+        "details": "خلية جدول تحتوي على عنوان <h2> أو <h3>: <td style=\"border: 1px solid #ddd; padding: 8px;\">الأنظمة السكن\n                    </div>\n\n                    <!-- Article Meta -->\n                ..."
+      },
+      {
+        "file": "home-water-pump-types.php",
+        "details": "خلية جدول تحتوي على عنوان <h2> أو <h3>: <td style=\"border: 1px solid #ddd; padding: 8px;\">رفع المياه من الخزان الأرضي\n                    </div>\n\n                    <!-- Article Meta -->\n  ..."
+      },
+      {
+        "file": "home-water-pump-types.php",
+        "details": "خلية جدول طويلة جداً (3817 حرف): رفع المياه من الخزان الأرضي\n                    </div>\n\n                    <!-- Article Meta -->..."
+      },
+      {
+        "file": "ksb-pump-maintenance.php",
+        "details": "خلية جدول تحتوي على عنوان <h2> أو <h3>: <td style=\"border: 1px solid #ddd; padding: 8px;\">أنظمة التكييف المركزي (HV\n                    </div>\n\n                    <!-- Article Meta -->\n    ..."
+      },
+      {
+        "file": "ksb-pump-maintenance.php",
+        "details": "خلية جدول طويلة جداً (3722 حرف): أنظمة التكييف المركزي (HV\n                    </div>\n\n                    <!-- Article Meta -->..."
+      },
+      {
+        "file": "pool-maintenance-jeddah.php",
+        "details": "خلية جدول تحتوي على عنوان <h2> أو <h3>: <td style=\"padding: 8px;\">الم\n                    </div>\n\n                    <!-- Article Meta -->\n                    <div class=\"article-meta\">\n   ..."
+      },
+      {
+        "file": "pump-installation-east-riyadh.php",
+        "details": "خلية جدول تحتوي على عنوان <h2> أو <h3>: <td style=\"border: 1px solid #ddd; padding: 8px;\">سهولة الصيانة، قدرة دفع ق\n                    </div>\n\n                    <!-- Article Meta -->\n    ..."
+      },
+      {
+        "file": "pump-pressure-sensor.php",
+        "details": "خلية جدول تحتوي على عنوان <h2> أو <h3>: <td style=\"border: 1px solid #ddd; padding: 8px;\">الفلل، المب\n                    </div>\n\n                    <!-- Article Meta -->\n                  ..."
+      },
+      {
+        "file": "pumping-system-installation.php",
+        "details": "خلية جدول تحتوي على عنوان <h2> أو <h3>: <td style=\"border: 1px solid #ddd; padding: 8px;\"><strong>مجموعة تعزيز الضغط\n                                            (Booster\n                    ..."
+      },
+      {
+        "file": "pumping-system-installation.php",
+        "details": "خلية جدول طويلة جداً (3192 حرف): <strong>مجموعة تعزيز الضغط\n                                            (Booster..."
+      },
+      {
+        "file": "weak-water-pressure-solution.php",
+        "details": "خلية جدول تحتوي على عنوان <h2> أو <h3>: <td style=\"border: 1px solid #ddd\n                    </div>\n\n                    <!-- Article Meta -->\n                    <div class=\" article-meta\"..."
+      }
+    ]
+  }
+}

@@ -113,7 +113,7 @@ include '../includes/config.php';
 
 <table border="1" cellpadding="10" cellspacing="0" style="width:100%; border-collapse: collapse; text-align: right;">
     <thead>
-        <tr style="background-color: #f2f2f2;">
+        <tr style="background-color: #1e3c72; color: #ffffff;">
             <th>نوع المضخة</th>
             <th>أبرز المميزات</th>
             <th>الاستخدام الأمثل</th>

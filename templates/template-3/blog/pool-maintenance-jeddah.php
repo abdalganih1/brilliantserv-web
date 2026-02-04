@@ -146,7 +146,7 @@ include '../includes/config.php';
                         <h3>جدول مقارنة لأنظمة تعقيم المسابح الشائعة</h3>
                         <table border="1" style="width:100%; border-collapse: collapse; text-align: center;">
                             <thead>
-                                <tr style="background-color:#f2f2f2;">
+                                <tr style="background-color:#1e3c72; color:#ffffff;">
                                     <th style="padding: 8px;">النوع</th>
                                     <th style="padding: 8px;">المميزات</th>
                                     <th style="padding: 8px;">الاستخدام الأمثل</th>
@@ -169,7 +169,10 @@ include '../includes/config.php';
                                 <tr>
                                     <td style="padding: 8px;"><strong>نظام الأوزون (Ozone)</strong></td>
                                     <td style="padding: 8px;">أقوى مؤكسد، يقلل استخدام الكلور بنسبة 60-90%.</td>
-                                    <td style="padding: 8px;">الم
+                                    <td style="padding: 8px;">الم</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
 
                     <!-- Article Meta -->

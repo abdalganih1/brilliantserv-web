@@ -128,13 +128,14 @@ include '../includes/config.php';
               </li>
               <li><strong>تقييم الحاجة إلى مضخة تقوية (Booster Pump):</strong> في المباني المرتفعة أو في المناطق ذات
                 الضغط المنخفض من الشبكة العامة، يكون الحل الأمثل هو تركيب مضخة لتقوية ضغط الماء. استشر فريق
-                <strong>روائع الكريستال</strong> لتحديد النوع والقدرة المناسبة لاحتياجاتك.</li>
+                <strong>روائع الكريستال</strong> لتحديد النوع والقدرة المناسبة لاحتياجاتك.
+              </li>
             </ol>
 
             <!-- 4. جدول مقارنة -->
             <h2>جدول مقارنة: أفضل أنواع مضخات تقوية ضغط الماء للمنازل والمنشآت</h2>
             <table style="width:100%; border-collapse: collapse; text-align: center;">
-              <thead style="background-color:#f2f2f2;">
+              <thead style="background-color:#1e3c72; color:#ffffff;">
                 <tr>
                   <th style="border: 1px solid #ddd; padding: 8px;">النوع</th>
                   <th style="border: 1px solid #ddd; padding: 8px;">المميزات</th>
@@ -162,21 +163,33 @@ include '../includes/config.php';
                   </td>
                   <td style="border: 1px solid #ddd; padding: 8px;">الفلل والمنازل التي تعتمد على الخزان العلوي كمصدر
                     رئيسي.</td>
-                  <td style="border: 1px solid #ddd
-                    </div>
+                  <td style="border: 1px solid #ddd; padding: 8px;">1,000 - 2,500</td>
+                </tr>
+                <tr>
+                  <td style="border: 1px solid #ddd; padding: 8px;"><strong>مجموعة تعزيز ضغط متكاملة (Booster
+                      Set)</strong></td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">ضغط ثابت، تشغيل تلقائي، مضخات متعددة بالتبادل، حماية
+                    شاملة.</td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">الفلل الكبيرة، الأبراج السكنية، المشاريع التجارية.
+                  </td>
+                  <td style="border: 1px solid #ddd; padding: 8px;">5,000 - 25,000+</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
-                    <!-- Article Meta -->
-                    <div class=" article-meta">
-                    <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar"
-                      onerror="this.style.display='none'">
-                    <div class="meta-info">
-                      <span class="author-name">فريق روائع الكريستال الهندسي</span>
-                      <div class="meta-details">
-                        <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
-                        <span class="reading-time">⏱️ وقت القراءة:
-                          <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق</span>
-                      </div>
-                    </div>
+          <!-- Article Meta -->
+          <div class=" article-meta">
+            <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar"
+              onerror="this.style.display='none'">
+            <div class="meta-info">
+              <span class="author-name">فريق روائع الكريستال الهندسي</span>
+              <div class="meta-details">
+                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                <span class="reading-time">⏱️ وقت القراءة:
+                  <?= ceil(str_word_count(strip_tags(file_get_contents(__FILE__))) / 200) ?> دقائق</span>
+              </div>
+            </div>
           </div>
 
           <!-- Stats Grid -->
@@ -317,4 +330,3 @@ include '../includes/config.php';
 
           include '../includes/blog-article-footer.php';
           ?>
-                

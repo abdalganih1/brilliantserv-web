@@ -154,7 +154,7 @@ include '../includes/config.php';
 <h2>أشهر موديلات مضخات Grundfos وحلولها في السوق السعودي</h2>
 <table border="1" style="width: 100%; border-collapse: collapse;">
     <thead>
-        <tr style="background-color: #f2f2f2;">
+        <tr style="background-color: #1e3c72; color: #ffffff;">
             <th style="padding: 10px; text-align: right;">النوع</th>
             <th style="padding: 10px; text-align: right;">المميزات الرئيسية</th>
             <th style="padding: 10px; text-align: right;">الاستخدام النموذجي في السعودية</th>

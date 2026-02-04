@@ -156,7 +156,7 @@ include '../includes/config.php';
 
                         <h2>جدول مقارنة بين أنواع حساسات ضغط المضخات</h2>
                         <table style="width:100%; border-collapse: collapse; text-align: center;">
-                            <thead style="background-color:#f2f2f2;">
+                            <thead style="background-color:#1e3c72; color:#ffffff;">
                                 <tr>
                                     <th style="border: 1px solid #ddd; padding: 8px;">النوع</th>
                                     <th style="border: 1px solid #ddd; padding: 8px;">المميزات</th>
@@ -179,7 +179,10 @@ include '../includes/config.php';
                                             (Presscontrol)</strong></td>
                                     <td style="border: 1px solid #ddd; padding: 8px;">دقة عالية، حماية من التشغيل الجاف،
                                         تشغيل هادئ.</td>
-                                    <td style="border: 1px solid #ddd; padding: 8px;">الفلل، المب
+                                    <td style="border: 1px solid #ddd; padding: 8px;">الفلل، المب</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
 
                     <!-- Article Meta -->
