@@ -10,215 +10,248 @@ include '../includes/config.php';
 <html lang="ar" dir="rtl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="-4dWOJlQukPPTSz-ABTrob2Oe_vkEdm_y1_xFVryJTo" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="-4dWOJlQukPPTSz-ABTrob2Oe_vkEdm_y1_xFVryJTo" />
 
-    <!-- SEO Meta Tags -->
-    <title>لوحات تحكم صناعية - الدليل الشامل - روائع الكريستال</title>
-    <meta name="description" content="مقالات ونصائح هندسية متخصصة من روائع الكريستال">
-    <meta name="keywords" content="صيانة, مضخات, لوحات تحكم, كهرباء, الرياض">
-    <meta name="author" content="مؤسسة روائع الكريستال">
-    <meta name="robots" content="index, follow, max-image-preview:large">
-    <meta name="language" content="Arabic">
-    <meta name="geo.region" content="SA-01">
-    <meta name="geo.placename" content="Riyadh">
+  <!-- SEO Meta Tags -->
+  <title>لوحات التحكم الصناعية في السعودية 2026 | دليل شامل - روائع الكريستال</title>
+  <meta name="description"
+    content="تعرف على لوحات التحكم الصناعية والكهربائية في السعودية ✓ أنواعها ✓ مكوناتها ✓ أسعارها. مؤسسة روائع الكريستال - تصميم وتجميع لوحات التحكم في الرياض ☎️ 0550698111">
+  <meta name="keywords"
+    content="لوحات التحكم الصناعية, لوحات التحكم الكهربائية, لوحات تحكم صناعي, تجميع لوحات تحكم, لوحات PLC, لوحات MCC, لوحات التحكم في الرياض, لوحات التحكم السعودية, تصنيع لوحات كهربائية">
+  <meta name="author" content="مؤسسة روائع الكريستال">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="language" content="Arabic">
+  <meta name="geo.region" content="SA-01">
+  <meta name="geo.placename" content="Riyadh">
 
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://brilliantserv.com/blog/industrial-control-panels-guide.php">
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://brilliantserv.com/blog/industrial-control-panels-guide.php">
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="لوحات تحكم صناعية - الدليل الشامل">
-    <meta property="og:description" content="مقالات ونصائح هندسية متخصصة من روائع الكريستال">
-    <meta property="og:image" content="https://brilliantserv.com/media/blog/industrial-control-panels-guide-featured.webp">
-    <meta property="og:url" content="https://brilliantserv.com/blog/industrial-control-panels-guide.php">
-    <meta property="og:site_name" content="روائع الكريستال">
-    <meta property="article:published_time" content="2026-02-04">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="لوحات التحكم الصناعية في السعودية 2026 | دليل شامل">
+  <meta property="og:description"
+    content="تعرف على لوحات التحكم الصناعية والكهربائية في السعودية ✓ أنواعها ✓ مكوناتها ✓ أسعارها. روائع الكريستال ☎️ 0550698111">
+  <meta property="og:image"
+    content="https://brilliantserv.com/media/blog/industrial-control-panels-guide-featured.webp">
+  <meta property="og:url" content="https://brilliantserv.com/blog/industrial-control-panels-guide.php">
+  <meta property="og:site_name" content="روائع الكريستال">
+  <meta property="article:published_time" content="2026-02-04">
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="لوحات تحكم صناعية - الدليل الشامل">
-    <meta property="twitter:description" content="مقالات ونصائح هندسية متخصصة من روائع الكريستال">
-    <meta property="twitter:image" content="https://brilliantserv.com/media/blog/industrial-control-panels-guide-featured.webp">
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="لوحات التحكم الصناعية في السعودية 2026 | دليل شامل">
+  <meta property="twitter:description"
+    content="تعرف على لوحات التحكم الصناعية والكهربائية ✓ أنواعها ✓ مكوناتها ✓ أسعارها. روائع الكريستال ☎️ 0550698111">
+  <meta property="twitter:image"
+    content="https://brilliantserv.com/media/blog/industrial-control-panels-guide-featured.webp">
 
-    <!-- Fonts & Styles -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
-    <?php include '../includes/head.php'; ?>
+  <!-- Fonts & Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+  <?php include '../includes/head.php'; ?>
 </head>
 
 <body>
-    <?php include '../includes/nav.php'; ?>
+  <?php include '../includes/nav.php'; ?>
 
-    <section class="page-hero">
-        <div class="container">
-            <div class="page-hero-content">
-                <span class="section-badge">لوحات التحكم</span>
-                <h1>لوحات تحكم صناعية - الدليل الشامل</h1>
-                <p>آخر تحديث: 4 فبراير 2026</p>
-            </div>
-        </div>
-    </section>
-
-    <article class="blog-article">
-        <div class="container">
-            <div class="article-wrapper">
-                <div class="article-image">
-                    <img src="../media/blog/industrial-control-panels-guide-featured.webp" alt="لوحات تحكم صناعية - الدليل الشامل - روائع الكريستال"
-                        loading="lazy" onerror="this.src='../media/blog/default-article.webp'">
-                </div>
-                <div class="article-body">
-                    <!-- المحتوى الرئيسي - سيتم توليده بواسطة AI -->
-                    
-<h1>لوحات تحكم صناعية - الدليل الشامل</h1>
-
-  <div class="article-section">
-    <p>في عالم الصناعة الحديث، تعتبر <b>لوحات التحكم الصناعية</b> بمثابة العقل المدبر الذي يدير العمليات المعقدة بكفاءة ودقة. هذه اللوحات، التي تتراوح من الأنظمة البسيطة إلى الحلول المتطورة، تلعب دوراً حاسماً في ضمان سلاسة العمليات التشغيلية، وتحسين الإنتاجية، وتقليل المخاطر المحتملة.  سواء كنت تدير مصنعاً كبيراً أو ورشة صغيرة، فإن فهم أساسيات لوحات التحكم الصناعية وكيفية اختيار النوع المناسب لاحتياجاتك أمر ضروري لتحقيق النجاح. هذا الدليل الشامل سيوفر لك نظرة متعمقة على هذه الأنظمة الحيوية، بدءاً من مكوناتها الأساسية وصولاً إلى أفضل الممارسات في صيانتها وتشغيلها. مؤسسة روائع الكريستال، المتخصصة في حلول التحكم الصناعي في الرياض، السعودية، تقدم لك هذا الدليل لمساعدتك على اتخاذ قرارات مستنيرة. اتصل بنا على 0550698111 للحصول على استشارة مجانية.</p>
-  </div>
-
-  <div class="article-section">
-    <h2 id="section-1">أنواع لوحات التحكم الصناعية</h2>
-    <p>تتنوع لوحات التحكم الصناعية بشكل كبير لتلبية احتياجات التطبيقات المختلفة.  من بين الأنواع الأكثر شيوعاً:</p>
-    <ul>
-      <li><b>لوحات التحكم في المحركات (Motor Control Panels):</b> تستخدم للتحكم في تشغيل وإيقاف المحركات الكهربائية، وتوفر حماية ضد الأعطال.</li>
-      <li><b>لوحات التحكم في العمليات (Process Control Panels):</b> تستخدم في العمليات الصناعية المعقدة للتحكم في المتغيرات مثل درجة الحرارة والضغط والتدفق.</li>
-      <li><b>لوحات توزيع الطاقة (Power Distribution Panels):</b> تستخدم لتوزيع الطاقة الكهربائية بشكل آمن وفعال داخل المنشأة الصناعية.</li>
-      <li><b>لوحات التحكم القابلة للبرمجة (PLC Control Panels):</b> تستخدم وحدات التحكم المنطقية القابلة للبرمجة (PLCs) لأتمتة العمليات المعقدة.</li>
-    </ul>
-  </div>
-
-  <div class="article-section">
-    <h2 id="section-2">مكونات لوحات التحكم الصناعية الأساسية</h2>
-    <p>تتكون لوحات التحكم الصناعية من مجموعة متنوعة من المكونات، بما في ذلك:</p>
-    <ul>
-      <li><b>قواطع الدائرة (Circuit Breakers):</b> لحماية الدوائر الكهربائية من التيار الزائد.</li>
-      <li><b>المرحلات (Relays):</b> للتحكم في الدوائر الكهربائية باستخدام إشارات كهربائية صغيرة.</li>
-      <li><b>وحدات التحكم المنطقية القابلة للبرمجة (PLCs):</b> لأتمتة العمليات المعقدة.</li>
-      <li><b>أجهزة القياس (Measuring Instruments):</b> لقياس المتغيرات المختلفة مثل الجهد والتيار والضغط.</li>
-      <li><b>الأسلاك والموصلات (Wiring and Connectors):</b> لتوصيل المكونات الكهربائية ببعضها البعض.</li>
-      <li><b>شاشة العرض (HMI):</b> واجهة بين المستخدم و نظام التحكم.</li>
-    </ul>
-  </div>
-
-  <div class="article-section">
-    <h2 id="section-3">اعتبارات هامة عند اختيار لوحة التحكم الصناعية</h2>
-    <p>عند اختيار لوحة التحكم الصناعية المناسبة، يجب مراعاة العوامل التالية:</p>
-    <ol>
-      <li><b>متطلبات التطبيق:</b> حدد بدقة الوظائف التي يجب أن تؤديها اللوحة.</li>
-      <li><b>بيئة التشغيل:</b> ضع في الاعتبار الظروف البيئية مثل درجة الحرارة والرطوبة والغبار.</li>
-      <li><b>ميزانية المشروع:</b> قارن بين تكلفة الأنواع المختلفة من اللوحات.</li>
-      <li><b>الصيانة:</b> اختر لوحة سهلة الصيانة والإصلاح.</li>
-      <li><b>المعايير القياسية:</b> تأكد من أن اللوحة تتوافق مع المعايير الصناعية ذات الصلة.</li>
-    </ol>
-  </div>
-
-  <div class="article-section">
-    <h2 id="section-4">جدول مقارنة بين أنواع لوحات التحكم</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>النوع</th>
-          <th>التطبيق</th>
-          <th>المميزات</th>
-          <th>العيوب</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>لوحات التحكم في المحركات</td>
-          <td>التحكم في المحركات الكهربائية</td>
-          <td>حماية المحركات، التحكم في السرعة، سهولة التشغيل</td>
-          <td>قد تكون محدودة في التطبيقات المعقدة</td>
-        </tr>
-        <tr>
-          <td>لوحات التحكم في العمليات</td>
-          <td>التحكم في العمليات الصناعية</td>
-          <td>دقة عالية، مرونة، قابلية للتوسع</td>
-          <td>أكثر تعقيداً وتكلفة</td>
-        </tr>
-        <tr>
-          <td>لوحات توزيع الطاقة</td>
-          <td>توزيع الطاقة الكهربائية</td>
-          <td>أمان عالي، كفاءة في توزيع الطاقة</td>
-          <td>لا توفر تحكماً مباشراً في العمليات</td>
-        </tr>
-        <tr>
-          <td>لوحات التحكم القابلة للبرمجة</td>
-          <td>أتمتة العمليات المعقدة</td>
-          <td>مرونة عالية، قابلية للتعديل، سهولة المراقبة</td>
-          <td>تتطلب خبرة في البرمجة</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <div class="article-section">
-    <p>في الختام، نأمل أن يكون هذا الدليل الشامل قد ساعدك على فهم أساسيات لوحات التحكم الصناعية. مؤسسة روائع الكريستال، مقرها الرياض، السعودية، تتخصص في تصميم وتصنيع وتركيب وصيانة لوحات التحكم الصناعية عالية الجودة.  نحن ملتزمون بتقديم حلول مخصصة لتلبية احتياجات عملائنا في مختلف القطاعات الصناعية.  لا تتردد في التواصل معنا على الرقم 0550698111 للحصول على استشارة مجانية وتقديم أفضل الحلول التي تناسب احتياجاتك. تواصلوا معنا اليوم!</p>
-  </div>
-
-                    
-                    <!-- Article Meta -->
-                    <div class="article-meta">
-                        <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar"
-                            onerror="this.style.display='none'">
-                        <div class="meta-info">
-                            <span class="author-name">فريق روائع الكريستال الهندسي</span>
-                            <div class="meta-details">
-                                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
-                                <span class="reading-time">⏱️ وقت القراءة: 5 دقائق</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Stats Grid -->
-                    <div class="article-stats-grid">
-                        <div class="stat-card">
-                            <span class="stat-number">500+</span>
-                            <span class="stat-label">مشروع منجز</span>
-                        </div>
-                        <div class="stat-card">
-                            <span class="stat-number">15+</span>
-                            <span class="stat-label">سنة خبرة</span>
-                        </div>
-                        <div class="stat-card">
-                            <span class="stat-number">24/7</span>
-                            <span class="stat-label">دعم فني</span>
-                        </div>
-                    </div>
-
-                    <section class="faq-section">
-    <h2>❓ الأسئلة الشائعة</h2>
-    <div class="faq-list">
-        <div class="faq-item">
-            <h3>ما هي لوحات التحكم الصناعية وما هو الغرض الأساسي منها؟</h3>
-            <p>لوحات التحكم الصناعية هي تجمعات لمعدات التحكم الكهربائية التي تقوم بتوجيه ومراقبة وتشغيل الآلات والعمليات الصناعية. الغرض الرئيسي منها هو توفير واجهة مركزية للتحكم الآلي أو اليدوي في الأنظمة المعقدة، وضمان التشغيل الآمن والفعال للمعدات.</p>
-        </div>
-        <div class="faq-item">
-            <h3>ما هي المكونات الرئيسية التي توجد عادة داخل لوحة التحكم الصناعية؟</h3>
-            <p>تتكون لوحات التحكم الصناعية عادةً من قواطع الدوائر، والمرحلات، والموصلات، وأجهزة التحكم المنطقية القابلة للبرمجة (PLCs)، ومحركات التردد المتغير (VFDs)، ومصادر الطاقة، وأجهزة الإدخال/الإخراج، وأجهزة الواجهة مثل أزرار الضغط والمفاتيح والمصابيح الإرشادية.</p>
-        </div>
-        <div class="faq-item">
-            <h3>لماذا تعتبر لوحات التحكم الصناعية حاسمة في عمليات الأتمتة الحديثة؟</h3>
-            <p>تعتبر لوحات التحكم الصناعية حاسمة لأنها تمثل "عقل" الأنظمة الآلية. إنها تمكن من التشغيل الدقيق والفعال للمعدات، وتضمن السلامة من خلال آليات الحماية، وتسهل المراقبة والتشخيص، مما يؤدي إلى زيادة الإنتاجية وتقليل الأخطاء البشرية ووقت التوقف عن العمل.</p>
-        </div>
-        <div class="faq-item">
-            <h3>ما هي معايير السلامة الرئيسية التي يجب مراعاتها عند تصميم أو تركيب لوحات التحكم الصناعية؟</h3>
-            <p>تشمل معايير السلامة الرئيسية شهادات مثل UL 508A في أمريكا الشمالية، و IEC 61439 في أوروبا، بالإضافة إلى متطلبات التأريض المناسب، وحماية الدائرة، وعزل الأسلاك، وتصنيف الضميمة (مثل NEMA أو IP) لحماية المكونات من البيئة والوصول غير المصرح به.</p>
-        </div>
-        <div class="faq-item">
-            <h3>كيف يمكن صيانة لوحات التحكم الصناعية لضمان طول عمرها وأدائها الموثوق؟</h3>
-            <p>تتضمن الصيانة الدورية فحص التوصيلات الكهربائية للتأكد من إحكامها، وتنظيف المكونات من الغبار والأوساخ، وفحص الأسلاك بحثًا عن أي تآكل أو تلف، والتأكد من عمل أنظمة التبريد والتهوية بشكل صحيح، بالإضافة إلى تحديث البرامج الثابتة (firmware) لأجهزة التحكم عند الضرورة.</p>
-        </div>
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero-content">
+        <span class="section-badge">لوحات التحكم</span>
+        <h1>دليل لوحات التحكم الصناعية والكهربائية في السعودية 2026</h1>
+        <p>آخر تحديث: 4 فبراير 2026</p>
+      </div>
     </div>
-</section>
+  </section>
 
-<?php
-                    $article = ['title' => $page_title];
-                    $related_articles = [
-                                'لف-المحركات-الكهربائية.php' => 'لف المحركات الكهربائية',
-                                'سرعة-المحركات-الكهربائية.php' => 'سرعة المحركات الكهربائية'
-                            ];
-                    include '../includes/blog-article-footer.php';
-                    ?>
+  <article class="blog-article">
+    <div class="container">
+      <div class="article-wrapper">
+        <div class="article-image">
+          <img src="../media/blog/industrial-control-panels-guide-featured.webp"
+            alt="لوحات تحكم صناعية - الدليل الشامل - روائع الكريستال" loading="lazy"
+            onerror="this.src='../media/blog/default-article.webp'">
+        </div>
+        <div class="article-body">
+          <!-- المحتوى الرئيسي - سيتم توليده بواسطة AI -->
+
+          <h2>ما هي لوحات التحكم الصناعية؟</h2>
+
+          <div class="article-section">
+            <p>في عالم الصناعة الحديث، تعتبر <b>لوحات التحكم الصناعية</b> بمثابة العقل المدبر الذي يدير العمليات المعقدة
+              بكفاءة ودقة. هذه اللوحات، التي تتراوح من الأنظمة البسيطة إلى الحلول المتطورة، تلعب دوراً حاسماً في ضمان
+              سلاسة العمليات التشغيلية، وتحسين الإنتاجية، وتقليل المخاطر المحتملة. سواء كنت تدير مصنعاً كبيراً أو ورشة
+              صغيرة، فإن فهم أساسيات لوحات التحكم الصناعية وكيفية اختيار النوع المناسب لاحتياجاتك أمر ضروري لتحقيق
+              النجاح. هذا الدليل الشامل سيوفر لك نظرة متعمقة على هذه الأنظمة الحيوية، بدءاً من مكوناتها الأساسية وصولاً
+              إلى أفضل الممارسات في صيانتها وتشغيلها. مؤسسة روائع الكريستال، المتخصصة في حلول التحكم الصناعي في الرياض،
+              السعودية، تقدم لك هذا الدليل لمساعدتك على اتخاذ قرارات مستنيرة. اتصل بنا على 0550698111 للحصول على استشارة
+              مجانية.</p>
+          </div>
+
+          <div class="article-section">
+            <h2 id="section-1">أنواع لوحات التحكم الصناعية</h2>
+            <p>تتنوع لوحات التحكم الصناعية بشكل كبير لتلبية احتياجات التطبيقات المختلفة. من بين الأنواع الأكثر شيوعاً:
+            </p>
+            <ul>
+              <li><b>لوحات التحكم في المحركات (Motor Control Panels):</b> تستخدم للتحكم في تشغيل وإيقاف المحركات
+                الكهربائية، وتوفر حماية ضد الأعطال.</li>
+              <li><b>لوحات التحكم في العمليات (Process Control Panels):</b> تستخدم في العمليات الصناعية المعقدة للتحكم
+                في المتغيرات مثل درجة الحرارة والضغط والتدفق.</li>
+              <li><b>لوحات توزيع الطاقة (Power Distribution Panels):</b> تستخدم لتوزيع الطاقة الكهربائية بشكل آمن وفعال
+                داخل المنشأة الصناعية.</li>
+              <li><b>لوحات التحكم القابلة للبرمجة (PLC Control Panels):</b> تستخدم وحدات التحكم المنطقية القابلة للبرمجة
+                (PLCs) لأتمتة العمليات المعقدة.</li>
+            </ul>
+          </div>
+
+          <div class="article-section">
+            <h2 id="section-2">مكونات لوحات التحكم الصناعية الأساسية</h2>
+            <p>تتكون لوحات التحكم الصناعية من مجموعة متنوعة من المكونات، بما في ذلك:</p>
+            <ul>
+              <li><b>قواطع الدائرة (Circuit Breakers):</b> لحماية الدوائر الكهربائية من التيار الزائد.</li>
+              <li><b>المرحلات (Relays):</b> للتحكم في الدوائر الكهربائية باستخدام إشارات كهربائية صغيرة.</li>
+              <li><b>وحدات التحكم المنطقية القابلة للبرمجة (PLCs):</b> لأتمتة العمليات المعقدة.</li>
+              <li><b>أجهزة القياس (Measuring Instruments):</b> لقياس المتغيرات المختلفة مثل الجهد والتيار والضغط.</li>
+              <li><b>الأسلاك والموصلات (Wiring and Connectors):</b> لتوصيل المكونات الكهربائية ببعضها البعض.</li>
+              <li><b>شاشة العرض (HMI):</b> واجهة بين المستخدم و نظام التحكم.</li>
+            </ul>
+          </div>
+
+          <div class="article-section">
+            <h2 id="section-3">اعتبارات هامة عند اختيار لوحة التحكم الصناعية</h2>
+            <p>عند اختيار لوحة التحكم الصناعية المناسبة، يجب مراعاة العوامل التالية:</p>
+            <ol>
+              <li><b>متطلبات التطبيق:</b> حدد بدقة الوظائف التي يجب أن تؤديها اللوحة.</li>
+              <li><b>بيئة التشغيل:</b> ضع في الاعتبار الظروف البيئية مثل درجة الحرارة والرطوبة والغبار.</li>
+              <li><b>ميزانية المشروع:</b> قارن بين تكلفة الأنواع المختلفة من اللوحات.</li>
+              <li><b>الصيانة:</b> اختر لوحة سهلة الصيانة والإصلاح.</li>
+              <li><b>المعايير القياسية:</b> تأكد من أن اللوحة تتوافق مع المعايير الصناعية ذات الصلة.</li>
+            </ol>
+          </div>
+
+          <div class="article-section">
+            <h2 id="section-4">جدول مقارنة بين أنواع لوحات التحكم</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>النوع</th>
+                  <th>التطبيق</th>
+                  <th>المميزات</th>
+                  <th>العيوب</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>لوحات التحكم في المحركات</td>
+                  <td>التحكم في المحركات الكهربائية</td>
+                  <td>حماية المحركات، التحكم في السرعة، سهولة التشغيل</td>
+                  <td>قد تكون محدودة في التطبيقات المعقدة</td>
+                </tr>
+                <tr>
+                  <td>لوحات التحكم في العمليات</td>
+                  <td>التحكم في العمليات الصناعية</td>
+                  <td>دقة عالية، مرونة، قابلية للتوسع</td>
+                  <td>أكثر تعقيداً وتكلفة</td>
+                </tr>
+                <tr>
+                  <td>لوحات توزيع الطاقة</td>
+                  <td>توزيع الطاقة الكهربائية</td>
+                  <td>أمان عالي، كفاءة في توزيع الطاقة</td>
+                  <td>لا توفر تحكماً مباشراً في العمليات</td>
+                </tr>
+                <tr>
+                  <td>لوحات التحكم القابلة للبرمجة</td>
+                  <td>أتمتة العمليات المعقدة</td>
+                  <td>مرونة عالية، قابلية للتعديل، سهولة المراقبة</td>
+                  <td>تتطلب خبرة في البرمجة</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="article-section">
+            <p>في الختام، نأمل أن يكون هذا الدليل الشامل قد ساعدك على فهم أساسيات لوحات التحكم الصناعية. مؤسسة روائع
+              الكريستال، مقرها الرياض، السعودية، تتخصص في تصميم وتصنيع وتركيب وصيانة لوحات التحكم الصناعية عالية الجودة.
+              نحن ملتزمون بتقديم حلول مخصصة لتلبية احتياجات عملائنا في مختلف القطاعات الصناعية. لا تتردد في التواصل معنا
+              على الرقم 0550698111 للحصول على استشارة مجانية وتقديم أفضل الحلول التي تناسب احتياجاتك. تواصلوا معنا
+              اليوم!</p>
+          </div>
+
+
+          <!-- Article Meta -->
+          <div class="article-meta">
+            <img src="../media/team/engineer-avatar.webp" alt="فريق روائع الكريستال" class="author-avatar"
+              onerror="this.style.display='none'">
+            <div class="meta-info">
+              <span class="author-name">فريق روائع الكريستال الهندسي</span>
+              <div class="meta-details">
+                <span class="article-date">آخر تحديث: <?= date('j F Y', filemtime(__FILE__)) ?></span>
+                <span class="reading-time">⏱️ وقت القراءة: 5 دقائق</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stats Grid -->
+          <div class="article-stats-grid">
+            <div class="stat-card">
+              <span class="stat-number">500+</span>
+              <span class="stat-label">مشروع منجز</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">15+</span>
+              <span class="stat-label">سنة خبرة</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">24/7</span>
+              <span class="stat-label">دعم فني</span>
+            </div>
+          </div>
+
+          <section class="faq-section">
+            <h2>❓ الأسئلة الشائعة</h2>
+            <div class="faq-list">
+              <div class="faq-item">
+                <h3>ما هي لوحات التحكم الصناعية وما هو الغرض الأساسي منها؟</h3>
+                <p>لوحات التحكم الصناعية هي تجمعات لمعدات التحكم الكهربائية التي تقوم بتوجيه ومراقبة وتشغيل الآلات
+                  والعمليات الصناعية. الغرض الرئيسي منها هو توفير واجهة مركزية للتحكم الآلي أو اليدوي في الأنظمة
+                  المعقدة، وضمان التشغيل الآمن والفعال للمعدات.</p>
+              </div>
+              <div class="faq-item">
+                <h3>ما هي المكونات الرئيسية التي توجد عادة داخل لوحة التحكم الصناعية؟</h3>
+                <p>تتكون لوحات التحكم الصناعية عادةً من قواطع الدوائر، والمرحلات، والموصلات، وأجهزة التحكم المنطقية
+                  القابلة للبرمجة (PLCs)، ومحركات التردد المتغير (VFDs)، ومصادر الطاقة، وأجهزة الإدخال/الإخراج، وأجهزة
+                  الواجهة مثل أزرار الضغط والمفاتيح والمصابيح الإرشادية.</p>
+              </div>
+              <div class="faq-item">
+                <h3>لماذا تعتبر لوحات التحكم الصناعية حاسمة في عمليات الأتمتة الحديثة؟</h3>
+                <p>تعتبر لوحات التحكم الصناعية حاسمة لأنها تمثل "عقل" الأنظمة الآلية. إنها تمكن من التشغيل الدقيق
+                  والفعال للمعدات، وتضمن السلامة من خلال آليات الحماية، وتسهل المراقبة والتشخيص، مما يؤدي إلى زيادة
+                  الإنتاجية وتقليل الأخطاء البشرية ووقت التوقف عن العمل.</p>
+              </div>
+              <div class="faq-item">
+                <h3>ما هي معايير السلامة الرئيسية التي يجب مراعاتها عند تصميم أو تركيب لوحات التحكم الصناعية؟</h3>
+                <p>تشمل معايير السلامة الرئيسية شهادات مثل UL 508A في أمريكا الشمالية، و IEC 61439 في أوروبا، بالإضافة
+                  إلى متطلبات التأريض المناسب، وحماية الدائرة، وعزل الأسلاك، وتصنيف الضميمة (مثل NEMA أو IP) لحماية
+                  المكونات من البيئة والوصول غير المصرح به.</p>
+              </div>
+              <div class="faq-item">
+                <h3>كيف يمكن صيانة لوحات التحكم الصناعية لضمان طول عمرها وأدائها الموثوق؟</h3>
+                <p>تتضمن الصيانة الدورية فحص التوصيلات الكهربائية للتأكد من إحكامها، وتنظيف المكونات من الغبار والأوساخ،
+                  وفحص الأسلاك بحثًا عن أي تآكل أو تلف، والتأكد من عمل أنظمة التبريد والتهوية بشكل صحيح، بالإضافة إلى
+                  تحديث البرامج الثابتة (firmware) لأجهزة التحكم عند الضرورة.</p>
+              </div>
+            </div>
+          </section>
+
+          <?php
+          $article = ['title' => $page_title];
+          $related_articles = [
+            'لف-المحركات-الكهربائية.php' => 'لف المحركات الكهربائية',
+            'سرعة-المحركات-الكهربائية.php' => 'سرعة المحركات الكهربائية'
+          ];
+          include '../includes/blog-article-footer.php';
+          ?>

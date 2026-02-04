@@ -1,964 +1,1012 @@
 [
-  {
-    "title": "بيع مضخات مياه | أسعار تنافسية وضمان شامل",
-    "slug": "selling-water-pumps",
-    "desc": "بيع مضخات مياه أصلية بأسعار منافسة في السعودية | جراندفوس، لووارا، KSB | ضمان شامل وخدمة توصيل. اتصل 0550698111",
-    "link": "blog/selling-water-pumps.php",
-    "image": "selling-water-pumps-featured.webp",
-    "date": "2026-02-04",
-    "alt": "بيع مضخات مياه - روائع الكريستال",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "خدمات ما بعد البيع للمضخات | صيانة وقطع غيار",
-    "slug": "pump-after-sales-services",
-    "desc": "خدمات ما بعد البيع للمضخات: صيانة دورية، قطع غيار أصلية، دعم فني 24/7، عقود صيانة سنوية. اتصل 0550698111",
-    "link": "blog/pump-after-sales-services.php",
-    "image": "pump-after-sales-services-featured.webp",
-    "date": "2026-02-04",
-    "alt": "خدمات ما بعد البيع للمضخات - روائع الكريستال",
-    "category": "الخدمات"
-  },
-  {
-    "title": "لوحات تحكم صناعية - الدليل الشامل",
-    "slug": "industrial-control-panels-guide",
-    "desc": "دليل اللوحات الصناعية: MCC، PCC، لوحات توزيع. تصنيع محلي بمعايير IEC.",
-    "link": "blog/industrial-control-panels-guide.php",
-    "image": "industrial-control-panels-guide-featured.webp",
-    "date": "2026-02-04"
-  },
-  {
-    "title": "أتمتة المضخات بالرياض - حلول ذكية",
-    "slug": "pump-automation-riyadh",
-    "desc": "خدمات أتمتة المضخات بالرياض: PLC، SCADA، IoT. تركيب وبرمجة بأيدي سعودية.",
-    "link": "blog/pump-automation-riyadh.php",
-    "image": "pump-automation-riyadh-featured.webp",
-    "date": "2026-02-04"
-  },
-  {
-    "title": "لوحات توفير الطاقة للمضخات - كفاءة الطاقة",
-    "slug": "energy-saving-panels",
-    "desc": "حلول توفير الطاقة للمضخات: VFD، تحكم بالضغط، Smart Pumping. وفر 40% من الكهرباء.",
-    "link": "blog/energy-saving-panels.php",
-    "image": "energy-saving-panels-featured.webp",
-    "date": "2026-02-04"
-  },
-  {
-    "title": "أنظمة SCADA للمضخات - إدارة مركزية",
-    "slug": "scada-pump-systems",
-    "desc": "أنظمة SCADA لإدارة محطات الضخ: مراقبة مركزية، تحكم آلي، تقارير أداء.",
-    "link": "blog/scada-pump-systems.php",
-    "image": "scada-pump-systems-featured.webp",
-    "date": "2026-02-04"
-  },
-  {
-    "title": "المراقبة عن بعد للمضخات - IoT",
-    "slug": "remote-pump-monitoring",
-    "desc": "أنظمة المراقبة الذكية للمضخات: تنبيهات SMS، تطبيق موبايل، تحليل البيانات.",
-    "link": "blog/remote-pump-monitoring.php",
-    "image": "remote-pump-monitoring-featured.webp",
-    "date": "2026-02-04"
-  },
-  {
-    "title": "أعطال لوحات المضخات وحلولها - دليل الصيانة",
-    "slug": "pump-panel-troubleshooting",
-    "desc": "حل مشاكل لوحات التحكم: أعطال VFD، تريب الحماية، مشاكل التشغيل. دعم فني 24/7.",
-    "link": "blog/pump-panel-troubleshooting.php",
-    "image": "pump-panel-troubleshooting-featured.webp",
-    "date": "2026-02-04"
-  },
-  {
-    "title": "لوحات PLC سيمنس - أتمتة صناعية",
-    "slug": "siemens-plc-panels",
-    "desc": "لوحات Siemens S7 للأتمتة: برمجة PLC، HMI، SCADA. حلول صناعية متكاملة.",
-    "link": "blog/siemens-plc-panels.php",
-    "image": "siemens-plc-panels-featured.webp",
-    "date": "2026-02-04"
-  },
-  {
-    "title": "لوحات تحكم ABB - الجودة الأوروبية",
-    "slug": "abb-control-panels",
-    "desc": "لوحات ABB للتحكم الصناعي: VFD، Soft Starter، قواطع. وكيل معتمد بالرياض.",
-    "link": "blog/abb-control-panels.php",
-    "image": "abb-control-panels-featured.webp",
-    "date": "2026-02-04"
-  },
-  {
-    "title": "تصميم أنظمة تحكم المضخات - هندسة كهربائية",
-    "slug": "pump-control-system-design",
-    "desc": "تصميم وتنفيذ أنظمة التحكم الكهربائية للمضخات: PLC، SCADA، أتمتة صناعية.",
-    "link": "blog/pump-control-system-design.php",
-    "image": "pump-control-system-design-featured.webp",
-    "date": "2026-02-04"
-  },
-  {
-    "title": "توريد لوحات سوفت ستارتر - Soft Starter",
-    "slug": "soft-starter-supply",
-    "desc": "لوحات Soft Starter للتشغيل الناعم: ABB، Schneider، Siemens. تركيب وبرمجة.",
-    "link": "blog/soft-starter-supply.php",
-    "image": "soft-starter-supply-featured.webp",
-    "date": "2026-02-04"
-  },
-  {
-    "title": "توريد لوحات ستار دلتا - تشغيل ناعم",
-    "slug": "star-delta-panel-supply",
-    "desc": "لوحات Star-Delta للتشغيل التدريجي: تقليل تيار البدء، حماية المحركات. أسعار تنافسية.",
-    "link": "blog/star-delta-panel-supply.php",
-    "image": "star-delta-panel-supply-featured.webp",
-    "date": "2026-02-04"
-  },
-  {
-    "title": "صيانة لوحات الانفرتر - برمجة وإصلاح VFD",
-    "slug": "inverter-maintenance-programming",
-    "desc": "صيانة وبرمجة الانفرتر VFD: ABB، Schneider، Siemens. إصلاح الأعطال وقطع الغيار.",
-    "link": "blog/inverter-maintenance-programming.php",
-    "image": "inverter-maintenance-programming-featured.webp",
-    "date": "2026-02-04"
-  },
-  {
-    "title": "توريد لوحات HVAC - تكييف مركزي",
-    "slug": "hvac-panel-supply",
-    "desc": "لوحات تحكم أنظمة التكييف المركزي HVAC: تشيلرات، مناولات هواء. تصنيع محلي.",
-    "link": "blog/hvac-panel-supply.php",
-    "image": "hvac-panel-supply-featured.webp",
-    "date": "2026-02-04"
-  },
-  {
-    "title": "توريد لوحات مضخات - أسعار 2026",
-    "slug": "pump-panel-supply-prices",
-    "desc": "توريد لوحات تحكم مضخات بأسعار تنافسية: VFD، ستار دلتا، سوفت ستارتر. ضمان سنة.",
-    "link": "blog/pump-panel-supply-prices.php",
-    "image": "pump-panel-supply-prices-featured.webp",
-    "date": "2026-02-04"
-  },
-  {
-    "title": "صيانة لوحات التحكم - دليل الفني الشامل",
-    "slug": "control-panel-maintenance-guide",
-    "desc": "دليل صيانة لوحات التحكم: الفحص الدوري، استبدال المكونات، البرمجة. خدمة 24/7.",
-    "link": "blog/control-panel-maintenance-guide.php",
-    "image": "control-panel-maintenance-guide-featured.webp",
-    "date": "2026-02-04"
-  },
-  {
-    "title": "لوحات تحكم مضخات حريق - معايير NFPA 20",
-    "slug": "fire-pump-control-panels-nfpa",
-    "desc": "لوحات مضخات الحريق المعتمدة UL/FM: التصميم، المكونات، الاختبارات. معتمد الدفاع المدني.",
-    "link": "blog/fire-pump-control-panels-nfpa.php",
-    "image": "fire-pump-control-panels-nfpa-featured.webp",
-    "date": "2026-02-04"
-  },
-  {
-    "title": "لوحات تحكم VFD - التحكم بسرعة المضخات",
-    "slug": "vfd-control-panels-guide",
-    "desc": "دليل لوحات VFD للتحكم بسرعة المضخات: البرمجة، التركيب، توفير الطاقة. خبراء VFD بالرياض.",
-    "link": "blog/vfd-control-panels-guide.php",
-    "image": "vfd-control-panels-guide-featured.webp",
-    "date": "2026-02-04"
-  },
-  {
-    "title": "لوحات تحكم بشنايدر - المكونات والأسعار",
-    "slug": "schneider-electric-panels",
-    "desc": "لوحات كهربائية Schneider Electric: كونتاكتورات، قواطع، VFD. توريد قطع أصلية بالسعودية.",
-    "link": "blog/schneider-electric-panels.php",
-    "image": "schneider-electric-panels-featured.webp",
-    "date": "2026-02-04"
-  },
-  {
-    "title": "لوحات تحكم مضخات مياه - دليل شامل 2026",
-    "slug": "water-pump-control-panels",
-    "desc": "دليل شامل للوحات تحكم مضخات المياه: الأنواع، المكونات، الأسعار. تصنيع وتركيب بالرياض. 0550698111",
-    "link": "blog/water-pump-control-panels.php",
-    "image": "water-pump-control-panels-featured.webp",
-    "date": "2026-02-04"
-  },
-  {
-    "title": "احترف لف المحركات الكهربائية: دليل الفنيين خطوة بخطوة 2026",
-    "slug": "لف-المحركات-الكهربائية",
-    "date": "1 يونيو 2024",
-    "image": "motor-winding-workshop.webp",
-    "alt": "احترف لف المحركات الكهربائية: دليل الفنيين خطوة بخطوة 2026",
-    "desc": "تعلم لف المحركات من الصفر للاحتراف. 5 خطوات عملية + جداول اللفات + معادلات الحساب. وفر 50-70% من تكلفة المحرك الجديد. ضمان سنة كاملة",
-    "link": "blog/لف-المحركات-الكهربائية.php",
-    "category": "الأعمال الكهربائية"
-  },
-  {
-    "title": "صيانة مضخات جراندفوس - الوكيل المعتمد",
-    "slug": "صيانة-مضخات-جراندفوس",
-    "date": "1 يونيو 2024",
-    "image": "grundfos-pump-maintenance-featured.webp",
-    "alt": "صيانة مضخات جراندفوس - الوكيل المعتمد",
-    "desc": "صيانة مضخات جراندفوس Grundfos المتخصصة: CR، SP، CM، UPS. قطع غيار أصلية، فنيين معتمدين، خدمة في الرياض وجميع مناطق المملكة.",
-    "link": "blog/صيانة-مضخات-جراندفوس.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "كيف تحسب سرعة المحرك الكهربائي؟ المعادلة + جدول السرعات 2026",
-    "slug": "سرعة-المحركات-الكهربائية",
-    "date": "1 يونيو 2024",
-    "image": "motor-speed-calculation-featured.webp",
-    "alt": "كيف تحسب سرعة المحرك الكهربائي؟ المعادلة + جدول السرعات 2026",
-    "desc": "تعلم حساب سرعة المحركات الكهربائية بمعادلات بسيطة. جدول سرعات جاهز لجميع الأقطاب. التحكم بالانفرتر يوفر 50% طاقة! للفنيين والمهندسين",
-    "link": "blog/سرعة-المحركات-الكهربائية.php",
-    "category": "الأعمال الكهربائية"
-  },
-  {
-    "title": "دور الكهرباء الصناعية في تطوير المصانع - برلينت سيرف الرياض",
-    "slug": "دور-الكهرباء-الصناعية-في-تطوير-المصان",
-    "date": "1 فبراير 2026",
-    "image": "دور-الكهرباء-الصناعية-featured.webp",
-    "alt": "دور الكهرباء الصناعية في تطوير المصانع - برلينت سيرف الرياض",
-    "desc": "تعرف على أهمية الكهرباء الصناعية في تطوير المصانع السعودية. خدمات تمديدات كهربائية، لوحات تحكم، وصيانة كهرباء المصانع بالرياض. اتصل: 0550698111",
-    "link": "blog/دور-الكهرباء-الصناعية-في-تطوير-المصان.php",
-    "category": "الأعمال الكهربائية"
-  },
-  {
-    "title": "12 نوع مضخة يجب أن تعرفها قبل الشراء - دليل 2026 الشامل",
-    "slug": "انواع-المضخات",
-    "date": "1 يونيو 2024",
-    "image": "12-pump-types-guide-featured.webp",
-    "alt": "12 نوع مضخة يجب أن تعرفها قبل الشراء - دليل 2026 الشامل",
-    "desc": "دليل مصور لجميع أنواع المضخات: غاطسة، طرد مركزي، ترسية، هيدروليكية. اختر المضخة المناسبة بسهولة. مقارنة أسعار + جدول مقارنة شامل",
-    "link": "blog/انواع-المضخات.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "المخططات الكهربائية للمباني - تصميم وتنفيذ",
-    "slug": "المخططات-الكهربائية-للمباني",
-    "date": "1 يونيو 2024",
-    "image": "building-electrical-design-featured.webp",
-    "alt": "المخططات الكهربائية للمباني - تصميم وتنفيذ",
-    "desc": "دليل شامل عن المخططات الكهربائية للمباني: الرموز الكهربائية، حساب الأحمال، توزيع اللوحات، ومعايير السلامة. خدمة تصميم وتنفيذ في الرياض.",
-    "link": "blog/المخططات-الكهربائية-للمباني.php",
-    "category": "الأعمال الكهربائية"
-  },
-  {
-    "title": "مضخات الآبار - الغاطسة والتوربينية",
-    "slug": "well-pumps",
-    "date": "1 فبراير 2026",
-    "image": "well-pumps-featured.webp",
-    "alt": "مضخات الآبار - الغاطسة والتوربينية",
-    "desc": "دليل شامل لمضخات الآبار: غاطسة وتوربينية. كيف تختار؟ الأعماق والأسعار في السعودية 2026. Grundfos SP، ماركات أصلية. 0550698111",
-    "link": "blog/well-pumps.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "حل مشكلة ضعف ضغط الماء",
-    "slug": "weak-water-pressure-solution",
-    "date": "30 يناير 2026",
-    "image": "weak-water-pressure.webp",
-    "alt": "حل مشكلة ضعف ضغط الماء",
-    "desc": "هل تعاني من ضعف ضغط الماء في الحنفيات والدش؟ اكتشف الأسباب والحلول العملية لزيادة ضغط المياه في منزلك. استشارة مجانية 0550698111",
-    "link": "blog/weak-water-pressure-solution.php",
-    "category": "عام"
-  },
-  {
-    "title": "مضخات مياه في السعودية - توريد جميع المناطق",
-    "slug": "water-pumps-saudi",
-    "date": "1 فبراير 2026",
-    "image": "water-pumps-saudi-featured-new.webp",
-    "alt": "مضخات مياه في السعودية - توريد جميع المناطق",
-    "desc": "مضخات مياه في السعودية: الرياض، جدة، الدمام، المنطقة الشرقية. Grundfos، Lowara، KSB. توريد، تركيب، صيانة. 0550698111",
-    "link": "blog/water-pumps-saudi.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "حلول ضخ المياه المتكاملة للمشاريع",
-    "slug": "water-pumping-solutions",
-    "date": "1 فبراير 2026",
-    "image": "water-pumping-solutions-featured-new.webp",
-    "alt": "حلول ضخ المياه المتكاملة للمشاريع",
-    "desc": "حلول ضخ المياه المتكاملة: تصميم، توريد، تركيب وصيانة. للمشاريع السكنية والتجارية والصناعية في الرياض والسعودية. 0550698111",
-    "link": "blog/water-pumping-solutions.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "أنظمة تعزيز ضغط المياه (Booster)",
-    "slug": "water-booster-systems",
-    "date": "1 فبراير 2026",
-    "image": "water-booster-systems-featured.webp",
-    "alt": "أنظمة تعزيز ضغط المياه (Booster)",
-    "desc": "أنظمة Booster لتعزيز ضغط المياه للفلل والعمارات والمصانع. Grundfos Hydro MPC، Lowara GHV. أسعار 2026 والمواصفات. 0550698111",
-    "link": "blog/water-booster-systems.php",
-    "category": "عام"
-  },
-  {
-    "title": "برمجة انفرتر VFD للمضخات: توفير الطاقة والمال",
-    "slug": "vfd-programming-pumps",
-    "date": "31 يناير 2026",
-    "image": "vfd-programming-pumps-featured.webp",
-    "alt": "برمجة انفرتر VFD للمضخات: توفير الطاقة والمال",
-    "desc": "مقالة شاملة عن برمجة انفرتر VFD للمضخات: توفير الطاقة والمال. نقدم أفضل خدمات برمجة انفرتر VFD في الرياض وجدة. اتصل بنا 0550698111.",
-    "link": "blog/vfd-programming-pumps.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "مضخات رأسية - أنواعها وتطبيقاتها",
-    "slug": "vertical-pumps",
-    "date": "1 فبراير 2026",
-    "image": "vertical-pumps-featured.webp",
-    "alt": "مضخات رأسية - أنواعها وتطبيقاتها",
-    "desc": "المضخات الرأسية متعددة المراحل للمباني والمشاريع. توريد وتركيب من أفضل الماركات. اتصل 0550698111",
-    "link": "blog/vertical-pumps.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "أنواع المضخات وطرق عملها وصيانتها: دليلك الشامل",
-    "slug": "types-of-water-pumps",
-    "date": "31 يناير 2026",
-    "image": "water-pump-types.webp",
-    "alt": "أنواع المضخات وطرق عملها وصيانتها: دليلك الشامل",
-    "desc": "تعرف على أنواع مضخات المياه المنزلية والصناعية وطرق عملها. دليل شامل لاختيار المضخة المناسبة وصيانتها.",
-    "link": "blog/types-of-water-pumps.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "مشاكل الغطاسات وحلها: دليل شامل",
-    "slug": "submersible-pump-problems",
-    "date": "31 يناير 2026",
-    "image": "submersible-pump-troubleshooting-featured.webp",
-    "alt": "مشاكل الغطاسات وحلها: دليل شامل",
-    "desc": "دليل حل مشاكل الغطاسات: أسباب نزول القاطع، ضعف الضخ، واحتراق المحرك. خدمة سحب وصيانة الغطاسات في الرياض مع الضمان. اتصل 0550698111",
-    "link": "blog/submersible-pump-problems.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "تصنيع لوحات ستار دلتا للمصانع والمزارع",
-    "slug": "star-delta-panel-manufacturing",
-    "date": "31 يناير 2026",
-    "image": "control-panel-prices-2026.webp",
-    "alt": "تصنيع لوحات ستار دلتا للمصانع والمزارع",
-    "desc": "تصنيع وصيانة لوحات ستار دلتا (Star-Delta) للمضخات والمصانع. مكونات أوروبية أصلية (Schneider/ABB) مع ضمان وضبط هندسي دقيق. اتصل 0550698111",
-    "link": "blog/star-delta-panel-manufacturing.php",
-    "category": "لوحات التحكم"
-  },
-  {
-    "title": "لوحات سوفت ستارتر - تشغيل ناعم",
-    "slug": "soft-starter-panels",
-    "date": "1 فبراير 2026",
-    "image": "soft-starter-panels-featured.webp",
-    "alt": "لوحات سوفت ستارتر - تشغيل ناعم",
-    "desc": "لوحات Soft Starter للتشغيل التدريجي للمحركات. تقليل تيار البدء وحماية المحركات. اتصل 0550698111",
-    "link": "blog/soft-starter-panels.php",
-    "category": "لوحات التحكم"
-  },
-  {
-    "title": "مضخات صرف صحي - غاطسة وغرايندر",
-    "slug": "sewage-pumps",
-    "date": "1 فبراير 2026",
-    "image": "sewage-pumps-featured.webp",
-    "alt": "مضخات صرف صحي - غاطسة وغرايندر",
-    "desc": "مضخات صرف صحي غاطسة: Submersible، Grinder. للمباني والبيارات. Ebara، Grundfos، Lowara. توريد وتركيب. 0550698111",
-    "link": "blog/sewage-pumps.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "لوحات تحكم مضخات الصرف الصحي",
-    "slug": "sewage-pump-panels",
-    "date": "1 فبراير 2026",
-    "image": "sewage-pump-panels-featured.webp",
-    "alt": "لوحات تحكم مضخات الصرف الصحي",
-    "desc": "لوحات تحكم مضخات الصرف الصحي: حماية من الحمل الزائد، تشغيل تناوبي، إنذار ارتفاع المنسوب. Schneider، ABB. 0550698111",
-    "link": "blog/sewage-pump-panels.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "لوحات تحكم شنايدر - مكونات أصلية",
-    "slug": "schneider-control-panels",
-    "date": "1 فبراير 2026",
-    "image": "schneider-control-panels-featured.webp",
-    "alt": "لوحات تحكم شنايدر - مكونات أصلية",
-    "desc": "لوحات تحكم بمكونات Schneider الأصلية. قواطع، كونتاكتورات، حماية. ضمان وصيانة. اتصل 0550698111",
-    "link": "blog/schneider-control-panels.php",
-    "category": "لوحات التحكم"
-  },
-  {
-    "title": "صيانة أنظمة الضخ - عقود سنوية",
-    "slug": "pumping-system-maintenance",
-    "date": "1 فبراير 2026",
-    "image": "pumping-system-maintenance-featured.webp",
-    "alt": "صيانة أنظمة الضخ - عقود سنوية",
-    "desc": "صيانة شاملة لأنظمة ضخ المياه. عقود صيانة دورية ووقائية. فريق فني متخصص. اتصل 0550698111",
-    "link": "blog/pumping-system-maintenance.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "تركيب أنظمة ضخ المياه",
-    "slug": "pumping-system-installation",
-    "date": "1 فبراير 2026",
-    "image": "pumping-system-installation-featured.webp",
-    "alt": "تركيب أنظمة ضخ المياه",
-    "desc": "تركيب أنظمة ضخ المياه: مضخات، لوحات تحكم، أنابيب. تركيب احترافي وفق المعايير. ضمان سنة. الرياض والسعودية. 0550698111",
-    "link": "blog/pumping-system-installation.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "اختبار وتشغيل المضخات",
-    "slug": "pump-testing",
-    "date": "1 فبراير 2026",
-    "image": "pump-testing-featured.webp",
-    "alt": "اختبار وتشغيل المضخات",
-    "desc": "اختبار المضخات قبل التشغيل. فحص الضغط والتدفق. تقارير معتمدة. اتصل 0550698111",
-    "link": "blog/pump-testing.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "مورد مضخات مياه في السعودية",
-    "slug": "pump-supplier-saudi",
-    "date": "1 فبراير 2026",
-    "image": "pump-supplier-saudi-featured.webp",
-    "alt": "مورد مضخات مياه في السعودية",
-    "desc": "نورد مضخات المياه لجميع مناطق المملكة. ماركات عالمية، أسعار تنافسية، ضمان شامل. اتصل 0550698111",
-    "link": "blog/pump-supplier-saudi.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "خدمات مضخات المياه في الرياض",
-    "slug": "pump-services-riyadh",
-    "date": "1 فبراير 2026",
-    "image": "pump-services-riyadh-featured.webp",
-    "alt": "خدمات مضخات المياه في الرياض",
-    "desc": "خدمات مضخات المياه في الرياض: توريد، تركيب، صيانة، لوحات تحكم. خبرة 15+ سنة. جميع الماركات. 0550698111",
-    "link": "blog/pump-services-riyadh.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "صيانة غرف المضخات",
-    "slug": "pump-room-maintenance",
-    "date": "1 فبراير 2026",
-    "image": "pump-room-maintenance-featured.webp",
-    "alt": "صيانة غرف المضخات",
-    "desc": "صيانة شاملة لغرف المضخات. تنظيف، فحص، إصلاح. عقود صيانة دورية. اتصل 0550698111",
-    "link": "blog/pump-room-maintenance.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "تنفيذ غرف مضخات - تصميم وتركيب",
-    "slug": "pump-room-construction",
-    "date": "1 فبراير 2026",
-    "image": "pump-room-construction-featured.webp",
-    "alt": "تنفيذ غرف مضخات - تصميم وتركيب",
-    "desc": "تصميم وتنفيذ غرف المضخات للمباني والمشاريع. أعمال ميكانيكية وكهربائية متكاملة. اتصل 0550698111",
-    "link": "blog/pump-room-construction.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "تصليح مضخات مياه شمال الرياض",
-    "slug": "pump-repair-north-riyadh",
-    "date": "30 يناير 2026",
-    "image": "pump-repair-north-riyadh-featured.webp",
-    "alt": "تصليح مضخات مياه شمال الرياض",
-    "desc": "هل تبحث عن فني مضخات مياه شمال الرياض؟ نقدم خدمة تصليح وصيانة جميع أنواع المضخات (Grundfos, KSB, Lowara) مع ضمان شامل وقطع غيار أصلية. اتصل 0550698111",
-    "link": "blog/pump-repair-north-riyadh.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "تبديل حساس ضغط المضخات",
-    "slug": "pump-pressure-sensor",
-    "date": "1 فبراير 2026",
-    "image": "pump-pressure-sensor-featured.webp",
-    "alt": "تبديل حساس ضغط المضخات",
-    "desc": "تبديل وتركيب حساسات ضغط المضخات. قطع غيار أصلية. ضمان التشغيل السليم. اتصل 0550698111",
-    "link": "blog/pump-pressure-sensor.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "معايرة ضغط المضخات",
-    "slug": "pump-pressure-calibration",
-    "date": "1 فبراير 2026",
-    "image": "pump-pressure-calibration-featured.webp",
-    "alt": "معايرة ضغط المضخات",
-    "desc": "معايرة ضغط المضخات: ضبط Pressure Switch، معايرة حساسات، أجهزة قياس معتمدة. 0550698111",
-    "link": "blog/pump-pressure-calibration.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "صيانة مواسير وتوصيلات المضخات",
-    "slug": "pump-piping-maintenance",
-    "date": "1 فبراير 2026",
-    "image": "pump-piping-maintenance-featured.webp",
-    "alt": "صيانة مواسير وتوصيلات المضخات",
-    "desc": "صيانة مواسير المضخات: كشف تسربات، تبديل جوانات، إصلاح وصلات. خدمة سريعة في الرياض. 0550698111",
-    "link": "blog/pump-piping-maintenance.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "تجميع لوحات مضخات - تصنيع محلي",
-    "slug": "pump-panel-assembly",
-    "date": "1 فبراير 2026",
-    "image": "pump-panel-assembly-featured.webp",
-    "alt": "تجميع لوحات مضخات - تصنيع محلي",
-    "desc": "تجميع لوحات مضخات: مكونات Schneider، ABB. تصنيع محلي. VFD، Star-Delta، Soft Starter. 0550698111",
-    "link": "blog/pump-panel-assembly.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "لوحات تشغيل مضخات - يدوي وأوتو",
-    "slug": "pump-operation-panels",
-    "date": "1 فبراير 2026",
-    "image": "pump-operation-panels-featured.webp",
-    "alt": "لوحات تشغيل مضخات - يدوي وأوتو",
-    "desc": "لوحات تشغيل مضخات: يدوي وأوتوماتيكي. Direct، Star-Delta، VFD. مكونات Schneider/ABB. 0550698111",
-    "link": "blog/pump-operation-panels.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "صيانة مضخات الرياض - خدمة 24/7",
-    "slug": "pump-maintenance-riyadh",
-    "date": "1 فبراير 2026",
-    "image": "pump-maintenance-riyadh-featured.webp",
-    "alt": "صيانة مضخات الرياض - خدمة 24/7",
-    "desc": "صيانة مضخات مياه في الرياض: جميع الماركات، خدمة 24/7، قطع غيار أصلية، وصول سريع. Grundfos، Lowara. 0550698111",
-    "link": "blog/pump-maintenance-riyadh.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "عقود صيانة مضخات - سنوية ودورية",
-    "slug": "pump-maintenance-contracts",
-    "date": "1 فبراير 2026",
-    "image": "pump-maintenance-contracts-featured.webp",
-    "alt": "عقود صيانة مضخات - سنوية ودورية",
-    "desc": "عقود صيانة مضخات سنوية: زيارات دورية، صيانة وقائية، إصلاحات طارئة. خصومات على قطع الغيار. 0550698111",
-    "link": "blog/pump-maintenance-contracts.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "تركيب مضخات شرق الرياض",
-    "slug": "pump-installation-east-riyadh",
-    "date": "31 يناير 2026",
-    "image": "pump-installation-east-riyadh-featured.webp",
-    "alt": "تركيب مضخات شرق الرياض",
-    "desc": "هل تبحث عن فني تركيب مضخات شرق الرياض؟ نوفر خدمات تركيب وصيانة مضخات المياه بجميع أنواعها (Grundfos, KSB) مع ضمان شامل. اتصل نصلك فوراً 0550698111.",
-    "link": "blog/pump-installation-east-riyadh.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "أسباب صوت طنين المضخة - وحلولها",
-    "slug": "pump-humming-sound",
-    "date": "30 يناير 2026",
-    "image": "pump-humming-sound.webp",
-    "alt": "أسباب صوت طنين المضخة - وحلولها",
-    "desc": "المضخة تصدر صوت طنين ولا تعمل؟ الأسباب: مكثف تالف، بلي مكسور، مروحة عالقة. افصل الكهرباء فوراً! 0550698111",
-    "link": "blog/pump-humming-sound.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "تشغيل وتسليم المضخات",
-    "slug": "pump-handover",
-    "date": "1 فبراير 2026",
-    "image": "pump-handover-featured.webp",
-    "alt": "تشغيل وتسليم المضخات",
-    "desc": "تشغيل وتسليم المضخات للمشاريع: اختبارات، توثيق، تدريب، شهادات معتمدة. 0550698111",
-    "link": "blog/pump-handover.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "لوحات تحكم المضخات - VFD وستار دلتا",
-    "slug": "pump-control-panels",
-    "date": "1 فبراير 2026",
-    "image": "pump-control-panels-featured.webp",
-    "alt": "لوحات تحكم المضخات - VFD وستار دلتا",
-    "desc": "دليل لوحات تحكم المضخات: VFD، Star-Delta، Soft Starter. الأنواع والأسعار في السعودية 2026. تصنيع محلي بمكونات Schneider وABB. 0550698111",
-    "link": "blog/pump-control-panels.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "شركة مضخات مياه الرياض - توريد وتركيب وصيانة",
-    "slug": "pump-company-riyadh",
-    "date": "1 فبراير 2026",
-    "image": "pump-company-riyadh-featured.webp",
-    "alt": "شركة مضخات مياه الرياض - توريد وتركيب وصيانة",
-    "desc": "شركة مضخات مياه في الرياض: توريد، تركيب، صيانة. خدمة 24/7، قطع غيار أصلية، ضمان شامل. Grundfos، Lowara. 0550698111",
-    "link": "blog/pump-company-riyadh.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "فحص وتشغيل المضخات - Commissioning",
-    "slug": "pump-commissioning",
-    "date": "1 فبراير 2026",
-    "image": "pump-commissioning-featured.webp",
-    "alt": "فحص وتشغيل المضخات - Commissioning",
-    "desc": "فحص وتشغيل المضخات (Commissioning): اختبار الأداء، الضغط، التدفق. شهادات معتمدة. 0550698111",
-    "link": "blog/pump-commissioning.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "لوحات تحكم الضغط الأوتوماتيكية",
-    "slug": "pressure-control-panels",
-    "date": "1 فبراير 2026",
-    "image": "pressure-control-panels-featured.webp",
-    "alt": "لوحات تحكم الضغط الأوتوماتيكية",
-    "desc": "لوحات تحكم ضغط المياه الأوتوماتيكية: حساسات ضغط، VFD، تحكم ذكي. ضغط ثابت وتوفير طاقة. تصنيع وتركيب بالرياض. 0550698111",
-    "link": "blog/pressure-control-panels.php",
-    "category": "لوحات التحكم"
-  },
-  {
-    "title": "صيانة المسابح بجدة",
-    "slug": "pool-maintenance-jeddah",
-    "date": "20 يناير 2026",
-    "image": "pool-maintenance-jeddah-featured.webp",
-    "alt": "صيانة المسابح بجدة",
-    "desc": "خدمة صيانة ومسابح شاملة في جدة. تنظيف، تعقيم، صيانة مضخات وفلاتر، وكشف تسربات المسابح بأيدي خبراء.",
-    "link": "blog/pool-maintenance-jeddah.php",
-    "category": "عام"
-  },
-  {
-    "title": "لوحات PLC - التحكم المبرمج للمضخات",
-    "slug": "plc-control-panels",
-    "date": "1 فبراير 2026",
-    "image": "plc-control-panels-featured.webp",
-    "alt": "لوحات PLC - التحكم المبرمج للمضخات",
-    "desc": "لوحات PLC للتحكم المبرمج في المضخات والمحطات. Siemens، Allen Bradley، Schneider. برمجة وتصنيع في الرياض. 0550698111",
-    "link": "blog/plc-control-panels.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "مضخات مياه أصلية - كيف تميز الأصلية من المقلدة",
-    "slug": "original-water-pumps",
-    "date": "1 فبراير 2026",
-    "image": "original-water-pumps-featured.webp",
-    "alt": "مضخات مياه أصلية - كيف تميز الأصلية من المقلدة",
-    "desc": "كيف تميز المضخة الأصلية من المقلدة؟ دليل شامل للشراء الآمن. Grundfos، Lowara، KSB أصلية بضمان المصنع. 0550698111",
-    "link": "blog/original-water-pumps.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "مضخات متعددة المراحل - دليل شامل للضغط العالي",
-    "slug": "multistage-pumps",
-    "date": "1 فبراير 2026",
-    "image": "multistage-pumps-featured.webp",
-    "alt": "مضخات متعددة المراحل - دليل شامل للضغط العالي",
-    "desc": "دليل شامل للمضخات متعددة المراحل: كيفية الاختيار، عدد المراحل، الأسعار في السعودية 2026. Grundfos CR، Lowara e-SV وأفضل الماركات. اتصل 0550698111",
-    "link": "blog/multistage-pumps.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "لوحات MCC - مراكز التحكم بالمحركات",
-    "slug": "mcc-panels",
-    "date": "1 فبراير 2026",
-    "image": "mcc-panels-featured.webp",
-    "alt": "لوحات MCC - مراكز التحكم بالمحركات",
-    "desc": "لوحات MCC مراكز التحكم بالمحركات للمصانع والمشاريع الكبرى. تصنيع محلي بمواصفات سعودية وعالمية. Schneider، ABB. 0550698111",
-    "link": "blog/mcc-panels.php",
-    "category": "لوحات التحكم"
-  },
-  {
-    "title": "مضخات لووارا Lowara - الإيطالية الأصلية",
-    "slug": "lowara-pumps",
-    "date": "1 فبراير 2026",
-    "image": "lowara-pumps-featured.webp",
-    "alt": "مضخات لووارا Lowara - الإيطالية الأصلية",
-    "desc": "مضخات لووارا Lowara الإيطالية: تصميم أنيق، كفاءة عالية. e-SV، e-HM، DOC. توريد وصيانة. 0550698111",
-    "link": "blog/lowara-pumps.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "صيانة مضخات لووارا Lowara - قطع غيار أصلية",
-    "slug": "lowara-pump-maintenance",
-    "date": "1 فبراير 2026",
-    "image": "lowara-pump-maintenance-featured.webp",
-    "alt": "صيانة مضخات لووارا Lowara - قطع غيار أصلية",
-    "desc": "صيانة مضخات لووارا الإيطالية في الرياض. قطع غيار أصلية، فنيين متخصصين، ضمان. إصلاح e-SV، CEA، FCE. اتصل 0550698111",
-    "link": "blog/lowara-pump-maintenance.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "صيانة مضخات KSB الألمانية",
-    "slug": "ksb-pump-maintenance",
-    "date": "30 يناير 2026",
-    "image": "ksb-pump-maintenance.webp",
-    "alt": "صيانة مضخات KSB الألمانية",
-    "desc": "صيانة مضخات KSB الألمانية: Etanorm، Etabloc، Omega. محاذاة ليزر، قطع غيار أصلية، خدمة طوارئ. 0550698111",
-    "link": "blog/ksb-pump-maintenance.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "صيانة مضخات الحريق جوكي (Jockey Pump)",
-    "slug": "jockey-fire-pump-maintenance",
-    "date": "31 يناير 2026",
-    "image": "fire-pump-maintenance.webp",
-    "alt": "صيانة مضخات الحريق جوكي (Jockey Pump)",
-    "desc": "مقالة شاملة عن صيانة مضخات الحريق جوكي (Jockey Pump). نقدم أفضل خدمات صيانة مضخات الحريق في الرياض وجدة. اتصل بنا 0550698111.",
-    "link": "blog/jockey-fire-pump-maintenance.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "صيانة لوحات الانفرتر VFD",
-    "slug": "inverter-panel-maintenance",
-    "date": "1 فبراير 2026",
-    "image": "inverter-panel-maintenance-featured.webp",
-    "alt": "صيانة لوحات الانفرتر VFD",
-    "desc": "صيانة لوحات الانفرتر VFD: ABB، Schneider، Danfoss. برمجة وإصلاح. قطع غيار أصلية. 0550698111",
-    "link": "blog/inverter-panel-maintenance.php",
-    "category": "لوحات التحكم"
-  },
-  {
-    "title": "المضخات الصناعية - حلول المصانع والمشاريع الكبرى",
-    "slug": "industrial-water-pumps",
-    "date": "1 فبراير 2026",
-    "image": "industrial-water-pumps-featured.webp",
-    "alt": "المضخات الصناعية - حلول المصانع والمشاريع الكبرى",
-    "desc": "دليل المضخات الصناعية الثقيلة للمصانع ومحطات المعالجة. KSB، Grundfos، Sulzer. توريد وصيانة بالرياض. 0550698111",
-    "link": "blog/industrial-water-pumps.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "تصنيع لوحات HVAC - تكييف مركزي",
-    "slug": "hvac-panel-manufacturing",
-    "date": "1 فبراير 2026",
-    "image": "hvac-panel-manufacturing-featured.webp",
-    "alt": "تصنيع لوحات HVAC - تكييف مركزي",
-    "desc": "تصنيع لوحات HVAC للتكييف المركزي والمبردات: Chillers، AHU، FCU. مواصفات سعودية. 0550698111",
-    "link": "blog/hvac-panel-manufacturing.php",
-    "category": "التكييف والتهوية"
-  },
-  {
-    "title": "لوحات تحكم HVAC - التكييف المركزي",
-    "slug": "hvac-control-panels",
-    "date": "1 فبراير 2026",
-    "image": "hvac-control-panels-featured.webp",
-    "alt": "لوحات تحكم HVAC - التكييف المركزي",
-    "desc": "لوحات تحكم HVAC للتكييف المركزي: VFD، Star-Delta، Soft Starter. تصنيع محلي بمعايير عالمية. Schneider، ABB. 0550698111",
-    "link": "blog/hvac-control-panels.php",
-    "category": "التكييف والتهوية"
-  },
-  {
-    "title": "مضخات أفقية - مميزاتها واستخداماتها",
-    "slug": "horizontal-pumps",
-    "date": "1 فبراير 2026",
-    "image": "horizontal-pumps-featured.webp",
-    "alt": "مضخات أفقية - مميزاتها واستخداماتها",
-    "desc": "المضخات الأفقية للتطبيقات الصناعية والتجارية. توريد وتركيب وصيانة بأعلى المعايير. اتصل 0550698111",
-    "link": "blog/horizontal-pumps.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "أنواع مضخات المياه المنزلية - دليل الشراء",
-    "slug": "home-water-pump-types",
-    "date": "30 يناير 2026",
-    "image": "home-water-pump-types.webp",
-    "alt": "أنواع مضخات المياه المنزلية - دليل الشراء",
-    "desc": "أنواع مضخات المياه المنزلية: Peripheral، Centrifugal، Booster. كيف تختار المضخة المناسبة لمنزلك؟ 0550698111",
-    "link": "blog/home-water-pump-types.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "تجميع مضخات جراندفوس GRUNDFOS",
-    "slug": "grundfos-pump-assembly",
-    "date": "1 فبراير 2026",
-    "image": "grundfos-pump-assembly-featured.webp",
-    "alt": "تجميع مضخات جراندفوس GRUNDFOS",
-    "desc": "تجميع وتركيب مضخات جراندفوس الأصلية. أنظمة بوستر ومحطات ضخ. ضمان المصنع. اتصل 0550698111",
-    "link": "blog/grundfos-pump-assembly.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "وكيل مضخات Grundfos الرياض",
-    "slug": "grundfos-pump-agent-riyadh",
-    "date": "30 يناير 2026",
-    "image": "grundfos-pump-agent.webp",
-    "alt": "وكيل مضخات Grundfos الرياض",
-    "desc": "نبحث عن وكيل مضخات Grundfos في الرياض؟ روائع الكريستال توفر خدمات الصيانة المعتمدة وقطع الغيار الأصلية لمضخات جراندفوس. اتصل بنا 0550698111",
-    "link": "blog/grundfos-pump-agent-riyadh.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "مضخات الحريق - دليل المواصفات والأنواع المعتمدة",
-    "slug": "fire-pumps",
-    "date": "1 فبراير 2026",
-    "image": "fire-pumps-featured.webp",
-    "alt": "مضخات الحريق - دليل المواصفات والأنواع المعتمدة",
-    "desc": "دليل شامل لمضخات الحريق المعتمدة UL/FM والدفاع المدني السعودي. الأنواع، المواصفات، الأسعار 2026. توريد وتركيب بالرياض. 0550698111",
-    "link": "blog/fire-pumps.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "شركة متخصصة في مضخات الحريق - الرياض",
-    "slug": "fire-pump-specialist",
-    "date": "1 فبراير 2026",
-    "image": "fire-pump-specialist-featured.webp",
-    "alt": "شركة متخصصة في مضخات الحريق - الرياض",
-    "desc": "شركة متخصصة في مضخات الحريق الرياض: توريد، تركيب، صيانة. معتمدين الدفاع المدني. UL/FM. 0550698111",
-    "link": "blog/fire-pump-specialist.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "تركيب مضخات حريق - معتمد الدفاع المدني",
-    "slug": "fire-pump-installation",
-    "date": "1 فبراير 2026",
-    "image": "fire-pump-installation-featured.webp",
-    "alt": "تركيب مضخات حريق - معتمد الدفاع المدني",
-    "desc": "تركيب مضخات حريق معتمدة من الدفاع المدني: Electric، Diesel، Jockey. وفق NFPA 20. شركات UL/FM. 0550698111",
-    "link": "blog/fire-pump-installation.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "لوحات تحكم مضخات الحريق - معتمدة UL/FM",
-    "slug": "fire-pump-control-panels",
-    "date": "1 فبراير 2026",
-    "image": "fire-pump-control-panels-featured.webp",
-    "alt": "لوحات تحكم مضخات الحريق - معتمدة UL/FM",
-    "desc": "لوحات تحكم مضخات الحريق المعتمدة من الدفاع المدني. كهربائية، ديزل، Jockey. تصنيع وتوريد وفق NFPA 20. 0550698111",
-    "link": "blog/fire-pump-control-panels.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "تعبئة شبكة الحريق واختبار الضغط",
-    "slug": "fire-network-filling",
-    "date": "31 يناير 2026",
-    "image": "fire-network.webp",
-    "alt": "تعبئة شبكة الحريق واختبار الضغط",
-    "desc": "مقالة شاملة عن تعبئة شبكة الحريق واختبار الضغط. نقدم أفضل خدمات تعبئة شبكة الحريق في الرياض وجدة. اتصل بنا 0550698111.",
-    "link": "blog/fire-network-filling.php",
-    "category": "أنظمة الحريق"
-  },
-  {
-    "title": "قراءة وتصميم المخططات الكهربائية للمباني السكنية",
-    "slug": "electrical-layouts-for-buildings",
-    "date": "31 يناير 2026",
-    "image": "electrical-drawing.webp",
-    "alt": "قراءة وتصميم المخططات الكهربائية للمباني السكنية",
-    "desc": "دليل شامل لفهم المخططات الكهربائية للمباني. رموز الكهرباء، توزيع الأحمال، وكيفية تأسيس كهرباء منزل بطريقة هندسية صحيحة. اتصل 0550698111",
-    "link": "blog/electrical-layouts-for-buildings.php",
-    "category": "الأعمال الكهربائية"
-  },
-  {
-    "title": "لف محركات كهربائية: إعادة الحياة لمحركك",
-    "slug": "electric-motor-winding",
-    "date": "31 يناير 2026",
-    "image": "motor-winding.webp",
-    "alt": "لف محركات كهربائية: إعادة الحياة لمحركك",
-    "desc": "خدمات احترافية في لف المحركات الكهربائية الصناعية حتى 500 حصان. ضمان على العزل وجودة الأسلاك.",
-    "link": "blog/electric-motor-winding.php",
-    "category": "الأعمال الكهربائية"
-  },
-  {
-    "title": "مضخات إبارا Ebara - اليابانية الأصلية",
-    "slug": "ebara-pumps",
-    "date": "1 فبراير 2026",
-    "image": "ebara-pumps-featured.webp",
-    "alt": "مضخات إبارا Ebara - اليابانية الأصلية",
-    "desc": "مضخات إبارا Ebara اليابانية: جودة عالية، كفاءة ممتازة. صرف صحي، مياه نظيفة. توريد وصيانة. 0550698111",
-    "link": "blog/ebara-pumps.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "لوحات تحكم مضخات الرياض - تصنيع وتوريد",
-    "slug": "control-panels-riyadh",
-    "date": "1 فبراير 2026",
-    "image": "control-panels-riyadh-featured.webp",
-    "alt": "لوحات تحكم مضخات الرياض - تصنيع وتوريد",
-    "desc": "لوحات تحكم مضخات الرياض: VFD، Star-Delta، Direct. تصنيع محلي، تركيب سريع، ضمان شامل. 0550698111",
-    "link": "blog/control-panels-riyadh.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "أسعار لوحات التحكم الكهربائية 2026 في السعودية",
-    "slug": "control-panel-prices-2026",
-    "date": "31 يناير 2026",
-    "image": "control-panel-prices.webp",
-    "alt": "أسعار لوحات التحكم الكهربائية 2026 في السعودية",
-    "desc": "مقالة شاملة عن أسعار لوحات التحكم الكهربائية 2026 في السعودية. نقدم أفضل خدمات أسعار لوحات التحكم في الرياض وجدة. اتصل بنا 0550698111.",
-    "link": "blog/control-panel-prices-2026.php",
-    "category": "الأعمال الكهربائية"
-  },
-  {
-    "title": "تركيب لوحات تحكم",
-    "slug": "control-panel-installation",
-    "date": "1 فبراير 2026",
-    "image": "control-panel-installation-featured.webp",
-    "alt": "تركيب لوحات تحكم",
-    "desc": "خدمات تركيب لوحات التحكم الكهربائية. توصيل وبرمجة واختبار. فريق فني متخصص. اتصل 0550698111",
-    "link": "blog/control-panel-installation.php",
-    "category": "لوحات التحكم"
-  },
-  {
-    "title": "شركات معتمدة للدفاع المدني: تركيب وصيانة أنظمة السلامة",
-    "slug": "civil-defense-approved-companies",
-    "date": "31 يناير 2026",
-    "image": "civil-defense.webp",
-    "alt": "شركات معتمدة للدفاع المدني: تركيب وصيانة أنظمة السلامة",
-    "desc": "مقالة شاملة عن شركات معتمدة للدفاع المدني. نقدم أفضل خدمات أنظمة السلامة في الرياض وجدة. اتصل بنا 0550698111.",
-    "link": "blog/civil-defense-approved-companies.php",
-    "category": "عام"
-  },
-  {
-    "title": "لوحات تحكم مضخات معتمدة - الدفاع المدني",
-    "slug": "certified-pump-panels",
-    "date": "1 فبراير 2026",
-    "image": "certified-pump-panels-featured.webp",
-    "alt": "لوحات تحكم مضخات معتمدة - الدفاع المدني",
-    "desc": "لوحات تحكم مضخات معتمدة من الدفاع المدني وهيئة المواصفات السعودية. SASO، NFPA 20. تصنيع محلي. 0550698111",
-    "link": "blog/certified-pump-panels.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "مضخات طرد مركزي - أنواعها ومميزاتها",
-    "slug": "centrifugal-pumps",
-    "date": "1 فبراير 2026",
-    "image": "centrifugal-pumps-featured.webp",
-    "alt": "مضخات طرد مركزي - أنواعها ومميزاتها",
-    "desc": "تعرف على مضخات الطرد المركزي وأنواعها (أفقية، رأسية، متعددة المراحل). توريد وصيانة من Grundfos وLowara. اتصل 0550698111",
-    "link": "blog/centrifugal-pumps.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "مضخات مياه للمباني والأبراج السكنية",
-    "slug": "building-water-pumps",
-    "date": "1 فبراير 2026",
-    "image": "building-water-pumps-featured.webp",
-    "alt": "مضخات مياه للمباني والأبراج السكنية",
-    "desc": "مضخات مياه للمباني والأبراج: Booster، خزانات علوية، VFD. تصميم وتوريد وتركيب. حلول ضخط المياه للعمارات 2-50 طابق. 0550698111",
-    "link": "blog/building-water-pumps.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "تصليح مضخات الدفع (Booster) في الرياض",
-    "slug": "booster-pump-repair",
-    "date": "31 يناير 2026",
-    "image": "pump-repair-north-riyadh.webp",
-    "alt": "تصليح مضخات الدفع (Booster) في الرياض",
-    "desc": "تصليح وصيانة مضخات البوستر (Booster) بالرياض. حل مشاكل ضعف الضغط، استبدال البالونات، وصيانة لوحات التحكم بأيدي مهندسين مختصين. اتصل 0550698111",
-    "link": "blog/booster-pump-repair.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "أفضل شركة مضخات مياه في السعودية 2026",
-    "slug": "best-pump-company-saudi",
-    "date": "1 فبراير 2026",
-    "image": "best-pump-company-saudi-featured.webp",
-    "alt": "أفضل شركة مضخات مياه في السعودية 2026",
-    "desc": "أفضل شركة مضخات مياه في السعودية: خبرة 15 عام، وكيل Grundfos وLowara، ضمان شامل، خدمة 24/7. الرياض والمملكة. 0550698111",
-    "link": "blog/best-pump-company-saudi.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "لوحات التحكم الأوتوماتيكية للمضخات",
-    "slug": "automatic-control-panels",
-    "date": "1 فبراير 2026",
-    "image": "automatic-control-panels-featured.webp",
-    "alt": "لوحات التحكم الأوتوماتيكية للمضخات",
-    "desc": "لوحات تحكم أوتوماتيكية للمضخات: تشغيل/إيقاف تلقائي، حماية شاملة، توفير طاقة. تصنيع وتركيب في الرياض. 0550698111",
-    "link": "blog/automatic-control-panels.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "موزع مضخات معتمد - وكيل Grundfos وLowara",
-    "slug": "authorized-pump-distributor",
-    "date": "1 فبراير 2026",
-    "image": "authorized-pump-distributor-featured.webp",
-    "alt": "موزع مضخات معتمد - وكيل Grundfos وLowara",
-    "desc": "موزع مضخات معتمد: Grundfos، Lowara، KSB، Ebara. منتجات أصلية بضمان المصنع. توريد وتركيب وصيانة في الرياض والسعودية. 0550698111",
-    "link": "blog/authorized-pump-distributor.php",
-    "category": "مضخات المياه"
-  },
-  {
-    "title": "قوانين لف المحركات الكهربائية 3 فاز: دليل الفني المحترف",
-    "slug": "3-phase-motor-winding-rules",
-    "date": "31 يناير 2026",
-    "image": "motor-winding-diagram.webp",
-    "alt": "قوانين لف المحركات الكهربائية 3 فاز: دليل الفني المحترف",
-    "desc": "شرح مبسط وعملي لقوانين لف المحركات الكهربائية 3 فاز. حساب عدد اللفات، قطر السلك، وطرق التوصيل.",
-    "link": "blog/3-phase-motor-winding-rules.php",
-    "category": "الأعمال الكهربائية"
-  }
+    {
+        "title": "لوحات التحكم الكهربائية في الرياض - تصميم وتجميع 2026",
+        "slug": "لوحات-التحكم-الكهربائية",
+        "date": "4 فبراير 2026",
+        "image": "لوحات-التحكم-الكهربائية-featured.webp",
+        "alt": "لوحات التحكم الكهربائية في الرياض - تصميم وتجميع 2026",
+        "desc": "شركة تصنيع لوحات التحكم الكهربائية في الرياض ✓ لوحات MCC ✓ لوحات PLC ✓ لوحات VFD ✓ لوحات توزيع MDB. أسعار تنافسية وجودة عالية ☎️ 0550698111",
+        "link": "blog/لوحات-التحكم-الكهربائية.php",
+        "category": "الأعمال الكهربائية"
+    },
+    {
+        "title": "احترف لف المحركات الكهربائية: دليل الفنيين خطوة بخطوة 2026",
+        "slug": "لف-المحركات-الكهربائية",
+        "date": "1 يونيو 2024",
+        "image": "motor-winding-workshop.webp",
+        "alt": "احترف لف المحركات الكهربائية: دليل الفنيين خطوة بخطوة 2026",
+        "desc": "تعلم لف المحركات من الصفر للاحتراف. 5 خطوات عملية + جداول اللفات + معادلات الحساب. وفر 50-70% من تكلفة المحرك الجديد. ضمان سنة كاملة",
+        "link": "blog/لف-المحركات-الكهربائية.php",
+        "category": "الأعمال الكهربائية"
+    },
+    {
+        "title": "صيانة مضخات جراندفوس - الوكيل المعتمد",
+        "slug": "صيانة-مضخات-جراندفوس",
+        "date": "1 يونيو 2024",
+        "image": "hero-mechanic-pumps.webp",
+        "alt": "صيانة مضخات جراندفوس - الوكيل المعتمد",
+        "desc": "صيانة مضخات جراندفوس Grundfos المتخصصة: CR، SP، CM، UPS. قطع غيار أصلية، فنيين معتمدين، خدمة في الرياض وجميع مناطق المملكة.",
+        "link": "blog/صيانة-مضخات-جراندفوس.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "كيف تحسب سرعة المحرك الكهربائي؟ المعادلة + جدول السرعات 2026",
+        "slug": "سرعة-المحركات-الكهربائية",
+        "date": "1 يونيو 2024",
+        "image": "motor-speed-calculation-featured.webp",
+        "alt": "كيف تحسب سرعة المحرك الكهربائي؟ المعادلة + جدول السرعات 2026",
+        "desc": "تعلم حساب سرعة المحركات الكهربائية بمعادلات بسيطة. جدول سرعات جاهز لجميع الأقطاب. التحكم بالانفرتر يوفر 50% طاقة! للفنيين والمهندسين",
+        "link": "blog/سرعة-المحركات-الكهربائية.php",
+        "category": "الأعمال الكهربائية"
+    },
+    {
+        "title": "دور الكهرباء الصناعية في تطوير المصانع - برلينت سيرف الرياض",
+        "slug": "دور-الكهرباء-الصناعية-في-تطوير-المصان",
+        "date": "1 فبراير 2026",
+        "image": "دور-الكهرباء-الصناعية-featured.webp",
+        "alt": "دور الكهرباء الصناعية في تطوير المصانع - برلينت سيرف الرياض",
+        "desc": "تعرف على أهمية الكهرباء الصناعية في تطوير المصانع السعودية. خدمات تمديدات كهربائية، لوحات تحكم، وصيانة كهرباء المصانع بالرياض. اتصل: 0550698111",
+        "link": "blog/دور-الكهرباء-الصناعية-في-تطوير-المصان.php",
+        "category": "الأعمال الكهربائية"
+    },
+    {
+        "title": "12 نوع مضخة يجب أن تعرفها قبل الشراء - دليل 2026 الشامل",
+        "slug": "انواع-المضخات",
+        "date": "1 يونيو 2024",
+        "image": "12-pump-types-guide-featured.webp",
+        "alt": "12 نوع مضخة يجب أن تعرفها قبل الشراء - دليل 2026 الشامل",
+        "desc": "دليل مصور لجميع أنواع المضخات: غاطسة، طرد مركزي، ترسية، هيدروليكية. اختر المضخة المناسبة بسهولة. مقارنة أسعار + جدول مقارنة شامل",
+        "link": "blog/انواع-المضخات.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "المخططات الكهربائية للمباني - تصميم وتنفيذ",
+        "slug": "المخططات-الكهربائية-للمباني",
+        "date": "1 يونيو 2024",
+        "image": "hero-mechanic-pumps.webp",
+        "alt": "المخططات الكهربائية للمباني - تصميم وتنفيذ",
+        "desc": "دليل شامل عن المخططات الكهربائية للمباني: الرموز الكهربائية، حساب الأحمال، توزيع اللوحات، ومعايير السلامة. خدمة تصميم وتنفيذ في الرياض.",
+        "link": "blog/المخططات-الكهربائية-للمباني.php",
+        "category": "الأعمال الكهربائية"
+    },
+    {
+        "title": "مضخات الآبار - الغاطسة والتوربينية",
+        "slug": "well-pumps",
+        "date": "1 فبراير 2026",
+        "image": "well-pumps-featured.webp",
+        "alt": "مضخات الآبار - الغاطسة والتوربينية",
+        "desc": "دليل شامل لمضخات الآبار: غاطسة وتوربينية. كيف تختار؟ الأعماق والأسعار في السعودية 2026. Grundfos SP، ماركات أصلية. 0550698111",
+        "link": "blog/well-pumps.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "حل مشكلة ضعف ضغط الماء",
+        "slug": "weak-water-pressure-solution",
+        "date": "30 يناير 2026",
+        "image": "weak-water-pressure.webp",
+        "alt": "حل مشكلة ضعف ضغط الماء",
+        "desc": "هل تعاني من ضعف ضغط الماء في الحنفيات والدش؟ اكتشف الأسباب والحلول العملية لزيادة ضغط المياه في منزلك. استشارة مجانية 0550698111",
+        "link": "blog/weak-water-pressure-solution.php",
+        "category": "عام"
+    },
+    {
+        "title": "مضخات مياه في السعودية - توريد جميع المناطق",
+        "slug": "water-pumps-saudi",
+        "date": "1 فبراير 2026",
+        "image": "water-pumps-saudi-featured.webp",
+        "alt": "مضخات مياه في السعودية - توريد جميع المناطق",
+        "desc": "مضخات مياه في السعودية: الرياض، جدة، الدمام، المنطقة الشرقية. Grundfos، Lowara، KSB. توريد، تركيب، صيانة. 0550698111",
+        "link": "blog/water-pumps-saudi.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "حلول ضخ المياه المتكاملة للمشاريع",
+        "slug": "water-pumping-solutions",
+        "date": "1 فبراير 2026",
+        "image": "water-pumping-solutions-featured.webp",
+        "alt": "حلول ضخ المياه المتكاملة للمشاريع",
+        "desc": "حلول ضخ المياه المتكاملة: تصميم، توريد، تركيب وصيانة. للمشاريع السكنية والتجارية والصناعية في الرياض والسعودية. 0550698111",
+        "link": "blog/water-pumping-solutions.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "لوحات تحكم مضخات مياه - دليل شامل 2026",
+        "slug": "water-pump-control-panels",
+        "date": "1 فبراير 2026",
+        "image": "water-pump-control-panels-featured.webp",
+        "alt": "لوحات تحكم مضخات مياه - دليل شامل 2026",
+        "desc": "مقالات ونصائح هندسية متخصصة من روائع الكريستال",
+        "link": "blog/water-pump-control-panels.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "أنظمة تعزيز ضغط المياه (Booster)",
+        "slug": "water-booster-systems",
+        "date": "1 فبراير 2026",
+        "image": "water-booster-systems-featured.webp",
+        "alt": "أنظمة تعزيز ضغط المياه (Booster)",
+        "desc": "أنظمة Booster لتعزيز ضغط المياه للفلل والعمارات والمصانع. Grundfos Hydro MPC، Lowara GHV. أسعار 2026 والمواصفات. 0550698111",
+        "link": "blog/water-booster-systems.php",
+        "category": "عام"
+    },
+    {
+        "title": "برمجة انفرتر VFD للمضخات: توفير الطاقة والمال",
+        "slug": "vfd-programming-pumps",
+        "date": "31 يناير 2026",
+        "image": "vfd-programming.webp",
+        "alt": "برمجة انفرتر VFD للمضخات: توفير الطاقة والمال",
+        "desc": "مقالة شاملة عن برمجة انفرتر VFD للمضخات: توفير الطاقة والمال. نقدم أفضل خدمات برمجة انفرتر VFD في الرياض وجدة. اتصل بنا 0550698111.",
+        "link": "blog/vfd-programming-pumps.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "لوحات تحكم VFD - التحكم بسرعة المضخات",
+        "slug": "vfd-control-panels-guide",
+        "date": "1 فبراير 2026",
+        "image": "vfd-control-panels-guide-featured.webp",
+        "alt": "لوحات تحكم VFD - التحكم بسرعة المضخات",
+        "desc": "مقالات ونصائح هندسية متخصصة من روائع الكريستال",
+        "link": "blog/vfd-control-panels-guide.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "مضخات رأسية - أنواعها وتطبيقاتها",
+        "slug": "vertical-pumps",
+        "date": "1 فبراير 2026",
+        "image": "vertical-pumps-featured.webp",
+        "alt": "مضخات رأسية - أنواعها وتطبيقاتها",
+        "desc": "المضخات الرأسية متعددة المراحل للمباني والمشاريع. توريد وتركيب من أفضل الماركات. اتصل 0550698111",
+        "link": "blog/vertical-pumps.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "أنواع المضخات وطرق عملها وصيانتها: دليلك الشامل 2026",
+        "slug": "types-of-water-pumps",
+        "date": "31 يناير 2026",
+        "image": "water-pump-types.webp",
+        "alt": "أنواع المضخات وطرق عملها وصيانتها: دليلك الشامل 2026",
+        "desc": "دليل شامل لأنواع مضخات المياه في السعودية 2026: مضخات الطرد المركزي، الغاطسة، التعزيز، والصرف. تعرف على آلية العمل، نصائح الاختيار، والصيانة. خبرة 15+ عام.",
+        "link": "blog/types-of-water-pumps.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "مشاكل الغطاسات وحلها: دليل شامل",
+        "slug": "submersible-pump-problems",
+        "date": "31 يناير 2026",
+        "image": "submersible-pump-troubleshooting-featured.webp",
+        "alt": "مشاكل الغطاسات وحلها: دليل شامل",
+        "desc": "دليل حل مشاكل الغطاسات: أسباب نزول القاطع، ضعف الضخ، واحتراق المحرك. خدمة سحب وصيانة الغطاسات في الرياض مع الضمان. اتصل 0550698111",
+        "link": "blog/submersible-pump-problems.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "توريد لوحات ستار دلتا - تشغيل ناعم",
+        "slug": "star-delta-panel-supply",
+        "date": "1 فبراير 2026",
+        "image": "star-delta-panel-supply-featured.webp",
+        "alt": "توريد لوحات ستار دلتا - تشغيل ناعم",
+        "desc": "مقالات ونصائح هندسية متخصصة من روائع الكريستال",
+        "link": "blog/star-delta-panel-supply.php",
+        "category": "لوحات التحكم"
+    },
+    {
+        "title": "تصنيع لوحات ستار دلتا للمصانع والمزارع",
+        "slug": "star-delta-panel-manufacturing",
+        "date": "31 يناير 2026",
+        "image": "control-panel-prices-2026.webp",
+        "alt": "تصنيع لوحات ستار دلتا للمصانع والمزارع",
+        "desc": "تصنيع وصيانة لوحات ستار دلتا (Star-Delta) للمضخات والمصانع. مكونات أوروبية أصلية (Schneider/ABB) مع ضمان وضبط هندسي دقيق. اتصل 0550698111",
+        "link": "blog/star-delta-panel-manufacturing.php",
+        "category": "لوحات التحكم"
+    },
+    {
+        "title": "توريد لوحات سوفت ستارتر - Soft Starter",
+        "slug": "soft-starter-supply",
+        "date": "1 فبراير 2026",
+        "image": "soft-starter-supply-featured.webp",
+        "alt": "توريد لوحات سوفت ستارتر - Soft Starter",
+        "desc": "مقالات ونصائح هندسية متخصصة من روائع الكريستال",
+        "link": "blog/soft-starter-supply.php",
+        "category": "لوحات التحكم"
+    },
+    {
+        "title": "لوحات سوفت ستارتر - تشغيل ناعم",
+        "slug": "soft-starter-panels",
+        "date": "1 فبراير 2026",
+        "image": "soft-starter-panels-featured.webp",
+        "alt": "لوحات سوفت ستارتر - تشغيل ناعم",
+        "desc": "لوحات Soft Starter للتشغيل التدريجي للمحركات. تقليل تيار البدء وحماية المحركات. اتصل 0550698111",
+        "link": "blog/soft-starter-panels.php",
+        "category": "لوحات التحكم"
+    },
+    {
+        "title": "لوحات PLC سيمنس - أتمتة صناعية",
+        "slug": "siemens-plc-panels",
+        "date": "1 فبراير 2026",
+        "image": "siemens-plc-panels-featured.webp",
+        "alt": "لوحات PLC سيمنس - أتمتة صناعية",
+        "desc": "مقالات ونصائح هندسية متخصصة من روائع الكريستال",
+        "link": "blog/siemens-plc-panels.php",
+        "category": "لوحات التحكم"
+    },
+    {
+        "title": "مضخات صرف صحي - غاطسة وغرايندر",
+        "slug": "sewage-pumps",
+        "date": "1 فبراير 2026",
+        "image": "sewage-pumps-featured.webp",
+        "alt": "مضخات صرف صحي - غاطسة وغرايندر",
+        "desc": "مضخات صرف صحي غاطسة: Submersible، Grinder. للمباني والبيارات. Ebara، Grundfos، Lowara. توريد وتركيب. 0550698111",
+        "link": "blog/sewage-pumps.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "لوحات تحكم مضخات الصرف الصحي",
+        "slug": "sewage-pump-panels",
+        "date": "1 فبراير 2026",
+        "image": "sewage-pump-panels-featured.webp",
+        "alt": "لوحات تحكم مضخات الصرف الصحي",
+        "desc": "لوحات تحكم مضخات الصرف الصحي: حماية من الحمل الزائد، تشغيل تناوبي، إنذار ارتفاع المنسوب. Schneider، ABB. 0550698111",
+        "link": "blog/sewage-pump-panels.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "بيع مضخات مياه",
+        "slug": "selling-water-pumps",
+        "date": "4 فبراير 2026",
+        "image": "selling-water-pumps-featured.webp",
+        "alt": "بيع مضخات مياه",
+        "desc": "بيع مضخات مياه أصلية بأسعار منافسة في السعودية | جراندفوس، لووارا، KSB | ضمان شامل وخدمة توصيل. اتصل 0550698111",
+        "link": "blog/selling-water-pumps.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "لوحات تحكم بشنايدر - المكونات والأسعار",
+        "slug": "schneider-electric-panels",
+        "date": "1 فبراير 2026",
+        "image": "schneider-electric-panels-featured.webp",
+        "alt": "لوحات تحكم بشنايدر - المكونات والأسعار",
+        "desc": "مقالات ونصائح هندسية متخصصة من روائع الكريستال",
+        "link": "blog/schneider-electric-panels.php",
+        "category": "لوحات التحكم"
+    },
+    {
+        "title": "لوحات تحكم شنايدر - مكونات أصلية",
+        "slug": "schneider-control-panels",
+        "date": "1 فبراير 2026",
+        "image": "schneider-control-panels-featured.webp",
+        "alt": "لوحات تحكم شنايدر - مكونات أصلية",
+        "desc": "لوحات تحكم بمكونات Schneider الأصلية. قواطع، كونتاكتورات، حماية. ضمان وصيانة. اتصل 0550698111",
+        "link": "blog/schneider-control-panels.php",
+        "category": "لوحات التحكم"
+    },
+    {
+        "title": "أنظمة SCADA للمضخات - إدارة مركزية",
+        "slug": "scada-pump-systems",
+        "date": "1 فبراير 2026",
+        "image": "scada-pump-systems-featured.webp",
+        "alt": "أنظمة SCADA للمضخات - إدارة مركزية",
+        "desc": "مقالات ونصائح هندسية متخصصة من روائع الكريستال",
+        "link": "blog/scada-pump-systems.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "المراقبة عن بعد للمضخات - IoT",
+        "slug": "remote-pump-monitoring",
+        "date": "1 فبراير 2026",
+        "image": "remote-pump-monitoring-featured.webp",
+        "alt": "المراقبة عن بعد للمضخات - IoT",
+        "desc": "مقالات ونصائح هندسية متخصصة من روائع الكريستال",
+        "link": "blog/remote-pump-monitoring.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "صيانة أنظمة الضخ - عقود سنوية",
+        "slug": "pumping-system-maintenance",
+        "date": "1 فبراير 2026",
+        "image": "pumping-system-maintenance-featured.webp",
+        "alt": "صيانة أنظمة الضخ - عقود سنوية",
+        "desc": "صيانة شاملة لأنظمة ضخ المياه. عقود صيانة دورية ووقائية. فريق فني متخصص. اتصل 0550698111",
+        "link": "blog/pumping-system-maintenance.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "تركيب أنظمة ضخ المياه",
+        "slug": "pumping-system-installation",
+        "date": "1 فبراير 2026",
+        "image": "pumping-system-installation-featured.webp",
+        "alt": "تركيب أنظمة ضخ المياه",
+        "desc": "تركيب أنظمة ضخ المياه: مضخات، لوحات تحكم، أنابيب. تركيب احترافي وفق المعايير. ضمان سنة. الرياض والسعودية. 0550698111",
+        "link": "blog/pumping-system-installation.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "اختبار وتشغيل المضخات",
+        "slug": "pump-testing",
+        "date": "1 فبراير 2026",
+        "image": "pump-testing-featured.webp",
+        "alt": "اختبار وتشغيل المضخات",
+        "desc": "اختبار المضخات قبل التشغيل. فحص الضغط والتدفق. تقارير معتمدة. اتصل 0550698111",
+        "link": "blog/pump-testing.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "مورد مضخات مياه في السعودية",
+        "slug": "pump-supplier-saudi",
+        "date": "1 فبراير 2026",
+        "image": "pump-supplier-saudi-featured.webp",
+        "alt": "مورد مضخات مياه في السعودية",
+        "desc": "نورد مضخات المياه لجميع مناطق المملكة. ماركات عالمية، أسعار تنافسية، ضمان شامل. اتصل 0550698111",
+        "link": "blog/pump-supplier-saudi.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "خدمات مضخات المياه في الرياض",
+        "slug": "pump-services-riyadh",
+        "date": "1 فبراير 2026",
+        "image": "pump-services-riyadh-featured.webp",
+        "alt": "خدمات مضخات المياه في الرياض",
+        "desc": "خدمات مضخات المياه في الرياض: توريد، تركيب، صيانة، لوحات تحكم. خبرة 15+ سنة. جميع الماركات. 0550698111",
+        "link": "blog/pump-services-riyadh.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "صيانة غرف المضخات",
+        "slug": "pump-room-maintenance",
+        "date": "1 فبراير 2026",
+        "image": "pump-room-maintenance-featured.webp",
+        "alt": "صيانة غرف المضخات",
+        "desc": "صيانة شاملة لغرف المضخات. تنظيف، فحص، إصلاح. عقود صيانة دورية. اتصل 0550698111",
+        "link": "blog/pump-room-maintenance.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "تنفيذ غرف مضخات - تصميم وتركيب",
+        "slug": "pump-room-construction",
+        "date": "1 فبراير 2026",
+        "image": "pump-room-construction-featured.webp",
+        "alt": "تنفيذ غرف مضخات - تصميم وتركيب",
+        "desc": "تصميم وتنفيذ غرف المضخات للمباني والمشاريع. أعمال ميكانيكية وكهربائية متكاملة. اتصل 0550698111",
+        "link": "blog/pump-room-construction.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "تصليح مضخات مياه شمال الرياض",
+        "slug": "pump-repair-north-riyadh",
+        "date": "30 يناير 2026",
+        "image": "pump-repair-north-riyadh-featured.webp",
+        "alt": "تصليح مضخات مياه شمال الرياض",
+        "desc": "هل تبحث عن فني مضخات مياه شمال الرياض؟ نقدم خدمة تصليح وصيانة جميع أنواع المضخات (Grundfos, KSB, Lowara) مع ضمان شامل وقطع غيار أصلية. اتصل 0550698111",
+        "link": "blog/pump-repair-north-riyadh.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "تبديل حساس ضغط المضخات",
+        "slug": "pump-pressure-sensor",
+        "date": "1 فبراير 2026",
+        "image": "pump-pressure-sensor-featured.webp",
+        "alt": "تبديل حساس ضغط المضخات",
+        "desc": "تبديل وتركيب حساسات ضغط المضخات. قطع غيار أصلية. ضمان التشغيل السليم. اتصل 0550698111",
+        "link": "blog/pump-pressure-sensor.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "معايرة ضغط المضخات",
+        "slug": "pump-pressure-calibration",
+        "date": "1 فبراير 2026",
+        "image": "pump-pressure-calibration-featured.webp",
+        "alt": "معايرة ضغط المضخات",
+        "desc": "معايرة ضغط المضخات: ضبط Pressure Switch، معايرة حساسات، أجهزة قياس معتمدة. 0550698111",
+        "link": "blog/pump-pressure-calibration.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "صيانة مواسير وتوصيلات المضخات",
+        "slug": "pump-piping-maintenance",
+        "date": "1 فبراير 2026",
+        "image": "pump-piping-maintenance-featured.webp",
+        "alt": "صيانة مواسير وتوصيلات المضخات",
+        "desc": "صيانة مواسير المضخات: كشف تسربات، تبديل جوانات، إصلاح وصلات. خدمة سريعة في الرياض. 0550698111",
+        "link": "blog/pump-piping-maintenance.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "أعطال لوحات المضخات وحلولها - دليل الصيانة",
+        "slug": "pump-panel-troubleshooting",
+        "date": "1 فبراير 2026",
+        "image": "pump-panel-troubleshooting-featured.webp",
+        "alt": "أعطال لوحات المضخات وحلولها - دليل الصيانة",
+        "desc": "مقالات ونصائح هندسية متخصصة من روائع الكريستال",
+        "link": "blog/pump-panel-troubleshooting.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "توريد لوحات مضخات - أسعار 2026",
+        "slug": "pump-panel-supply-prices",
+        "date": "1 فبراير 2026",
+        "image": "pump-panel-supply-prices-featured.webp",
+        "alt": "توريد لوحات مضخات - أسعار 2026",
+        "desc": "مقالات ونصائح هندسية متخصصة من روائع الكريستال",
+        "link": "blog/pump-panel-supply-prices.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "تجميع لوحات مضخات - تصنيع محلي",
+        "slug": "pump-panel-assembly",
+        "date": "1 فبراير 2026",
+        "image": "pump-panel-assembly-featured.webp",
+        "alt": "تجميع لوحات مضخات - تصنيع محلي",
+        "desc": "تجميع لوحات مضخات: مكونات Schneider، ABB. تصنيع محلي. VFD، Star-Delta، Soft Starter. 0550698111",
+        "link": "blog/pump-panel-assembly.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "لوحات تشغيل مضخات - يدوي وأوتو",
+        "slug": "pump-operation-panels",
+        "date": "1 فبراير 2026",
+        "image": "pump-operation-panels-featured.webp",
+        "alt": "لوحات تشغيل مضخات - يدوي وأوتو",
+        "desc": "لوحات تشغيل مضخات: يدوي وأوتوماتيكي. Direct، Star-Delta، VFD. مكونات Schneider/ABB. 0550698111",
+        "link": "blog/pump-operation-panels.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "صيانة مضخات الرياض - خدمة 24/7",
+        "slug": "pump-maintenance-riyadh",
+        "date": "1 فبراير 2026",
+        "image": "pump-maintenance-riyadh-featured.webp",
+        "alt": "صيانة مضخات الرياض - خدمة 24/7",
+        "desc": "صيانة مضخات مياه في الرياض: جميع الماركات، خدمة 24/7، قطع غيار أصلية، وصول سريع. Grundfos، Lowara. 0550698111",
+        "link": "blog/pump-maintenance-riyadh.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "عقود صيانة مضخات - سنوية ودورية",
+        "slug": "pump-maintenance-contracts",
+        "date": "1 فبراير 2026",
+        "image": "pump-maintenance-contracts-featured.webp",
+        "alt": "عقود صيانة مضخات - سنوية ودورية",
+        "desc": "عقود صيانة مضخات سنوية: زيارات دورية، صيانة وقائية، إصلاحات طارئة. خصومات على قطع الغيار. 0550698111",
+        "link": "blog/pump-maintenance-contracts.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "تركيب مضخات شرق الرياض",
+        "slug": "pump-installation-east-riyadh",
+        "date": "31 يناير 2026",
+        "image": "hero-mechanic-pumps.webp",
+        "alt": "تركيب مضخات شرق الرياض",
+        "desc": "هل تبحث عن فني تركيب مضخات شرق الرياض؟ نوفر خدمات تركيب وصيانة مضخات المياه بجميع أنواعها (Grundfos, KSB) مع ضمان شامل. اتصل نصلك فوراً 0550698111.",
+        "link": "blog/pump-installation-east-riyadh.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "أسباب صوت طنين المضخة - وحلولها",
+        "slug": "pump-humming-sound",
+        "date": "30 يناير 2026",
+        "image": "pump-humming-sound.webp",
+        "alt": "أسباب صوت طنين المضخة - وحلولها",
+        "desc": "المضخة تصدر صوت طنين ولا تعمل؟ الأسباب: مكثف تالف، بلي مكسور، مروحة عالقة. افصل الكهرباء فوراً! 0550698111",
+        "link": "blog/pump-humming-sound.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "تشغيل وتسليم المضخات",
+        "slug": "pump-handover",
+        "date": "1 فبراير 2026",
+        "image": "pump-handover-featured.webp",
+        "alt": "تشغيل وتسليم المضخات",
+        "desc": "تشغيل وتسليم المضخات للمشاريع: اختبارات، توثيق، تدريب، شهادات معتمدة. 0550698111",
+        "link": "blog/pump-handover.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "تصميم أنظمة تحكم المضخات - هندسة كهربائية",
+        "slug": "pump-control-system-design",
+        "date": "1 فبراير 2026",
+        "image": "pump-control-system-design-featured.webp",
+        "alt": "تصميم أنظمة تحكم المضخات - هندسة كهربائية",
+        "desc": "مقالات ونصائح هندسية متخصصة من روائع الكريستال",
+        "link": "blog/pump-control-system-design.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "لوحات تحكم المضخات - VFD وستار دلتا",
+        "slug": "pump-control-panels",
+        "date": "1 فبراير 2026",
+        "image": "pump-control-panels-featured.webp",
+        "alt": "لوحات تحكم المضخات - VFD وستار دلتا",
+        "desc": "دليل لوحات تحكم المضخات: VFD، Star-Delta، Soft Starter. الأنواع والأسعار في السعودية 2026. تصنيع محلي بمكونات Schneider وABB. 0550698111",
+        "link": "blog/pump-control-panels.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "شركة مضخات مياه الرياض - توريد وتركيب وصيانة",
+        "slug": "pump-company-riyadh",
+        "date": "1 فبراير 2026",
+        "image": "pump-company-riyadh-featured.webp",
+        "alt": "شركة مضخات مياه الرياض - توريد وتركيب وصيانة",
+        "desc": "شركة مضخات مياه في الرياض: توريد، تركيب، صيانة. خدمة 24/7، قطع غيار أصلية، ضمان شامل. Grundfos، Lowara. 0550698111",
+        "link": "blog/pump-company-riyadh.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "فحص وتشغيل المضخات - Commissioning",
+        "slug": "pump-commissioning",
+        "date": "1 فبراير 2026",
+        "image": "pump-commissioning-featured.webp",
+        "alt": "فحص وتشغيل المضخات - Commissioning",
+        "desc": "فحص وتشغيل المضخات (Commissioning): اختبار الأداء، الضغط، التدفق. شهادات معتمدة. 0550698111",
+        "link": "blog/pump-commissioning.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "أتمتة المضخات بالرياض - حلول ذكية",
+        "slug": "pump-automation-riyadh",
+        "date": "1 فبراير 2026",
+        "image": "pump-automation-riyadh-featured.webp",
+        "alt": "أتمتة المضخات بالرياض - حلول ذكية",
+        "desc": "مقالات ونصائح هندسية متخصصة من روائع الكريستال",
+        "link": "blog/pump-automation-riyadh.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "خدمات ما بعد البيع للمضخات",
+        "slug": "pump-after-sales-services",
+        "date": "4 فبراير 2026",
+        "image": "pump-after-sales-services-featured.webp",
+        "alt": "خدمات ما بعد البيع للمضخات",
+        "desc": "خدمات ما بعد البيع للمضخات: صيانة دورية، قطع غيار أصلية، دعم فني 24/7، عقود صيانة سنوية. اتصل 0550698111",
+        "link": "blog/pump-after-sales-services.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "لوحات تحكم الضغط الأوتوماتيكية",
+        "slug": "pressure-control-panels",
+        "date": "1 فبراير 2026",
+        "image": "pressure-control-panels-featured.webp",
+        "alt": "لوحات تحكم الضغط الأوتوماتيكية",
+        "desc": "لوحات تحكم ضغط المياه الأوتوماتيكية: حساسات ضغط، VFD، تحكم ذكي. ضغط ثابت وتوفير طاقة. تصنيع وتركيب بالرياض. 0550698111",
+        "link": "blog/pressure-control-panels.php",
+        "category": "لوحات التحكم"
+    },
+    {
+        "title": "صيانة المسابح بجدة",
+        "slug": "pool-maintenance-jeddah",
+        "date": "20 يناير 2026",
+        "image": "hero-mechanic-pumps.webp",
+        "alt": "صيانة المسابح بجدة",
+        "desc": "خدمة صيانة ومسابح شاملة في جدة. تنظيف، تعقيم، صيانة مضخات وفلاتر، وكشف تسربات المسابح بأيدي خبراء.",
+        "link": "blog/pool-maintenance-jeddah.php",
+        "category": "عام"
+    },
+    {
+        "title": "لوحات PLC - التحكم المبرمج للمضخات",
+        "slug": "plc-control-panels",
+        "date": "1 فبراير 2026",
+        "image": "plc-control-panels-featured.webp",
+        "alt": "لوحات PLC - التحكم المبرمج للمضخات",
+        "desc": "لوحات PLC للتحكم المبرمج في المضخات والمحطات. Siemens، Allen Bradley، Schneider. برمجة وتصنيع في الرياض. 0550698111",
+        "link": "blog/plc-control-panels.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "مضخات مياه أصلية - كيف تميز الأصلية من المقلدة",
+        "slug": "original-water-pumps",
+        "date": "1 فبراير 2026",
+        "image": "original-water-pumps-featured.webp",
+        "alt": "مضخات مياه أصلية - كيف تميز الأصلية من المقلدة",
+        "desc": "كيف تميز المضخة الأصلية من المقلدة؟ دليل شامل للشراء الآمن. Grundfos، Lowara، KSB أصلية بضمان المصنع. 0550698111",
+        "link": "blog/original-water-pumps.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "مضخات متعددة المراحل - دليل شامل للضغط العالي",
+        "slug": "multistage-pumps",
+        "date": "1 فبراير 2026",
+        "image": "multistage-pumps-featured.webp",
+        "alt": "مضخات متعددة المراحل - دليل شامل للضغط العالي",
+        "desc": "دليل شامل للمضخات متعددة المراحل: كيفية الاختيار، عدد المراحل، الأسعار في السعودية 2026. Grundfos CR، Lowara e-SV وأفضل الماركات. اتصل 0550698111",
+        "link": "blog/multistage-pumps.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "لوحات MCC - مراكز التحكم بالمحركات",
+        "slug": "mcc-panels",
+        "date": "1 فبراير 2026",
+        "image": "mcc-panels-featured.webp",
+        "alt": "لوحات MCC - مراكز التحكم بالمحركات",
+        "desc": "لوحات MCC مراكز التحكم بالمحركات للمصانع والمشاريع الكبرى. تصنيع محلي بمواصفات سعودية وعالمية. Schneider، ABB. 0550698111",
+        "link": "blog/mcc-panels.php",
+        "category": "لوحات التحكم"
+    },
+    {
+        "title": "مضخات لووارا Lowara - الإيطالية الأصلية",
+        "slug": "lowara-pumps",
+        "date": "1 فبراير 2026",
+        "image": "lowara-pumps-featured.webp",
+        "alt": "مضخات لووارا Lowara - الإيطالية الأصلية",
+        "desc": "مضخات لووارا Lowara الإيطالية: تصميم أنيق، كفاءة عالية. e-SV، e-HM، DOC. توريد وصيانة. 0550698111",
+        "link": "blog/lowara-pumps.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "صيانة مضخات لووارا Lowara - قطع غيار أصلية",
+        "slug": "lowara-pump-maintenance",
+        "date": "1 فبراير 2026",
+        "image": "lowara-pump-maintenance-featured.webp",
+        "alt": "صيانة مضخات لووارا Lowara - قطع غيار أصلية",
+        "desc": "صيانة مضخات لووارا الإيطالية في الرياض. قطع غيار أصلية، فنيين متخصصين، ضمان. إصلاح e-SV، CEA، FCE. اتصل 0550698111",
+        "link": "blog/lowara-pump-maintenance.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "صيانة مضخات KSB الألمانية",
+        "slug": "ksb-pump-maintenance",
+        "date": "30 يناير 2026",
+        "image": "ksb-pump-service-featured.webp",
+        "alt": "صيانة مضخات KSB الألمانية",
+        "desc": "صيانة مضخات KSB الألمانية: Etanorm، Etabloc، Omega. محاذاة ليزر، قطع غيار أصلية، خدمة طوارئ. 0550698111",
+        "link": "blog/ksb-pump-maintenance.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "صيانة مضخات الحريق جوكي (Jockey Pump)",
+        "slug": "jockey-fire-pump-maintenance",
+        "date": "31 يناير 2026",
+        "image": "jockey-fire-pump-featured.webp",
+        "alt": "صيانة مضخات الحريق جوكي (Jockey Pump)",
+        "desc": "مقالة شاملة عن صيانة مضخات الحريق جوكي (Jockey Pump). نقدم أفضل خدمات صيانة مضخات الحريق في الرياض وجدة. اتصل بنا 0550698111.",
+        "link": "blog/jockey-fire-pump-maintenance.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "صيانة لوحات الانفرتر VFD",
+        "slug": "inverter-panel-maintenance",
+        "date": "1 فبراير 2026",
+        "image": "inverter-panel-maintenance-featured.webp",
+        "alt": "صيانة لوحات الانفرتر VFD",
+        "desc": "صيانة لوحات الانفرتر VFD: ABB، Schneider، Danfoss. برمجة وإصلاح. قطع غيار أصلية. 0550698111",
+        "link": "blog/inverter-panel-maintenance.php",
+        "category": "لوحات التحكم"
+    },
+    {
+        "title": "صيانة لوحات الانفرتر - برمجة وإصلاح VFD",
+        "slug": "inverter-maintenance-programming",
+        "date": "1 فبراير 2026",
+        "image": "inverter-maintenance-programming-featured.webp",
+        "alt": "صيانة لوحات الانفرتر - برمجة وإصلاح VFD",
+        "desc": "مقالات ونصائح هندسية متخصصة من روائع الكريستال",
+        "link": "blog/inverter-maintenance-programming.php",
+        "category": "لوحات التحكم"
+    },
+    {
+        "title": "المضخات الصناعية - حلول المصانع والمشاريع الكبرى",
+        "slug": "industrial-water-pumps",
+        "date": "1 فبراير 2026",
+        "image": "industrial-water-pumps-featured.webp",
+        "alt": "المضخات الصناعية - حلول المصانع والمشاريع الكبرى",
+        "desc": "دليل المضخات الصناعية الثقيلة للمصانع ومحطات المعالجة. KSB، Grundfos، Sulzer. توريد وصيانة بالرياض. 0550698111",
+        "link": "blog/industrial-water-pumps.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "لوحات تحكم صناعية - الدليل الشامل",
+        "slug": "industrial-control-panels-guide",
+        "date": "1 فبراير 2026",
+        "image": "industrial-control-panels-guide-featured.webp",
+        "alt": "لوحات تحكم صناعية - الدليل الشامل",
+        "desc": "تعرف على لوحات التحكم الصناعية والكهربائية في السعودية ✓ أنواعها ✓ مكوناتها ✓ أسعارها. مؤسسة روائع الكريستال - تصميم وتجميع لوحات التحكم في الرياض ☎️ 0550698111",
+        "link": "blog/industrial-control-panels-guide.php",
+        "category": "لوحات التحكم"
+    },
+    {
+        "title": "توريد لوحات HVAC - تكييف مركزي",
+        "slug": "hvac-panel-supply",
+        "date": "1 فبراير 2026",
+        "image": "hvac-panel-supply-featured.webp",
+        "alt": "توريد لوحات HVAC - تكييف مركزي",
+        "desc": "مقالات ونصائح هندسية متخصصة من روائع الكريستال",
+        "link": "blog/hvac-panel-supply.php",
+        "category": "التكييف والتهوية"
+    },
+    {
+        "title": "تصنيع لوحات HVAC - تكييف مركزي",
+        "slug": "hvac-panel-manufacturing",
+        "date": "1 فبراير 2026",
+        "image": "hvac-panel-manufacturing-featured.webp",
+        "alt": "تصنيع لوحات HVAC - تكييف مركزي",
+        "desc": "تصنيع لوحات HVAC للتكييف المركزي والمبردات: Chillers، AHU، FCU. مواصفات سعودية. 0550698111",
+        "link": "blog/hvac-panel-manufacturing.php",
+        "category": "التكييف والتهوية"
+    },
+    {
+        "title": "لوحات تحكم HVAC - التكييف المركزي",
+        "slug": "hvac-control-panels",
+        "date": "1 فبراير 2026",
+        "image": "hvac-control-panels-featured.webp",
+        "alt": "لوحات تحكم HVAC - التكييف المركزي",
+        "desc": "لوحات تحكم HVAC للتكييف المركزي: VFD، Star-Delta، Soft Starter. تصنيع محلي بمعايير عالمية. Schneider، ABB. 0550698111",
+        "link": "blog/hvac-control-panels.php",
+        "category": "التكييف والتهوية"
+    },
+    {
+        "title": "مضخات أفقية - مميزاتها واستخداماتها",
+        "slug": "horizontal-pumps",
+        "date": "1 فبراير 2026",
+        "image": "horizontal-pumps-featured.webp",
+        "alt": "مضخات أفقية - مميزاتها واستخداماتها",
+        "desc": "المضخات الأفقية للتطبيقات الصناعية والتجارية. توريد وتركيب وصيانة بأعلى المعايير. اتصل 0550698111",
+        "link": "blog/horizontal-pumps.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "أنواع مضخات المياه المنزلية - دليل الشراء",
+        "slug": "home-water-pump-types",
+        "date": "30 يناير 2026",
+        "image": "12-pump-types-guide-featured.webp",
+        "alt": "أنواع مضخات المياه المنزلية - دليل الشراء",
+        "desc": "أنواع مضخات المياه المنزلية: Peripheral، Centrifugal، Booster. كيف تختار المضخة المناسبة لمنزلك؟ 0550698111",
+        "link": "blog/home-water-pump-types.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "تجميع مضخات جراندفوس GRUNDFOS",
+        "slug": "grundfos-pump-assembly",
+        "date": "1 فبراير 2026",
+        "image": "grundfos-pump-assembly-featured.webp",
+        "alt": "تجميع مضخات جراندفوس GRUNDFOS",
+        "desc": "تجميع وتركيب مضخات جراندفوس الأصلية. أنظمة بوستر ومحطات ضخ. ضمان المصنع. اتصل 0550698111",
+        "link": "blog/grundfos-pump-assembly.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "وكيل مضخات Grundfos الرياض",
+        "slug": "grundfos-pump-agent-riyadh",
+        "date": "30 يناير 2026",
+        "image": "grundfos-showroom-riyadh-featured.webp",
+        "alt": "وكيل مضخات Grundfos الرياض",
+        "desc": "نبحث عن وكيل مضخات Grundfos في الرياض؟ روائع الكريستال توفر خدمات الصيانة المعتمدة وقطع الغيار الأصلية لمضخات جراندفوس. اتصل بنا 0550698111",
+        "link": "blog/grundfos-pump-agent-riyadh.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "مضخات الحريق - دليل المواصفات والأنواع المعتمدة",
+        "slug": "fire-pumps",
+        "date": "1 فبراير 2026",
+        "image": "fire-pumps-featured.webp",
+        "alt": "مضخات الحريق - دليل المواصفات والأنواع المعتمدة",
+        "desc": "دليل شامل لمضخات الحريق المعتمدة UL/FM والدفاع المدني السعودي. الأنواع، المواصفات، الأسعار 2026. توريد وتركيب بالرياض. 0550698111",
+        "link": "blog/fire-pumps.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "شركة متخصصة في مضخات الحريق - الرياض",
+        "slug": "fire-pump-specialist",
+        "date": "1 فبراير 2026",
+        "image": "fire-pump-specialist-featured.webp",
+        "alt": "شركة متخصصة في مضخات الحريق - الرياض",
+        "desc": "شركة متخصصة في مضخات الحريق الرياض: توريد، تركيب، صيانة. معتمدين الدفاع المدني. UL/FM. 0550698111",
+        "link": "blog/fire-pump-specialist.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "تركيب مضخات حريق - معتمد الدفاع المدني",
+        "slug": "fire-pump-installation",
+        "date": "1 فبراير 2026",
+        "image": "fire-pump-installation-featured.webp",
+        "alt": "تركيب مضخات حريق - معتمد الدفاع المدني",
+        "desc": "تركيب مضخات حريق معتمدة من الدفاع المدني: Electric، Diesel، Jockey. وفق NFPA 20. شركات UL/FM. 0550698111",
+        "link": "blog/fire-pump-installation.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "لوحات تحكم مضخات الحريق - معتمدة UL/FM",
+        "slug": "fire-pump-control-panels",
+        "date": "1 فبراير 2026",
+        "image": "fire-pump-control-panels-featured.webp",
+        "alt": "لوحات تحكم مضخات الحريق - معتمدة UL/FM",
+        "desc": "لوحات تحكم مضخات الحريق المعتمدة من الدفاع المدني. كهربائية، ديزل، Jockey. تصنيع وتوريد وفق NFPA 20. 0550698111",
+        "link": "blog/fire-pump-control-panels.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "لوحات تحكم مضخات حريق - معايير NFPA 20",
+        "slug": "fire-pump-control-panels-nfpa",
+        "date": "1 فبراير 2026",
+        "image": "fire-pump-control-panels-nfpa-featured.webp",
+        "alt": "لوحات تحكم مضخات حريق - معايير NFPA 20",
+        "desc": "مقالات ونصائح هندسية متخصصة من روائع الكريستال",
+        "link": "blog/fire-pump-control-panels-nfpa.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "تعبئة شبكة الحريق واختبار الضغط",
+        "slug": "fire-network-filling",
+        "date": "31 يناير 2026",
+        "image": "fire-network-testing-featured.webp",
+        "alt": "تعبئة شبكة الحريق واختبار الضغط",
+        "desc": "مقالة شاملة عن تعبئة شبكة الحريق واختبار الضغط. نقدم أفضل خدمات تعبئة شبكة الحريق في الرياض وجدة. اتصل بنا 0550698111.",
+        "link": "blog/fire-network-filling.php",
+        "category": "أنظمة الحريق"
+    },
+    {
+        "title": "لوحات توفير الطاقة للمضخات - كفاءة الطاقة",
+        "slug": "energy-saving-panels",
+        "date": "1 فبراير 2026",
+        "image": "energy-saving-panels-featured.webp",
+        "alt": "لوحات توفير الطاقة للمضخات - كفاءة الطاقة",
+        "desc": "مقالات ونصائح هندسية متخصصة من روائع الكريستال",
+        "link": "blog/energy-saving-panels.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "قراءة وتصميم المخططات الكهربائية للمباني السكنية",
+        "slug": "electrical-layouts-for-buildings",
+        "date": "31 يناير 2026",
+        "image": "building-electrical-design-featured.webp",
+        "alt": "قراءة وتصميم المخططات الكهربائية للمباني السكنية",
+        "desc": "دليل شامل لفهم المخططات الكهربائية للمباني. رموز الكهرباء، توزيع الأحمال، وكيفية تأسيس كهرباء منزل بطريقة هندسية صحيحة. اتصل 0550698111",
+        "link": "blog/electrical-layouts-for-buildings.php",
+        "category": "الأعمال الكهربائية"
+    },
+    {
+        "title": "لف محركات كهربائية: إعادة الحياة لمحركك",
+        "slug": "electric-motor-winding",
+        "date": "31 يناير 2026",
+        "image": "electric-motor-winding-featured.webp",
+        "alt": "لف محركات كهربائية: إعادة الحياة لمحركك",
+        "desc": "خدمات احترافية في لف المحركات الكهربائية الصناعية حتى 500 حصان. ضمان على العزل وجودة الأسلاك.",
+        "link": "blog/electric-motor-winding.php",
+        "category": "الأعمال الكهربائية"
+    },
+    {
+        "title": "مضخات إبارا Ebara - اليابانية الأصلية",
+        "slug": "ebara-pumps",
+        "date": "1 فبراير 2026",
+        "image": "ebara-pumps-featured.webp",
+        "alt": "مضخات إبارا Ebara - اليابانية الأصلية",
+        "desc": "مضخات إبارا Ebara اليابانية: جودة عالية، كفاءة ممتازة. صرف صحي، مياه نظيفة. توريد وصيانة. 0550698111",
+        "link": "blog/ebara-pumps.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "لوحات تحكم مضخات الرياض - تصنيع وتوريد",
+        "slug": "control-panels-riyadh",
+        "date": "1 فبراير 2026",
+        "image": "control-panels-riyadh-featured.webp",
+        "alt": "لوحات تحكم مضخات الرياض - تصنيع وتوريد",
+        "desc": "لوحات تحكم مضخات الرياض: VFD، Star-Delta، Direct. تصنيع محلي، تركيب سريع، ضمان شامل. 0550698111",
+        "link": "blog/control-panels-riyadh.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "أسعار لوحات التحكم الكهربائية 2026 في السعودية",
+        "slug": "control-panel-prices-2026",
+        "date": "31 يناير 2026",
+        "image": "control-panel-prices-2026-featured.webp",
+        "alt": "أسعار لوحات التحكم الكهربائية 2026 في السعودية",
+        "desc": "مقالة شاملة عن أسعار لوحات التحكم الكهربائية 2026 في السعودية. نقدم أفضل خدمات أسعار لوحات التحكم في الرياض وجدة. اتصل بنا 0550698111.",
+        "link": "blog/control-panel-prices-2026.php",
+        "category": "الأعمال الكهربائية"
+    },
+    {
+        "title": "صيانة لوحات التحكم - دليل الفني الشامل",
+        "slug": "control-panel-maintenance-guide",
+        "date": "1 فبراير 2026",
+        "image": "control-panel-maintenance-guide-featured.webp",
+        "alt": "صيانة لوحات التحكم - دليل الفني الشامل",
+        "desc": "مقالات ونصائح هندسية متخصصة من روائع الكريستال",
+        "link": "blog/control-panel-maintenance-guide.php",
+        "category": "لوحات التحكم"
+    },
+    {
+        "title": "تركيب لوحات تحكم",
+        "slug": "control-panel-installation",
+        "date": "1 فبراير 2026",
+        "image": "control-panel-installation-featured.webp",
+        "alt": "تركيب لوحات تحكم",
+        "desc": "خدمات تركيب لوحات التحكم الكهربائية. توصيل وبرمجة واختبار. فريق فني متخصص. اتصل 0550698111",
+        "link": "blog/control-panel-installation.php",
+        "category": "لوحات التحكم"
+    },
+    {
+        "title": "شركات معتمدة للدفاع المدني: تركيب وصيانة أنظمة السلامة",
+        "slug": "civil-defense-approved-companies",
+        "date": "31 يناير 2026",
+        "image": "civil-defense-approved-featured.webp",
+        "alt": "شركات معتمدة للدفاع المدني: تركيب وصيانة أنظمة السلامة",
+        "desc": "مقالة شاملة عن شركات معتمدة للدفاع المدني. نقدم أفضل خدمات أنظمة السلامة في الرياض وجدة. اتصل بنا 0550698111.",
+        "link": "blog/civil-defense-approved-companies.php",
+        "category": "عام"
+    },
+    {
+        "title": "لوحات تحكم مضخات معتمدة - الدفاع المدني",
+        "slug": "certified-pump-panels",
+        "date": "1 فبراير 2026",
+        "image": "certified-pump-panels-featured.webp",
+        "alt": "لوحات تحكم مضخات معتمدة - الدفاع المدني",
+        "desc": "لوحات تحكم مضخات معتمدة من الدفاع المدني وهيئة المواصفات السعودية. SASO، NFPA 20. تصنيع محلي. 0550698111",
+        "link": "blog/certified-pump-panels.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "مضخات طرد مركزي - أنواعها ومميزاتها",
+        "slug": "centrifugal-pumps",
+        "date": "1 فبراير 2026",
+        "image": "centrifugal-pumps-featured.webp",
+        "alt": "مضخات طرد مركزي - أنواعها ومميزاتها",
+        "desc": "تعرف على مضخات الطرد المركزي وأنواعها (أفقية، رأسية، متعددة المراحل). توريد وصيانة من Grundfos وLowara. اتصل 0550698111",
+        "link": "blog/centrifugal-pumps.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "مضخات مياه للمباني والأبراج السكنية",
+        "slug": "building-water-pumps",
+        "date": "1 فبراير 2026",
+        "image": "building-water-pumps-featured.webp",
+        "alt": "مضخات مياه للمباني والأبراج السكنية",
+        "desc": "مضخات مياه للمباني والأبراج: Booster، خزانات علوية، VFD. تصميم وتوريد وتركيب. حلول ضخط المياه للعمارات 2-50 طابق. 0550698111",
+        "link": "blog/building-water-pumps.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "تصليح مضخات الدفع (Booster) في الرياض",
+        "slug": "booster-pump-repair",
+        "date": "31 يناير 2026",
+        "image": "booster-pump-repair-featured.webp",
+        "alt": "تصليح مضخات الدفع (Booster) في الرياض",
+        "desc": "تصليح وصيانة مضخات البوستر (Booster) بالرياض. حل مشاكل ضعف الضغط، استبدال البالونات، وصيانة لوحات التحكم بأيدي مهندسين مختصين. اتصل 0550698111",
+        "link": "blog/booster-pump-repair.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "أفضل شركة مضخات مياه في السعودية 2026",
+        "slug": "best-pump-company-saudi",
+        "date": "1 فبراير 2026",
+        "image": "best-pump-company-saudi-featured.webp",
+        "alt": "أفضل شركة مضخات مياه في السعودية 2026",
+        "desc": "أفضل شركة مضخات مياه في السعودية: خبرة 15 عام، وكيل Grundfos وLowara، ضمان شامل، خدمة 24/7. الرياض والمملكة. 0550698111",
+        "link": "blog/best-pump-company-saudi.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "لوحات التحكم الأوتوماتيكية للمضخات",
+        "slug": "automatic-control-panels",
+        "date": "1 فبراير 2026",
+        "image": "automatic-control-panels-featured.webp",
+        "alt": "لوحات التحكم الأوتوماتيكية للمضخات",
+        "desc": "لوحات تحكم أوتوماتيكية للمضخات: تشغيل/إيقاف تلقائي، حماية شاملة، توفير طاقة. تصنيع وتركيب في الرياض. 0550698111",
+        "link": "blog/automatic-control-panels.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "موزع مضخات معتمد - وكيل Grundfos وLowara",
+        "slug": "authorized-pump-distributor",
+        "date": "1 فبراير 2026",
+        "image": "authorized-pump-distributor-featured.webp",
+        "alt": "موزع مضخات معتمد - وكيل Grundfos وLowara",
+        "desc": "موزع مضخات معتمد: Grundfos، Lowara، KSB، Ebara. منتجات أصلية بضمان المصنع. توريد وتركيب وصيانة في الرياض والسعودية. 0550698111",
+        "link": "blog/authorized-pump-distributor.php",
+        "category": "مضخات المياه"
+    },
+    {
+        "title": "لوحات تحكم ABB - الجودة الأوروبية",
+        "slug": "abb-control-panels",
+        "date": "1 فبراير 2026",
+        "image": "abb-control-panels-featured.webp",
+        "alt": "لوحات تحكم ABB - الجودة الأوروبية",
+        "desc": "مقالات ونصائح هندسية متخصصة من روائع الكريستال",
+        "link": "blog/abb-control-panels.php",
+        "category": "لوحات التحكم"
+    },
+    {
+        "title": "قوانين لف المحركات الكهربائية 3 فاز: دليل الفني المحترف",
+        "slug": "3-phase-motor-winding-rules",
+        "date": "31 يناير 2026",
+        "image": "3-phase-winding-guide-featured.webp",
+        "alt": "قوانين لف المحركات الكهربائية 3 فاز: دليل الفني المحترف",
+        "desc": "شرح مبسط وعملي لقوانين لف المحركات الكهربائية 3 فاز. حساب عدد اللفات، قطر السلك، وطرق التوصيل.",
+        "link": "blog/3-phase-motor-winding-rules.php",
+        "category": "الأعمال الكهربائية"
+    }
 ]

@@ -10,6 +10,65 @@
 |--------|--------|---------|
 | `gsc_analyzer.py` | الجذر | تحليل شامل + مقارنة فترات |
 | `gsc_extractor.py` | الجذر | استخراج بيانات خام |
+| `seo_comprehensive_audit.py` | `tools/` | **جديد** - تحليل SEO شامل + تغطية الكلمات المفتاحية |
+| `gsc_indexing.py` | `tools/` | **جديد** - طلب فهرسة الصفحات الجديدة من Google |
+
+---
+
+## 🆕 أداة التحليل الشامل (4 فبراير 2026)
+
+### seo_comprehensive_audit.py
+
+أداة تحليل SEO متقدمة تفحص:
+- ✅ تغطية الكلمات المفتاحية (مقارنة مع SEO.md)
+- ✅ Meta Tags (Title, Description, Keywords)
+- ✅ JSON-LD Structured Data
+- ✅ Heading Structure (H1-H6)
+- ✅ Images Alt Text
+- ✅ Internal/External Links
+- ✅ Word Count
+
+**الاستخدام:**
+```bash
+# تقرير تغطية الكلمات المفتاحية
+python tools/seo_comprehensive_audit.py --keyword-report
+
+# تحليل كامل لجميع المقالات
+python tools/seo_comprehensive_audit.py
+
+# تحليل مقال واحد
+python tools/seo_comprehensive_audit.py --single filename.php
+```
+
+**آخر نتائج (4 فبراير 2026):**
+| المقياس | القيمة |
+|---------|--------|
+| إجمالي المقالات | 100 |
+| تغطية الكلمات | 76.2% (61/80) |
+| كلمات غير مغطاة | 19 |
+
+---
+
+## 🔄 أداة طلب الفهرسة
+
+### gsc_indexing.py
+
+تستخدم Google Indexing API لطلب فهرسة الصفحات الجديدة فوراً.
+
+**الاستخدام:**
+```bash
+# فهرسة صفحة واحدة
+python tools/gsc_indexing.py --url https://brilliantserv.com/blog/article.php
+
+# فهرسة جميع المقالات الجديدة (آخر 7 أيام)
+python tools/gsc_indexing.py --new-articles
+
+# فهرسة من ملف
+python tools/gsc_indexing.py --from-file urls.txt
+```
+
+> [!NOTE]
+> تحتاج صلاحيات Indexing API في Service Account
 
 ---
 
