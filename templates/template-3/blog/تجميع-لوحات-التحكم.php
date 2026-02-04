@@ -35,7 +35,7 @@ include '../includes/config.php';
     <meta property="og:title" content="تجميع وتركيب لوحات التحكم الكهربائية في الرياض 2026 | روائع الكريستال">
     <meta property="og:description"
         content="خدمات تجميع وتركيب لوحات التحكم الكهربائية في الرياض ✓ لوحات MCC ✓ PLC ✓ VFD ✓ ضمان شامل ☎️ 0550698111">
-    <meta property="og:image" content="https://brilliantserv.com/media/services/تجميع-لوحات-التحكم.webp">
+    <meta property="og:image" content="https://brilliantserv.com/media/blog/تجميع-لوحات-التحكم-featured.webp">
     <meta property="og:url" content="https://brilliantserv.com/تجميع-لوحات-التحكم/">
     <meta property="og:site_name" content="روائع الكريستال">
     <meta property="article:published_time" content="2026-02-04">
@@ -45,7 +45,7 @@ include '../includes/config.php';
     <meta property="twitter:title" content="تجميع وتركيب لوحات التحكم الكهربائية في الرياض 2026">
     <meta property="twitter:description"
         content="خدمات تجميع وتركيب لوحات التحكم الكهربائية ✓ MCC ✓ PLC ✓ VFD ☎️ 0550698111">
-    <meta property="twitter:image" content="https://brilliantserv.com/media/services/تجميع-لوحات-التحكم.webp">
+    <meta property="twitter:image" content="https://brilliantserv.com/media/blog/تجميع-لوحات-التحكم-featured.webp">
 
     <!-- Fonts & Styles -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,7 +61,7 @@ include '../includes/config.php';
         "@type": "Article",
         "headline": "تجميع وتركيب لوحات التحكم الكهربائية في الرياض - دليل شامل 2026",
         "description": "دليل شامل حول تجميع وتركيب لوحات التحكم الكهربائية: الخدمات، الأنواع، الأسعار في السعودية",
-        "image": "https://brilliantserv.com/media/services/تجميع-لوحات-التحكم.webp",
+        "image": "https://brilliantserv.com/media/blog/تجميع-لوحات-التحكم-featured.webp",
         "author": {
             "@type": "Organization",
             "name": "مؤسسة روائع الكريستال",
@@ -180,7 +180,7 @@ include '../includes/config.php';
         <div class="container">
             <div class="article-wrapper">
                 <div class="article-image">
-                    <img src="../media/services/تجميع-لوحات-التحكم.webp"
+                    <img src="../media/blog/تجميع-لوحات-التحكم-featured.webp"
                         alt="تجميع وتركيب لوحات التحكم الكهربائية في الرياض - روائع الكريستال" loading="lazy">
                 </div>
                 <div class="article-body">
