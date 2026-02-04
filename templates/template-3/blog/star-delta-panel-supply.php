@@ -6,7 +6,51 @@ $active_page = "blog";
 
 include '../includes/config.php';
 ?>
-<?php include '../includes/nav.php'; ?>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="-4dWOJlQukPPTSz-ABTrob2Oe_vkEdm_y1_xFVryJTo" />
+
+    <!-- SEO Meta Tags -->
+    <title>توريد لوحات ستار دلتا - تشغيل ناعم - روائع الكريستال</title>
+    <meta name="description" content="مقالات ونصائح هندسية متخصصة من روائع الكريستال">
+    <meta name="keywords" content="صيانة, مضخات, لوحات تحكم, كهرباء, الرياض">
+    <meta name="author" content="مؤسسة روائع الكريستال">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="language" content="Arabic">
+    <meta name="geo.region" content="SA-01">
+    <meta name="geo.placename" content="Riyadh">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://brilliantserv.com/blog/star-delta-panel-supply.php">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="توريد لوحات ستار دلتا - تشغيل ناعم">
+    <meta property="og:description" content="مقالات ونصائح هندسية متخصصة من روائع الكريستال">
+    <meta property="og:image" content="https://brilliantserv.com/media/blog/star-delta-panel-supply-featured.webp">
+    <meta property="og:url" content="https://brilliantserv.com/blog/star-delta-panel-supply.php">
+    <meta property="og:site_name" content="روائع الكريستال">
+    <meta property="article:published_time" content="2026-02-04">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="توريد لوحات ستار دلتا - تشغيل ناعم">
+    <meta property="twitter:description" content="مقالات ونصائح هندسية متخصصة من روائع الكريستال">
+    <meta property="twitter:image" content="https://brilliantserv.com/media/blog/star-delta-panel-supply-featured.webp">
+
+    <!-- Fonts & Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <?php include '../includes/head.php'; ?>
+</head>
+
+<body>
+    <?php include '../includes/nav.php'; ?>
 
     <section class="page-hero">
         <div class="container">
