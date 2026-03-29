@@ -2,7 +2,7 @@
 // المخططات الكهربائية للمباني
 // URL: /المخططات-الكهربائية-للمباني/
 
-$page_title = "المخططات الكهربائية للمباني - تصميم وتنفيذ | روائع الكريستال";
+$page_title = "المخططات الكهربائية للمباني: 4 أنواع + حساب الأحمال بالأمثلة 2026";
 $base_path = "../";
 $active_page = "blog";
 
@@ -16,9 +16,9 @@ include '../includes/config.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="-4dWOJlQukPPTSz-ABTrob2Oe_vkEdm_y1_xFVryJTo" />
 
-    <title>المخططات الكهربائية للمباني - تصميم وتنفيذ احترافي 2026</title>
+    <title>المخططات الكهربائية للمباني: 4 أنواع + حساب الأحمال بالأمثلة 2026</title>
     <meta name="description"
-        content="دليل شامل عن المخططات الكهربائية للمباني: الرموز الكهربائية، حساب الأحمال، توزيع اللوحات، ومعايير السلامة. خدمة تصميم وتنفيذ في الرياض.">
+        content="دليل المخططات الكهربائية للمباني: SLD، Layout، Riser Diagram + شرح الرموز الكهربائية وحساب الأحمال بخطوات عملية. أمثلة من مشاريع حقيقية في الرياض. خدمة تصميم وتنفيذ احترافي ☎️ 0550698111">
     <meta name="keywords"
         content="المخططات الكهربائية للمباني, رسومات كهربائية, تصميم كهربائي, single line diagram, لوحات توزيع">
     <meta name="robots" content="index, follow">

@@ -2,7 +2,7 @@
 // صيانة مضخات جراندفوس
 // URL: /صيانة-مضخات-جراندفوس/
 
-$page_title = "صيانة مضخات جراندفوس - الوكيل المعتمد | روائع الكريستال";
+$page_title = "صيانة مضخات جراندفوس Grundfos: قطع أصلية + ضمان سنتين | الرياض";
 $base_path = "../";
 $active_page = "blog";
 
@@ -16,9 +16,9 @@ include '../includes/config.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="-4dWOJlQukPPTSz-ABTrob2Oe_vkEdm_y1_xFVryJTo" />
 
-    <title>صيانة مضخات جراندفوس Grundfos في السعودية - خبراء الصيانة 2026</title>
+    <title>صيانة مضخات جراندفوس Grundfos: قطع أصلية + ضمان سنتين | الرياض</title>
     <meta name="description"
-        content="صيانة مضخات جراندفوس Grundfos المتخصصة: CR، SP، CM، UPS. قطع غيار أصلية، فنيين معتمدين، خدمة في الرياض وجميع مناطق المملكة.">
+        content="✅ صيانة مضخات جراندفوس المتخصصة: CR, SP, CM, UPS + قطع غيار أصلية 100%. فنيون معتمدون بخبرة 15+ سنة. خدمة في الرياض وجميع مناطق المملكة. استجابة خلال 2 ساعة ☎️ 0550698111">
     <meta name="keywords"
         content="صيانة مضخات جراندفوس, Grundfos السعودية, صيانة مضخات CR, وكيل جراندفوس, مضخات غاطسة جراندفوس">
     <meta name="robots" content="index, follow">

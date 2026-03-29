@@ -1,6 +1,6 @@
 <?php
 // لوحات-التحكم-الكهربائية - الدليل الشامل
-$page_title = "لوحات التحكم الكهربائية: الدليل الشامل 2026 | أنواع ومكونات وأسعار";
+$page_title = "أنواع لوحات التحكم الكهربائية: 8 أنواع + أسعار السعودية 2026";
 $base_path = "../";
 $active_page = "blog";
 
@@ -15,9 +15,9 @@ include '../includes/config.php';
     <meta name="google-site-verification" content="-4dWOJlQukPPTSz-ABTrob2Oe_vkEdm_y1_xFVryJTo" />
 
     <!-- SEO Meta Tags -->
-    <title>لوحات التحكم الكهربائية: الدليل الشامل 2026 | أنواع ومكونات وأسعار</title>
+    <title>أنواع لوحات التحكم الكهربائية: 8 أنواع + أسعار السعودية 2026</title>
     <meta name="description"
-        content="دليل شامل عن لوحات التحكم الكهربائية ✓ تعريف ✓ مكونات ✓ أنواع (MCC, PLC, VFD, MDB) ✓ معايير التصميم ✓ أسعار 2026 ✓ صيانة. مؤسسة روائع الكريستال الرياض ☎️ 0550698111">
+        content="تعرّف على 8 أنواع لوحات تحكم كهربائية (MCC, PLC, VFD, MDB) مع مقارنة المكونات والأسعار في السعودية. دليل مصوّر لاختيار اللوحة المناسبة + أسعار تبدأ من 5,000 ريال ☎️ 0550698111">
     <meta name="keywords"
         content="لوحات التحكم الكهربائية, لوحات تحكم كهربائية, مكونات لوحات التحكم, أنواع لوحات التحكم, لوحات MCC, لوحات PLC, لوحات VFD, لوحات MDB, تصميم لوحات كهربائية, تجميع لوحات تحكم, أسعار لوحات التحكم السعودية, صيانة لوحات كهربائية, لوحات تحكم الرياض">
     <meta name="author" content="مؤسسة روائع الكريستال">
@@ -31,7 +31,7 @@ include '../includes/config.php';
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
-    <meta property="og:title" content="لوحات التحكم الكهربائية: الدليل الشامل 2026 | أنواع ومكونات وأسعار">
+    <meta property="og:title" content="أنواع لوحات التحكم الكهربائية: 8 أنواع + أسعار السعودية 2026">
     <meta property="og:description"
         content="دليل شامل عن لوحات التحكم الكهربائية: المكونات، الأنواع، المعايير، الأسعار. روائع الكريستال ☎️ 0550698111">
     <meta property="og:image" content="https://brilliantserv.com/media/blog/لوحات-التحكم-الكهربائية-featured.webp">

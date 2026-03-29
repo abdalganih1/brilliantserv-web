@@ -2,7 +2,7 @@
 // انواع المضخات
 // URL: /انواع-المضخات/
 
-$page_title = "12 نوع مضخة يجب أن تعرفها قبل الشراء - دليل 2026 الشامل";
+$page_title = "أنواع المضخات: 12 نوع بالصور والمقارنة | دليل الاختيار 2026";
 $base_path = "../";
 $active_page = "blog";
 
@@ -16,9 +16,9 @@ include '../includes/config.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="-4dWOJlQukPPTSz-ABTrob2Oe_vkEdm_y1_xFVryJTo" />
 
-    <title>12 نوع مضخة يجب أن تعرفها قبل الشراء - دليل 2026 الشامل</title>
+    <title>أنواع المضخات: 12 نوع بالصور والمقارنة | دليل الاختيار 2026</title>
     <meta name="description"
-        content="دليل مصور لجميع أنواع المضخات: غاطسة، طرد مركزي، ترسية، هيدروليكية. اختر المضخة المناسبة بسهولة. مقارنة أسعار + جدول مقارنة شامل">
+        content="✅ دليل أنواع المضخات الشامل: غاطسة، طرد مركزي، حريق، تعزيز ضغط. جدول مقارنة بين 12 نوع + الأسعار + كيف تختار المضخة المناسبة لمشروعك. وفّر 40% عند الاختيار الصحيح!">
     <meta name="keywords"
         content="انواع المضخات, أنواع المضخات, مضخات طرد مركزي, مضخات غاطسة, مضخات صناعية, pump types">
     <meta name="robots" content="index, follow">
@@ -28,7 +28,7 @@ include '../includes/config.php';
 
     <!-- Open Graph -->
     <meta property="og:type" content="article">
-    <meta property="og:title" content="12 نوع مضخة يجب أن تعرفها قبل الشراء - دليل 2026 الشامل">
+    <meta property="og:title" content="أنواع المضخات: 12 نوع بالصور والمقارنة | دليل الاختيار 2026">
     <meta property="og:description"
         content="دليل مصور لجميع أنواع المضخات: غاطسة، طرد مركزي، ترسية، هيدروليكية. اختر المضخة المناسبة بسهولة.">
     <meta property="og:url" content="https://brilliantserv.com/انواع-المضخات/">
