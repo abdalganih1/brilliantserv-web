@@ -70,6 +70,51 @@ include '../includes/config.php';
     }
     </script>
 
+    <!-- Service Schema for Local SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "مقاولات كهربائية وتأسيس شبكات",
+        "provider": {
+            "@type": "LocalBusiness",
+            "name": "مؤسسة روائع الكريستال للأعمال الكهروميكانيكية",
+            "telephone": "+966550698111",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "طريق الخرج، حي المصفاة",
+                "addressLocality": "الرياض",
+                "addressRegion": "منطقة الرياض",
+                "addressCountry": "SA"
+            }
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "الرياض"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "خدمات الكهرباء والميكانيكا",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "تأسيس كهرباء فلل ومباني تجارية"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "كهربنة المصانع وتصميم المخططات"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+
     <?php include '../includes/head.php'; ?>
 </head>
 
