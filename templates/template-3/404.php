@@ -20,8 +20,15 @@ $redirect_map = [
     'صيانة-كهرباء-المصانع' => '/blog/production-line-maintenance',
     'دور-الكهرباء-الصناعية-في-تطوير-المصان' => '/blog/production-line-maintenance',
     'سرعة-المحركات-الكهربائية' => '/blog/vfd-programming-pumps',
-    'افضل-مقاول-كهرباء' => '/contact.html',
-    'المخططات-الكهربائية-للمباني' => '/blog/electrical-layouts-for-buildings'
+    'افضل-مقاول-كهرباء' => '/blog/electrical-contractor-best',
+    'المخططات-الكهربائية-للمباني' => '/blog/electrical-layouts-for-buildings',
+    // New GSC 404 fixes (March 2026)
+    'إصلاح-وصيانة-كروت-الرفودرايف' => '/blog/vfd-drive-repair',
+    'مؤسسة-تنفيذ-أعمال-كهرباء' => '/blog/electrical-layouts-for-buildings',
+    'خبراء-في-برمجة-plc' => '/blog/plc-control-panels',
+    'about' => '/about.html',
+    'contact-us' => '/contact.html',
+    'contact' => '/contact.html',
 ];
 
 if (array_key_exists($clean_slug, $redirect_map)) {

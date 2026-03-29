@@ -4,19 +4,19 @@
 User-agent: *
 Allow: /
 
-# Block legacy WordPress URLs
-Disallow: /tag/
-Disallow: /category/
-Disallow: /feed/
-Disallow: */feed/
+# Block legacy WordPress core paths
 Disallow: /wp-content/
 Disallow: /wp-includes/
 Disallow: /wp-admin/
+
+# Legacy /tag/, /category/, /feed/ are handled by 410 Gone in .htaccess
+# Do NOT block them here — Google must crawl them to see the 410 response
 
 # Allow important paths
 Allow: /media/
 Allow: /css/
 Allow: /js/
+Allow: /blog/
 
 # Sitemaps
 Sitemap: https://brilliantserv.com/sitemap.xml
