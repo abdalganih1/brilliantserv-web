@@ -29,8 +29,9 @@ RewriteRule ^wp-includes/.* - [G,L]
 
 # =====================================================
 # FIX: Nested Blog URLs (e.g., /service-page/blog/article.php)
-# This fixes ~80 pages of 404 errors from GSC
+# This fixes ~80 pages of 404 errors from GSC, but excludes media/
 # =====================================================
+RewriteCond %{REQUEST_URI} !^/media/
 RewriteRule ^[^/]+/blog/(.+)$ /blog/$1 [R=301,L]
 
 # =====================================================
