@@ -119,6 +119,17 @@ include 'includes/config.php';
     <?php include 'includes/head.php'; ?>
     <!-- Swiper.js CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        .faq-section .faq-item { cursor: pointer; transition: all 0.3s ease; overflow: hidden; }
+        .faq-section .faq-item h3 { padding: 1.5rem; margin: 0; display: flex; align-items: center; justify-content: space-between; font-size: 1.1rem; user-select: none; }
+        .faq-section .faq-item h3::after { content: ''; width: 12px; height: 12px; border-right: 2px solid var(--color-primary, #1e3a5f); border-bottom: 2px solid var(--color-primary, #1e3a5f); transform: rotate(45deg); transition: transform 0.3s ease; margin-right: auto; margin-left: 1rem; }
+        .faq-section .faq-item.active { box-shadow: 0 15px 30px rgba(0,0,0,0.08); border-color: #2563eb; }
+        .faq-section .faq-item.active h3 { background: #f8fafc; color: #2563eb; }
+        .faq-section .faq-item.active h3::after { transform: rotate(225deg); border-color: #2563eb; }
+        .faq-section .faq-item p { padding: 0 1.5rem 1.5rem; margin: 0; display: none; color: var(--color-text-muted, #4b5563); line-height: 1.7; border-top: 1px solid transparent; }
+        .faq-section .faq-item.active p { display: block; animation: faqSlideDown 0.3s ease-out; border-top-color: rgba(0,0,0,0.05); }
+        @keyframes faqSlideDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
 </head>
 
 <body>
@@ -586,6 +597,20 @@ include 'includes/config.php';
             },
         };
         new Swiper('.clients-swiper', swiperOptions);
+    </script>
+    <script>
+        document.querySelectorAll('.faq-section .faq-item').forEach(item => {
+            const header = item.querySelector('h3');
+            if (header) {
+                header.addEventListener('click', () => {
+                    const isActive = item.classList.contains('active');
+                    document.querySelectorAll('.faq-section .faq-item').forEach(other => {
+                        if (other !== item) other.classList.remove('active');
+                    });
+                    item.classList.toggle('active', !isActive);
+                });
+            }
+        });
     </script>
 </body>
 
