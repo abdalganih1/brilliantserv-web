@@ -284,7 +284,7 @@ include '../includes/config.php';
                     اتصل بمهندسينا الآن للحصول على استشارة مجانية لموقعك في الرياض: <br>
                     <a href="tel:0550698111" class="btn btn-primary" style="display:inline-block; margin-top:10px; padding:10px 25px;">0550698111 ☎️</a></p>
                     <p style="text-align: center;"><strong>📍 مقر الصيانة والمبيعات:</strong> الرياض - حي المصفاة، طريق الخرج</p>
-                    <p style="text-align: center;"><strong>📱 دعم الواتساب السريع:</strong> <a href="https://wa.me/966501870643">0501870643</a></p>
+                    <p style="text-align: center;"><strong>📱 دعم الواتساب السريع:</strong> <a href="https://wa.me/966550698111">0550698111</a></p>
 
                     <section class="faq-section" id="p10">
                         <h2>❓ الأسئلة الشائعة حول مضخات الرياض</h2>

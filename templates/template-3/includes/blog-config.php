@@ -11,8 +11,8 @@ $site_url = "https://brilliantserv.com";
 
 // Contact Numbers
 $phone_primary = "0550698111";
-$phone_whatsapp = "0501870643";
-$whatsapp_link = "https://wa.me/966501870643";
+$phone_whatsapp = "0550698111";
+$whatsapp_link = "https://wa.me/966550698111";
 
 // Default Author
 $default_author = "فريق روائع الكريستال";

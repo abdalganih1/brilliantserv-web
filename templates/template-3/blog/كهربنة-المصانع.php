@@ -448,7 +448,7 @@ include '../includes/config.php';
                     </ul>
                     <p><strong>📞 اتصل الآن لتقييم طاقة مجاني: <a href="tel:0550698111">0550698111</a></strong></p>
                     <p><strong>📍 الرياض — حي المصفاة، طريق الخرج</strong></p>
-                    <p><strong>📱 واتساب:</strong> <a href="https://wa.me/966501870643">0501870643</a></p>
+                    <p><strong>📱 واتساب:</strong> <a href="https://wa.me/966550698111">0550698111</a></p>
 
                     <section class="faq-section" id="kfaq">
                         <h2>❓ الأسئلة الشائعة عن كهربنة المصانع</h2>

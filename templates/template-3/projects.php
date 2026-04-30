@@ -487,7 +487,7 @@ include 'includes/config.php';
                 <p>فريقنا جاهز لتقديم أفضل الحلول الهندسية لمشروعك</p>
                 <div class="cta-actions">
                     <a href="contact.php" class="btn btn-light">تواصل معنا الآن</a>
-                    <a href="https://wa.me/966501870643?text=مرحباً، أود الاستفسار عن خدماتكم" target="_blank"
+                    <a href="https://wa.me/966550698111?text=مرحباً، أود الاستفسار عن خدماتكم" target="_blank"
                         class="btn btn-outline-light">واتساب مباشر</a>
                 </div>
             </div>
@@ -540,7 +540,7 @@ include 'includes/config.php';
             document.getElementById('modal-image').src = imageSrc;
             document.getElementById('modal-title').textContent = title;
             document.getElementById('modal-location').textContent = location;
-            document.getElementById('modal-whatsapp').href = 'https://wa.me/966501870643?text=' + encodeURIComponent('مرحباً، أود الاستفسار عن مشروع: ' + title);
+            document.getElementById('modal-whatsapp').href = 'https://wa.me/966550698111?text=' + encodeURIComponent('مرحباً، أود الاستفسار عن مشروع: ' + title);
             document.getElementById('project-modal').style.display = 'block';
             document.body.style.overflow = 'hidden';
         }

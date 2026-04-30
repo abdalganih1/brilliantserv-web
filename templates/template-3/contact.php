@@ -523,7 +523,7 @@ include 'includes/config.php';
                         </div>
                     </a>
 
-                    <a href="https://wa.me/966501870643?text=مرحباً، أود الاستفسار عن خدماتكم" target="_blank"
+                    <a href="https://wa.me/966550698111?text=مرحباً، أود الاستفسار عن خدماتكم" target="_blank"
                         class="contact-info-item" style="text-decoration: none;">
                         <div class="icon" style="background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24"
@@ -534,7 +534,7 @@ include 'includes/config.php';
                         </div>
                         <div>
                             <h4>💬 واتساب</h4>
-                            <p style="font-size: 1.1rem; font-weight: 600; color: #25D366;">0501870643</p>
+                            <p style="font-size: 1.1rem; font-weight: 600; color: #25D366;">0550698111</p>
                         </div>
                     </a>
 
@@ -584,7 +584,7 @@ include 'includes/config.php';
 
                     <!-- Quick Action Buttons -->
                     <div class="quick-actions">
-                        <a href="https://wa.me/966501870643?text=مرحباً، أود الاستفسار عن خدماتكم" target="_blank"
+                        <a href="https://wa.me/966550698111?text=مرحباً، أود الاستفسار عن خدماتكم" target="_blank"
                             class="quick-action-btn whatsapp">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="currentColor">
@@ -774,7 +774,7 @@ include 'includes/config.php';
 
     <!-- Floating Contact Widget -->
     <div class="floating-contact">
-        <a href="https://wa.me/966501870643?text=مرحباً، أود الاستفسار عن خدماتكم" target="_blank"
+        <a href="https://wa.me/966550698111?text=مرحباً، أود الاستفسار عن خدماتكم" target="_blank"
             class="floating-btn whatsapp" title="تواصل عبر واتساب">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                 <path
@@ -832,7 +832,7 @@ include 'includes/config.php';
 
             // Encode and open WhatsApp
             const encodedMessage = encodeURIComponent(whatsappMessage);
-            window.open(`https://wa.me/966501870643?text=${encodedMessage}`, '_blank');
+            window.open(`https://wa.me/966550698111?text=${encodedMessage}`, '_blank');
         });
     </script>
 </body>

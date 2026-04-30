@@ -12,10 +12,10 @@ $site_year = "2026";
 
 // معلومات التواصل
 $phone_primary = "0550698111";
-$phone_secondary = "0501870643";
+$phone_secondary = "0550698111";
 $phone_landline = "0114160614";
 $email = "info@brilliantserv.com";
-$whatsapp = "966501870643";
+$whatsapp = "966550698111";
 
 // العنوان
 $address = "الرياض - حي المصفاة، طريق الخرج، المملكة العربية السعودية";
